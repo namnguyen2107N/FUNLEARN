@@ -1,0 +1,144 @@
+/* ========================================================
+   MATH & LEARN – HỌC VUI MỖI NGÀY
+   Tệp Phong Cách Giao Diện Claymorphism (style.css)
+   ======================================================== */
+
+:root {
+  --primary-blue: #62C9F3;
+  --sunny-yellow: #FFC85A;
+  --peach-pink: #FF91A8;
+  --mint-green: #78D9AE;
+  --lavender: #A99AF5;
+  --milk-cream: #FFF7E8;
+  --navy-text: #1E293B;
+  --slate-sub: #64748B;
+  --bg-page: #FFF9EE;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--navy-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========================================================
+   CLAYMORPHISM 3D TACTILE UTILITIES
+   ======================================================== */
+
+.clay-card {
+  background: #FFFFFF;
+  border-radius: 28px;
+  box-shadow: 0 12px 28px -6px rgba(100, 116, 139, 0.08), 
+              0 8px 16px -8px rgba(100, 116, 139, 0.04), 
+              inset 0 -4px 0 rgba(0, 0, 0, 0.04);
+  border: 3px solid #FFFFFF;
+}
+
+.clay-card-nested {
+  background: #FAFCFE;
+  border-radius: 22px;
+  border: 2px solid #F1F5F9;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.9);
+}
+
+.clay-card-interactive {
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  cursor: pointer;
+}
+.clay-card-interactive:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(100, 116, 139, 0.12), 
+              0 10px 20px -6px rgba(100, 116, 139, 0.06), 
+              inset 0 -4px 0 rgba(0, 0, 0, 0.04);
+}
+
+.clay-btn {
+  transition: all 0.12s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.14), 0 10px 20px -3px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+.clay-btn:hover {
+  filter: brightness(1.03);
+}
+.clay-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.14), 0 4px 10px -2px rgba(0, 0, 0, 0.08);
+}
+
+.clay-option {
+  transition: all 0.15s ease-out;
+  box-shadow: 0 4px 0 #E2E8F0, 0 6px 12px rgba(0,0,0,0.03);
+}
+.clay-option:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #CBD5E1, 0 10px 18px rgba(0,0,0,0.06);
+}
+.clay-option:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #CBD5E1;
+}
+
+/* ========================================================
+   KEYFRAME ANIMATIONS
+   ======================================================== */
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(2deg); }
+}
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+@keyframes float-delay {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(-3deg); }
+}
+.animate-float-delay {
+  animation: float-delay 5s ease-in-out infinite 1.5s;
+}
+
+@keyframes gentle-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.animate-bounce-gentle {
+  animation: gentle-bounce 3s ease-in-out infinite;
+}
+
+@keyframes shake-wrong {
+  0%, 100% { transform: translateX(0); }
+  15%, 45%, 75% { transform: translateX(-8px); }
+  30%, 60%, 90% { transform: translateX(8px); }
+}
+.shake-effect {
+  animation: shake-wrong 0.45s ease-in-out;
+}
+
+@keyframes pop-success {
+  0% { transform: scale(0.92); opacity: 0; }
+  70% { transform: scale(1.03); opacity: 1; }
+  100% { transform: scale(1); }
+}
+.pop-anim {
+  animation: pop-success 0.35s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.6);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

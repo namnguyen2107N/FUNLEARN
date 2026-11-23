@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnChill: Toán – Tiếng Việt – Tiếng Anh (Học Vui Mỗi Ngày)</title>
+  
+  <!-- Allowlisted Tailwind CDN for layout utilities -->
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  
+  <!-- Tệp CSS riêng -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen w-full flex flex-col bg-[#FFF9EE] overflow-x-hidden">
+
+  <!-- ========================================================
+       GLOBAL HEADER (HIỂN THỊ KHI VÀO TRANG)
+       ======================================================== -->
+  <header id="global-app-header" class="w-full bg-white/95 border-b border-amber-100/90 px-6 py-3 flex items-center justify-between sticky top-0 z-50 backdrop-blur-md shadow-xs hidden">
+    <div class="flex items-center gap-4">
+      <!-- Logo & Click to Home -->
+      <div class="flex items-center gap-3 cursor-pointer" onclick="navigateTo('screen-home')">
+        <div class="w-11 h-11 rounded-2xl bg-[#62C9F3] flex items-center justify-center text-2xl shadow-sm animate-bounce-gentle">
+          🦉
+        </div>
+        <div class="flex items-center gap-2"><span class="font-black text-slate-800 text-xl tracking-tight">LearnChill</span><span class="hidden sm:inline-block text-[11px] font-black bg-gradient-to-r from-sky-100 via-pink-100 to-emerald-100 text-slate-800 px-2 py-0.5 rounded-lg border border-slate-200">Toán • Tiếng Việt • Tiếng Anh</span></div>
+      </div>
+
+      <!-- Quick Grade Switcher -->
+      <div class="hidden md:flex items-center bg-amber-100/60 p-1 rounded-2xl border border-amber-200/70 ml-6">
+        <button onclick="changeGrade(3)" id="btn-grade-3" class="px-4 py-1.5 rounded-xl font-black text-xs transition-all bg-[#FFC85A] text-slate-900 shadow-sm">
+          Khối 3
+        </button>
+        <button onclick="changeGrade(4)" id="btn-grade-4" class="px-4 py-1.5 rounded-xl font-bold text-xs text-slate-600 hover:text-slate-900 transition-all">
+          Khối 4
+        </button>
+        <button onclick="changeGrade(5)" id="btn-grade-5" class="px-4 py-1.5 rounded-xl font-bold text-xs text-slate-600 hover:text-slate-900 transition-all">
+          Khối 5
+        </button>
+      </div>
+    </div>
+
+    <!-- Right Header Utilities -->
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2 bg-amber-50 px-3.5 py-1.5 rounded-2xl border border-amber-200 shadow-xs">
+        <span class="text-lg">⭐</span>
+        <span class="text-sm font-black text-amber-900" id="global-stars">145</span>
+      </div>
+
+      <div class="hidden sm:flex items-center gap-2 bg-rose-50 px-3.5 py-1.5 rounded-2xl border border-rose-200 shadow-xs">
+        <span class="text-lg">🔥</span>
+        <span class="text-sm font-black text-rose-800">5 ngày</span>
+      </div>
+
+      <div class="flex items-center gap-2.5 pl-2 border-l border-slate-200">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-[#62C9F3] to-[#78D9AE] p-0.5 shadow-sm">
+          <div class="w-full h-full bg-white rounded-[14px] flex items-center justify-center text-lg" id="header-avatar">
+            👦
+          </div>
+        </div>
+        <p class="text-sm font-black text-slate-800 hidden xl:block" id="header-student-name">Bảo Nam</p>
+
+        <button onclick="logoutToStart()" title="Đổi bạn / Về màn hình chờ" class="ml-2 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-50 hover:text-rose-700 text-slate-600 text-xs font-bold transition flex items-center gap-1 border border-slate-200">
+          <span>Đổi bạn</span>
+          <span>🚪</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========================================================
+       1. MÀN HÌNH SCREEN START (MÀN HÌNH CHỜ & ĐĂNG NHẬP)
+       ======================================================== -->
+  <section id="screen-start" class="min-h-screen w-full flex flex-col justify-between relative bg-gradient-to-b from-[#FFF7E8] via-[#FFF9F0] to-[#EBF8FF] overflow-hidden">
+    
+    <!-- Floating Emojis -->
+    <div class="absolute top-10 left-12 text-5xl opacity-40 animate-float pointer-events-none">⭐</div>
+    <div class="absolute top-36 right-24 text-6xl opacity-30 animate-float-delay pointer-events-none">☁️</div>
+    <div class="absolute bottom-28 left-20 text-6xl opacity-35 animate-float pointer-events-none">🎈</div>
+    <div class="absolute bottom-20 right-32 text-5xl opacity-35 animate-float-delay pointer-events-none">🧮</div>
+
+    <!-- Start Screen Header -->
+    <header class="w-full px-8 py-5 flex items-center justify-between z-20">
+      <div class="flex items-center gap-3">
+        <div class="w-13 h-13 rounded-3xl bg-[#62C9F3] flex items-center justify-center text-3xl shadow-md animate-bounce-gentle">
+          🦉
+        </div>
+        <div class="flex items-center gap-2"><h1 class="text-2xl font-black text-slate-800 tracking-tight">LearnChill</h1><span class="text-xs font-black bg-gradient-to-r from-sky-100 via-pink-100 to-emerald-100 text-slate-800 px-2.5 py-0.5 rounded-lg border border-slate-200">Toán • Tiếng Việt • Tiếng Anh</span></div>
+      </div>
+    </header>
+
+    <!-- Start Screen Hero Stage -->
+    <main class="flex-1 max-w-6xl mx-auto w-full px-6 py-6 lg:py-10 flex flex-col lg:flex-row items-center justify-between gap-10 z-20">
+      
+      <!-- Left: Title & 4 Subject Icons (CHỈ CÓ ICON VÀ TIÊU ĐỀ) -->
+      <div class="flex-1 space-y-8 text-center lg:text-left">
+        <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 leading-tight">
+          LearnChill: Toán – Tiếng Việt – Tiếng Anh<br>
+          <span class="text-[#62C9F3] underline decoration-[#FFC85A] decoration-wavy decoration-4">Học Vui Mỗi Ngày</span>
+        </h2>
+
+        <!-- 4 Items: CHỈ ICON VÀ TIÊU ĐỀ -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-lg pt-2">
+          <div class="p-4 bg-white/90 rounded-2xl border-2 border-sky-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
+            <span class="text-4xl">📐</span>
+            <span class="text-base font-black text-slate-800">Toán Học</span>
+          </div>
+          <div class="p-4 bg-white/90 rounded-2xl border-2 border-amber-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
+            <span class="text-4xl">🧮</span>
+            <span class="text-base font-black text-slate-800">Toán Tiếng Anh</span>
+          </div>
+          <div class="p-4 bg-white/90 rounded-2xl border-2 border-pink-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
+            <span class="text-4xl">📖</span>
+            <span class="text-base font-black text-slate-800">Tiếng Việt</span>
+          </div>
+          <div class="p-4 bg-white/90 rounded-2xl border-2 border-emerald-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
+            <span class="text-4xl">🌍</span>
+            <span class="text-base font-black text-slate-800">Tiếng Anh</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Select Profile & Start -->
+      <div class="w-full lg:w-[420px] shrink-0">
+        <div class="clay-card p-6 sm:p-8 bg-white/95 border-4 border-white shadow-2xl relative space-y-5">
+          
+          <h3 class="text-2xl font-black text-slate-800 text-center">Đăng Nhập</h3>
+
+          <!-- Profiles: CHỈ ICON VÀ TÊN -->
+          <div class="space-y-3">
+            <div onclick="selectProfile('Bảo Nam', 3)" class="p-4 rounded-2xl border-2 border-[#62C9F3] bg-sky-50/70 cursor-pointer transition flex items-center justify-between group profile-card">
+              <div class="flex items-center gap-3.5">
+                <span class="text-3xl">👦</span>
+                <div>
+                  <h4 class="font-black text-slate-800 text-lg">Bảo Nam</h4>
+                  <span class="text-xs font-black px-2 py-0.5 rounded-md bg-sky-200/80 text-sky-900">Khối 3</span>
+                </div>
+              </div>
+              <span class="text-sky-600 font-black text-xl group-hover:translate-x-1 transition">➔</span>
+            </div>
+
+            <div onclick="selectProfile('Mai Anh', 4)" class="p-4 rounded-2xl border-2 border-slate-200 bg-white hover:border-[#FF91A8] hover:bg-pink-50/50 cursor-pointer transition flex items-center justify-between group profile-card">
+              <div class="flex items-center gap-3.5">
+                <span class="text-3xl">👧</span>
+                <div>
+                  <h4 class="font-black text-slate-800 text-lg">Mai Anh</h4>
+                  <span class="text-xs font-black px-2 py-0.5 rounded-md bg-pink-100 text-pink-900">Khối 4</span>
+                </div>
+              </div>
+              <span class="text-slate-400 group-hover:translate-x-1 transition font-bold text-xl">➔</span>
+            </div>
+
+            <div onclick="selectProfile('Minh Khôi', 5)" class="p-4 rounded-2xl border-2 border-slate-200 bg-white hover:border-[#FFC85A] hover:bg-amber-50/50 cursor-pointer transition flex items-center justify-between group profile-card">
+              <div class="flex items-center gap-3.5">
+                <span class="text-3xl">🐻</span>
+                <div>
+                  <h4 class="font-black text-slate-800 text-lg">Minh Khôi</h4>
+                  <span class="text-xs font-black px-2 py-0.5 rounded-md bg-amber-100 text-amber-900">Khối 5</span>
+                </div>
+              </div>
+              <span class="text-slate-400 group-hover:translate-x-1 transition font-bold text-xl">➔</span>
+            </div>
+          </div>
+
+          <!-- Big CTA Button -->
+          <button onclick="loginAndGoHome()" class="w-full h-15 py-4 bg-[#62C9F3] hover:bg-[#4ebfe8] text-slate-900 font-black rounded-2xl text-lg clay-btn flex items-center justify-center gap-2.5 shadow-md">
+            <span>VÀO TRANG CHÍNH</span>
+            <span class="text-xl">➔</span>
+          </button>
+
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="w-full px-8 py-4 border-t border-amber-200/60 bg-white/60 text-center text-xs text-slate-500 z-20 font-bold">
+      © 2026 LearnChill (Toán – Tiếng Việt – Tiếng Anh) – Nguồn tài liệu chính thức: Bồi dưỡng Toán 3-4-5 (PGS.TS Trần Diên Hiển), Tiếng Việt Nâng cao (GS.TS Lê Phương Nga), HSG Tiếng Anh (Global Success) & 10 Bộ Sách Quốc Tế
+    </footer>
+
+  </section>
+
+
+  <!-- ========================================================
+       2. TRANG CHÍNH (MAIN HOME)
+       * TẤT CẢ CÁC MỤC CHỈ CÓ TIÊU ĐỀ VÀ ICON - KHÔNG CÓ BẤT KỲ CHÚ THÍCH NÀO *
+       ======================================================== -->
+  <section id="screen-home" class="flex-1 w-full max-w-6xl mx-auto px-6 py-8 space-y-8 hidden">
+    
+    <!-- Welcome Header: CHỈ TIÊU ĐỀ VÀ ICON -->
+    <div class="flex items-center justify-between">
+      <h2 class="text-3xl sm:text-4xl font-black text-slate-800 flex items-center gap-3">
+        <span>👋</span>
+        <span>Chào mừng <span id="home-student-name">Bảo Nam</span>!</span>
+      </h2>
+    </div>
+
+    <!-- 8 MỤC LỚN: CHỈ CÓ ICON VÀ TIÊU ĐỀ (TUYỆT ĐỐI KHÔNG CHÚ THÍCH) -->
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      
+      <!-- Mục 1: Môn Toán -->
+      <div onclick="openSubjectPage('toan')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-sky-50 border-3 border-[#62C9F3]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-[#62C9F3] flex items-center justify-center text-5xl shadow-md">
+          📐
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Toán Học</h3>
+      </div>
+
+      <!-- Mục 2: Toán Tiếng Anh (10 Bộ Sách Chuẩn Quốc Tế) -->
+      <div onclick="openSubjectPage('toan-tieng-anh')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-amber-50 border-3 border-[#FFC85A]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-[#FFC85A] flex items-center justify-center text-5xl shadow-md">
+          🧮
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Toán Tiếng Anh</h3>
+      </div>
+
+      <!-- Mục 3: Tiếng Việt -->
+      <div onclick="openSubjectPage('tieng-viet')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-pink-50 border-3 border-[#FF91A8]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-[#FF91A8] flex items-center justify-center text-5xl shadow-md">
+          📖
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Tiếng Việt</h3>
+      </div>
+
+      <!-- Mục 4: Tiếng Anh -->
+      <div onclick="openSubjectPage('tieng-anh')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-emerald-50 border-3 border-[#78D9AE]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-[#78D9AE] flex items-center justify-center text-5xl shadow-md">
+          🌍
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Tiếng Anh</h3>
+      </div>
+
+      <!-- Mục 5: Luyện Tập -->
+      <div onclick="openPracticeHub()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-blue-50 border-3 border-blue-400/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-blue-400 flex items-center justify-center text-5xl shadow-md text-white">
+          ✏️
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Luyện Tập</h3>
+      </div>
+
+      <!-- Mục 6: Tủ Sách Google Drive (10 Bộ Sách Toán) -->
+      <div onclick="openBooksShelf()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-teal-50 border-3 border-teal-400/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-teal-400 flex items-center justify-center text-5xl shadow-md text-white">
+          📚
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Tủ Sách</h3>
+      </div>
+
+      <!-- Mục 7: Kỹ Năng -->
+      <div onclick="openAnalyticsPage()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-purple-50 border-3 border-[#A99AF5]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-[#A99AF5] flex items-center justify-center text-5xl shadow-md">
+          📊
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Kỹ Năng</h3>
+      </div>
+
+      <!-- Mục 8: Thành Tích -->
+      <div onclick="openBadgesPage()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-yellow-50 border-3 border-amber-300 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
+        <div class="w-24 h-24 rounded-3xl bg-amber-400 flex items-center justify-center text-5xl shadow-md">
+          🏆
+        </div>
+        <h3 class="text-2xl font-black text-slate-800">Thành Tích</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================
+       3. TRANG CON: MỤC LỤC BÀI HỌC / TOÁN TIẾNG ANH
+       ======================================================== -->
+  <section id="screen-subject-detail" class="flex-1 w-full max-w-5xl mx-auto px-6 py-8 space-y-6 hidden">
+    
+    <div class="flex items-center justify-between">
+      <button onclick="navigateTo('screen-home')" class="px-4 py-2 bg-white rounded-2xl border border-slate-200 clay-option text-xs font-black text-slate-700 flex items-center gap-2">
+        <span>←</span>
+        <span>Quay lại</span>
+      </button>
+
+      <div class="flex items-center gap-3">
+        <span class="text-4xl" id="subpage-icon">📐</span>
+        <h3 class="text-3xl font-black text-slate-800" id="subpage-title">Môn Toán</h3>
+      </div>
+    </div>
+
+    <!-- Danh sách bài học / bộ sách: Được sinh tự động từ app.js -->
+    <div class="space-y-4">
+      <div id="subpage-lessons-list" class="space-y-3.5"></div>
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================
+       3B. TRANG CON: TRUNG TÂM LUYỆN TẬP (PRACTICE HUB)
+       ======================================================== -->
+  <section id="screen-practice-hub" class="flex-1 w-full max-w-5xl mx-auto px-6 py-8 space-y-6 hidden">
+    
+    <div class="flex items-center justify-between">
+      <button onclick="navigateTo('screen-home')" class="px-4 py-2 bg-white rounded-2xl border border-slate-200 clay-option text-xs font-black text-slate-700 flex items-center gap-2">
+        <span>←</span>
+        <span>Quay lại</span>
+      </button>
+
+      <div class="flex items-center gap-3">
+        <span class="text-4xl">✏️</span>
+        <h3 class="text-3xl font-black text-slate-800">Trung Tâm Luyện Tập</h3>
+      </div>
+    </div>
+
+    <!-- Section 1: Bài Tập Bồi Dưỡng Lớp 3, 4, 5 (Nạp từ Google Drive) -->
+    <div class="clay-card p-6 space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-3">
+        <div class="flex items-center gap-2.5 font-black text-slate-800 text-lg">
+          <span class="text-2xl">🇻🇳</span>
+          <span>Bài Tập Bồi Dưỡng Trọng Tâm</span>
+          <span id="practice-hub-grade-badge" class="text-xs font-black px-2.5 py-0.5 rounded-full bg-sky-100 text-sky-900 border border-sky-300">Đang chọn Khối 3</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold text-slate-500">Đổi khối lớp:</span>
+          <button onclick="changeGrade(3)" class="px-3 py-1 rounded-xl text-xs font-black bg-slate-100 hover:bg-[#FFC85A] text-slate-700 transition">Lớp 3</button>
+          <button onclick="changeGrade(4)" class="px-3 py-1 rounded-xl text-xs font-black bg-slate-100 hover:bg-[#FF91A8] hover:text-white text-slate-700 transition">Lớp 4</button>
+          <button onclick="changeGrade(5)" class="px-3 py-1 rounded-xl text-xs font-black bg-slate-100 hover:bg-[#62C9F3] text-slate-700 transition">Lớp 5</button>
+        </div>
+      </div>
+
+      <!-- Khối các thẻ bài tập bồi dưỡng sinh động theo khối lớp từ app.js -->
+      <div id="practice-hub-dynamic-cards" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Động -->
+      </div>
+    </div>
+
+    <!-- Section 2: 10 Bộ Sách Toán Tiếng Anh Quốc Tế -->
+    <div class="clay-card p-6 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+        <div class="flex items-center gap-2 font-black text-slate-800 text-lg">
+          <span class="text-2xl">🇬🇧</span>
+          <span>10 Bộ Sách Toán Tiếng Anh (Nguồn: Phạm Thuý)</span>
+        </div>
+        <button onclick="openBooksShelf()" class="text-xs font-bold text-sky-600 hover:underline">
+          Tủ sách PDF ➔
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
+          <div class="space-y-1">
+            <div class="text-2xl">📅</div>
+            <h4 class="font-black text-slate-800 text-base">180 Days of Math</h4>
+            <p class="text-xs text-slate-500 font-medium">Toán hàng ngày theo xoắn ốc</p>
+          </div>
+          <button onclick="startExerciseRoom('toan-sing-180days')" class="w-full py-2 bg-[#62C9F3] text-slate-900 font-black text-xs rounded-xl clay-btn">
+            Luyện Tập ➔
+          </button>
+        </div>
+
+        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
+          <div class="space-y-1">
+            <div class="text-2xl">🇸🇬</div>
+            <h4 class="font-black text-slate-800 text-base">Singapore Math Challenge</h4>
+            <p class="text-xs text-slate-500 font-medium">Toán có lời văn & Bar Model</p>
+          </div>
+          <button onclick="startExerciseRoom('toan-sing-sgchallenge')" class="w-full py-2 bg-[#78D9AE] text-slate-900 font-black text-xs rounded-xl clay-btn">
+            Luyện Tập ➔
+          </button>
+        </div>
+
+        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
+          <div class="space-y-1">
+            <div class="text-2xl">🎯</div>
+            <h4 class="font-black text-slate-800 text-base">Common Core Math</h4>
+            <p class="text-xs text-slate-500 font-medium">Chuẩn năng lực Mỹ</p>
+          </div>
+          <button onclick="startExerciseRoom('toan-sing-commoncore')" class="w-full py-2 bg-[#FFC85A] text-slate-900 font-black text-xs rounded-xl clay-btn">
+            Luyện Tập ➔
+          </button>
+        </div>
+
+        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
+          <div class="space-y-1">
+            <div class="text-2xl">⚡</div>
+            <h4 class="font-black text-slate-800 text-base">Math Minutes G1-G7</h4>
+            <p class="text-xs text-slate-500 font-medium">Phản xạ tính nhẩm 1 phút</p>
+          </div>
+          <button onclick="startExerciseRoom('toan-sing-mathminutes')" class="w-full py-2 bg-[#62C9F3] text-slate-900 font-black text-xs rounded-xl clay-btn">
+            Luyện Tập ➔
+          </button>
+        </div>
+
+        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
+          <div class="space-y-1">
+            <div class="text-2xl">🎓</div>
+            <h4 class="font-black text-slate-800 text-base">Oxford Mathematics PYP</h4>
+            <p class="text-xs text-slate-500 font-medium">Toán Tú tài Quốc tế IB</p>
+          </div>
+          <button onclick="startExerciseRoom('toan-sing-oxfordpyp')" class="w-full py-2 bg-[#A99AF5] text-slate-900 font-black text-xs rounded-xl clay-btn">
+            Luyện Tập ➔
+          </button>
+        </div>
+
+        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
+          <div class="space-y-1">
+            <div class="text-2xl">🦁</div>
+            <h4 class="font-black text-slate-800 text-base">Toán Sing Levels 1-4</h4>
+            <p class="text-xs text-slate-500 font-medium">Tư duy logic & Olympic Sing</p>
+          </div>
+          <button onclick="startExerciseRoom('toan-sing-toansing')" class="w-full py-2 bg-amber-400 text-slate-900 font-black text-xs rounded-xl clay-btn">
+            Luyện Tập ➔
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================
+       3C. TRANG CON: TỦ SÁCH & TÀI LIỆU NÂNG CAO (GOOGLE DRIVE)
+       ======================================================== -->
+  <section id="screen-books-shelf" class="flex-1 w-full max-w-6xl mx-auto px-6 py-8 space-y-6 hidden">
+    
+    <div class="flex items-center justify-between">
+      <button onclick="navigateTo('screen-home')" class="px-4 py-2 bg-white rounded-2xl border border-slate-200 clay-option text-xs font-black text-slate-700 flex items-center gap-2">
+        <span>←</span>
+        <span>Quay lại</span>
+      </button>
+
+      <div class="flex items-center gap-3">
+        <span class="text-4xl">📚</span>
+        <h3 class="text-3xl font-black text-slate-800">Tủ Sách & Tài Liệu Nâng Cao</h3>
+      </div>
+    </div>
+
+    <!-- Acknowledgement Banner -->
+    <div class="p-6 bg-gradient-to-r from-amber-50 via-sky-50 to-emerald-50 rounded-3xl border-2 border-amber-200 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <div class="w-14 h-14 rounded-2xl bg-[#FFC85A] flex items-center justify-center text-3xl shadow-sm shrink-0">
+          📚
+        </div>
+        <div>
+          <h4 class="text-xl font-black text-slate-900">Tủ Tài Liệu & Sách Bồi Dưỡng Lớp 3, 4, 5</h4>
+          <p class="text-sm font-bold text-slate-700">Tích hợp đầy đủ Toán (Trần Diên Hiển), Tiếng Việt (Lê Phương Nga), HSG Tiếng Anh (Global Success) & 10 Bộ Sách Quốc Tế</p>
+        </div>
+      </div>
+      <a href="https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah" target="_blank" rel="noopener noreferrer"
+        class="px-5 py-3 bg-white hover:bg-sky-50 border border-sky-300 text-xs font-black text-sky-900 rounded-2xl transition flex items-center gap-2 shadow-xs shrink-0">
+        <span>Thư mục Drive Tiếng Anh 3-4-5</span>
+        <span>📁</span>
+      </a>
+    </div>
+
+    <!-- Tabs Container -->
+    <div id="books-shelf-tabs" class="pt-2"></div>
+
+    <!-- 10 Books Grid Container -->
+    <div id="books-shelf-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+  </section>
+
+
+  <!-- ========================================================
+       4. TRANG CON: PHÒNG LUYỆN TẬP TƯƠNG TÁC
+       ======================================================== -->
+  <section id="screen-exercise-room" class="flex-1 w-full max-w-4xl mx-auto px-6 py-8 space-y-6 hidden">
+    
+    <div class="clay-card p-4 lg:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <button onclick="navigateTo('screen-home')" class="w-10 h-10 rounded-2xl bg-amber-50 hover:bg-amber-100 flex items-center justify-center font-bold text-slate-700 transition clay-option text-sm">
+          ←
+        </button>
+        <div>
+          <h3 class="text-xl font-black text-slate-800">Phòng Luyện Tập</h3>
+          <div id="ex-source-book-tag" class="hidden flex items-center gap-2 mt-1"></div>
+        </div>
+      </div>
+
+      <p class="text-sm font-black text-sky-600" id="ex-counter-label">Câu 1 / 4</p>
+    </div>
+
+    <!-- Question Stage -->
+    <div id="ex-question-card" class="clay-card p-6 lg:p-10 space-y-6 relative bg-white">
+      
+      <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+        <span id="ex-tag" class="text-xs font-black uppercase px-3 py-1 rounded-full bg-sky-100 text-sky-800">
+          Trắc nghiệm
+        </span>
+        <span id="ex-status-badge" class="text-xs font-extrabold px-3 py-1 rounded-full bg-slate-100 text-slate-600">
+          Chưa trả lời
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="lg:col-span-8 space-y-3">
+          <h4 id="ex-prompt" class="text-xl lg:text-2xl font-black text-slate-800 leading-snug">
+            Đang tải nội dung câu hỏi luyện tập...
+          </h4>
+        </div>
+
+        <div class="lg:col-span-4 p-5 bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl border-2 border-amber-200/80 text-center">
+          <div id="ex-illustration" class="text-6xl animate-bounce-gentle">
+            📚 ✨ 🎯
+          </div>
+        </div>
+      </div>
+
+      <div id="ex-answer-zone" class="pt-4"></div>
+
+      <div class="space-y-3 pt-2">
+        <div id="ex-feedback-box" class="hidden p-4 rounded-2xl text-sm font-bold flex items-start gap-3 transition-all"></div>
+
+        <div id="ex-hint-box" class="hidden p-5 bg-amber-50 rounded-2xl border-2 border-dashed border-amber-300 text-sm text-amber-950 space-y-2">
+          <div class="font-black flex items-center gap-2 text-amber-900">
+            <span class="text-xl">💡</span>
+            <span>GỢI Ý & GIẢI THÍCH:</span>
+          </div>
+          <p id="ex-hint-text" class="leading-relaxed pl-7 text-sm text-slate-700 font-medium">
+            Em hãy đọc kĩ đề bài và làm từng bước nhé!
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end gap-3 pt-4 border-t border-slate-100">
+        <button id="btn-ex-check" onclick="checkAnswerEngine()" class="px-8 py-4 bg-[#62C9F3] hover:bg-[#49b9e6] text-slate-900 font-black rounded-2xl text-base clay-btn flex items-center justify-center gap-2">
+          <span>KIỂM TRA ĐÁP ÁN</span>
+          <span>🔍</span>
+        </button>
+
+        <button id="btn-ex-next" onclick="nextQuestionEngine()" disabled class="px-8 py-4 bg-slate-200 text-slate-400 font-extrabold rounded-2xl text-base flex items-center justify-center gap-2 cursor-not-allowed transition">
+          <span>CÂU TIẾP THEO</span>
+          <span>➔</span>
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================
+       5. TRANG CON: KỸ NĂNG
+       ======================================================== -->
+  <section id="screen-analytics" class="flex-1 w-full max-w-4xl mx-auto px-6 py-8 space-y-6 hidden">
+    
+    <div class="flex items-center justify-between">
+      <button onclick="navigateTo('screen-home')" class="px-4 py-2 bg-white rounded-2xl border border-slate-200 clay-option text-xs font-black text-slate-700 flex items-center gap-2">
+        <span>←</span>
+        <span>Quay lại</span>
+      </button>
+
+      <div class="flex items-center gap-3">
+        <span class="text-4xl">📊</span>
+        <h3 class="text-3xl font-black text-slate-800">Kỹ Năng</h3>
+      </div>
+    </div>
+
+    <div class="clay-card p-8 space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <div class="p-6 rounded-3xl bg-emerald-50/70 border-2 border-emerald-200 space-y-4">
+          <div class="flex items-center gap-2 font-black text-emerald-900 text-base">
+            <span class="text-2xl">🌟</span>
+            <span>Đã làm tốt</span>
+          </div>
+          <ul class="space-y-3 text-base text-slate-700 font-bold">
+            <li class="flex items-center gap-3 bg-white p-4 rounded-2xl border border-emerald-200">
+              <span class="text-emerald-600 font-black text-xl">✓</span>
+              <span>Toán: Phép tính số học & Dạng toán có lời văn</span>
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-2xl border border-emerald-200">
+              <span class="text-emerald-600 font-black text-xl">✓</span>
+              <span>Tiếng Việt: Chính tả phân biệt âm vần khó (l/n, ch/tr, s/x)</span>
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-2xl border border-emerald-200">
+              <span class="text-emerald-600 font-black text-xl">✓</span>
+              <span>Tiếng Anh: Articles (a/an/the) & Danh từ số nhiều</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-amber-50/70 border-2 border-amber-200 space-y-4">
+          <div class="flex items-center gap-2 font-black text-amber-900 text-base">
+            <span class="text-2xl">🌱</span>
+            <span>Cần ôn thêm</span>
+          </div>
+          <ul class="space-y-3 text-base text-slate-700 font-bold">
+            <li class="flex items-center gap-3 bg-white p-4 rounded-2xl border border-amber-200">
+              <span class="text-amber-600 font-black text-xl">!</span>
+              <span>Toán: Bài toán Tổng - Hiệu & Rút gọn phân số</span>
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-2xl border border-amber-200">
+              <span class="text-amber-600 font-black text-xl">!</span>
+              <span>Tiếng Việt: Phân biệt Từ ghép chính phụ & Từ láy</span>
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-2xl border border-amber-200">
+              <span class="text-amber-600 font-black text-xl">!</span>
+              <span>Tiếng Anh: Danh từ số nhiều bất quy tắc (people, mice)</span>
+            </li>
+          </ul>
+
+          <div class="pt-2 text-right">
+            <button onclick="startExerciseRoom('toan-sing-sgchallenge')" class="px-5 py-3 bg-[#62C9F3] text-slate-900 font-black rounded-xl clay-btn text-sm">
+              LUYỆN LẠI ➔
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================
+       6. TRANG CON: THÀNH TÍCH (TỦ HUY HIỆU)
+       * CHỈ CÓ ICON VÀ TIÊU ĐỀ *
+       ======================================================== -->
+  <section id="screen-badges" class="flex-1 w-full max-w-4xl mx-auto px-6 py-8 space-y-6 hidden">
+    
+    <div class="flex items-center justify-between">
+      <button onclick="navigateTo('screen-home')" class="px-4 py-2 bg-white rounded-2xl border border-slate-200 clay-option text-xs font-black text-slate-700 flex items-center gap-2">
+        <span>←</span>
+        <span>Quay lại</span>
+      </button>
+
+      <div class="flex items-center gap-3">
+        <span class="text-4xl">🏆</span>
+        <h3 class="text-3xl font-black text-slate-800">Thành Tích</h3>
+      </div>
+    </div>
+
+    <!-- 4 Huy Hiệu: CHỈ CÓ ICON VÀ TIÊU ĐỀ -->
+    <div class="clay-card p-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        
+        <div class="clay-card-nested p-6 text-center space-y-3 border-2 border-amber-300 bg-gradient-to-b from-amber-50 to-white flex flex-col items-center justify-center">
+          <span class="text-5xl">⭐</span>
+          <h5 class="font-black text-slate-800 text-lg">Ngôi Sao</h5>
+        </div>
+
+        <div class="clay-card-nested p-6 text-center space-y-3 border-2 border-purple-300 bg-gradient-to-b from-purple-50 to-white flex flex-col items-center justify-center">
+          <span class="text-5xl">🛡️</span>
+          <h5 class="font-black text-slate-800 text-lg">Chiến Binh</h5>
+        </div>
+
+        <div class="clay-card-nested p-6 text-center space-y-3 border-2 border-sky-300 bg-gradient-to-b from-sky-50 to-white flex flex-col items-center justify-center">
+          <span class="text-5xl">🧠</span>
+          <h5 class="font-black text-slate-800 text-lg">Nhà Tư Duy</h5>
+        </div>
+
+        <div class="clay-card-nested p-6 text-center space-y-3 border-2 border-slate-200 opacity-60 bg-slate-50 flex flex-col items-center justify-center">
+          <span class="text-5xl">📚</span>
+          <h5 class="font-bold text-slate-600 text-lg">Bạn Đọc Chăm</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Tệp JS riêng -->
+  <script src="app.js"></script>
+</body>
+</html>

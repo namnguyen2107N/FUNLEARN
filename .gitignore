@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Large reference PDF books (Files exceed GitHub 100MB limit & are hosted on official Google Drive links)
+tailieu_pdf/
+*.pdf
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.log
