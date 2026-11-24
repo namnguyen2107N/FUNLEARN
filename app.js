@@ -31,7 +31,6 @@ const appState = {
         title: 'Bồi dưỡng Toán cho học sinh lớp 3',
         author: 'PGS.TS Trần Diên Hiển',
         publisher: 'Nhà xuất bản Giáo dục Việt Nam (CLB EMATH)',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         icon: '📐',
         pages: 142,
         focus: '35 tuần bồi dưỡng nâng cao: số đến 1 000, bảng nhân chia, tìm x, hình học và toán suy luận.'
@@ -40,7 +39,6 @@ const appState = {
         title: 'Bồi dưỡng Toán cho học sinh lớp 4',
         author: 'PGS.TS Trần Diên Hiển',
         publisher: 'Nhà xuất bản Giáo dục Việt Nam (CLB EMATH)',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         icon: '📐',
         pages: 126,
         focus: '35 tuần bồi dưỡng nâng cao: số tự nhiên, tìm hai số khi biết Tổng - Hiệu, Tổng - Tỉ, phân số, hình học.'
@@ -49,7 +47,6 @@ const appState = {
         title: 'Bồi dưỡng Toán cho học sinh lớp 5',
         author: 'PGS.TS Trần Diên Hiển',
         publisher: 'Nhà xuất bản Giáo dục Việt Nam (CLB EMATH)',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         icon: '📐',
         pages: 136,
         focus: '35 tuần bồi dưỡng nâng cao: phân số, số thập phân, tỉ số %, hình tam giác/thang/tròn, chuyển động đều.'
@@ -60,7 +57,6 @@ const appState = {
         title: 'Bồi dưỡng Tiếng Việt lớp 3',
         author: 'GS.TS Lê Phương Nga',
         publisher: 'Nhà xuất bản Giáo dục Việt Nam',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         icon: '📖',
         pages: 120,
         focus: 'Cấu tạo từ, mở rộng vốn từ chủ điểm, biện pháp tu từ so sánh, nhân hóa và các kiểu câu kể.'
@@ -69,7 +65,6 @@ const appState = {
         title: 'Tiếng Việt 4 Nâng Cao',
         author: 'GS.TS Lê Phương Nga (Chủ biên), TS. Trần Thị Minh Phương, TS. Lê Hữu Tỉnh',
         publisher: 'Nhà xuất bản Giáo dục Việt Nam',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         icon: '📖',
         pages: 208,
         focus: 'Chính tả âm vần khó l/n, c/k, vần ươn/ương; từ ghép, từ láy; danh từ, động từ, tính từ; câu kể.'
@@ -78,18 +73,15 @@ const appState = {
         title: 'Tiếng Việt 5 Nâng Cao',
         author: 'GS.TS Lê Phương Nga (Chủ biên)',
         publisher: 'Nhà xuất bản Giáo dục Việt Nam',
-        driveUrl: 'https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view',
         icon: '📖',
         pages: 208,
         focus: 'Từ đồng nghĩa, trái nghĩa, nhiều nghĩa; đại từ, quan hệ từ; câu ghép; cảm thụ văn học tả cảnh, tả người.'
       }
     },
     tiengAnh: {
-      folderUrl: 'https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah',
       3: {
         title: 'Bồi dưỡng Học sinh giỏi Tiếng Anh 3',
         curriculum: 'Global Success (Bộ GD&ĐT)',
-        driveUrl: 'https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view',
         icon: '🌍',
         pages: 151,
         focus: '13 chuyên đề ngữ pháp (Countable/Uncountable, a/an, to be, there is/are...) và 15 đề thi HSG.'
@@ -97,7 +89,6 @@ const appState = {
       4: {
         title: 'Bồi dưỡng Học sinh giỏi Tiếng Anh 4',
         curriculum: 'Global Success (Bộ GD&ĐT)',
-        driveUrl: 'https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view',
         icon: '🌍',
         pages: 152,
         focus: 'Mạo từ a/an/the, số nhiều bất quy tắc, thì quá khứ đơn, câu hỏi Wh-, so sánh hơn và 15 đề thi HSG.'
@@ -105,7 +96,6 @@ const appState = {
       5: {
         title: 'Bồi dưỡng Học sinh giỏi Tiếng Anh 5',
         curriculum: 'Global Success (Bộ GD&ĐT)',
-        driveUrl: 'https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view',
         icon: '🌍',
         pages: 149,
         focus: 'Các thì cơ bản, từ chỉ số lượng (quantifiers), câu điều kiện loại 1, so sánh nhất và 15 đề thi HSG.'
@@ -119,7 +109,6 @@ const appState = {
       id: 'toan-sing-180days',
       code: 'Bộ 01',
       title: '180 Days of Math',
-      driveUrl: 'https://drive.google.com/drive/folders/17WGgnsvjxEBInLlCLll7rbGKPg_jAfQ9',
       icon: '📅',
       grades: 'Lớp 1 - 6',
       focus: 'Luyện tập toán hàng ngày theo xoắn ốc (Daily Spiral Math Practice)',
@@ -129,7 +118,6 @@ const appState = {
       id: 'toan-sing-commoncore',
       code: 'Bộ 02',
       title: 'Common Core Math 4 Today',
-      driveUrl: 'https://drive.google.com/drive/folders/1hRoiefN8-ZS7m-hcuUrmzcsm4vq3ofxT',
       icon: '🎯',
       grades: 'Lớp K - 3',
       focus: 'Chuẩn năng lực cốt lõi Hoa Kỳ (Common Core State Standards)',
@@ -139,7 +127,6 @@ const appState = {
       id: 'toan-sing-instep',
       code: 'Bộ 03',
       title: 'In Step Maths - Singapore Math',
-      driveUrl: 'https://drive.google.com/drive/folders/1SoSALJArxQGV15PbqcZZW0Ev5nFZ7ARM',
       icon: '🇸🇬',
       grades: 'Lớp 6A & 6B',
       focus: 'Giáo trình Toán tiểu học chuẩn Bộ Giáo Dục Singapore (CPA Method)',
@@ -149,7 +136,6 @@ const appState = {
       id: 'toan-sing-masterskills',
       code: 'Bộ 04',
       title: 'Master Skills Math',
-      driveUrl: 'https://drive.google.com/drive/folders/1DMgpHf-GqpCdrV5EBxqcKxl3ZccB2hFu',
       icon: '🏅',
       grades: 'Lớp K - 5',
       focus: 'Bộ kỹ năng toán học toàn diện chuẩn giáo dục Mỹ (American Education)',
@@ -159,7 +145,6 @@ const appState = {
       id: 'toan-sing-mathguide',
       code: 'Bộ 05',
       title: 'Math Guide G1-G6 (Singapore Math)',
-      driveUrl: 'https://drive.google.com/drive/folders/1fuz2THBSHduFAz3gifiNZ61H8ksTzmMS',
       icon: '🧭',
       grades: 'Lớp 1 - 6',
       focus: 'Sổ tay phương pháp và chiến lược giải toán tư duy Singapore',
@@ -169,7 +154,6 @@ const appState = {
       id: 'toan-sing-inmyworld',
       code: 'Bộ 06',
       title: 'MATH IN MY WORLD',
-      driveUrl: 'https://drive.google.com/drive/folders/1fME5VvuiOA3_dVFqNkRMS-drcJJEr8ew',
       icon: '🌍',
       grades: 'Lớp 1 - 5',
       focus: 'Toán học ứng dụng thực tế và gắn liền với cuộc sống quanh em',
@@ -179,7 +163,6 @@ const appState = {
       id: 'toan-sing-mathminutes',
       code: 'Bộ 07',
       title: 'Math Minutes G1-G7',
-      driveUrl: 'https://drive.google.com/drive/folders/17zm_9wurRReNK-M9kEgZLbU8SjBPHZb3',
       icon: '⚡',
       grades: 'Lớp 1 - 7',
       focus: 'Tăng tốc phản xạ và tính nhẩm nhanh 1 phút mỗi ngày',
@@ -189,7 +172,6 @@ const appState = {
       id: 'toan-sing-oxfordpyp',
       code: 'Bộ 08',
       title: 'OXFORD MATHEMATICS PYP',
-      driveUrl: 'https://drive.google.com/drive/folders/1PV5UWBQ7p5ymsZXY3TWQGQCQxV7D096b',
       icon: '🎓',
       grades: 'Lớp K - 6',
       focus: 'Toán Tú tài Quốc tế Oxford IB PYP (Tư duy truy vấn và khám phá)',
@@ -199,7 +181,6 @@ const appState = {
       id: 'toan-sing-sgchallenge',
       code: 'Bộ 09',
       title: 'Singapore Math Challenge Word Problems',
-      driveUrl: 'https://drive.google.com/drive/folders/1-7Hk2K_d-AcrI7WFZevx5rqG2iHDSAF8',
       icon: '🧩',
       grades: 'Lớp 2 - 5',
       focus: 'Giải toán có lời văn nâng cao và phương pháp mô hình Bar Model',
@@ -209,7 +190,6 @@ const appState = {
       id: 'toan-sing-toansing',
       code: 'Bộ 10',
       title: 'BỘ SÁCH TOÁN SING (Levels 1 - 4)',
-      driveUrl: 'https://drive.google.com/drive/folders/1kJrumlwqwdx7wH4CHNZA3dBV-duCoThM',
       icon: '🦁',
       grades: 'Level 1 - 4',
       focus: 'Tư duy logic nâng cao và toán Olympic Singapore',
@@ -234,7 +214,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Toán cho học sinh lớp 3',
           author: 'PGS.TS Trần Diên Hiển – CLB EMATH (NXB Giáo Dục Việt Nam)',
-          driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view'
         },
         lessons: [
           {
@@ -277,7 +256,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Tiếng Việt lớp 3',
           author: 'GS.TS Lê Phương Nga (NXB Giáo Dục Việt Nam)',
-          driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view'
         },
         lessons: [
           {
@@ -314,8 +292,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Học sinh giỏi Tiếng Anh 3 (Global Success)',
           author: 'Bộ GD&ĐT – Bồi dưỡng HSG Tiểu học',
-          driveUrl: 'https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view',
-          folderUrl: 'https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah'
         },
         lessons: [
           {
@@ -364,7 +340,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Toán cho học sinh lớp 4',
           author: 'PGS.TS Trần Diên Hiển – CLB EMATH (NXB Giáo Dục Việt Nam)',
-          driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view'
         },
         lessons: [
           {
@@ -407,7 +382,6 @@ const appState = {
         bookRef: {
           name: 'Tiếng Việt 4 Nâng Cao',
           author: 'GS.TS Lê Phương Nga (Chủ biên) – NXB Giáo Dục Việt Nam',
-          driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view'
         },
         lessons: [
           {
@@ -450,8 +424,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Học sinh giỏi Tiếng Anh 4 (Global Success)',
           author: 'Bộ GD&ĐT – Bồi dưỡng HSG Tiểu học',
-          driveUrl: 'https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view',
-          folderUrl: 'https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah'
         },
         lessons: [
           {
@@ -500,7 +472,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Toán cho học sinh lớp 5',
           author: 'PGS.TS Trần Diên Hiển – CLB EMATH (NXB Giáo Dục Việt Nam)',
-          driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view'
         },
         lessons: [
           {
@@ -543,7 +514,6 @@ const appState = {
         bookRef: {
           name: 'Tiếng Việt 5 Nâng Cao',
           author: 'GS.TS Lê Phương Nga (Chủ biên) – NXB Giáo Dục Việt Nam',
-          driveUrl: 'https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view'
         },
         lessons: [
           {
@@ -586,8 +556,6 @@ const appState = {
         bookRef: {
           name: 'Bồi dưỡng Học sinh giỏi Tiếng Anh 5 (Global Success)',
           author: 'Bộ GD&ĐT – Bồi dưỡng HSG Tiểu học',
-          driveUrl: 'https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view',
-          folderUrl: 'https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah'
         },
         lessons: [
           {
@@ -642,7 +610,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 3 • Trắc nghiệm',
         prompt: 'Một trang trại có 345 con gà trống và 428 con gà mái. Hỏi trang trại đó có tất cả bao nhiêu con gà?',
@@ -659,7 +626,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 3 • Điền số',
         prompt: 'Cho 4 số: 235; 358; 253; 349. Hiệu của số lớn nhất và số bé nhất trong 4 số trên là bao nhiêu?',
@@ -670,7 +636,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 3 • Ghép nối',
         prompt: 'Nối phép tính với kết quả chính xác (Bài 7 SGK Bồi Dưỡng Toán 3):',
@@ -686,7 +651,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 3 • Đúng / Sai',
         prompt: 'Đoạn dây thứ nhất dài 1 mét, đoạn dây thứ hai dài 95 xăng-ti-mét. Vậy đoạn dây thứ nhất dài hơn đoạn dây thứ hai.',
@@ -704,7 +668,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 3 • Trắc nghiệm',
         prompt: 'Tìm số thích hợp để điền vào ô trống: 450 - [.....] = 130',
@@ -721,7 +684,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 3 • Điền số',
         prompt: 'Có 5 rổ cam, mỗi rổ đựng 8 quả cam. Hỏi có tất cả bao nhiêu quả cam?',
@@ -732,7 +694,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 3 • Ghép nối',
         prompt: 'Nối phép tính nhân chia với kết quả đúng:',
@@ -748,7 +709,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 3 • Đúng / Sai',
         prompt: 'Trong một phép chia có dư với số chia bằng 5, số dư lớn nhất có thể có là 5.',
@@ -767,7 +727,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 3 • Trắc nghiệm',
         prompt: 'Một trang trại có 345 con gà trống và 428 con gà mái. Hỏi trang trại đó có tất cả bao nhiêu con gà?',
@@ -784,7 +743,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 3 • Điền số',
         prompt: 'Điền số thích hợp vào ô trống để được phép tính đúng: 450 - [.....] = 130',
@@ -795,7 +753,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 3 • Ghép nối',
         prompt: 'Nối phép tính với kết quả tương ứng:',
@@ -810,7 +767,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 3 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 3 • Đúng / Sai',
         prompt: 'Đoạn dây thứ nhất dài 1 mét, đoạn dây thứ hai dài 95 xăng-ti-mét. Vậy đoạn dây thứ nhất dài hơn đoạn dây thứ hai.',
@@ -831,7 +787,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 4 • Trắc nghiệm',
         prompt: 'So sánh giá trị hai biểu thức: (70 549 - 12 425) × 3 và 70 549 - 12 425 × 3. Điền dấu thích hợp:',
@@ -847,7 +802,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 4 • Điền số',
         prompt: 'Tìm giá trị thích hợp của x biết: x + 21 609 : 3 = 17 068. Giá trị của x là:',
@@ -858,7 +812,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 4 • Ghép nối',
         prompt: 'Nối biểu thức có chứa chữ với giá trị chính xác (Bài 3 Tuần 1 Bồi Dưỡng Toán 4):',
@@ -873,7 +826,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 4 • Đúng / Sai',
         prompt: 'Với mọi số tự nhiên a khác 0, biểu thức a × 1 luôn luôn có giá trị bằng a : 1.',
@@ -891,7 +843,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 4 • Trắc nghiệm',
         prompt: 'Trong số 85 342 719, chữ số 5 thuộc hàng nào, lớp nào?',
@@ -908,7 +859,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 4 • Điền số',
         prompt: 'Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít dầu. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?',
@@ -919,7 +869,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 4 • Ghép nối',
         prompt: 'Nối các số đo khối lượng và thời gian tương ứng:',
@@ -935,7 +884,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 4 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 4 • Đúng / Sai',
         prompt: 'Số chẵn nhỏ nhất có 6 chữ số khác nhau là 102 346.',
@@ -956,7 +904,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 5 • Trắc nghiệm',
         prompt: 'Trong các phân số sau: 13/14, 29/27, 34/34, 3/7, phân số nào LỚN HƠN 1?',
@@ -973,7 +920,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 5 • Điền số',
         prompt: 'Một ô tô đi quãng đường 150 km hết 3 giờ. Hỏi vận tốc của ô tô là bao nhiêu km/h?',
@@ -984,7 +930,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 5 • Ghép nối',
         prompt: 'Nối các phân số bằng nhau sau khi rút gọn hoặc quy đồng:',
@@ -1000,7 +945,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 5 • Đúng / Sai',
         prompt: 'Mọi số tự nhiên đều có thể viết dưới dạng phân số có mẫu số bằng 1 (Ví dụ: 14 = 14/1; 9 = 9/1).',
@@ -1018,7 +962,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'choice',
         tag: 'Bồi dưỡng Toán 5 • Trắc nghiệm',
         prompt: 'Trong số thập phân 185,472, chữ số 7 có giá trị bằng bao nhiêu?',
@@ -1035,7 +978,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'input',
         tag: 'Bồi dưỡng Toán 5 • Điền số',
         prompt: 'Lớp 5A có 40 học sinh, trong đó có 24 bạn nữ. Tỉ số phần trăm của học sinh nữ so với cả lớp là bao nhiêu %? (Chỉ điền số)',
@@ -1046,7 +988,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'match',
         tag: 'Bồi dưỡng Toán 5 • Ghép nối',
         prompt: 'Nối phép tính số thập phân với kết quả tương ứng:',
@@ -1062,7 +1003,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Toán 5 – Trần Diên Hiển',
-        driveUrl: 'https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view',
         type: 'true_false',
         tag: 'Bồi dưỡng Toán 5 • Đúng / Sai',
         prompt: 'Hai chuyển động cùng lúc và ngược chiều trên cùng một quãng đường, thời gian để gặp nhau bằng quãng đường chia cho HIỆU hai vận tốc.',
@@ -1083,7 +1023,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'choice',
         tag: 'Tiếng Việt 3 • Trắc nghiệm',
         prompt: 'Trong câu thơ: "Trẻ em như búp trên cành / Biết ăn ngủ, biết học hành là ngoan", sự vật nào được so sánh với nhau?',
@@ -1100,7 +1039,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'input',
         tag: 'Tiếng Việt 3 • Điền từ',
         prompt: 'Điền từ còn thiếu vào câu thành ngữ sau: "Học thầy không tày học [.....]"',
@@ -1111,7 +1049,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'match',
         tag: 'Tiếng Việt 3 • Ghép nối',
         prompt: 'Ghép câu với kiểu câu kể tương ứng:',
@@ -1126,7 +1063,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'true_false',
         tag: 'Tiếng Việt 3 • Đúng / Sai',
         prompt: 'Trong câu: "Bác kim giờ nhích từng bước chậm chạp.", đồ vật (kim giờ) đã được nhân hóa bằng cách gọi bằng từ ngữ dùng cho người ("Bác").',
@@ -1147,7 +1083,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Tiếng Việt 4 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'choice',
         tag: 'Tiếng Việt 4 • Trắc nghiệm',
         prompt: 'Dòng nào dưới đây chứa các từ viết ĐÚNG chính tả về âm đầu l / n (Bài tập chọn lựa SGK trang 8)?',
@@ -1164,7 +1099,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Tiếng Việt 4 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'input',
         tag: 'Tiếng Việt 4 • Điền từ',
         prompt: 'Tìm từ loại bỏ: Trong cặp từ "mượn - mượng", từ nào KHÔNG có trong vốn từ Tiếng Việt (chắc chắn viết sai chính tả)?',
@@ -1175,7 +1109,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Tiếng Việt 4 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'match',
         tag: 'Tiếng Việt 4 • Ghép nối',
         prompt: 'Phân loại từ ngữ theo cấu tạo (Từ đơn, Từ ghép, Từ láy):',
@@ -1191,7 +1124,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Tiếng Việt 4 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view',
         type: 'true_false',
         tag: 'Tiếng Việt 4 • Đúng / Sai',
         prompt: 'Từ "mặt mũi" là từ láy vì có phụ âm đầu "m" lặp lại giống nhau.',
@@ -1212,7 +1144,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Tiếng Việt 5 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view',
         type: 'choice',
         tag: 'Tiếng Việt 5 • Trắc nghiệm',
         prompt: 'Theo quy tắc viết hoa tên riêng tiếng nước ngoài (SGK trang 8), tên loài ngựa nhỏ nhất thế giới được viết đúng là:',
@@ -1229,7 +1160,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Tiếng Việt 5 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view',
         type: 'input',
         tag: 'Tiếng Việt 5 • Điền từ',
         prompt: 'Sắp xếp cụm từ để hoàn chỉnh câu tục ngữ dự báo thời tiết (trang 8): "sao mau thì mưa, sao [.....] thì nắng":',
@@ -1240,7 +1170,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Tiếng Việt 5 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view',
         type: 'match',
         tag: 'Tiếng Việt 5 • Ghép nối',
         prompt: 'Nối các cặp quan hệ từ trong câu ghép với ý nghĩa biểu thị:',
@@ -1256,7 +1185,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Tiếng Việt 5 Nâng Cao – Lê Phương Nga',
-        driveUrl: 'https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view',
         type: 'true_false',
         tag: 'Tiếng Việt 5 • Đúng / Sai',
         prompt: 'Từ đồng âm là những từ có cách phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau, không liên quan gì đến nhau.',
@@ -1277,7 +1205,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 3 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view',
         type: 'choice',
         tag: 'Tiếng Anh 3 • Trắc nghiệm',
         prompt: 'Which of the following words is an UNCOUNTABLE noun (Danh từ không đếm được)? (Exercise 3, Page 8)',
@@ -1294,7 +1221,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 3 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view',
         type: 'input',
         tag: 'Tiếng Anh 3 • Điền từ',
         prompt: 'Complete the question with "How much" or "How many": "[.....] milk does she want?"',
@@ -1305,7 +1231,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 3 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view',
         type: 'match',
         tag: 'Tiếng Anh 3 • Ghép nối',
         prompt: 'Match nouns in Column A with category in Column B (Exercise 3, Page 8):',
@@ -1321,7 +1246,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 3 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view',
         type: 'true_false',
         tag: 'Tiếng Anh 3 • Đúng / Sai',
         prompt: 'We use "How many" with countable plural nouns (e.g. How many books do you have?). True or False?',
@@ -1342,7 +1266,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 4 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view',
         type: 'choice',
         tag: 'Tiếng Anh 4 • Trắc nghiệm',
         prompt: 'Choose the correct answer: "Do you live in [.....]?" (Exercise 2, Page 10)',
@@ -1359,7 +1282,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 4 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view',
         type: 'input',
         tag: 'Tiếng Anh 4 • Điền từ',
         prompt: 'Fill in the blank with "a" or "an": "I waited for [.....] hour at the bus stop."',
@@ -1370,7 +1292,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 4 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view',
         type: 'match',
         tag: 'Tiếng Anh 4 • Ghép nối',
         prompt: 'Match noun with article "a" or "an" (Exercise 1, Page 10):',
@@ -1386,7 +1307,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 4 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view',
         type: 'true_false',
         tag: 'Tiếng Anh 4 • Đúng / Sai',
         prompt: 'The plural form of "child" is "children" and the plural form of "knife" is "knives". True or False?',
@@ -1407,7 +1327,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 5 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view',
         type: 'choice',
         tag: 'Tiếng Anh 5 • Trắc nghiệm',
         prompt: 'Which sentence correctly uses ZERO ARTICLE (không dùng mạo từ)? (Chuyên đề 2, Trang 10)',
@@ -1424,7 +1343,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 5 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view',
         type: 'input',
         tag: 'Tiếng Anh 5 • Điền từ',
         prompt: 'Fill in the blank with "a", "an", or "the": "Look up at the sky! [.....] Sun is shining brightly."',
@@ -1435,7 +1353,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 5 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view',
         type: 'match',
         tag: 'Tiếng Anh 5 • Ghép nối',
         prompt: 'Match article usage with corresponding example (Page 10):',
@@ -1451,7 +1368,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Bồi dưỡng HSG Tiếng Anh 5 (Global Success)',
-        driveUrl: 'https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view',
         type: 'true_false',
         tag: 'Tiếng Anh 5 • Đúng / Sai',
         prompt: 'We use "any" in positive sentences and "some" in negative sentences and questions.',
@@ -1472,7 +1388,6 @@ const appState = {
       {
         id: 1,
         bookTitle: '180 Days of Math',
-        driveUrl: 'https://drive.google.com/drive/folders/17WGgnsvjxEBInLlCLll7rbGKPg_jAfQ9',
         type: 'choice',
         tag: '180 Days of Math • Trắc nghiệm',
         prompt: 'Day 45: What is the sum of 458 and 276?',
@@ -1489,7 +1404,6 @@ const appState = {
       {
         id: 2,
         bookTitle: '180 Days of Math',
-        driveUrl: 'https://drive.google.com/drive/folders/17WGgnsvjxEBInLlCLll7rbGKPg_jAfQ9',
         type: 'input',
         tag: '180 Days of Math • Điền số',
         prompt: 'Day 60: Find the missing addend: 240 + [.....] = 600',
@@ -1500,7 +1414,6 @@ const appState = {
       {
         id: 3,
         bookTitle: '180 Days of Math',
-        driveUrl: 'https://drive.google.com/drive/folders/17WGgnsvjxEBInLlCLll7rbGKPg_jAfQ9',
         type: 'match',
         tag: '180 Days of Math • Ghép nối',
         prompt: 'Day 90: Match each expanded form with its standard number:',
@@ -1515,7 +1428,6 @@ const appState = {
       {
         id: 4,
         bookTitle: '180 Days of Math',
-        driveUrl: 'https://drive.google.com/drive/folders/17WGgnsvjxEBInLlCLll7rbGKPg_jAfQ9',
         type: 'true_false',
         tag: '180 Days of Math • Đúng / Sai',
         prompt: 'Day 120: 15 multiplied by 4 is equal to 60. Is this True or False?',
@@ -1533,7 +1445,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Common Core Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1hRoiefN8-ZS7m-hcuUrmzcsm4vq3ofxT',
         type: 'choice',
         tag: 'Common Core • Trắc nghiệm',
         prompt: 'Week 8, Day 1: Round 4,872 to the nearest hundred.',
@@ -1550,7 +1461,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Common Core Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1hRoiefN8-ZS7m-hcuUrmzcsm4vq3ofxT',
         type: 'input',
         tag: 'Common Core • Điền số',
         prompt: 'Week 12, Day 2: A rectangular garden has length = 8m and width = 5m. What is its perimeter in meters?',
@@ -1561,7 +1471,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Common Core Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1hRoiefN8-ZS7m-hcuUrmzcsm4vq3ofxT',
         type: 'match',
         tag: 'Common Core • Ghép nối',
         prompt: 'Week 15: Match the fraction to its equivalent fraction:',
@@ -1576,7 +1485,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Common Core Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1hRoiefN8-ZS7m-hcuUrmzcsm4vq3ofxT',
         type: 'true_false',
         tag: 'Common Core • Đúng / Sai',
         prompt: 'Week 20: 7 × 8 = 56. Is this statement True or False?',
@@ -1594,7 +1502,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'In Step Maths - Singapore Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1SoSALJArxQGV15PbqcZZW0Ev5nFZ7ARM',
         type: 'choice',
         tag: 'In Step Maths • Trắc nghiệm',
         prompt: 'Chapter 2: Lucas has 48 marbles. He gives 1/4 of them to Ken. How many marbles does Ken get?',
@@ -1611,7 +1518,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'In Step Maths - Singapore Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1SoSALJArxQGV15PbqcZZW0Ev5nFZ7ARM',
         type: 'input',
         tag: 'In Step Maths • Điền số',
         prompt: 'Chapter 4: The ratio of boys to girls in a math club is 3 : 5. If there are 15 boys, how many girls are there?',
@@ -1622,7 +1528,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'In Step Maths - Singapore Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1SoSALJArxQGV15PbqcZZW0Ev5nFZ7ARM',
         type: 'match',
         tag: 'In Step Maths • Ghép nối',
         prompt: 'Chapter 6: Match Singapore Math terms with their meanings:',
@@ -1637,7 +1542,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'In Step Maths - Singapore Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1SoSALJArxQGV15PbqcZZW0Ev5nFZ7ARM',
         type: 'true_false',
         tag: 'In Step Maths • Đúng / Sai',
         prompt: 'Chapter 8: The sum of the angles in any triangle is always 180°. True or False?',
@@ -1655,7 +1559,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Master Skills Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1DMgpHf-GqpCdrV5EBxqcKxl3ZccB2hFu',
         type: 'choice',
         tag: 'Master Skills • Trắc nghiệm',
         prompt: 'Unit 3: What is the place value of the digit 7 in the number 5,742?',
@@ -1672,7 +1575,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Master Skills Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1DMgpHf-GqpCdrV5EBxqcKxl3ZccB2hFu',
         type: 'input',
         tag: 'Master Skills • Điền số',
         prompt: 'Unit 5: Emma bought 4 packs of colored pencils. Each pack has 12 pencils. How many pencils does she have in total?',
@@ -1683,7 +1585,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Master Skills Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1DMgpHf-GqpCdrV5EBxqcKxl3ZccB2hFu',
         type: 'match',
         tag: 'Master Skills • Ghép nối',
         prompt: 'Unit 7: Match arithmetic operation with its result term:',
@@ -1698,7 +1599,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Master Skills Math',
-        driveUrl: 'https://drive.google.com/drive/folders/1DMgpHf-GqpCdrV5EBxqcKxl3ZccB2hFu',
         type: 'true_false',
         tag: 'Master Skills • Đúng / Sai',
         prompt: 'Unit 9: 1 kilogram is equal to 1,000 grams. True or False?',
@@ -1716,7 +1616,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Singapore Math Challenge',
-        driveUrl: 'https://drive.google.com/drive/folders/1-7Hk2K_d-AcrI7WFZevx5rqG2iHDSAF8',
         type: 'choice',
         tag: 'SG Math Challenge • Trắc nghiệm',
         prompt: 'Word Problem 14: Ryan had 3 times as many stamps as Chloe. Together they had 48 stamps. How many stamps did Ryan have?',
@@ -1733,7 +1632,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Singapore Math Challenge',
-        driveUrl: 'https://drive.google.com/drive/folders/1-7Hk2K_d-AcrI7WFZevx5rqG2iHDSAF8',
         type: 'input',
         tag: 'SG Math Challenge • Điền số',
         prompt: 'Word Problem 28: A bakery baked 350 cupcakes. They sold 4/5 of them. How many cupcakes were left?',
@@ -1744,7 +1642,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Singapore Math Challenge',
-        driveUrl: 'https://drive.google.com/drive/folders/1-7Hk2K_d-AcrI7WFZevx5rqG2iHDSAF8',
         type: 'match',
         tag: 'SG Math Challenge • Ghép nối',
         prompt: 'Match word problem clue with arithmetic operation:',
@@ -1759,7 +1656,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Singapore Math Challenge',
-        driveUrl: 'https://drive.google.com/drive/folders/1-7Hk2K_d-AcrI7WFZevx5rqG2iHDSAF8',
         type: 'true_false',
         tag: 'SG Math Challenge • Đúng / Sai',
         prompt: 'If Liam gives 5 stickers to Noah, their total number of stickers remains unchanged.',
@@ -1777,7 +1673,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Math Minutes',
-        driveUrl: 'https://drive.google.com/drive/folders/17zm_9wurRReNK-M9kEgZLbU8SjBPHZb3',
         type: 'choice',
         tag: 'Math Minutes • Trắc nghiệm',
         prompt: 'Minute 25: Which number is a prime number (số nguyên tố)?',
@@ -1794,7 +1689,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Math Minutes',
-        driveUrl: 'https://drive.google.com/drive/folders/17zm_9wurRReNK-M9kEgZLbU8SjBPHZb3',
         type: 'input',
         tag: 'Math Minutes • Điền số',
         prompt: 'Minute 40: Calculate mentally: 25 × 16 = ?',
@@ -1805,7 +1699,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Math Minutes',
-        driveUrl: 'https://drive.google.com/drive/folders/17zm_9wurRReNK-M9kEgZLbU8SjBPHZb3',
         type: 'match',
         tag: 'Math Minutes • Ghép nối',
         prompt: 'Minute 60: Match speed mental math:',
@@ -1820,7 +1713,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Math Minutes',
-        driveUrl: 'https://drive.google.com/drive/folders/17zm_9wurRReNK-M9kEgZLbU8SjBPHZb3',
         type: 'true_false',
         tag: 'Math Minutes • Đúng / Sai',
         prompt: 'Minute 85: An even number multiplied by any integer is always an even number.',
@@ -1838,7 +1730,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Oxford Mathematics PYP',
-        driveUrl: 'https://drive.google.com/drive/folders/1PV5UWBQ7p5ymsZXY3TWQGQCQxV7D096b',
         type: 'choice',
         tag: 'Oxford PYP • Trắc nghiệm',
         prompt: 'Inquiry 3: A fair 6-sided die is rolled. What is the probability of rolling an even number?',
@@ -1855,7 +1746,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Oxford Mathematics PYP',
-        driveUrl: 'https://drive.google.com/drive/folders/1PV5UWBQ7p5ymsZXY3TWQGQCQxV7D096b',
         type: 'input',
         tag: 'Oxford PYP • Điền số',
         prompt: 'Inquiry 7: A triangle has base = 10cm and height = 6cm. What is its area in cm²?',
@@ -1866,7 +1756,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Oxford Mathematics PYP',
-        driveUrl: 'https://drive.google.com/drive/folders/1PV5UWBQ7p5ymsZXY3TWQGQCQxV7D096b',
         type: 'match',
         tag: 'Oxford PYP • Ghép nối',
         prompt: 'Match polygon name with its number of sides:',
@@ -1881,7 +1770,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Oxford Mathematics PYP',
-        driveUrl: 'https://drive.google.com/drive/folders/1PV5UWBQ7p5ymsZXY3TWQGQCQxV7D096b',
         type: 'true_false',
         tag: 'Oxford PYP • Đúng / Sai',
         prompt: 'All squares are rectangles, but not all rectangles are squares.',
@@ -1899,7 +1787,6 @@ const appState = {
       {
         id: 1,
         bookTitle: 'Toán Sing Olympic',
-        driveUrl: 'https://drive.google.com/drive/folders/1kJrumlwqwdx7wH4CHNZA3dBV-duCoThM',
         type: 'choice',
         tag: 'Toán Sing Olympic • Trắc nghiệm',
         prompt: 'Logic Puzzle 12: Find the next number in sequence: 2, 6, 12, 20, 30, [.....]',
@@ -1916,7 +1803,6 @@ const appState = {
       {
         id: 2,
         bookTitle: 'Toán Sing Olympic',
-        driveUrl: 'https://drive.google.com/drive/folders/1kJrumlwqwdx7wH4CHNZA3dBV-duCoThM',
         type: 'input',
         tag: 'Toán Sing Olympic • Điền số',
         prompt: 'Chicken and Rabbit Problem: There are 10 heads and 28 legs in total. How many rabbits are there?',
@@ -1927,7 +1813,6 @@ const appState = {
       {
         id: 3,
         bookTitle: 'Toán Sing Olympic',
-        driveUrl: 'https://drive.google.com/drive/folders/1kJrumlwqwdx7wH4CHNZA3dBV-duCoThM',
         type: 'match',
         tag: 'Toán Sing Olympic • Ghép nối',
         prompt: 'Match Olympic method with typical problem type:',
@@ -1942,7 +1827,6 @@ const appState = {
       {
         id: 4,
         bookTitle: 'Toán Sing Olympic',
-        driveUrl: 'https://drive.google.com/drive/folders/1kJrumlwqwdx7wH4CHNZA3dBV-duCoThM',
         type: 'true_false',
         tag: 'Toán Sing Olympic • Đúng / Sai',
         prompt: 'In any group of 13 people, at least 2 people share the same birth month.',
@@ -1964,7 +1848,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "choice",
             "tag": "Toán 3 • Tìm x",
             "prompt": "Tìm số tự nhiên x biết: x × 7 = 42 + 21",
@@ -1993,7 +1876,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "input",
             "tag": "Toán 3 • Toán đố",
             "prompt": "Một cuộn dây dài 48m. Bác thợ cắt đi 1/6 chiều dài cuộn dây. Hỏi cuộn dây còn lại bao nhiêu mét?",
@@ -2004,7 +1886,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "match",
             "tag": "Toán 3 • Ghép nối",
             "prompt": "Nối phép tính với kết quả chính xác:",
@@ -2036,7 +1917,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "true_false",
             "tag": "Toán 3 • Đúng / Sai",
             "prompt": "Gấp số 7 lên 6 lần ta được kết quả là 42.",
@@ -2060,7 +1940,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "choice",
             "tag": "Toán 3 • Phép chia có dư",
             "prompt": "Tìm một số biết rằng lấy số đó chia cho 8 thì được thương là 9 và số dư lớn nhất có thể.",
@@ -2089,7 +1968,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "input",
             "tag": "Toán 3 • Hình học",
             "prompt": "Một hình tam giác vuông có 1 góc vuông. Hỏi hình đó có bao nhiêu góc không vuông?",
@@ -2100,7 +1978,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "match",
             "tag": "Toán 3 • Ghép nối",
             "prompt": "Nối biểu thức với giá trị tương ứng:",
@@ -2132,7 +2009,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "true_false",
             "tag": "Toán 3 • Đúng / Sai",
             "prompt": "Thước ê-ke là dụng cụ dùng để nhận biết và vẽ góc vuông.",
@@ -2156,7 +2032,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "choice",
             "tag": "Toán 3 • Cấu tạo số",
             "prompt": "Số gồm 5 nghìn, 4 trăm và 3 đơn vị được viết là:",
@@ -2185,7 +2060,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "input",
             "tag": "Toán 3 • Số học nâng cao",
             "prompt": "Tìm hiệu giữa số lớn nhất có 4 chữ số khác nhau và số bé nhất có 4 chữ số khác nhau.",
@@ -2196,7 +2070,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "match",
             "tag": "Toán 3 • Đọc viết số",
             "prompt": "Nối số với cách đọc tương ứng:",
@@ -2228,7 +2101,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1AWlKxKf3ft6R4WmFyx_TnxhLwjmCUPg9/view",
             "type": "true_false",
             "tag": "Toán 3 • Đúng / Sai",
             "prompt": "Trong số 8562, chữ số 5 thuộc hàng trăm và có giá trị là 500.",
@@ -2252,7 +2124,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "choice",
             "tag": "Tiếng Việt 3 • Biện pháp so sánh",
             "prompt": "Trong câu: \"Mặt biển sáng trong như tấm gương khổng lồ\", sự vật nào được so sánh với nhau?",
@@ -2281,7 +2152,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "input",
             "tag": "Tiếng Việt 3 • Điền từ",
             "prompt": "Điền từ so sánh thích hợp vào chỗ trống trong câu ca dao: \"Công cha ...... núi Thái Sơn / Nghĩa mẹ ...... nước trong nguồn chảy ra.\"",
@@ -2292,7 +2162,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "match",
             "tag": "Tiếng Việt 3 • Ghép nối hình ảnh so sánh",
             "prompt": "Nối hình ảnh so sánh với vế tương ứng trong thơ ca thiếu nhi:",
@@ -2324,7 +2193,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "true_false",
             "tag": "Tiếng Việt 3 • Đúng / Sai",
             "prompt": "Câu thơ: \"Quả dừa - đàn lợn con nằm trên cao\" sử dụng dấu gạch ngang (-) để thay thế cho từ so sánh.",
@@ -2348,7 +2216,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "choice",
             "tag": "Tiếng Việt 3 • Kiểu câu kể",
             "prompt": "Câu: \"Bác nông dân đang cày ruộng trên cánh đồng vàng rực.\" thuộc mẫu câu nào?",
@@ -2377,7 +2244,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "input",
             "tag": "Tiếng Việt 3 • Xác định thành phần",
             "prompt": "Tìm bộ phận trả lời cho câu hỏi \"Thế nào?\" trong câu: \"Bầu trời mùa thu trong xanh và cao vời vợi.\"",
@@ -2388,7 +2254,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "match",
             "tag": "Tiếng Việt 3 • Phân loại mẫu câu",
             "prompt": "Nối câu văn với mẫu câu kể tương ứng:",
@@ -2420,7 +2285,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "true_false",
             "tag": "Tiếng Việt 3 • Đúng / Sai",
             "prompt": "Câu \"Hoa phượng nở đỏ rực cả một góc sân trường.\" thuộc mẫu câu kể \"Ai thế nào?\".",
@@ -2444,7 +2308,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "choice",
             "tag": "Tiếng Việt 3 • Biện pháp nhân hóa",
             "prompt": "Câu nào dưới đây sử dụng biện pháp nghệ thuật nhân hóa?",
@@ -2473,7 +2336,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "input",
             "tag": "Tiếng Việt 3 • Tìm từ xưng hô",
             "prompt": "Trong câu: \"Chị mây mặc áo xanh thướt tha dạo chơi trên bầu trời\", mây được gọi bằng từ xưng hô nào?",
@@ -2484,7 +2346,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "match",
             "tag": "Tiếng Việt 3 • Các cách nhân hóa",
             "prompt": "Nối cách nhân hóa với câu ví dụ phù hợp:",
@@ -2516,7 +2377,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Dấu câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "true_false",
             "tag": "Tiếng Việt 3 • Dấu câu",
             "prompt": "Dấu hai chấm (:) thường được dùng để báo hiệu phần giải thích hoặc dẫn lời nói trực tiếp của nhân vật.",
@@ -2540,7 +2400,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "choice",
             "tag": "Tiếng Anh 3 • How Much / How Many",
             "prompt": "Choose the correct question word: \"______ pens do you have in your pencil case?\"",
@@ -2569,7 +2428,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "input",
             "tag": "Tiếng Anh 3 • Điền từ",
             "prompt": "Complete the question: \"How ______ water do you drink every day?\"",
@@ -2580,7 +2438,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "match",
             "tag": "Tiếng Anh 3 • Ghép câu hỏi & trả lời",
             "prompt": "Match questions with their appropriate answers:",
@@ -2612,7 +2469,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "true_false",
             "tag": "Tiếng Anh 3 • True / False",
             "prompt": "We use \"How much\" to ask about the price of an item in a store.",
@@ -2636,7 +2492,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "choice",
             "tag": "Tiếng Anh 3 • Singular & Plural",
             "prompt": "What is the correct plural form of the noun \"child\"?",
@@ -2665,7 +2520,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "input",
             "tag": "Tiếng Anh 3 • Viết dạng số nhiều",
             "prompt": "Write the plural form of \"box\":",
@@ -2676,7 +2530,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "match",
             "tag": "Tiếng Anh 3 • Ghép số ít & số nhiều",
             "prompt": "Match singular nouns with their irregular plural forms:",
@@ -2708,7 +2561,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "true_false",
             "tag": "Tiếng Anh 3 • True / False",
             "prompt": "The plural form of \"fish\" can remain \"fish\" when referring to the same kind.",
@@ -2732,7 +2584,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "choice",
             "tag": "Tiếng Anh 3 • Demonstratives",
             "prompt": "Fill in the blank: \"Look at ______ colorful birds high up in the sky over there!\"",
@@ -2761,7 +2612,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "input",
             "tag": "Tiếng Anh 3 • Mạo từ a/an",
             "prompt": "Fill in \"a\" or \"an\": \"My father bought ...... umbrella for me yesterday.\"",
@@ -2772,7 +2622,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "match",
             "tag": "Tiếng Anh 3 • Phân loại đại từ chỉ định",
             "prompt": "Match demonstrative pronouns with their correct meaning:",
@@ -2804,7 +2653,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "true_false",
             "tag": "Tiếng Anh 3 • True / False",
             "prompt": "We use \"an\" before words starting with vowel sounds (a, e, i, o, u).",
@@ -2828,7 +2676,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "choice",
             "tag": "Tiếng Anh 3 • To be (am/is/are)",
             "prompt": "Choose the correct verb form: \"Nam and Linh ______ excited about their new school year.\"",
@@ -2857,7 +2704,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "input",
             "tag": "Tiếng Anh 3 • Điền động từ",
             "prompt": "Complete with am, is or are: \"She ______ my favorite primary school teacher.\"",
@@ -2868,7 +2714,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "match",
             "tag": "Tiếng Anh 3 • Ghép đại từ & To be",
             "prompt": "Match subject pronouns with the correct form of \"to be\":",
@@ -2900,7 +2745,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "true_false",
             "tag": "Tiếng Anh 3 • True / False",
             "prompt": "In negative sentences with \"to be\", we add \"not\" right after the verb (is not / are not).",
@@ -2924,7 +2768,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "choice",
             "tag": "Toán 4 • Thời gian thế kỉ",
             "prompt": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long. Năm đó thuộc thế kỉ nào?",
@@ -2953,7 +2796,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "input",
             "tag": "Toán 4 • Đổi đơn vị khối lượng",
             "prompt": "Điền số thích hợp vào chỗ chấm: 4 tấn 25 kg = ...... kg.",
@@ -2964,7 +2806,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "match",
             "tag": "Toán 4 • Ghép số đo tương đương",
             "prompt": "Nối các số đo có giá trị bằng nhau:",
@@ -2996,7 +2837,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "true_false",
             "tag": "Toán 4 • Đúng / Sai",
             "prompt": "1 tạ bằng 10 yến và bằng 100 kg.",
@@ -3020,7 +2860,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "choice",
             "tag": "Toán 4 • Tìm hai số khi biết Tổng và Hiệu",
             "prompt": "Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?",
@@ -3049,7 +2888,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "input",
             "tag": "Toán 4 • Tính số bé",
             "prompt": "Hai số có tổng bằng 90 và hiệu bằng 16. Tìm số bé.",
@@ -3060,7 +2898,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "match",
             "tag": "Toán 4 • Công thức Tổng - Hiệu",
             "prompt": "Nối công thức và bài toán tính nhanh:",
@@ -3092,7 +2929,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "true_false",
             "tag": "Toán 4 • Đúng / Sai",
             "prompt": "Tổng của hai số chẵn liên tiếp luôn là một số chẵn và hiệu của chúng bằng 2.",
@@ -3116,7 +2952,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "choice",
             "tag": "Toán 4 • Rút gọn phân số",
             "prompt": "Rút gọn phân số 36/48 về dạng phân số tối giản ta được:",
@@ -3145,7 +2980,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "input",
             "tag": "Toán 4 • Phân số bằng nhau",
             "prompt": "Tìm số tự nhiên x biết: 5/7 = x/35.",
@@ -3156,7 +2990,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "match",
             "tag": "Toán 4 • Ghép phân số bằng nhau",
             "prompt": "Nối các phân số có giá trị bằng nhau:",
@@ -3188,7 +3021,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "true_false",
             "tag": "Toán 4 • Đúng / Sai",
             "prompt": "Một phân số có tử số lớn hơn mẫu số thì phân số đó lớn hơn 1.",
@@ -3212,7 +3044,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "choice",
             "tag": "Tiếng Việt 4 • Cấu tạo từ ghép",
             "prompt": "Trong các từ sau, từ nào là từ ghép đẳng lập (tổng hợp)?",
@@ -3241,7 +3072,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "input",
             "tag": "Tiếng Việt 4 • Nhận diện từ láy",
             "prompt": "Từ \"long lanh\" thuộc loại cấu tạo từ nào: từ đơn, từ ghép hay từ láy?",
@@ -3252,7 +3082,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "match",
             "tag": "Tiếng Việt 4 • Phân loại cấu tạo từ",
             "prompt": "Nối từ với kiểu cấu tạo từ tương ứng:",
@@ -3284,7 +3113,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "true_false",
             "tag": "Tiếng Việt 4 • Đúng / Sai",
             "prompt": "Từ ghép phân loại (chính phụ) có trật tự tiếng chính đứng trước, tiếng phụ bổ nghĩa đứng sau.",
@@ -3308,7 +3136,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "choice",
             "tag": "Tiếng Việt 4 • Danh từ riêng",
             "prompt": "Từ nào dưới đây là danh từ riêng chỉ tên người Việt Nam?",
@@ -3337,7 +3164,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "input",
             "tag": "Tiếng Việt 4 • Tìm danh từ riêng",
             "prompt": "Trong câu: \"Hà Nội là thủ đô ngàn năm văn hiến\", từ nào là danh từ riêng chỉ địa danh?",
@@ -3348,7 +3174,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "match",
             "tag": "Tiếng Việt 4 • Phân loại danh từ",
             "prompt": "Nối từ ngữ với loại danh từ thích hợp:",
@@ -3380,7 +3205,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "true_false",
             "tag": "Tiếng Việt 4 • Đúng / Sai",
             "prompt": "Khi viết tên địa lí Việt Nam, ta viết hoa chữ cái đầu của tất cả các tiếng tạo thành tên đó.",
@@ -3404,7 +3228,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "choice",
             "tag": "Tiếng Việt 4 • Ý nghĩa trạng ngữ",
             "prompt": "Trạng ngữ trong câu: \"Sáng sớm mai, chúng em sẽ đi cắm trại ở Ba Vì.\" bổ sung ý nghĩa gì cho câu?",
@@ -3433,7 +3256,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "input",
             "tag": "Tiếng Việt 4 • Xác định trạng ngữ",
             "prompt": "Tìm trạng ngữ trong câu sau: \"Vì trời mưa to, đường phố bị ngập úng nhiều nơi.\"",
@@ -3444,7 +3266,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "match",
             "tag": "Tiếng Việt 4 • Phân loại trạng ngữ",
             "prompt": "Nối trạng ngữ với loại ý nghĩa tương ứng:",
@@ -3476,7 +3297,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "true_false",
             "tag": "Tiếng Việt 4 • Đúng / Sai",
             "prompt": "Trạng ngữ ngăn cách với chủ ngữ và vị ngữ trong câu bằng dấu phẩy.",
@@ -3500,7 +3320,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "choice",
             "tag": "Tiếng Việt 4 • Thành ngữ tục ngữ",
             "prompt": "Thành ngữ nào dưới đây thể hiện tinh thần tương thân tương ái, cưu mang giúp đỡ lẫn nhau?",
@@ -3529,7 +3348,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "input",
             "tag": "Tiếng Việt 4 • Điền tục ngữ",
             "prompt": "Điền từ còn thiếu vào câu tục ngữ nói về ý chí kiên trì: \"Có công mài sắt, có ngày nên ......\"",
@@ -3540,7 +3358,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "match",
             "tag": "Tiếng Việt 4 • Mở rộng vốn từ",
             "prompt": "Nối từ ngữ với chủ điểm phù hợp:",
@@ -3572,7 +3389,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/18WTldn7UMLnLtcSDeH5N-FJPP94ycRpK/view",
             "type": "true_false",
             "tag": "Tiếng Việt 4 • Đúng / Sai",
             "prompt": "Thành ngữ \"Vạn sự khởi đầu nan\" khuyên chúng ta không nên nản lòng khi gặp khó khăn lúc ban đầu.",
@@ -3596,7 +3412,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "choice",
             "tag": "Tiếng Anh 4 • Irregular Plural Nouns",
             "prompt": "What is the irregular plural form of the noun \"mouse\"?",
@@ -3625,7 +3440,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "input",
             "tag": "Tiếng Anh 4 • Số nhiều bất quy tắc",
             "prompt": "Write the plural form of \"man\":",
@@ -3636,7 +3450,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "match",
             "tag": "Tiếng Anh 4 • Ghép danh từ số nhiều",
             "prompt": "Match singular nouns with their irregular plural forms:",
@@ -3668,7 +3481,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "true_false",
             "tag": "Tiếng Anh 4 • True / False",
             "prompt": "For nouns ending in -ch, -sh, -s, -x, -z, we add \"-es\" to make them plural.",
@@ -3692,7 +3504,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "choice",
             "tag": "Tiếng Anh 4 • Present Continuous",
             "prompt": "Look! The little baby ______ peacefully in the crib.",
@@ -3721,7 +3532,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "input",
             "tag": "Tiếng Anh 4 • Hiện tại đơn",
             "prompt": "Fill in the verb in brackets: \"My brother usually ______ (ride) his bicycle to school.\"",
@@ -3732,7 +3542,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "match",
             "tag": "Tiếng Anh 4 • Dấu hiệu thì",
             "prompt": "Match tense with its typical signal words:",
@@ -3764,7 +3573,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "true_false",
             "tag": "Tiếng Anh 4 • True / False",
             "prompt": "We use the Present Simple tense to express universal truths and facts.",
@@ -3788,7 +3596,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "choice",
             "tag": "Tiếng Anh 4 • Past Simple with was/were",
             "prompt": "Yesterday, they ______ at the National History Museum with their history teacher.",
@@ -3817,7 +3624,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "input",
             "tag": "Tiếng Anh 4 • Quá khứ đơn",
             "prompt": "Put the verb in the past: \"Last Sunday, Lan ______ (visit) her grandparents.\"",
@@ -3828,7 +3634,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "match",
             "tag": "Tiếng Anh 4 • Ghép chủ ngữ & was/were",
             "prompt": "Match subject with the correct past form of to be:",
@@ -3860,7 +3665,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "true_false",
             "tag": "Tiếng Anh 4 • True / False",
             "prompt": "In negative sentences in Past Simple with regular verbs, we use \"didn't + verb bare\".",
@@ -3884,7 +3688,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "choice",
             "tag": "Tiếng Anh 4 • Comparative Adjectives",
             "prompt": "An elephant is ______ than a zebra.",
@@ -3913,7 +3716,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "input",
             "tag": "Tiếng Anh 4 • So sánh hơn",
             "prompt": "Complete with the comparative form: \"English is ______ (easy) than Russian.\"",
@@ -3924,7 +3726,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "match",
             "tag": "Tiếng Anh 4 • Ghép tính từ so sánh",
             "prompt": "Match adjective with its comparative form:",
@@ -3956,7 +3757,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/12Ud2zzTfLz0Ex5dN7XVm68xUdfW-rneg/view",
             "type": "true_false",
             "tag": "Tiếng Anh 4 • True / False",
             "prompt": "We use \"than\" after comparative adjectives when comparing two things.",
@@ -3980,7 +3780,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "choice",
             "tag": "Toán 5 • Phép tính phân số",
             "prompt": "Tính giá trị biểu thức: 3/4 + 2/5 × 5/8 = ?",
@@ -4009,7 +3808,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "input",
             "tag": "Toán 5 • Chuyển hỗn số",
             "prompt": "Chuyển hỗn số 3 và 2/5 thành phân số có mẫu số là 5:",
@@ -4020,7 +3818,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "match",
             "tag": "Toán 5 • Ghép phép tính phân số",
             "prompt": "Nối phép tính với kết quả thu gọn:",
@@ -4052,7 +3849,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "true_false",
             "tag": "Toán 5 • Đúng / Sai",
             "prompt": "Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.",
@@ -4076,7 +3872,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "choice",
             "tag": "Toán 5 • Tỉ số phần trăm",
             "prompt": "Một lớp học có 40 học sinh, trong đó có 24 bạn nữ. Hỏi số học sinh nữ chiếm bao nhiêu phần trăm số học sinh cả lớp?",
@@ -4105,7 +3900,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "input",
             "tag": "Toán 5 • Tính giá trị phần trăm",
             "prompt": "Tìm 15% của 240 kg gạo. (chỉ điền số)",
@@ -4116,7 +3910,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "match",
             "tag": "Toán 5 • Ba dạng toán tỉ số %",
             "prompt": "Nối dạng toán với bài toán ví dụ tiêu biểu:",
@@ -4148,7 +3941,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "true_false",
             "tag": "Toán 5 • Đúng / Sai",
             "prompt": "Muốn tìm một số biết 25% của nó là 50, ta lấy: 50 : 25 × 100 = 200.",
@@ -4172,7 +3964,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "choice",
             "tag": "Toán 5 • Diện tích hình tam giác",
             "prompt": "Một hình tam giác có độ dài đáy là 12cm và chiều cao tương ứng là 8cm. Diện tích hình tam giác đó là:",
@@ -4201,7 +3992,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "input",
             "tag": "Toán 5 • Chuyển động đều",
             "prompt": "Một ô tô đi với vận tốc 60 km/giờ trong thời gian 1,5 giờ. Hỏi ô tô đã đi được quãng đường bao nhiêu ki-lô-mét?",
@@ -4212,7 +4002,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "match",
             "tag": "Toán 5 • Công thức hình học",
             "prompt": "Nối công thức với hình hình học tương ứng:",
@@ -4244,7 +4033,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "true_false",
             "tag": "Toán 5 • Đúng / Sai",
             "prompt": "Muốn tính vận tốc của một chuyển động đều, ta lấy quãng đường chia cho thời gian (v = s : t).",
@@ -4268,7 +4056,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "choice",
             "tag": "Tiếng Việt 5 • Từ đồng âm",
             "prompt": "Trong các cặp từ dưới đây, cặp từ nào là hiện tượng từ đồng âm?",
@@ -4297,7 +4084,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "input",
             "tag": "Tiếng Việt 5 • Nghĩa gốc và nghĩa chuyển",
             "prompt": "Từ \"chân\" trong câu: \"Dưới chân núi, hoa đào đang nở rộ\" được dùng theo nghĩa gốc hay nghĩa chuyển?",
@@ -4308,7 +4094,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "match",
             "tag": "Tiếng Việt 5 • Phân loại hiện tượng từ",
             "prompt": "Nối hiện tượng từ vựng với ví dụ tương ứng:",
@@ -4340,7 +4125,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "true_false",
             "tag": "Tiếng Việt 5 • Đúng / Sai",
             "prompt": "Từ đồng âm là những từ phát âm giống nhau nhưng khác hẳn nhau về nghĩa, không có mối liên hệ nào giữa các nghĩa.",
@@ -4364,7 +4148,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "choice",
             "tag": "Tiếng Việt 5 • Quan hệ từ",
             "prompt": "Điền cặp quan hệ từ biểu thị mối quan hệ nguyên nhân - kết quả thích hợp: \"...... trời mưa to bão lớn ...... chuyến bay phải tạm hoãn.\"",
@@ -4393,7 +4176,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "input",
             "tag": "Tiếng Việt 5 • Cặp quan hệ từ",
             "prompt": "Trong câu: \"Nếu bạn chăm chỉ ôn tập thì kết quả thi sẽ rất cao\", cặp quan hệ từ biểu thị mối quan hệ gì: điều kiện - kết quả hay tương phản?",
@@ -4404,7 +4186,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "match",
             "tag": "Tiếng Việt 5 • Ý nghĩa các cặp quan hệ từ",
             "prompt": "Nối cặp quan hệ từ với ý nghĩa tương ứng:",
@@ -4436,7 +4217,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "true_false",
             "tag": "Tiếng Việt 5 • Đúng / Sai",
             "prompt": "Đại từ xưng hô trong tiếng Việt rất phong phú và thể hiện thứ bậc, tình cảm thân mật của người nói.",
@@ -4460,7 +4240,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "choice",
             "tag": "Tiếng Việt 5 • Cách nối câu ghép",
             "prompt": "Câu nào dưới đây là câu ghép có các vế được nối trực tiếp bằng dấu phẩy (không dùng từ nối)?",
@@ -4489,7 +4268,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "input",
             "tag": "Tiếng Việt 5 • Đếm số vế câu ghép",
             "prompt": "Xác định số vế câu trong câu ghép sau: \"Gió thổi mạnh, mây đen kéo đến kín trời và sấm sét bắt đầu nổi lên.\"",
@@ -4500,7 +4278,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "match",
             "tag": "Tiếng Việt 5 • Cách nối câu ghép",
             "prompt": "Nối câu ghép với cách nối tương ứng:",
@@ -4532,7 +4309,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "true_false",
             "tag": "Tiếng Việt 5 • Đúng / Sai",
             "prompt": "Trong câu ghép, mỗi vế câu thường có cấu tạo như một câu đơn (đầy đủ Chủ ngữ và Vị ngữ) và diễn đạt một ý trọn vẹn.",
@@ -4556,7 +4332,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "choice",
             "tag": "Tiếng Việt 5 • Phép liên kết câu",
             "prompt": "Hai câu sau liên kết với nhau bằng cách nào: \"Hà Nội là thủ đô ngàn năm văn hiến. Nơi đây lưu giữ biết bao di tích lịch sử thiêng liêng.\"",
@@ -4585,7 +4360,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "input",
             "tag": "Tiếng Việt 5 • Phép nối liên kết",
             "prompt": "Tìm từ ngữ liên kết trong câu thứ hai: \"Trời rét đậm. Tuy nhiên, các em học sinh vùng cao vẫn chăm chỉ đến trường.\"",
@@ -4596,7 +4370,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "match",
             "tag": "Tiếng Việt 5 • Các phép liên kết câu",
             "prompt": "Nối phép liên kết với câu văn minh họa:",
@@ -4628,7 +4401,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "true_false",
             "tag": "Tiếng Việt 5 • Đúng / Sai",
             "prompt": "Phép thay thế từ ngữ giúp đoạn văn liên kết chặt chẽ mà không bị lỗi lặp từ đơn điệu.",
@@ -4652,7 +4424,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "choice",
             "tag": "Tiếng Anh 5 • Quantifiers",
             "prompt": "Fill in the blank: \"Is there ______ orange juice left in the pitcher?\"",
@@ -4681,7 +4452,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "input",
             "tag": "Tiếng Anh 5 • A few / A little",
             "prompt": "Fill in \"a few\" or \"a little\": \"We only have ______ time left before the contest starts.\"",
@@ -4692,7 +4462,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "match",
             "tag": "Tiếng Anh 5 • Cách dùng lượng từ",
             "prompt": "Match quantifier with its appropriate usage:",
@@ -4724,7 +4493,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "true_false",
             "tag": "Tiếng Anh 5 • True / False",
             "prompt": "We can use \"a lot of\" with both countable and uncountable nouns in English.",
@@ -4748,7 +4516,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "choice",
             "tag": "Tiếng Anh 5 • Future Simple",
             "prompt": "Next summer holiday, our family ______ Da Nang beach for a vacation.",
@@ -4777,7 +4544,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "input",
             "tag": "Tiếng Anh 5 • Past Simple irregular",
             "prompt": "Complete with the past form: \"Two days ago, Minh ______ (buy) a wonderful science book.\"",
@@ -4788,7 +4554,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "match",
             "tag": "Tiếng Anh 5 • Cấu trúc các thì",
             "prompt": "Match tense with its basic structure:",
@@ -4820,7 +4585,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "true_false",
             "tag": "Tiếng Anh 5 • True / False",
             "prompt": "\"Yesterday\", \"last weekend\", and \"in 2022\" are typical time adverbs for the Past Simple tense.",
@@ -4844,7 +4608,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "choice",
             "tag": "Tiếng Anh 5 • Superlative Adjectives",
             "prompt": "Mount Everest is the ______ mountain peak on Earth.",
@@ -4873,7 +4636,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "input",
             "tag": "Tiếng Anh 5 • So sánh nhất",
             "prompt": "Fill in the superlative: \"Russia is the ______ (large) country in the world by total land area.\"",
@@ -4884,7 +4646,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "match",
             "tag": "Tiếng Anh 5 • Ghép so sánh nhất bất quy tắc",
             "prompt": "Match adjective with its superlative form:",
@@ -4916,7 +4677,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "true_false",
             "tag": "Tiếng Anh 5 • True / False",
             "prompt": "We always use the definite article \"the\" before superlative adjectives in sentences.",
@@ -4940,7 +4700,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "choice",
             "tag": "Tiếng Anh 5 • Prepositions of Time",
             "prompt": "The new school year in Vietnam always starts ______ September.",
@@ -4969,7 +4728,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "input",
             "tag": "Tiếng Anh 5 • Conditional Type 1",
             "prompt": "Complete the First Conditional: \"If it rains heavily tomorrow, we ______ (stay) at home.\"",
@@ -4980,7 +4738,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "match",
             "tag": "Tiếng Anh 5 • Giới từ chỉ thời gian",
             "prompt": "Match preposition with appropriate time expressions:",
@@ -5012,7 +4769,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "true_false",
             "tag": "Tiếng Anh 5 • True / False",
             "prompt": "In First Conditional sentences, we describe real and possible future situations.",
@@ -5037,7 +4793,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "choice",
             "tag": "Toán 4 • Thời gian thế kỉ",
             "prompt": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long. Năm đó thuộc thế kỉ nào?",
@@ -5066,7 +4821,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "input",
             "tag": "Toán 4 • Đổi đơn vị khối lượng",
             "prompt": "Điền số thích hợp vào chỗ chấm: 4 tấn 25 kg = ...... kg.",
@@ -5077,7 +4831,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "match",
             "tag": "Toán 4 • Ghép số đo tương đương",
             "prompt": "Nối các số đo có giá trị bằng nhau:",
@@ -5109,7 +4862,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "true_false",
             "tag": "Toán 4 • Đúng / Sai",
             "prompt": "1 tạ bằng 10 yến và bằng 100 kg.",
@@ -5132,7 +4884,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "choice",
             "tag": "Toán 5 • Phép tính phân số",
             "prompt": "Tính giá trị biểu thức: 3/4 + 2/5 × 5/8 = ?",
@@ -5161,7 +4912,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "input",
             "tag": "Toán 5 • Chuyển hỗn số",
             "prompt": "Chuyển hỗn số 3 và 2/5 thành phân số có mẫu số là 5:",
@@ -5172,7 +4922,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "match",
             "tag": "Toán 5 • Ghép phép tính phân số",
             "prompt": "Nối phép tính với kết quả thu gọn:",
@@ -5204,7 +4953,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/17l5CmweS0H8W7Q-fZNNwlcIbXcRM579u/view",
             "type": "true_false",
             "tag": "Toán 5 • Đúng / Sai",
             "prompt": "Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.",
@@ -5227,7 +4975,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "choice",
             "tag": "Toán 4 • Tìm hai số khi biết Tổng và Hiệu",
             "prompt": "Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?",
@@ -5256,7 +5003,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "input",
             "tag": "Toán 4 • Tính số bé",
             "prompt": "Hai số có tổng bằng 90 và hiệu bằng 16. Tìm số bé.",
@@ -5267,7 +5013,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "match",
             "tag": "Toán 4 • Công thức Tổng - Hiệu",
             "prompt": "Nối công thức và bài toán tính nhanh:",
@@ -5299,7 +5044,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
-            "driveUrl": "https://drive.google.com/file/d/1zxRQT7AjFDmie5Z0X0cGUhU0JJj8_Yeo/view",
             "type": "true_false",
             "tag": "Toán 4 • Đúng / Sai",
             "prompt": "Tổng của hai số chẵn liên tiếp luôn là một số chẵn và hiệu của chúng bằng 2.",
@@ -5322,7 +5066,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "choice",
             "tag": "Tiếng Việt 3 • Biện pháp so sánh",
             "prompt": "Trong câu: \"Mặt biển sáng trong như tấm gương khổng lồ\", sự vật nào được so sánh với nhau?",
@@ -5351,7 +5094,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "input",
             "tag": "Tiếng Việt 3 • Điền từ",
             "prompt": "Điền từ so sánh thích hợp vào chỗ trống trong câu ca dao: \"Công cha ...... núi Thái Sơn / Nghĩa mẹ ...... nước trong nguồn chảy ra.\"",
@@ -5362,7 +5104,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "match",
             "tag": "Tiếng Việt 3 • Ghép nối hình ảnh so sánh",
             "prompt": "Nối hình ảnh so sánh với vế tương ứng trong thơ ca thiếu nhi:",
@@ -5394,7 +5135,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
-            "driveUrl": "https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah",
             "type": "true_false",
             "tag": "Tiếng Việt 3 • Đúng / Sai",
             "prompt": "Câu thơ: \"Quả dừa - đàn lợn con nằm trên cao\" sử dụng dấu gạch ngang (-) để thay thế cho từ so sánh.",
@@ -5417,7 +5157,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "choice",
             "tag": "Tiếng Việt 5 • Từ đồng âm",
             "prompt": "Trong các cặp từ dưới đây, cặp từ nào là hiện tượng từ đồng âm?",
@@ -5446,7 +5185,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "input",
             "tag": "Tiếng Việt 5 • Nghĩa gốc và nghĩa chuyển",
             "prompt": "Từ \"chân\" trong câu: \"Dưới chân núi, hoa đào đang nở rộ\" được dùng theo nghĩa gốc hay nghĩa chuyển?",
@@ -5457,7 +5195,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "match",
             "tag": "Tiếng Việt 5 • Phân loại hiện tượng từ",
             "prompt": "Nối hiện tượng từ vựng với ví dụ tương ứng:",
@@ -5489,7 +5226,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
-            "driveUrl": "https://drive.google.com/file/d/1GQwBLGaY-abh0MaNgjagSoI9EquFBcRq/view",
             "type": "true_false",
             "tag": "Tiếng Việt 5 • Đúng / Sai",
             "prompt": "Từ đồng âm là những từ phát âm giống nhau nhưng khác hẳn nhau về nghĩa, không có mối liên hệ nào giữa các nghĩa.",
@@ -5512,7 +5248,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "choice",
             "tag": "Tiếng Anh 3 • How Much / How Many",
             "prompt": "Choose the correct question word: \"______ pens do you have in your pencil case?\"",
@@ -5541,7 +5276,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "input",
             "tag": "Tiếng Anh 3 • Điền từ",
             "prompt": "Complete the question: \"How ______ water do you drink every day?\"",
@@ -5552,7 +5286,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "match",
             "tag": "Tiếng Anh 3 • Ghép câu hỏi & trả lời",
             "prompt": "Match questions with their appropriate answers:",
@@ -5584,7 +5317,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1ikxhqfC_56bulH155GxwjXXZqY3epcdt/view",
             "type": "true_false",
             "tag": "Tiếng Anh 3 • True / False",
             "prompt": "We use \"How much\" to ask about the price of an item in a store.",
@@ -5607,7 +5339,6 @@ const appState = {
       {
             "id": 1,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "choice",
             "tag": "Tiếng Anh 5 • Quantifiers",
             "prompt": "Fill in the blank: \"Is there ______ orange juice left in the pitcher?\"",
@@ -5636,7 +5367,6 @@ const appState = {
       {
             "id": 2,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "input",
             "tag": "Tiếng Anh 5 • A few / A little",
             "prompt": "Fill in \"a few\" or \"a little\": \"We only have ______ time left before the contest starts.\"",
@@ -5647,7 +5377,6 @@ const appState = {
       {
             "id": 3,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "match",
             "tag": "Tiếng Anh 5 • Cách dùng lượng từ",
             "prompt": "Match quantifier with its appropriate usage:",
@@ -5679,7 +5408,6 @@ const appState = {
       {
             "id": 4,
             "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
-            "driveUrl": "https://drive.google.com/file/d/1wcWddfep8lfALJHzDyBAbqPtA3Pxd7KK/view",
             "type": "true_false",
             "tag": "Tiếng Anh 5 • True / False",
             "prompt": "We can use \"a lot of\" with both countable and uncountable nouns in English.",
@@ -5725,7 +5453,6 @@ function navigateTo(screenId) {
     'screen-home',
     'screen-subject-detail',
     'screen-practice-hub',
-    'screen-books-shelf',
     'screen-exercise-room',
     'screen-analytics',
     'screen-badges'
@@ -5867,42 +5594,6 @@ function openSubjectPage(subjectKey) {
   if (container) {
     container.innerHTML = '';
 
-    // Card giới thiệu tài liệu bồi dưỡng chính thức từ Google Drive
-    if (sub.bookRef) {
-      const sourceCard = document.createElement('div');
-      sourceCard.className = 'p-5 bg-gradient-to-r from-sky-50 via-indigo-50 to-amber-50 rounded-3xl border-2 border-sky-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-6 shadow-sm';
-      sourceCard.innerHTML = `
-        <div class="flex items-center gap-4">
-          <div class="w-14 h-14 rounded-2xl bg-white border border-sky-200 flex items-center justify-center text-3xl shadow-xs shrink-0">
-            ${sub.icon}
-          </div>
-          <div class="space-y-1">
-            <div class="flex items-center gap-2">
-              <span class="text-xs font-black bg-sky-200/80 text-sky-900 px-2.5 py-0.5 rounded-md uppercase tracking-wider">Tài liệu chính thức</span>
-              <span class="text-xs font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded-md">Lớp ${appState.studentGrade}</span>
-            </div>
-            <h4 class="font-black text-slate-900 text-lg leading-snug">${sub.bookRef.name}</h4>
-            <p class="text-xs font-bold text-slate-600">${sub.bookRef.author}</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-2 shrink-0 self-end md:self-auto">
-          ${sub.bookRef.folderUrl ? `
-            <a href="${sub.bookRef.folderUrl}" target="_blank" rel="noopener noreferrer"
-              class="px-4 py-2.5 bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-black text-xs rounded-xl transition flex items-center gap-1.5 shadow-xs">
-              <span>Thư mục Drive</span>
-              <span>📁</span>
-            </a>
-          ` : ''}
-          <a href="${sub.bookRef.driveUrl}" target="_blank" rel="noopener noreferrer" 
-            class="px-5 py-2.5 bg-[#62C9F3] hover:bg-[#4ebfe8] text-slate-900 font-black text-xs rounded-xl transition flex items-center gap-1.5 shadow-xs clay-btn">
-            <span>Mở Sách PDF Trên Drive</span>
-            <span>↗</span>
-          </a>
-        </div>
-      `;
-      container.appendChild(sourceCard);
-    }
-
     sub.lessons.forEach(l => {
       const card = document.createElement('div');
       
@@ -5954,159 +5645,6 @@ function openSubjectPage(subjectKey) {
   navigateTo('screen-subject-detail');
 }
 
-// Mở Tủ Sách & Tài Liệu Google Drive
-function openBooksShelf(tab = 'vietnam-advanced') {
-  appState.booksShelfActiveTab = tab;
-  renderBooksShelfGrid();
-  navigateTo('screen-books-shelf');
-}
-
-function switchBooksShelfTab(tab) {
-  appState.booksShelfActiveTab = tab;
-  renderBooksShelfGrid();
-}
-
-function renderBooksShelfGrid() {
-  const container = document.getElementById('books-shelf-grid');
-  const tabsContainer = document.getElementById('books-shelf-tabs');
-  if (!container) return;
-
-  if (tabsContainer) {
-    tabsContainer.innerHTML = `
-      <div class="flex items-center gap-2">
-        <span class="text-sm font-black bg-sky-100 text-sky-900 px-4 py-2 rounded-2xl border border-sky-200">
-          🇻🇳 Toàn bộ Sách Bồi Dưỡng Lớp 3, 4, 5 (Chính thức từ Google Drive)
-        </span>
-      </div>
-    `;
-  }
-
-  container.innerHTML = '';
-  // Hiển thị các bộ sách bồi dưỡng nạp từ Google Drive: Toán Trần Diên Hiển, Tiếng Việt Lê Phương Nga, HSG Tiếng Anh
-  const mat = appState.driveStudyMaterials;
-  const booksList = [
-    {
-      subject: 'Toán Học',
-      title: mat.toan[3].title,
-      author: mat.toan[3].author,
-      grade: 'Lớp 3',
-      driveUrl: mat.toan[3].driveUrl,
-      icon: '📐',
-      lessonId: 'toan-g3-w1',
-      desc: mat.toan[3].focus
-    },
-    {
-      subject: 'Toán Học',
-      title: mat.toan[4].title,
-      author: mat.toan[4].author,
-      grade: 'Lớp 4',
-      driveUrl: mat.toan[4].driveUrl,
-      icon: '📐',
-      lessonId: 'toan-g4-w1',
-      desc: mat.toan[4].focus
-    },
-    {
-      subject: 'Toán Học',
-      title: mat.toan[5].title,
-      author: mat.toan[5].author,
-      grade: 'Lớp 5',
-      driveUrl: mat.toan[5].driveUrl,
-      icon: '📐',
-      lessonId: 'toan-g5-w1',
-      desc: mat.toan[5].focus
-    },
-    {
-      subject: 'Tiếng Việt',
-      title: mat.tiengViet[4].title,
-      author: mat.tiengViet[4].author,
-      grade: 'Lớp 4',
-      driveUrl: mat.tiengViet[4].driveUrl,
-      icon: '📖',
-      lessonId: 'tv-g4-b1',
-      desc: mat.tiengViet[4].focus
-    },
-    {
-      subject: 'Tiếng Việt',
-      title: mat.tiengViet[5].title,
-      author: mat.tiengViet[5].author,
-      grade: 'Lớp 5',
-      driveUrl: mat.tiengViet[5].driveUrl,
-      icon: '📖',
-      lessonId: 'tv-g5-b1',
-      desc: mat.tiengViet[5].focus
-    },
-    {
-      subject: 'Tiếng Anh',
-      title: mat.tiengAnh[3].title,
-      author: mat.tiengAnh[3].curriculum,
-      grade: 'Lớp 3',
-      driveUrl: mat.tiengAnh[3].driveUrl,
-      folderUrl: mat.tiengAnh.folderUrl,
-      icon: '🌍',
-      lessonId: 'eng-g3-u1',
-      desc: mat.tiengAnh[3].focus
-    },
-    {
-      subject: 'Tiếng Anh',
-      title: mat.tiengAnh[4].title,
-      author: mat.tiengAnh[4].curriculum,
-      grade: 'Lớp 4',
-      driveUrl: mat.tiengAnh[4].driveUrl,
-      folderUrl: mat.tiengAnh.folderUrl,
-      icon: '🌍',
-      lessonId: 'eng-g4-u1',
-      desc: mat.tiengAnh[4].focus
-    },
-    {
-      subject: 'Tiếng Anh',
-      title: mat.tiengAnh[5].title,
-      author: mat.tiengAnh[5].curriculum,
-      grade: 'Lớp 5',
-      driveUrl: mat.tiengAnh[5].driveUrl,
-      folderUrl: mat.tiengAnh.folderUrl,
-      icon: '🌍',
-      lessonId: 'eng-g5-u1',
-      desc: mat.tiengAnh[5].focus
-    }
-  ];
-
-  booksList.forEach(b => {
-    const card = document.createElement('div');
-    card.className = 'clay-card p-6 bg-white hover:border-sky-300 transition flex flex-col justify-between space-y-4 shadow-sm';
-    card.innerHTML = `
-      <div class="space-y-3">
-        <div class="flex items-center justify-between">
-          <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-sky-100 text-sky-900">${b.grade}</span>
-          <span class="text-xs font-extrabold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">${b.subject}</span>
-        </div>
-        <div class="flex items-center gap-3">
-          <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl shrink-0">
-            ${b.icon}
-          </div>
-          <div>
-            <h4 class="font-black text-slate-900 text-base leading-snug">${b.title}</h4>
-            <p class="text-xs text-slate-500 font-bold">${b.author}</p>
-          </div>
-        </div>
-        <p class="text-xs text-slate-600 font-medium leading-relaxed">${b.desc}</p>
-      </div>
-
-      <div class="pt-2 border-t border-slate-100 flex items-center gap-2">
-        <a href="${b.driveUrl}" target="_blank" rel="noopener noreferrer" 
-          class="flex-1 py-2.5 bg-slate-100 hover:bg-sky-100 text-slate-800 rounded-xl font-black text-xs transition text-center flex items-center justify-center gap-1 border border-slate-200">
-          <span>Xem PDF</span>
-          <span>↗</span>
-        </a>
-        <button onclick="startExerciseRoom('${b.lessonId}')" class="flex-1 py-2.5 bg-[#62C9F3] hover:bg-[#4db6e2] text-slate-900 font-black text-xs rounded-xl clay-btn text-center flex items-center justify-center gap-1">
-          <span>Luyện Tập</span>
-          <span>➔</span>
-        </button>
-      </div>
-    `;
-    container.appendChild(card);
-  });
-}
-
 // Mở Trung Tâm Luyện Tập (Practice Hub)
 function openPracticeHub() {
   const g = appState.studentGrade;
@@ -6129,7 +5667,7 @@ function openPracticeHub() {
             <span class="text-xs font-bold text-slate-500">Toán Lớp ${g}</span>
           </div>
           <h4 class="font-black text-slate-900 text-base leading-snug">${toanFirstLesson.title}</h4>
-          <p class="text-xs text-slate-600 font-medium">Bồi dưỡng Toán ${g} (PGS.TS Trần Diên Hiển)</p>
+          <p class="text-xs text-slate-600 font-medium">Chuyên đề trọng tâm Toán ${g}</p>
         </div>
         <button onclick="startExerciseRoom('${toanFirstLesson.id}')" class="w-full py-2.5 bg-[#62C9F3] text-slate-900 font-black text-xs rounded-xl clay-btn">
           Vào Luyện Tập ➔
@@ -6144,7 +5682,7 @@ function openPracticeHub() {
             <span class="text-xs font-bold text-slate-500">Tiếng Việt Lớp ${g}</span>
           </div>
           <h4 class="font-black text-slate-900 text-base leading-snug">${tvFirstLesson.title}</h4>
-          <p class="text-xs text-slate-600 font-medium">Tiếng Việt ${g} Nâng Cao (GS.TS Lê Phương Nga)</p>
+          <p class="text-xs text-slate-600 font-medium">Chuyên đề nâng cao Tiếng Việt ${g}</p>
         </div>
         <button onclick="startExerciseRoom('${tvFirstLesson.id}')" class="w-full py-2.5 bg-[#FF91A8] text-slate-900 font-black text-xs rounded-xl clay-btn">
           Vào Luyện Tập ➔
@@ -6159,7 +5697,7 @@ function openPracticeHub() {
             <span class="text-xs font-bold text-slate-500">Tiếng Anh Lớp ${g}</span>
           </div>
           <h4 class="font-black text-slate-900 text-base leading-snug">${engFirstLesson.title}</h4>
-          <p class="text-xs text-slate-600 font-medium">Bồi dưỡng HSG Tiếng Anh ${g} (Global Success)</p>
+          <p class="text-xs text-slate-600 font-medium">Chuyên đề học tốt Tiếng Anh ${g}</p>
         </div>
         <button onclick="startExerciseRoom('${engFirstLesson.id}')" class="w-full py-2.5 bg-[#78D9AE] text-slate-900 font-black text-xs rounded-xl clay-btn">
           Vào Luyện Tập ➔
@@ -6246,15 +5784,8 @@ function renderCurrentQuestion() {
 
   const bookTagEl = document.getElementById('ex-source-book-tag');
   if (bookTagEl) {
-    if (q.bookTitle) {
-      bookTagEl.classList.remove('hidden');
-      bookTagEl.innerHTML = `
-        <span class="text-xs font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded-md">${q.bookTitle}</span>
-        ${q.driveUrl ? `<a href="${q.driveUrl}" target="_blank" rel="noopener noreferrer" class="text-xs text-sky-600 hover:underline font-bold">Mở PDF ↗</a>` : ''}
-      `;
-    } else {
-      bookTagEl.classList.add('hidden');
-    }
+    bookTagEl.classList.add('hidden');
+    bookTagEl.innerHTML = '';
   }
 
   const tagEl = document.getElementById('ex-tag');

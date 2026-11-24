@@ -235,22 +235,13 @@
         <span class="text-2xl">✨</span>
         <h3 class="text-xl font-black text-slate-800">Tiện Ích & Hoạt Động</h3>
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6">
-        
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <!-- Mục 4: Luyện Tập -->
         <div onclick="openPracticeHub()" class="clay-card clay-card-interactive p-6 bg-gradient-to-b from-white to-blue-50 border-3 border-blue-400/70 flex flex-col items-center justify-center text-center space-y-3 min-h-[180px]">
           <div class="w-18 h-18 rounded-2xl bg-blue-400 flex items-center justify-center text-4xl shadow-md text-white">
             ✏️
           </div>
           <h3 class="text-xl font-black text-slate-800">Luyện Tập</h3>
-        </div>
-
-        <!-- Mục 5: Tủ Sách Google Drive -->
-        <div onclick="openBooksShelf()" class="clay-card clay-card-interactive p-6 bg-gradient-to-b from-white to-teal-50 border-3 border-teal-400/70 flex flex-col items-center justify-center text-center space-y-3 min-h-[180px]">
-          <div class="w-18 h-18 rounded-2xl bg-teal-400 flex items-center justify-center text-4xl shadow-md text-white">
-            📚
-          </div>
-          <h3 class="text-xl font-black text-slate-800">Tủ Sách</h3>
         </div>
 
         <!-- Mục 6: Kỹ Năng -->
@@ -342,48 +333,7 @@
     </section>
 
 
-  <!-- ========================================================
-       3C. TRANG CON: TỦ SÁCH & TÀI LIỆU NÂNG CAO (GOOGLE DRIVE)
-       ======================================================== -->
-  <section id="screen-books-shelf" class="flex-1 w-full max-w-6xl mx-auto px-6 py-8 space-y-6 hidden">
-    
-    <div class="flex items-center justify-between">
-      <button onclick="navigateTo('screen-home')" class="px-4 py-2 bg-white rounded-2xl border border-slate-200 clay-option text-xs font-black text-slate-700 flex items-center gap-2">
-        <span>←</span>
-        <span>Quay lại</span>
-      </button>
-
-      <div class="flex items-center gap-3">
-        <span class="text-4xl">📚</span>
-        <h3 class="text-3xl font-black text-slate-800">Tủ Sách & Tài Liệu Nâng Cao</h3>
-      </div>
-    </div>
-
-    <!-- Acknowledgement Banner -->
-    <div class="p-6 bg-gradient-to-r from-amber-50 via-sky-50 to-emerald-50 rounded-3xl border-2 border-amber-200 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-      <div class="flex items-center gap-4">
-        <div class="w-14 h-14 rounded-2xl bg-[#FFC85A] flex items-center justify-center text-3xl shadow-sm shrink-0">
-          📚
-        </div>
-        <div>
-          <h4 class="text-xl font-black text-slate-900">Tủ Tài Liệu & Sách Bồi Dưỡng Lớp 3, 4, 5</h4>
-          <p class="text-sm font-bold text-slate-700">Tích hợp đầy đủ sách bồi dưỡng chính thức: Toán (PGS.TS Trần Diên Hiển), Tiếng Việt (GS.TS Lê Phương Nga) & HSG Tiếng Anh (Global Success)</p>
-        </div>
-      </div>
-      <a href="https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah" target="_blank" rel="noopener noreferrer"
-        class="px-5 py-3 bg-white hover:bg-sky-50 border border-sky-300 text-xs font-black text-sky-900 rounded-2xl transition flex items-center gap-2 shadow-xs shrink-0">
-        <span>Thư mục Drive Tiếng Anh 3-4-5</span>
-        <span>📁</span>
-      </a>
-    </div>
-
-    <!-- Tabs Container -->
-    <div id="books-shelf-tabs" class="pt-2"></div>
-
-    <!-- 10 Books Grid Container -->
-    <div id="books-shelf-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-
-  </section>
+  
 
 
   <!-- ========================================================

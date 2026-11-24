@@ -786,7 +786,7 @@ async function generateReportDocx() {
                   createCell('01', 600),
                   createCell('180 Days of Math', 2600),
                   createCell('Lớp 1 – 6', 1600),
-                  createCell('Luyện tập toán hàng ngày theo xoắn ốc.\nDrive: https://drive.google.com/drive/folders/17WGgnsvjxEBInLlCLll7rbGKPg_jAfQ9', 4226)
+                  createCell('Luyện tập toán hàng ngày theo xoắn ốc.', 4226)
                 ]
               }),
               new TableRow({
@@ -794,7 +794,7 @@ async function generateReportDocx() {
                   createCell('02', 600, false, true),
                   createCell('Common Core Math 4 Today', 2600, false, true),
                   createCell('Lớp K – 3', 1600, false, true),
-                  createCell('Chuẩn năng lực cốt lõi Hoa Kỳ.\nDrive: https://drive.google.com/drive/folders/1hRoiefN8-ZS7m-hcuUrmzcsm4vq3ofxT', 4226, false, true)
+                  createCell('Chuẩn năng lực cốt lõi Hoa Kỳ.', 4226, false, true)
                 ]
               }),
               new TableRow({
@@ -802,7 +802,7 @@ async function generateReportDocx() {
                   createCell('03', 600),
                   createCell('In Step Maths (Singapore)', 2600),
                   createCell('Lớp 6A & 6B', 1600),
-                  createCell('Giáo trình chuẩn Bộ GD Singapore (CPA Method).\nDrive: https://drive.google.com/drive/folders/1SoSALJArxQGV15PbqcZZW0Ev5nFZ7ARM', 4226)
+                  createCell('Giáo trình chuẩn Bộ GD Singapore (CPA Method).', 4226)
                 ]
               }),
               new TableRow({
@@ -810,7 +810,7 @@ async function generateReportDocx() {
                   createCell('04', 600, false, true),
                   createCell('Master Skills Math', 2600, false, true),
                   createCell('Lớp K – 5', 1600, false, true),
-                  createCell('Kỹ năng toán toàn diện của Mỹ.\nDrive: https://drive.google.com/drive/folders/1DMgpHf-GqpCdrV5EBxqcKxl3ZccB2hFu', 4226, false, true)
+                  createCell('Kỹ năng toán toàn diện của Mỹ.', 4226, false, true)
                 ]
               }),
               new TableRow({
@@ -818,7 +818,7 @@ async function generateReportDocx() {
                   createCell('05', 600),
                   createCell('Math Guide G1-G6', 2600),
                   createCell('Lớp 1 – 6', 1600),
-                  createCell('Sổ tay phương pháp và chiến lược Singapore.\nDrive: https://drive.google.com/drive/folders/1fuz2THBSHduFAz3gifiNZ61H8ksTzmMS', 4226)
+                  createCell('Sổ tay phương pháp và chiến lược Singapore.', 4226)
                 ]
               }),
               new TableRow({
@@ -826,7 +826,7 @@ async function generateReportDocx() {
                   createCell('06', 600, false, true),
                   createCell('MATH IN MY WORLD', 2600, false, true),
                   createCell('Lớp 1 – 5', 1600, false, true),
-                  createCell('Toán ứng dụng thực tế đời sống quanh em.\nDrive: https://drive.google.com/drive/folders/1fME5VvuiOA3_dVFqNkRMS-drcJJEr8ew', 4226, false, true)
+                  createCell('Toán ứng dụng thực tế đời sống quanh em.', 4226, false, true)
                 ]
               }),
               new TableRow({
@@ -834,7 +834,7 @@ async function generateReportDocx() {
                   createCell('07', 600),
                   createCell('Math Minutes G1-G7', 2600),
                   createCell('Lớp 1 – 7', 1600),
-                  createCell('Phản xạ tính nhẩm tốc độ 1 phút mỗi ngày.\nDrive: https://drive.google.com/drive/folders/17zm_9wurRReNK-M9kEgZLbU8SjBPHZb3', 4226)
+                  createCell('Phản xạ tính nhẩm tốc độ 1 phút mỗi ngày.', 4226)
                 ]
               }),
               new TableRow({
@@ -842,7 +842,7 @@ async function generateReportDocx() {
                   createCell('08', 600, false, true),
                   createCell('OXFORD MATHEMATICS PYP', 2600, false, true),
                   createCell('Lớp K – 6', 1600, false, true),
-                  createCell('Toán Tú tài Quốc tế Oxford IB PYP.\nDrive: https://drive.google.com/drive/folders/1PV5UWBQ7p5ymsZXY3TWQGQCQxV7D096b', 4226, false, true)
+                  createCell('Toán Tú tài Quốc tế Oxford IB PYP.', 4226, false, true)
                 ]
               }),
               new TableRow({
@@ -850,7 +850,7 @@ async function generateReportDocx() {
                   createCell('09', 600),
                   createCell('Singapore Math Challenge', 2600),
                   createCell('Lớp 2 – 5', 1600),
-                  createCell('Toán có lời văn nâng cao & Bar Model.\nDrive: https://drive.google.com/drive/folders/1-7Hk2K_d-AcrI7WFZevx5rqG2iHDSAF8', 4226)
+                  createCell('Toán có lời văn nâng cao & Bar Model.', 4226)
                 ]
               }),
               new TableRow({
@@ -858,7 +858,7 @@ async function generateReportDocx() {
                   createCell('10', 600, false, true),
                   createCell('BỘ SÁCH TOÁN SING', 2600, false, true),
                   createCell('Level 1 – 4', 1600, false, true),
-                  createCell('Tư duy logic Olympic Toán Singapore.\nDrive: https://drive.google.com/drive/folders/1kJrumlwqwdx7wH4CHNZA3dBV-duCoThM', 4226, false, true)
+                  createCell('Tư duy logic Olympic Toán Singapore.', 4226, false, true)
                 ]
               })
             ]
