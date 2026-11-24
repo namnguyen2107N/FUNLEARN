@@ -1,4 +1,4 @@
-# 🚀 Funlearn – Học Vui Mỗi Ngày
+# 🚀 FUNLEARN - Học vui mỗi ngày
 
 > **Nền tảng học tập tương tác liên môn tích hợp Toán – Tiếng Việt – Tiếng Anh dành cho học sinh Tiểu học (Khối 3, 4, 5)**
 
