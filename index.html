@@ -100,15 +100,11 @@
           <span class="text-[#62C9F3] underline decoration-[#FFC85A] decoration-wavy decoration-4">Học Vui Mỗi Ngày</span>
         </h2>
 
-        <!-- 4 Items: CHỈ ICON VÀ TIÊU ĐỀ -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-lg pt-2">
+        <!-- 3 Môn Học: TOÁN - VĂN - ANH -->
+        <div class="grid grid-cols-3 gap-4 max-w-lg pt-2">
           <div class="p-4 bg-white/90 rounded-2xl border-2 border-sky-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
             <span class="text-4xl">📐</span>
             <span class="text-base font-black text-slate-800">Toán Học</span>
-          </div>
-          <div class="p-4 bg-white/90 rounded-2xl border-2 border-amber-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
-            <span class="text-4xl">🧮</span>
-            <span class="text-base font-black text-slate-800">Toán Tiếng Anh</span>
           </div>
           <div class="p-4 bg-white/90 rounded-2xl border-2 border-pink-200 text-center shadow-xs flex flex-col items-center justify-center space-y-2">
             <span class="text-4xl">📖</span>
@@ -142,7 +138,6 @@
                   <span class="text-xs font-bold text-slate-500">Toán • Tiếng Việt • Tiếng Anh 3</span>
                 </div>
               </div>
-              <span class="text-sky-600 font-black text-xl group-hover:translate-x-1 transition">➔</span>
             </div>
 
             <div onclick="selectGrade(4)" id="grade-card-4" class="p-4 rounded-2xl border-2 border-slate-200 bg-white hover:border-[#FF91A8] hover:bg-pink-50/50 cursor-pointer transition flex items-center justify-between group profile-card">
@@ -155,7 +150,6 @@
                   <span class="text-xs font-bold text-slate-500">Toán • Tiếng Việt • Tiếng Anh 4</span>
                 </div>
               </div>
-              <span class="text-slate-400 group-hover:translate-x-1 transition font-bold text-xl">➔</span>
             </div>
 
             <div onclick="selectGrade(5)" id="grade-card-5" class="p-4 rounded-2xl border-2 border-slate-200 bg-white hover:border-[#FFC85A] hover:bg-amber-50/50 cursor-pointer transition flex items-center justify-between group profile-card">
@@ -168,7 +162,6 @@
                   <span class="text-xs font-bold text-slate-500">Toán • Tiếng Việt • Tiếng Anh 5</span>
                 </div>
               </div>
-              <span class="text-slate-400 group-hover:translate-x-1 transition font-bold text-xl">➔</span>
             </div>
           </div>
 
@@ -184,7 +177,7 @@
     </main>
 
     <footer class="w-full px-8 py-4 border-t border-amber-200/60 bg-white/60 text-center text-xs text-slate-500 z-20 font-bold">
-      © 2026 Funlearn (Toán – Tiếng Việt – Tiếng Anh) – Nguồn tài liệu chính thức: Bồi dưỡng Toán 3-4-5 (PGS.TS Trần Diên Hiển), Tiếng Việt Nâng cao (GS.TS Lê Phương Nga), HSG Tiếng Anh (Global Success) & 10 Bộ Sách Quốc Tế
+      © 2026 Funlearn (Toán – Tiếng Việt – Tiếng Anh) – Nguồn tài liệu chính thức: Bồi dưỡng Toán 3-4-5 (PGS.TS Trần Diên Hiển), Tiếng Việt Nâng cao (GS.TS Lê Phương Nga) & HSG Tiếng Anh (Global Success)
     </footer>
 
   </section>
@@ -204,73 +197,82 @@
       </h2>
     </div>
 
-    <!-- 8 MỤC LỚN: CHỈ CÓ ICON VÀ TIÊU ĐỀ (TUYỆT ĐỐI KHÔNG CHÚ THÍCH) -->
-    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
-      
-      <!-- Mục 1: Môn Toán -->
-      <div onclick="openSubjectPage('toan')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-sky-50 border-3 border-[#62C9F3]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-[#62C9F3] flex items-center justify-center text-5xl shadow-md">
-          📐
-        </div>
-        <h3 class="text-2xl font-black text-slate-800">Toán Học</h3>
+    <!-- 3 MÔN HỌC TRỌNG TÂM: TOÁN - VĂN - ANH -->
+    <div class="space-y-4">
+      <div class="flex items-center gap-2 border-b border-amber-200/60 pb-2">
+        <span class="text-2xl">📚</span>
+        <h3 class="text-xl font-black text-slate-800">Ba Môn Học Trọng Tâm</h3>
       </div>
-
-      <!-- Mục 2: Toán Tiếng Anh (10 Bộ Sách Chuẩn Quốc Tế) -->
-      <div onclick="openSubjectPage('toan-tieng-anh')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-amber-50 border-3 border-[#FFC85A]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-[#FFC85A] flex items-center justify-center text-5xl shadow-md">
-          🧮
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        
+        <!-- Mục 1: Môn Toán -->
+        <div onclick="openSubjectPage('toan')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-sky-50 border-3 border-[#62C9F3]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[220px]">
+          <div class="w-24 h-24 rounded-3xl bg-[#62C9F3] flex items-center justify-center text-5xl shadow-md">
+            📐
+          </div>
+          <h3 class="text-2xl font-black text-slate-800">Toán Học</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Toán Tiếng Anh</h3>
-      </div>
 
-      <!-- Mục 3: Tiếng Việt -->
-      <div onclick="openSubjectPage('tieng-viet')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-pink-50 border-3 border-[#FF91A8]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-[#FF91A8] flex items-center justify-center text-5xl shadow-md">
-          📖
+        <!-- Mục 2: Tiếng Việt (Văn) -->
+        <div onclick="openSubjectPage('tieng-viet')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-pink-50 border-3 border-[#FF91A8]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[220px]">
+          <div class="w-24 h-24 rounded-3xl bg-[#FF91A8] flex items-center justify-center text-5xl shadow-md">
+            📖
+          </div>
+          <h3 class="text-2xl font-black text-slate-800">Tiếng Việt</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Tiếng Việt</h3>
-      </div>
 
-      <!-- Mục 4: Tiếng Anh -->
-      <div onclick="openSubjectPage('tieng-anh')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-emerald-50 border-3 border-[#78D9AE]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-[#78D9AE] flex items-center justify-center text-5xl shadow-md">
-          🌍
+        <!-- Mục 3: Tiếng Anh -->
+        <div onclick="openSubjectPage('tieng-anh')" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-emerald-50 border-3 border-[#78D9AE]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[220px]">
+          <div class="w-24 h-24 rounded-3xl bg-[#78D9AE] flex items-center justify-center text-5xl shadow-md">
+            🌍
+          </div>
+          <h3 class="text-2xl font-black text-slate-800">Tiếng Anh</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Tiếng Anh</h3>
-      </div>
 
-      <!-- Mục 5: Luyện Tập -->
-      <div onclick="openPracticeHub()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-blue-50 border-3 border-blue-400/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-blue-400 flex items-center justify-center text-5xl shadow-md text-white">
-          ✏️
+      </div>
+    </div>
+
+    <!-- CÁC TIỆN ÍCH HỌC TẬP -->
+    <div class="space-y-4 pt-2">
+      <div class="flex items-center gap-2 border-b border-amber-200/60 pb-2">
+        <span class="text-2xl">✨</span>
+        <h3 class="text-xl font-black text-slate-800">Tiện Ích & Hoạt Động</h3>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6">
+        
+        <!-- Mục 4: Luyện Tập -->
+        <div onclick="openPracticeHub()" class="clay-card clay-card-interactive p-6 bg-gradient-to-b from-white to-blue-50 border-3 border-blue-400/70 flex flex-col items-center justify-center text-center space-y-3 min-h-[180px]">
+          <div class="w-18 h-18 rounded-2xl bg-blue-400 flex items-center justify-center text-4xl shadow-md text-white">
+            ✏️
+          </div>
+          <h3 class="text-xl font-black text-slate-800">Luyện Tập</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Luyện Tập</h3>
-      </div>
 
-      <!-- Mục 6: Tủ Sách Google Drive (10 Bộ Sách Toán) -->
-      <div onclick="openBooksShelf()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-teal-50 border-3 border-teal-400/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-teal-400 flex items-center justify-center text-5xl shadow-md text-white">
-          📚
+        <!-- Mục 5: Tủ Sách Google Drive -->
+        <div onclick="openBooksShelf()" class="clay-card clay-card-interactive p-6 bg-gradient-to-b from-white to-teal-50 border-3 border-teal-400/70 flex flex-col items-center justify-center text-center space-y-3 min-h-[180px]">
+          <div class="w-18 h-18 rounded-2xl bg-teal-400 flex items-center justify-center text-4xl shadow-md text-white">
+            📚
+          </div>
+          <h3 class="text-xl font-black text-slate-800">Tủ Sách</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Tủ Sách</h3>
-      </div>
 
-      <!-- Mục 7: Kỹ Năng -->
-      <div onclick="openAnalyticsPage()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-purple-50 border-3 border-[#A99AF5]/70 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-[#A99AF5] flex items-center justify-center text-5xl shadow-md">
-          📊
+        <!-- Mục 6: Kỹ Năng -->
+        <div onclick="openAnalyticsPage()" class="clay-card clay-card-interactive p-6 bg-gradient-to-b from-white to-purple-50 border-3 border-[#A99AF5]/70 flex flex-col items-center justify-center text-center space-y-3 min-h-[180px]">
+          <div class="w-18 h-18 rounded-2xl bg-[#A99AF5] flex items-center justify-center text-4xl shadow-md">
+            📊
+          </div>
+          <h3 class="text-xl font-black text-slate-800">Kỹ Năng</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Kỹ Năng</h3>
-      </div>
 
-      <!-- Mục 8: Thành Tích -->
-      <div onclick="openBadgesPage()" class="clay-card clay-card-interactive p-8 bg-gradient-to-b from-white to-yellow-50 border-3 border-amber-300 flex flex-col items-center justify-center text-center space-y-4 min-h-[200px]">
-        <div class="w-24 h-24 rounded-3xl bg-amber-400 flex items-center justify-center text-5xl shadow-md">
-          🏆
+        <!-- Mục 7: Thành Tích -->
+        <div onclick="openBadgesPage()" class="clay-card clay-card-interactive p-6 bg-gradient-to-b from-white to-yellow-50 border-3 border-amber-300 flex flex-col items-center justify-center text-center space-y-3 min-h-[180px]">
+          <div class="w-18 h-18 rounded-2xl bg-amber-400 flex items-center justify-center text-4xl shadow-md">
+            🏆
+          </div>
+          <h3 class="text-xl font-black text-slate-800">Thành Tích</h3>
         </div>
-        <h3 class="text-2xl font-black text-slate-800">Thành Tích</h3>
-      </div>
 
+      </div>
     </div>
 
   </section>
@@ -340,88 +342,7 @@
       </div>
     </div>
 
-    <!-- Section 2: 10 Bộ Sách Toán Tiếng Anh Quốc Tế -->
-    <div class="clay-card p-6 space-y-4">
-      <div class="flex items-center justify-between border-b border-slate-100 pb-3">
-        <div class="flex items-center gap-2 font-black text-slate-800 text-lg">
-          <span class="text-2xl">🇬🇧</span>
-          <span>10 Bộ Sách Toán Tiếng Anh (Nguồn: Phạm Thuý)</span>
-        </div>
-        <button onclick="openBooksShelf()" class="text-xs font-bold text-sky-600 hover:underline">
-          Tủ sách PDF ➔
-        </button>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
-          <div class="space-y-1">
-            <div class="text-2xl">📅</div>
-            <h4 class="font-black text-slate-800 text-base">180 Days of Math</h4>
-            <p class="text-xs text-slate-500 font-medium">Toán hàng ngày theo xoắn ốc</p>
-          </div>
-          <button onclick="startExerciseRoom('toan-sing-180days')" class="w-full py-2 bg-[#62C9F3] text-slate-900 font-black text-xs rounded-xl clay-btn">
-            Luyện Tập ➔
-          </button>
-        </div>
-
-        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
-          <div class="space-y-1">
-            <div class="text-2xl">🇸🇬</div>
-            <h4 class="font-black text-slate-800 text-base">Singapore Math Challenge</h4>
-            <p class="text-xs text-slate-500 font-medium">Toán có lời văn & Bar Model</p>
-          </div>
-          <button onclick="startExerciseRoom('toan-sing-sgchallenge')" class="w-full py-2 bg-[#78D9AE] text-slate-900 font-black text-xs rounded-xl clay-btn">
-            Luyện Tập ➔
-          </button>
-        </div>
-
-        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
-          <div class="space-y-1">
-            <div class="text-2xl">🎯</div>
-            <h4 class="font-black text-slate-800 text-base">Common Core Math</h4>
-            <p class="text-xs text-slate-500 font-medium">Chuẩn năng lực Mỹ</p>
-          </div>
-          <button onclick="startExerciseRoom('toan-sing-commoncore')" class="w-full py-2 bg-[#FFC85A] text-slate-900 font-black text-xs rounded-xl clay-btn">
-            Luyện Tập ➔
-          </button>
-        </div>
-
-        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
-          <div class="space-y-1">
-            <div class="text-2xl">⚡</div>
-            <h4 class="font-black text-slate-800 text-base">Math Minutes G1-G7</h4>
-            <p class="text-xs text-slate-500 font-medium">Phản xạ tính nhẩm 1 phút</p>
-          </div>
-          <button onclick="startExerciseRoom('toan-sing-mathminutes')" class="w-full py-2 bg-[#62C9F3] text-slate-900 font-black text-xs rounded-xl clay-btn">
-            Luyện Tập ➔
-          </button>
-        </div>
-
-        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
-          <div class="space-y-1">
-            <div class="text-2xl">🎓</div>
-            <h4 class="font-black text-slate-800 text-base">Oxford Mathematics PYP</h4>
-            <p class="text-xs text-slate-500 font-medium">Toán Tú tài Quốc tế IB</p>
-          </div>
-          <button onclick="startExerciseRoom('toan-sing-oxfordpyp')" class="w-full py-2 bg-[#A99AF5] text-slate-900 font-black text-xs rounded-xl clay-btn">
-            Luyện Tập ➔
-          </button>
-        </div>
-
-        <div class="p-4 bg-white rounded-2xl border-2 border-slate-200 hover:border-sky-300 transition flex flex-col justify-between space-y-3">
-          <div class="space-y-1">
-            <div class="text-2xl">🦁</div>
-            <h4 class="font-black text-slate-800 text-base">Toán Sing Levels 1-4</h4>
-            <p class="text-xs text-slate-500 font-medium">Tư duy logic & Olympic Sing</p>
-          </div>
-          <button onclick="startExerciseRoom('toan-sing-toansing')" class="w-full py-2 bg-amber-400 text-slate-900 font-black text-xs rounded-xl clay-btn">
-            Luyện Tập ➔
-          </button>
-        </div>
-      </div>
-    </div>
-
-  </section>
+    </section>
 
 
   <!-- ========================================================
@@ -449,7 +370,7 @@
         </div>
         <div>
           <h4 class="text-xl font-black text-slate-900">Tủ Tài Liệu & Sách Bồi Dưỡng Lớp 3, 4, 5</h4>
-          <p class="text-sm font-bold text-slate-700">Tích hợp đầy đủ Toán (Trần Diên Hiển), Tiếng Việt (Lê Phương Nga), HSG Tiếng Anh (Global Success) & 10 Bộ Sách Quốc Tế</p>
+          <p class="text-sm font-bold text-slate-700">Tích hợp đầy đủ sách bồi dưỡng chính thức: Toán (PGS.TS Trần Diên Hiển), Tiếng Việt (GS.TS Lê Phương Nga) & HSG Tiếng Anh (Global Success)</p>
         </div>
       </div>
       <a href="https://drive.google.com/drive/folders/1aNuulThPrJZO1uuzalojEEfFQsafXkah" target="_blank" rel="noopener noreferrer"

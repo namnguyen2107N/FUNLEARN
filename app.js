@@ -349,14 +349,6 @@ const appState = {
             status: 'locked'
           }
         ]
-      },
-      'toan-tieng-anh': {
-        key: 'toan-tieng-anh',
-        title: 'Toán Tiếng Anh',
-        themeColor: '#62C9F3',
-        icon: '🧮',
-        isEnglishMath: true,
-        lessons: []
       }
     },
 
@@ -493,14 +485,6 @@ const appState = {
             status: 'locked'
           }
         ]
-      },
-      'toan-tieng-anh': {
-        key: 'toan-tieng-anh',
-        title: 'Toán Tiếng Anh',
-        themeColor: '#62C9F3',
-        icon: '🧮',
-        isEnglishMath: true,
-        lessons: []
       }
     },
 
@@ -637,14 +621,6 @@ const appState = {
             status: 'locked'
           }
         ]
-      },
-      'toan-tieng-anh': {
-        key: 'toan-tieng-anh',
-        title: 'Toán Tiếng Anh',
-        themeColor: '#62C9F3',
-        icon: '🧮',
-        isEnglishMath: true,
-        lessons: []
       }
     }
   },
@@ -5875,11 +5851,7 @@ function updateGradeButtons(g) {
 // Mở trang con Môn Học (Toán Bồi Dưỡng, Tiếng Việt Nâng Cao, HSG Tiếng Anh, Toán Tiếng Anh)
 function openSubjectPage(subjectKey) {
   appState.activeSubject = subjectKey;
-  
-  if (subjectKey === 'toan-tieng-anh') {
-    renderEnglishMathSyllabus();
-    return;
-  }
+  /* Chi giu 3 mon toan, tieng-viet, tieng-anh */
 
   const currentGradeData = appState.gradeCurriculum[appState.studentGrade] || appState.gradeCurriculum[3];
   const sub = currentGradeData[subjectKey];
@@ -5982,71 +5954,6 @@ function openSubjectPage(subjectKey) {
   navigateTo('screen-subject-detail');
 }
 
-// Mở trang Toán Tiếng Anh với 10 Bộ Sách (Nguồn: Phạm Thuý)
-function renderEnglishMathSyllabus() {
-  const titleEl = document.getElementById('subpage-title');
-  if (titleEl) titleEl.innerText = 'Toán Tiếng Anh';
-
-  const iconEl = document.getElementById('subpage-icon');
-  if (iconEl) iconEl.innerText = '🧮';
-
-  const container = document.getElementById('subpage-lessons-list');
-  if (container) {
-    container.innerHTML = `
-      <!-- Banner ghi nhận nguồn tài liệu -->
-      <div class="p-4 bg-gradient-to-r from-sky-50 via-indigo-50 to-amber-50 rounded-2xl border-2 border-sky-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-4 shadow-xs">
-        <div class="flex items-center gap-3">
-          <span class="text-3xl">❤️</span>
-          <div>
-            <h4 class="font-black text-slate-800 text-base">10 Bộ Sách Toán Tiếng Anh Quốc Tế</h4>
-            <p class="text-xs font-bold text-slate-600">Nguồn tuyển chọn: Cô Phạm Thuý • Bấm để xem hoặc luyện tập</p>
-          </div>
-        </div>
-        <button onclick="openBooksShelf('international-math')" class="px-4 py-2 bg-white hover:bg-sky-50 rounded-xl border border-sky-300 text-xs font-black text-sky-800 transition flex items-center gap-1.5 shadow-xs">
-          <span>Xem Tủ Sách Google Drive</span>
-          <span>📚</span>
-        </button>
-      </div>
-    `;
-
-    appState.englishMathBooks.forEach(b => {
-      const card = document.createElement('div');
-      card.className = 'clay-card p-5 border-2 border-sky-200 bg-white hover:border-[#62C9F3] transition flex flex-col lg:flex-row lg:items-center justify-between gap-4 shadow-sm';
-      card.innerHTML = `
-        <div class="flex items-start sm:items-center gap-4">
-          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#62C9F3]/20 to-[#FFC85A]/30 flex items-center justify-center text-3xl shrink-0 shadow-inner">
-            ${b.icon}
-          </div>
-          <div class="space-y-1">
-            <div class="flex items-center gap-2">
-              <span class="text-xs font-black text-sky-900 bg-sky-100 px-2 py-0.5 rounded-md">${b.code}</span>
-              <span class="text-xs font-bold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md">${b.grades}</span>
-            </div>
-            <h4 class="font-black text-slate-900 text-lg leading-snug">${b.title}</h4>
-            <p class="text-xs text-slate-600 font-medium">${b.focus}</p>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-2.5 shrink-0 self-end sm:self-auto">
-          <a href="${b.driveUrl}" target="_blank" rel="noopener noreferrer" 
-            title="Mở thư mục sách gốc trên Google Drive"
-            class="px-4 py-3 bg-slate-100 hover:bg-amber-100 text-slate-700 hover:text-amber-900 rounded-xl font-black text-xs transition flex items-center gap-1.5 border border-slate-200">
-            <span>Sách PDF</span>
-            <span>↗</span>
-          </a>
-          <button onclick="startExerciseRoom('${b.id}')" class="px-6 py-3.5 bg-[#62C9F3] hover:bg-[#4db6e2] text-slate-900 font-black text-sm rounded-2xl clay-btn flex items-center justify-center gap-2">
-            <span>LUYỆN TẬP</span>
-            <span>➔</span>
-          </button>
-        </div>
-      `;
-      container.appendChild(card);
-    });
-  }
-
-  navigateTo('screen-subject-detail');
-}
-
 // Mở Tủ Sách & Tài Liệu Google Drive
 function openBooksShelf(tab = 'vietnam-advanced') {
   appState.booksShelfActiveTab = tab;
@@ -6064,184 +5971,140 @@ function renderBooksShelfGrid() {
   const tabsContainer = document.getElementById('books-shelf-tabs');
   if (!container) return;
 
-  // Render Tabs switcher
   if (tabsContainer) {
     tabsContainer.innerHTML = `
-      <div class="flex flex-wrap items-center gap-3">
-        <button onclick="switchBooksShelfTab('vietnam-advanced')" 
-          class="px-5 py-2.5 rounded-2xl font-black text-sm transition flex items-center gap-2 ${appState.booksShelfActiveTab === 'vietnam-advanced' ? 'bg-[#62C9F3] text-slate-900 shadow-md ring-2 ring-sky-300' : 'bg-white text-slate-600 hover:bg-sky-50 border border-slate-200'}">
-          <span>🇻🇳 Tài Liệu Bồi Dưỡng Lớp 3, 4, 5 (Google Drive)</span>
-        </button>
-        <button onclick="switchBooksShelfTab('international-math')" 
-          class="px-5 py-2.5 rounded-2xl font-black text-sm transition flex items-center gap-2 ${appState.booksShelfActiveTab === 'international-math' ? 'bg-[#FFC85A] text-slate-900 shadow-md ring-2 ring-amber-300' : 'bg-white text-slate-600 hover:bg-amber-50 border border-slate-200'}">
-          <span>🇬🇧 10 Bộ Sách Toán Tiếng Anh (Cô Phạm Thuý)</span>
-        </button>
+      <div class="flex items-center gap-2">
+        <span class="text-sm font-black bg-sky-100 text-sky-900 px-4 py-2 rounded-2xl border border-sky-200">
+          🇻🇳 Toàn bộ Sách Bồi Dưỡng Lớp 3, 4, 5 (Chính thức từ Google Drive)
+        </span>
       </div>
     `;
   }
 
   container.innerHTML = '';
+  // Hiển thị các bộ sách bồi dưỡng nạp từ Google Drive: Toán Trần Diên Hiển, Tiếng Việt Lê Phương Nga, HSG Tiếng Anh
+  const mat = appState.driveStudyMaterials;
+  const booksList = [
+    {
+      subject: 'Toán Học',
+      title: mat.toan[3].title,
+      author: mat.toan[3].author,
+      grade: 'Lớp 3',
+      driveUrl: mat.toan[3].driveUrl,
+      icon: '📐',
+      lessonId: 'toan-g3-w1',
+      desc: mat.toan[3].focus
+    },
+    {
+      subject: 'Toán Học',
+      title: mat.toan[4].title,
+      author: mat.toan[4].author,
+      grade: 'Lớp 4',
+      driveUrl: mat.toan[4].driveUrl,
+      icon: '📐',
+      lessonId: 'toan-g4-w1',
+      desc: mat.toan[4].focus
+    },
+    {
+      subject: 'Toán Học',
+      title: mat.toan[5].title,
+      author: mat.toan[5].author,
+      grade: 'Lớp 5',
+      driveUrl: mat.toan[5].driveUrl,
+      icon: '📐',
+      lessonId: 'toan-g5-w1',
+      desc: mat.toan[5].focus
+    },
+    {
+      subject: 'Tiếng Việt',
+      title: mat.tiengViet[4].title,
+      author: mat.tiengViet[4].author,
+      grade: 'Lớp 4',
+      driveUrl: mat.tiengViet[4].driveUrl,
+      icon: '📖',
+      lessonId: 'tv-g4-b1',
+      desc: mat.tiengViet[4].focus
+    },
+    {
+      subject: 'Tiếng Việt',
+      title: mat.tiengViet[5].title,
+      author: mat.tiengViet[5].author,
+      grade: 'Lớp 5',
+      driveUrl: mat.tiengViet[5].driveUrl,
+      icon: '📖',
+      lessonId: 'tv-g5-b1',
+      desc: mat.tiengViet[5].focus
+    },
+    {
+      subject: 'Tiếng Anh',
+      title: mat.tiengAnh[3].title,
+      author: mat.tiengAnh[3].curriculum,
+      grade: 'Lớp 3',
+      driveUrl: mat.tiengAnh[3].driveUrl,
+      folderUrl: mat.tiengAnh.folderUrl,
+      icon: '🌍',
+      lessonId: 'eng-g3-u1',
+      desc: mat.tiengAnh[3].focus
+    },
+    {
+      subject: 'Tiếng Anh',
+      title: mat.tiengAnh[4].title,
+      author: mat.tiengAnh[4].curriculum,
+      grade: 'Lớp 4',
+      driveUrl: mat.tiengAnh[4].driveUrl,
+      folderUrl: mat.tiengAnh.folderUrl,
+      icon: '🌍',
+      lessonId: 'eng-g4-u1',
+      desc: mat.tiengAnh[4].focus
+    },
+    {
+      subject: 'Tiếng Anh',
+      title: mat.tiengAnh[5].title,
+      author: mat.tiengAnh[5].curriculum,
+      grade: 'Lớp 5',
+      driveUrl: mat.tiengAnh[5].driveUrl,
+      folderUrl: mat.tiengAnh.folderUrl,
+      icon: '🌍',
+      lessonId: 'eng-g5-u1',
+      desc: mat.tiengAnh[5].focus
+    }
+  ];
 
-  if (appState.booksShelfActiveTab === 'vietnam-advanced') {
-    // Hiển thị các bộ sách bồi dưỡng nạp từ Google Drive: Toán Trần Diên Hiển, Tiếng Việt Lê Phương Nga, HSG Tiếng Anh
-    const mat = appState.driveStudyMaterials;
-    const booksList = [
-      {
-        subject: 'Toán Học',
-        title: mat.toan[3].title,
-        author: mat.toan[3].author,
-        grade: 'Lớp 3',
-        driveUrl: mat.toan[3].driveUrl,
-        icon: '📐',
-        lessonId: 'toan-g3-w1',
-        desc: mat.toan[3].focus
-      },
-      {
-        subject: 'Toán Học',
-        title: mat.toan[4].title,
-        author: mat.toan[4].author,
-        grade: 'Lớp 4',
-        driveUrl: mat.toan[4].driveUrl,
-        icon: '📐',
-        lessonId: 'toan-g4-w1',
-        desc: mat.toan[4].focus
-      },
-      {
-        subject: 'Toán Học',
-        title: mat.toan[5].title,
-        author: mat.toan[5].author,
-        grade: 'Lớp 5',
-        driveUrl: mat.toan[5].driveUrl,
-        icon: '📐',
-        lessonId: 'toan-g5-w1',
-        desc: mat.toan[5].focus
-      },
-      {
-        subject: 'Tiếng Việt',
-        title: mat.tiengViet[4].title,
-        author: mat.tiengViet[4].author,
-        grade: 'Lớp 4',
-        driveUrl: mat.tiengViet[4].driveUrl,
-        icon: '📖',
-        lessonId: 'tv-g4-b1',
-        desc: mat.tiengViet[4].focus
-      },
-      {
-        subject: 'Tiếng Việt',
-        title: mat.tiengViet[5].title,
-        author: mat.tiengViet[5].author,
-        grade: 'Lớp 5',
-        driveUrl: mat.tiengViet[5].driveUrl,
-        icon: '📖',
-        lessonId: 'tv-g5-b1',
-        desc: mat.tiengViet[5].focus
-      },
-      {
-        subject: 'Tiếng Anh',
-        title: mat.tiengAnh[3].title,
-        author: mat.tiengAnh[3].curriculum,
-        grade: 'Lớp 3',
-        driveUrl: mat.tiengAnh[3].driveUrl,
-        folderUrl: mat.tiengAnh.folderUrl,
-        icon: '🌍',
-        lessonId: 'eng-g3-u1',
-        desc: mat.tiengAnh[3].focus
-      },
-      {
-        subject: 'Tiếng Anh',
-        title: mat.tiengAnh[4].title,
-        author: mat.tiengAnh[4].curriculum,
-        grade: 'Lớp 4',
-        driveUrl: mat.tiengAnh[4].driveUrl,
-        folderUrl: mat.tiengAnh.folderUrl,
-        icon: '🌍',
-        lessonId: 'eng-g4-u1',
-        desc: mat.tiengAnh[4].focus
-      },
-      {
-        subject: 'Tiếng Anh',
-        title: mat.tiengAnh[5].title,
-        author: mat.tiengAnh[5].curriculum,
-        grade: 'Lớp 5',
-        driveUrl: mat.tiengAnh[5].driveUrl,
-        folderUrl: mat.tiengAnh.folderUrl,
-        icon: '🌍',
-        lessonId: 'eng-g5-u1',
-        desc: mat.tiengAnh[5].focus
-      }
-    ];
-
-    booksList.forEach(b => {
-      const card = document.createElement('div');
-      card.className = 'clay-card p-6 bg-white hover:border-sky-300 transition flex flex-col justify-between space-y-4 shadow-sm';
-      card.innerHTML = `
-        <div class="space-y-3">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-sky-100 text-sky-900">${b.grade}</span>
-            <span class="text-xs font-extrabold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">${b.subject}</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl shrink-0">
-              ${b.icon}
-            </div>
-            <div>
-              <h4 class="font-black text-slate-900 text-base leading-snug">${b.title}</h4>
-              <p class="text-xs text-slate-500 font-bold">${b.author}</p>
-            </div>
-          </div>
-          <p class="text-xs text-slate-600 font-medium leading-relaxed">${b.desc}</p>
+  booksList.forEach(b => {
+    const card = document.createElement('div');
+    card.className = 'clay-card p-6 bg-white hover:border-sky-300 transition flex flex-col justify-between space-y-4 shadow-sm';
+    card.innerHTML = `
+      <div class="space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-sky-100 text-sky-900">${b.grade}</span>
+          <span class="text-xs font-extrabold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">${b.subject}</span>
         </div>
-
-        <div class="pt-2 border-t border-slate-100 flex items-center gap-2">
-          <a href="${b.driveUrl}" target="_blank" rel="noopener noreferrer" 
-            class="flex-1 py-2.5 bg-slate-100 hover:bg-sky-100 text-slate-800 rounded-xl font-black text-xs transition text-center flex items-center justify-center gap-1 border border-slate-200">
-            <span>Xem PDF</span>
-            <span>↗</span>
-          </a>
-          <button onclick="startExerciseRoom('${b.lessonId}')" class="flex-1 py-2.5 bg-[#62C9F3] hover:bg-[#4db6e2] text-slate-900 font-black text-xs rounded-xl clay-btn text-center flex items-center justify-center gap-1">
-            <span>Luyện Tập</span>
-            <span>➔</span>
-          </button>
-        </div>
-      `;
-      container.appendChild(card);
-    });
-
-  } else {
-    // 10 Bộ sách Toán Tiếng Anh (Cô Phạm Thuý)
-    appState.englishMathBooks.forEach(b => {
-      const card = document.createElement('div');
-      card.className = 'clay-card p-6 bg-white hover:border-amber-300 transition flex flex-col justify-between space-y-4 shadow-sm';
-      card.innerHTML = `
-        <div class="space-y-3">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-black text-sky-900 bg-sky-100 px-2.5 py-1 rounded-lg">${b.code}</span>
-            <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-amber-100 text-amber-900">${b.grades}</span>
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl shrink-0">
+            ${b.icon}
           </div>
-          <div class="flex items-center gap-3">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-sky-50 to-amber-50 border border-slate-200 flex items-center justify-center text-2xl shrink-0">
-              ${b.icon}
-            </div>
+          <div>
             <h4 class="font-black text-slate-900 text-base leading-snug">${b.title}</h4>
+            <p class="text-xs text-slate-500 font-bold">${b.author}</p>
           </div>
-          <p class="text-xs text-slate-600 font-medium leading-relaxed">${b.focus}</p>
         </div>
+        <p class="text-xs text-slate-600 font-medium leading-relaxed">${b.desc}</p>
+      </div>
 
-        <div class="pt-2 border-t border-slate-100 flex items-center gap-2">
-          <a href="${b.driveUrl}" target="_blank" rel="noopener noreferrer" 
-            class="flex-1 py-2.5 bg-slate-100 hover:bg-amber-100 text-slate-800 rounded-xl font-black text-xs transition text-center flex items-center justify-center gap-1 border border-slate-200">
-            <span>Mở Drive</span>
-            <span>↗</span>
-          </a>
-          <button onclick="startExerciseRoom('${b.id}')" class="flex-1 py-2.5 bg-[#FFC85A] hover:bg-amber-400 text-slate-900 font-black text-xs rounded-xl clay-btn text-center flex items-center justify-center gap-1">
-            <span>Luyện Tập</span>
-            <span>➔</span>
-          </button>
-        </div>
-      `;
-      container.appendChild(card);
-    });
-  }
+      <div class="pt-2 border-t border-slate-100 flex items-center gap-2">
+        <a href="${b.driveUrl}" target="_blank" rel="noopener noreferrer" 
+          class="flex-1 py-2.5 bg-slate-100 hover:bg-sky-100 text-slate-800 rounded-xl font-black text-xs transition text-center flex items-center justify-center gap-1 border border-slate-200">
+          <span>Xem PDF</span>
+          <span>↗</span>
+        </a>
+        <button onclick="startExerciseRoom('${b.lessonId}')" class="flex-1 py-2.5 bg-[#62C9F3] hover:bg-[#4db6e2] text-slate-900 font-black text-xs rounded-xl clay-btn text-center flex items-center justify-center gap-1">
+          <span>Luyện Tập</span>
+          <span>➔</span>
+        </button>
+      </div>
+    `;
+    container.appendChild(card);
+  });
 }
 
 // Mở Trung Tâm Luyện Tập (Practice Hub)

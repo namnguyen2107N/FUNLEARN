@@ -59,7 +59,6 @@ Dự án được xây dựng dưới dạng **Pure Client-Side Web Application*
 - 🇻🇳 **Toán Học 3, 4, 5**: Bộ sách *Bồi dưỡng học sinh giỏi Toán* – PGS.TS Trần Diên Hiển (CLB EMATH / NXB Giáo Dục Việt Nam).
 - 🇻🇳 **Tiếng Việt 4, 5**: Bộ sách *Tiếng Việt Nâng Cao* – GS.TS Lê Phương Nga (NXB Giáo Dục Việt Nam).
 - 🇬🇧 **Tiếng Anh 3, 4, 5**: Chương trình *Global Success* – Bộ Giáo dục & Đào tạo.
-- 🌍 **Toán Tiếng Anh Quốc Tế**: 10 bộ sách bồi dưỡng tư duy song ngữ (Nguồn tài liệu: Cô Phạm Thuý).
 
 ---
 
