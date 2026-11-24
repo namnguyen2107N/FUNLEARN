@@ -220,7 +220,7 @@ const appState = {
             id: 'toan-g3-w1',
             code: 'Tuần 01',
             title: 'Ôn tập các số đến 1 000 & Phép cộng trừ',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'toan-g3-w2',
@@ -262,7 +262,7 @@ const appState = {
             id: 'tv-g3-b1',
             code: 'Chuyên đề 01',
             title: 'Cấu tạo từ & Mở rộng vốn từ chủ điểm Măng non, Trường học',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'tv-g3-b2',
@@ -298,7 +298,7 @@ const appState = {
             id: 'eng-g3-u1',
             code: 'Chuyên đề 01',
             title: 'Countable & Uncountable Nouns (Danh từ đếm được/không đếm được)',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'eng-g3-u2',
@@ -346,7 +346,7 @@ const appState = {
             id: 'toan-g4-w1',
             code: 'Tuần 01',
             title: 'Biểu thức có chứa chữ & Tìm x nâng cao trong phạm vi 100 000',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'toan-g4-w2',
@@ -388,7 +388,7 @@ const appState = {
             id: 'tv-g4-b1',
             code: 'Chuyên đề 01',
             title: 'Chính tả: Phân biệt âm đầu l/n, ch/tr, s/x & vần khó ươn/ương',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'tv-g4-b2',
@@ -430,7 +430,7 @@ const appState = {
             id: 'eng-g4-u1',
             code: 'Chuyên đề 01',
             title: 'Articles "a / an" - Quy tắc phát âm nguyên âm & Ngoại lệ',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'eng-g4-u2',
@@ -478,7 +478,7 @@ const appState = {
             id: 'toan-g5-w1',
             code: 'Tuần 01',
             title: 'Ôn tập khái niệm Phân số, phân số bằng nhau & So sánh với 1',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'toan-g5-w2',
@@ -520,7 +520,7 @@ const appState = {
             id: 'tv-g5-b1',
             code: 'Chuyên đề 01',
             title: 'Quy tắc viết hoa tên riêng, tên địa lí Việt Nam & Quốc tế',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'tv-g5-b2',
@@ -562,7 +562,7 @@ const appState = {
             id: 'eng-g5-u1',
             code: 'Chuyên đề 01',
             title: 'Articles "A, An, The" & Zero Article (Mạo từ xác định/không xác định)',
-            status: 'completed'
+            status: 'ready'
           },
           {
             id: 'eng-g5-u2',
@@ -5621,7 +5621,7 @@ function openSubjectPage(subjectKey) {
             <h4 class="font-black text-slate-800 text-base md:text-lg">${l.title}</h4>
           </div>
           <button onclick="startExerciseRoom('${l.id}')" class="px-6 py-3.5 bg-[#62C9F3] hover:bg-[#4db6e2] text-slate-900 font-black text-sm rounded-2xl clay-btn flex items-center justify-center gap-2 shrink-0">
-            <span>VÀO BÀI</span>
+            <span>BẮT ĐẦU</span>
             <span>➔</span>
           </button>
         `;
@@ -5670,7 +5670,7 @@ function openPracticeHub() {
           <p class="text-xs text-slate-600 font-medium">Chuyên đề trọng tâm Toán ${g}</p>
         </div>
         <button onclick="startExerciseRoom('${toanFirstLesson.id}')" class="w-full py-2.5 bg-[#62C9F3] text-slate-900 font-black text-xs rounded-xl clay-btn">
-          Vào Luyện Tập ➔
+          Bắt Đầu ➔
         </button>
       </div>
 
@@ -5685,7 +5685,7 @@ function openPracticeHub() {
           <p class="text-xs text-slate-600 font-medium">Chuyên đề nâng cao Tiếng Việt ${g}</p>
         </div>
         <button onclick="startExerciseRoom('${tvFirstLesson.id}')" class="w-full py-2.5 bg-[#FF91A8] text-slate-900 font-black text-xs rounded-xl clay-btn">
-          Vào Luyện Tập ➔
+          Bắt Đầu ➔
         </button>
       </div>
 
@@ -5700,7 +5700,7 @@ function openPracticeHub() {
           <p class="text-xs text-slate-600 font-medium">Chuyên đề học tốt Tiếng Anh ${g}</p>
         </div>
         <button onclick="startExerciseRoom('${engFirstLesson.id}')" class="w-full py-2.5 bg-[#78D9AE] text-slate-900 font-black text-xs rounded-xl clay-btn">
-          Vào Luyện Tập ➔
+          Bắt Đầu ➔
         </button>
       </div>
     `;
