@@ -1,6 +1,6 @@
 /**
  * ========================================================
- * LEARNCHILL: TOÁN – TIẾNG VIỆT – TIẾNG ANH (HỌC VUI MỖI NGÀY)
+ * FUNLEARN: TOÁN – TIẾNG VIỆT – TIẾNG ANH (HỌC VUI MỖI NGÀY)
  * Tệp Logic Ứng Dụng & Điều Khiển Tương Tác (app.js)
  * Tích hợp toàn diện:
  * 1. Bồi dưỡng Toán 3, 4, 5 – CLB EMATH (PGS.TS Trần Diên Hiển)
@@ -13,9 +13,9 @@
 // Global Application State
 const appState = {
   isLoggedIn: false,
-  studentName: 'Bảo Nam',
+  studentName: 'Khối Lớp 3',
   studentGrade: 3,
-  studentAvatar: '👦',
+  studentAvatar: '🌱',
   stars: 145,
   streakDays: 5,
   currentScreen: 'screen-start',
@@ -5798,23 +5798,34 @@ function updateHeaderUI() {
    SCREEN 1: LOGIN & GRADE SWITCHER
    ======================================================== */
 
-function selectProfile(name, grade) {
-  appState.studentName = name;
+function selectGrade(grade) {
   appState.studentGrade = grade;
-  appState.studentAvatar = name === 'Mai Anh' ? '👧' : (name === 'Minh Khôi' ? '🐻' : '👦');
+  appState.studentName = `Khối Lớp ${grade}`;
+  appState.studentAvatar = grade === 3 ? '🌱' : (grade === 4 ? '🌿' : '🌟');
 
   document.querySelectorAll('.profile-card').forEach(card => {
     card.classList.remove('border-[#62C9F3]', 'bg-sky-50/70', 'border-[#FF91A8]', 'bg-pink-50/70', 'border-[#FFC85A]', 'bg-amber-50/70');
     card.classList.add('border-slate-200', 'bg-white');
   });
 
-  const activeCard = event ? event.currentTarget : null;
-  if (activeCard) {
-    activeCard.classList.remove('border-slate-200', 'bg-white');
-    if (grade === 3) activeCard.classList.add('border-[#62C9F3]', 'bg-sky-50/70');
-    else if (grade === 4) activeCard.classList.add('border-[#FF91A8]', 'bg-pink-50/70');
-    else activeCard.classList.add('border-[#FFC85A]', 'bg-amber-50/70');
+  const card3 = document.getElementById('grade-card-3');
+  const card4 = document.getElementById('grade-card-4');
+  const card5 = document.getElementById('grade-card-5');
+
+  if (grade === 3 && card3) {
+    card3.classList.remove('border-slate-200', 'bg-white');
+    card3.classList.add('border-[#62C9F3]', 'bg-sky-50/70');
+  } else if (grade === 4 && card4) {
+    card4.classList.remove('border-slate-200', 'bg-white');
+    card4.classList.add('border-[#FF91A8]', 'bg-pink-50/70');
+  } else if (grade === 5 && card5) {
+    card5.classList.remove('border-slate-200', 'bg-white');
+    card5.classList.add('border-[#FFC85A]', 'bg-amber-50/70');
   }
+}
+
+function selectProfile(name, grade) {
+  selectGrade(grade || 3);
 }
 
 function loginAndGoHome() {
@@ -6576,7 +6587,7 @@ function checkAnswerEngine() {
     feedback.innerHTML = `
       <span class="text-3xl">🌟</span>
       <div>
-        <h5 class="text-base font-black text-emerald-900">Tuyệt vời ${appState.studentName}! Em đã trả lời chính xác!</h5>
+        <h5 class="text-base font-black text-emerald-900">Tuyệt vời! Em đã trả lời chính xác!</h5>
       </div>
     `;
     feedback.classList.remove('hidden');

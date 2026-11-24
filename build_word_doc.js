@@ -138,9 +138,9 @@ function createCell(content, width, isHeader = false, isZebra = false) {
 
 async function generateReportDocx() {
   const doc = new Document({
-    creator: 'Nhóm Nghiên cứu & Phát triển LearnChill (Toán – Tiếng Việt – Tiếng Anh)',
-    title: 'BÁO CÁO GIẢI TRÌNH KHOA HỌC & KIẾN TRÚC KỸ THUẬT DỰ ÁN LEARNCHILL (TOÁN – TIẾNG VIỆT – TIẾNG ANH)',
-    description: 'Báo cáo giải trình 15 câu hỏi nghiên cứu khoa học cho dự án nền tảng học tập tương tác tiểu học LearnChill: Toán – Tiếng Việt – Tiếng Anh',
+    creator: 'Nhóm Nghiên cứu & Phát triển Funlearn (Toán – Tiếng Việt – Tiếng Anh)',
+    title: 'BÁO CÁO GIẢI TRÌNH KHOA HỌC & KIẾN TRÚC KỸ THUẬT DỰ ÁN FUNLEARN (TOÁN – TIẾNG VIỆT – TIẾNG ANH)',
+    description: 'Báo cáo giải trình 15 câu hỏi nghiên cứu khoa học cho dự án nền tảng học tập tương tác tiểu học Funlearn: Toán – Tiếng Việt – Tiếng Anh',
     styles: {
       default: {
         document: {
@@ -164,7 +164,7 @@ async function generateReportDocx() {
             children: [
               new Paragraph({
                 children: [
-                  new TextRun({ text: 'DỰ THẢO KHOA HỌC • NỀN TẢNG HỌC TẬP TIỂU HỌC "LEARNCHILL: TOÁN – TIẾNG VIỆT – TIẾNG ANH"', font: 'Times New Roman', size: 18, color: COLOR_MUTED, italics: true })
+                  new TextRun({ text: 'DỰ THẢO KHOA HỌC • NỀN TẢNG HỌC TẬP TIỂU HỌC "FUNLEARN: TOÁN – TIẾNG VIỆT – TIẾNG ANH"', font: 'Times New Roman', size: 18, color: COLOR_MUTED, italics: true })
                 ],
                 alignment: AlignmentType.RIGHT,
                 spacing: { after: 120 }
@@ -198,7 +198,7 @@ async function generateReportDocx() {
           }),
           new Paragraph({
             children: [
-              new TextRun({ text: 'DỰ ÁN: LEARNCHILL (TOÁN – TIẾNG VIỆT – TIẾNG ANH) – HỌC VUI MỖI NGÀY', font: 'Times New Roman', size: 28, bold: true, color: COLOR_SECONDARY })
+              new TextRun({ text: 'DỰ ÁN: FUNLEARN (TOÁN – TIẾNG VIỆT – TIẾNG ANH) – HỌC VUI MỖI NGÀY', font: 'Times New Roman', size: 28, bold: true, color: COLOR_SECONDARY })
             ],
             alignment: AlignmentType.CENTER,
             spacing: { before: 60, after: 160 }
@@ -262,7 +262,7 @@ async function generateReportDocx() {
           
           pBody([
             new TextRun({
-              text: 'Dự án "LearnChill: Toán – Tiếng Việt – Tiếng Anh (Học vui mỗi ngày)" được thiết kế nhằm xây dựng một môi trường học tập tương tác kỹ thuật số tích hợp toàn diện 3 môn trụ cột dành cho học sinh tiểu học (các khối lớp 3, 4 và 5). Định hướng trọng tâm của sản phẩm không chỉ dừng lại ở việc chấm điểm bài tập, mà tập trung vào ',
+              text: 'Dự án "Funlearn: Toán – Tiếng Việt – Tiếng Anh (Học vui mỗi ngày)" được thiết kế nhằm xây dựng một môi trường học tập tương tác kỹ thuật số tích hợp toàn diện 3 môn trụ cột dành cho học sinh tiểu học (các khối lớp 3, 4 và 5). Định hướng trọng tâm của sản phẩm không chỉ dừng lại ở việc chấm điểm bài tập, mà tập trung vào ',
               font: 'Times New Roman',
               size: 24,
               color: COLOR_TEXT

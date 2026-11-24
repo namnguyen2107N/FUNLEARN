@@ -1,6 +1,6 @@
 # BẢN THIẾT KẾ KIẾN TRÚC VÀ KẾ HOẠCH THỰC THI CHI TIẾT
 
-## DỰ ÁN: LEARNCHILL (TOÁN – TIẾNG VIỆT – TIẾNG ANH) – HỌC VUI MỖI NGÀY
+## DỰ ÁN: FUNLEARN (TOÁN – TIẾNG VIỆT – TIẾNG ANH) – HỌC VUI MỖI NGÀY
 
 _(Nền tảng học tập tương tác Tiểu học bám sát SGK Kết nối tri thức với cuộc sống)_
 
@@ -8,7 +8,7 @@ _(Nền tảng học tập tương tác Tiểu học bám sát SGK Kết nối t
 
 ## 1. TỔNG QUAN VÀ ĐÁNH GIÁ ĐỊNH HƯỚNG DỰ ÁN
 
-Bản đề xuất **LearnChill: Toán – Tiếng Việt – Tiếng Anh (Học vui mỗi ngày)** thể hiện tư duy thiết kế sản phẩm giáo dục (EdTech) rất chín chắn, bám sát tâm lý học sư phạm lứa tuổi 8–11 (học sinh lớp 3, 4, 5) với các điểm cốt lõi vượt trội:
+Bản đề xuất **Funlearn: Toán – Tiếng Việt – Tiếng Anh (Học vui mỗi ngày)** thể hiện tư duy thiết kế sản phẩm giáo dục (EdTech) rất chín chắn, bám sát tâm lý học sư phạm lứa tuổi 8–11 (học sinh lớp 3, 4, 5) với các điểm cốt lõi vượt trội:
 
 1. **Tư duy phát triển (Growth Mindset)**: Thay vì chấm điểm phạt hay tạo áp lực xếp hạng (Leaderboard) làm học sinh tự ti, hệ thống tôn vinh sự kiên trì ("Đúng ngay lần đầu" và "Sửa đúng sau khi kiên trì").
 2. **Cơ chế sửa sai thông minh (Soft Correction Loop)**: Không đưa đáp án ngay khi sai; xóa ô chọn trên màn hình nhưng lưu vết dữ liệu hệ thống, kích hoạt gợi ý phương pháp ở lần thử thứ 2.

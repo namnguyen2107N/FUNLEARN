@@ -1,4 +1,4 @@
-# 🚀 LearnChill – Học Vui Mỗi Ngày
+# 🚀 Funlearn – Học Vui Mỗi Ngày
 
 > **Nền tảng học tập tương tác liên môn tích hợp Toán – Tiếng Việt – Tiếng Anh dành cho học sinh Tiểu học (Khối 3, 4, 5)**
 
@@ -10,7 +10,7 @@
 
 ## 🌟 Giới thiệu tổng quan
 
-**LearnChill** là dự án nghiên cứu khoa học và phát triển phần mềm giáo dục (EdTech), ứng dụng phương pháp **Học tập xoắn ốc (Spiral Learning)** kết hợp mô hình tương tác phản hồi tức thì để giúp học sinh tiểu học tiếp thu kiến thức một cách nhẹ nhàng, thư thái và tự nhiên nhất.
+**Funlearn** là dự án nghiên cứu khoa học và phát triển phần mềm giáo dục (EdTech), ứng dụng phương pháp **Học tập xoắn ốc (Spiral Learning)** kết hợp mô hình tương tác phản hồi tức thì để giúp học sinh tiểu học tiếp thu kiến thức một cách nhẹ nhàng, thư thái và tự nhiên nhất.
 
 Hệ thống được thiết kế theo phong cách giao diện **Claymorphism** thân thiện với trẻ em, tích hợp đầy đủ 44 chuyên đề bồi dưỡng và hơn 200 câu hỏi tương tác thuộc 3 môn học trụ cột:
 1. **Toán Học**: Số học nâng cao, toán tư duy logic, phân số, hình học & chuyển động đều (Chuẩn sách *PGS.TS Trần Diên Hiển*).
@@ -24,7 +24,7 @@ Hệ thống được thiết kế theo phong cách giao diện **Claymorphism**
 
 ```text
 Learnchill/
-├── index.html                 # Giao diện chính của ứng dụng LearnChill (Single-Page App)
+├── index.html                 # Giao diện chính của ứng dụng Funlearn (Single-Page App)
 ├── style.css                  # Tùy biến Claymorphism UI & chuyển động mềm mại
 ├── app.js                     # Toàn bộ logic ứng dụng, ngân hàng câu hỏi 3 môn & engine tương tác
 ├── build_word_doc.js          # Công cụ tự động tạo báo cáo nghiên cứu khoa học chuẩn DOCX
@@ -65,6 +65,6 @@ Dự án được xây dựng dưới dạng **Pure Client-Side Web Application*
 
 ## 📄 Bản quyền & Tác giả
 
-- **Dự án**: LearnChill (Học Vui Mỗi Ngày)
-- **Tác giả**: Nhóm Nghiên cứu & Phát triển LearnChill
+- **Dự án**: Funlearn (Học Vui Mỗi Ngày)
+- **Tác giả**: Nhóm Nghiên cứu & Phát triển Funlearn
 - **Năm phát triển**: 2026
