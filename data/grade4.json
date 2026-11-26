@@ -1,0 +1,3169 @@
+{
+  "grade": 4,
+  "title": "Khối Lớp 4",
+  "avatar": "🌿",
+  "description": "Toán • Tiếng Việt • Tiếng Anh 4",
+  "subjects": {
+    "toan": {
+      "key": "toan",
+      "title": "Toán Học Lớp 4",
+      "themeColor": "#62C9F3",
+      "icon": "📐",
+      "bookRef": {
+        "name": "Bồi dưỡng Toán cho học sinh lớp 4",
+        "author": "PGS.TS Trần Diên Hiển – CLB EMATH (NXB Giáo Dục Việt Nam)"
+      },
+      "lessons": [
+        {
+          "id": "toan-g4-w1",
+          "code": "Tuần 01",
+          "title": "Biểu thức có chứa chữ & Tìm x nâng cao trong phạm vi 100 000",
+          "status": "ready",
+          "lessonTitle": "Biểu thức có chứa chữ & Tìm x nâng cao trong phạm vi 100 000",
+          "skillTag": "toan-g4-bieu-thuc-chua-chu",
+          "summaryCard": {
+            "title": "Biểu thức có chứa một chữ & Tìm x nâng cao",
+            "keyPoints": [
+              "Biểu thức có chứa một chữ gồm số, dấu phép tính và một chữ cái đại diện (ví dụ: a + 35).",
+              "Mỗi lần thay chữ bằng số, ta tính được một giá trị của biểu thức.",
+              "Thực hiện nhân chia trước, cộng trừ sau; trong ngoặc trước, ngoài ngoặc sau."
+            ],
+            "example": "Ví dụ: Nếu a = 5 thì giá trị của 120 + a × 4 là: 120 + 5 × 4 = 140."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Bồi dưỡng Toán 4 • Trắc nghiệm",
+              "prompt": "So sánh giá trị hai biểu thức: (70 549 - 12 425) × 3 và 70 549 - 12 425 × 3. Điền dấu thích hợp:",
+              "illustration": "⚖️ 🧮 🔍",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Dấu >"
+                },
+                {
+                  "id": "B",
+                  "text": "Dấu <"
+                },
+                {
+                  "id": "C",
+                  "text": "Dấu ="
+                }
+              ],
+              "correct": "A",
+              "hint": "Vế trái: (70 549 - 12 425) × 3 = 58 124 × 3 = 174 372. Vế phải tính nhân trước: 70 549 - (12 425 × 3) = 70 549 - 37 275 = 33 274. Vì 174 372 > 33 274 nên ta điền dấu >!",
+              "skillTag": "toan-g4-bieu-thuc-chua-chu"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "input",
+              "tag": "Bồi dưỡng Toán 4 • Điền số",
+              "prompt": "Tìm giá trị thích hợp của x biết: x + 21 609 : 3 = 17 068. Giá trị của x là:",
+              "illustration": "🔢 ❓ 💡",
+              "correct": "9865",
+              "hint": "Trước hết tính phép chia: 21 609 : 3 = 7 203. Biểu thức trở thành: x + 7 203 = 17 068. Muốn tìm số hạng x chưa biết: x = 17 068 - 7 203 = 9 865!",
+              "skillTag": "toan-g4-bieu-thuc-chua-chu"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "match",
+              "tag": "Bồi dưỡng Toán 4 • Ghép nối",
+              "prompt": "Nối biểu thức có chứa chữ với giá trị chính xác:",
+              "illustration": "🧩 🔗 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "12 816 - 6 546 : a (với a = 6)",
+                  "right": "11 725"
+                },
+                {
+                  "id": "p2",
+                  "left": "40 215 + 10 078 × b (với b = 5)",
+                  "right": "90 605"
+                },
+                {
+                  "id": "p3",
+                  "left": "523 × (36 : c) (với c = 9)",
+                  "right": "2 092"
+                }
+              ],
+              "hint": "Với a=6: 12816 - 1091 = 11725; Với b=5: 40215 + 50390 = 90605; Với c=9: 523 × 4 = 2092.",
+              "skillTag": "toan-g4-bieu-thuc-chua-chu"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Bồi dưỡng Toán 4 • Đúng / Sai",
+              "prompt": "Với mọi số tự nhiên a khác 0, biểu thức a × 1 luôn luôn có giá trị bằng a : 1.",
+              "illustration": "✨ 🔢 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Bất kỳ số tự nhiên nào nhân với 1 cũng bằng chính nó (a × 1 = a), và chia cho 1 cũng bằng chính nó (a : 1 = a). Do đó nhận định này hoàn toàn ĐÚNG.",
+              "skillTag": "toan-g4-bieu-thuc-chua-chu"
+            }
+          ]
+        },
+        {
+          "id": "toan-g4-w2",
+          "code": "Tuần 02",
+          "title": "Số có nhiều chữ số, hàng và lớp & So sánh số tự nhiên",
+          "status": "ready",
+          "lessonTitle": "Số có nhiều chữ số, hàng và lớp & So sánh số tự nhiên",
+          "skillTag": "toan-g4-hang-va-lop",
+          "summaryCard": {
+            "title": "Số có nhiều chữ số: Hàng và Lớp",
+            "keyPoints": [
+              "Lớp đơn vị gồm: hàng đơn vị, hàng chục, hàng trăm.",
+              "Lớp nghìn gồm: hàng nghìn, hàng chục nghìn, hàng trăm nghìn.",
+              "Lớp triệu gồm: hàng triệu, hàng chục triệu, hàng trăm triệu."
+            ],
+            "example": "Ví dụ: Trong số 342 567, chữ số 4 thuộc hàng chục nghìn, lớp nghìn."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Bồi dưỡng Toán 4 • Trắc nghiệm",
+              "prompt": "Trong số 85 342 719, chữ số 5 thuộc hàng nào, lớp nào?",
+              "illustration": "🏷️ 🔢 🏛️",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Hàng triệu, thuộc lớp triệu"
+                },
+                {
+                  "id": "B",
+                  "text": "Hàng trăm nghìn, thuộc lớp nghìn"
+                },
+                {
+                  "id": "C",
+                  "text": "Hàng chục triệu, thuộc lớp triệu"
+                },
+                {
+                  "id": "D",
+                  "text": "Hàng triệu, thuộc lớp nghìn"
+                }
+              ],
+              "correct": "A",
+              "hint": "Phân tích lớp số: Lớp đơn vị gồm 719; Lớp nghìn gồm 342; Lớp triệu gồm 85 (chữ số 8 hàng chục triệu, chữ số 5 hàng triệu). Vậy chữ số 5 thuộc hàng triệu, lớp triệu!",
+              "skillTag": "toan-g4-hang-va-lop"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "input",
+              "tag": "Bồi dưỡng Toán 4 • Điền số",
+              "prompt": "Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít dầu. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?",
+              "illustration": "🛢️ ⚖️ 🛢️",
+              "correct": "72",
+              "hint": "Đây là dạng toán Tìm hai số khi biết Tổng và Hiệu. Thùng thứ nhất là số lớn: Số lớn = (Tổng + Hiệu) : 2 = (120 + 24) : 2 = 144 : 2 = 72 lít dầu!",
+              "skillTag": "toan-g4-hang-va-lop"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "match",
+              "tag": "Bồi dưỡng Toán 4 • Ghép nối",
+              "prompt": "Nối các số đo khối lượng và thời gian tương ứng:",
+              "illustration": "⚖️ ⏱️ 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "3 tạ 50 kg",
+                  "right": "350 kg"
+                },
+                {
+                  "id": "p2",
+                  "left": "2 tấn 5 yến",
+                  "right": "2 050 kg"
+                },
+                {
+                  "id": "p3",
+                  "left": "1 thế kỷ rưỡi",
+                  "right": "150 năm"
+                },
+                {
+                  "id": "p4",
+                  "left": "4 phút 15 giây",
+                  "right": "255 giây"
+                }
+              ],
+              "hint": "1 tạ = 100kg -> 3 tạ 50kg = 350kg; 1 tấn = 1000kg, 1 yến = 10kg -> 2050kg; 1 thế kỷ = 100 năm -> 150 năm; 4 phút = 240 giây -> 255 giây.",
+              "skillTag": "toan-g4-hang-va-lop"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Bồi dưỡng Toán 4 • Đúng / Sai",
+              "prompt": "Số chẵn nhỏ nhất có 6 chữ số khác nhau là 102 346.",
+              "illustration": "🔢 ⭐ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Để được số nhỏ nhất, chữ số đầu tiên phải nhỏ nhất khác 0 (là 1), các chữ số tiếp theo tăng dần 0, 2, 3, 4, và chữ số tận cùng phải là chữ số chẵn nhỏ nhất chưa dùng (là 6). Số 102 346 là chính xác!",
+              "skillTag": "toan-g4-hang-va-lop"
+            }
+          ]
+        },
+        {
+          "id": "toan-g4-w3",
+          "code": "Tuần 03",
+          "title": "Đơn vị đo khối lượng (yến, tạ, tấn) & Thời gian (thế kỷ)",
+          "status": "ready",
+          "lessonTitle": "Đơn vị đo khối lượng (yến, tạ, tấn) & Thời gian (thế kỷ)",
+          "skillTag": "toan-g4-don-vi-do",
+          "summaryCard": {
+            "title": "Đơn vị đo khối lượng & Đơn vị Thời gian",
+            "keyPoints": [
+              "1 tấn = 10 tạ = 100 yến = 1 000 kg; 1 tạ = 100 kg; 1 yến = 10 kg.",
+              "1 thế kỷ = 100 năm. Từ năm 1 đến năm 100 là thế kỷ I; năm 2001 đến 2100 là thế kỷ XXI.",
+              "Khi đổi đơn vị, chú ý nhân hoặc chia với 10, 100, 1 000."
+            ],
+            "example": "Ví dụ: 3 tấn 5 tạ = 3 500 kg; Năm 1945 thuộc thế kỷ XX (20)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 4 • Thời gian thế kỉ",
+              "prompt": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long. Năm đó thuộc thế kỉ nào?",
+              "illustration": "🏯 📜 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Thế kỉ XI"
+                },
+                {
+                  "id": "B",
+                  "text": "Thế kỉ X"
+                },
+                {
+                  "id": "C",
+                  "text": "Thế kỉ XII"
+                },
+                {
+                  "id": "D",
+                  "text": "Thế kỉ IX"
+                }
+              ],
+              "correct": "A",
+              "hint": "Thế kỉ XI bắt đầu từ năm 1001 đến năm 1100. Do đó năm 1010 thuộc thế kỉ XI.",
+              "skillTag": "toan-g4-don-vi-do"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 4 • Đổi đơn vị khối lượng",
+              "prompt": "Điền số thích hợp vào chỗ chấm: 4 tấn 25 kg = ...... kg.",
+              "illustration": "⚖️ 🚛 ✍️",
+              "correct": "4025",
+              "hint": "1 tấn = 1000 kg. Vậy 4 tấn 25 kg = 4000 kg + 25 kg = 4025 kg.",
+              "skillTag": "toan-g4-don-vi-do"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 4 • Ghép số đo tương đương",
+              "prompt": "Nối các số đo có giá trị bằng nhau:",
+              "illustration": "🧩 ⚖️ ⏱️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "2 tấn 5 tạ",
+                  "right": "2500 kg"
+                },
+                {
+                  "id": "p2",
+                  "left": "3 tạ 8 yến",
+                  "right": "380 kg"
+                },
+                {
+                  "id": "p3",
+                  "left": "5 thế kỉ",
+                  "right": "500 năm"
+                },
+                {
+                  "id": "p4",
+                  "left": "1/4 thế kỉ",
+                  "right": "25 năm"
+                }
+              ],
+              "hint": "1 tấn = 10 tạ = 1000 kg; 1 tạ = 10 yến = 100 kg; 1 thế kỉ = 100 năm.",
+              "skillTag": "toan-g4-don-vi-do"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 4 • Đúng / Sai",
+              "prompt": "1 tạ bằng 10 yến và bằng 100 kg.",
+              "illustration": "⚖️ 🌾 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Đúng theo bảng đơn vị đo khối lượng: Tấn - Tạ - Yến - Kilôgam.",
+              "skillTag": "toan-g4-don-vi-do"
+            }
+          ]
+        },
+        {
+          "id": "toan-g4-w4",
+          "code": "Tuần 04",
+          "title": "Bài toán Tìm hai số khi biết Tổng và Hiệu của hai số",
+          "status": "locked",
+          "lessonTitle": "Bài toán Tìm hai số khi biết Tổng và Hiệu của hai số",
+          "skillTag": "toan-g4-tong-va-hieu",
+          "summaryCard": {
+            "title": "Bài toán Tìm hai số khi biết Tổng và Hiệu",
+            "keyPoints": [
+              "Công thức Số lớn: (Tổng + Hiệu) : 2",
+              "Công thức Số bé: (Tổng - Hiệu) : 2 (hoặc lấy Số lớn trừ đi Hiệu).",
+              "Nên thử lại bằng cách cộng hai số xem có đúng bằng Tổng không."
+            ],
+            "example": "Ví dụ: Tổng là 70, Hiệu là 10. Số lớn = (70 + 10) : 2 = 40; Số bé = 70 - 40 = 30."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 4 • Tìm hai số khi biết Tổng và Hiệu",
+              "prompt": "Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?",
+              "illustration": "🛢️ 🛢️ 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "72 lít"
+                },
+                {
+                  "id": "B",
+                  "text": "48 lít"
+                },
+                {
+                  "id": "C",
+                  "text": "96 lít"
+                },
+                {
+                  "id": "D",
+                  "text": "68 lít"
+                }
+              ],
+              "correct": "A",
+              "hint": "Thùng thứ nhất là số lớn = (Tổng + Hiệu) : 2 = (120 + 24) : 2 = 144 : 2 = 72 lít.",
+              "skillTag": "toan-g4-tong-va-hieu"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 4 • Tính số bé",
+              "prompt": "Hai số có tổng bằng 90 và hiệu bằng 16. Tìm số bé.",
+              "illustration": "🔢 ➖ ✍️",
+              "correct": "37",
+              "hint": "Số bé = (Tổng - Hiệu) : 2 = (90 - 16) : 2 = 74 : 2 = 37.",
+              "skillTag": "toan-g4-tong-va-hieu"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 4 • Công thức Tổng - Hiệu",
+              "prompt": "Nối công thức và bài toán tính nhanh:",
+              "illustration": "🧩 ➕ ➖",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Công thức Số lớn",
+                  "right": "(Tổng + Hiệu) : 2"
+                },
+                {
+                  "id": "p2",
+                  "left": "Công thức Số bé",
+                  "right": "(Tổng - Hiệu) : 2"
+                },
+                {
+                  "id": "p3",
+                  "left": "Tổng 80, Hiệu 20 -> Số lớn",
+                  "right": "50"
+                },
+                {
+                  "id": "p4",
+                  "left": "Tổng 80, Hiệu 20 -> Số bé",
+                  "right": "30"
+                }
+              ],
+              "hint": "Áp dụng công thức tìm hai số khi biết tổng và hiệu.",
+              "skillTag": "toan-g4-tong-va-hieu"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 4 • Đúng / Sai",
+              "prompt": "Tổng của hai số chẵn liên tiếp luôn là một số chẵn và hiệu của chúng bằng 2.",
+              "illustration": "2️⃣ 4️⃣ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Hai số chẵn liên tiếp hơn kém nhau 2 đơn vị (Hiệu = 2), chẵn + chẵn = chẵn.",
+              "skillTag": "toan-g4-tong-va-hieu"
+            }
+          ]
+        },
+        {
+          "id": "toan-g4-w5",
+          "code": "Tuần 05",
+          "title": "Khái niệm Phân số, phân số bằng nhau & Rút gọn phân số",
+          "status": "locked",
+          "lessonTitle": "Khái niệm Phân số, phân số bằng nhau & Rút gọn phân số",
+          "skillTag": "toan-g4-rut-gon-phan-so",
+          "summaryCard": {
+            "title": "Phân số bằng nhau & Rút gọn phân số",
+            "keyPoints": [
+              "Nhân hoặc chia cả tử số và mẫu số cho cùng một số tự nhiên khác 0 thì được phân số bằng phân số đã cho.",
+              "Rút gọn phân số: Chia cả tử và mẫu cho ước chung lớn nhất để được phân số tối giản.",
+              "Phân số tối giản là phân số không thể rút gọn được nữa."
+            ],
+            "example": "Ví dụ: 12/18 rút gọn bằng cách chia cả tử và mẫu cho 6, được 2/3."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 4 • Rút gọn phân số",
+              "prompt": "Rút gọn phân số 36/48 về dạng phân số tối giản ta được:",
+              "illustration": "🍰 🍕 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "3/4"
+                },
+                {
+                  "id": "B",
+                  "text": "6/8"
+                },
+                {
+                  "id": "C",
+                  "text": "9/12"
+                },
+                {
+                  "id": "D",
+                  "text": "2/3"
+                }
+              ],
+              "correct": "A",
+              "hint": "Chia cả tử số và mẫu số cho ước chung lớn nhất là 12: 36:12 = 3; 48:12 = 4 -> 3/4.",
+              "skillTag": "toan-g4-rut-gon-phan-so"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 4 • Phân số bằng nhau",
+              "prompt": "Tìm số tự nhiên x biết: 5/7 = x/35.",
+              "illustration": "5️⃣ 7️⃣ ✍️",
+              "correct": "25",
+              "hint": "Mẫu số nhân 5 (7 × 5 = 35) nên tử số cũng nhân 5 (5 × 5 = 25).",
+              "skillTag": "toan-g4-rut-gon-phan-so"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 4 • Ghép phân số bằng nhau",
+              "prompt": "Nối các phân số có giá trị bằng nhau:",
+              "illustration": "🧩 ⚖️ 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "2/3",
+                  "right": "8/12"
+                },
+                {
+                  "id": "p2",
+                  "left": "3/5",
+                  "right": "15/25"
+                },
+                {
+                  "id": "p3",
+                  "left": "4/7",
+                  "right": "16/28"
+                },
+                {
+                  "id": "p4",
+                  "left": "5/6",
+                  "right": "25/30"
+                }
+              ],
+              "hint": "Nhân cả tử và mẫu với cùng một số tự nhiên khác 0.",
+              "skillTag": "toan-g4-rut-gon-phan-so"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 4 • Đúng / Sai",
+              "prompt": "Một phân số có tử số lớn hơn mẫu số thì phân số đó lớn hơn 1.",
+              "illustration": "📈 🍰 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Ví dụ 5/4 > 1, 7/3 > 1. Tử số lớn hơn mẫu số thì phân số luôn lớn hơn 1.",
+              "skillTag": "toan-g4-rut-gon-phan-so"
+            }
+          ]
+        }
+      ]
+    },
+    "tieng-viet": {
+      "key": "tieng-viet",
+      "title": "Tiếng Việt Lớp 4",
+      "themeColor": "#FF91A8",
+      "icon": "📖",
+      "bookRef": {
+        "name": "Tiếng Việt 4 Nâng Cao",
+        "author": "GS.TS Lê Phương Nga (Chủ biên) – NXB Giáo Dục Việt Nam"
+      },
+      "lessons": [
+        {
+          "id": "tv-g4-b1",
+          "code": "Chuyên đề 01",
+          "title": "Chính tả: Phân biệt âm đầu l/n, ch/tr, s/x & vần khó ươn/ương",
+          "status": "ready",
+          "lessonTitle": "Chính tả: Phân biệt âm đầu l/n, ch/tr, s/x & vần khó ươn/ương",
+          "skillTag": "tv-g4-chinh-ta-am-van",
+          "summaryCard": {
+            "title": "Chính tả: Phân biệt âm vần khó l/n, ch/tr, s/x",
+            "keyPoints": [
+              "Phân biệt l/n: 'l' thường đi với từ gợi cảm, tượng hình; 'n' hay đứng trong từ phủ định (nào, này, nọ).",
+              "Phân biệt ch/tr: 'tr' không đi với các âm o, ô, ơ, ê; 'ch' đi được với tất cả các âm.",
+              "Phân biệt vần ươn/ương: mượn, vươn (ươn) vs sương, đường, thương (ương)."
+            ],
+            "example": "Ví dụ: 'con trâu', 'chăm chỉ', 'ngôi sao', 'xinh xắn'."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 4 • Trắc nghiệm",
+              "prompt": "Dòng nào dưới đây chứa các từ viết ĐÚNG chính tả về âm đầu l / n?",
+              "illustration": "🌾 📝 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "lúa nếp, lợn nái, lời nói, lưng núi"
+                },
+                {
+                  "id": "B",
+                  "text": "núa nếp, nợn nái, nời nói, nưng núi"
+                },
+                {
+                  "id": "C",
+                  "text": "lúa lếp, lợn lái, lời lói, lưng lúi"
+                },
+                {
+                  "id": "D",
+                  "text": "lúa nếp, nợn lái, nời lói, lưng núi"
+                }
+              ],
+              "correct": "A",
+              "hint": "các kết hợp từ chuẩn xác là: lúa nếp, lợn nái, lọ nước, lời nói, lúc nãy, lưng núi, nối liền!",
+              "skillTag": "tv-g4-chinh-ta-am-van"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 4 • Điền từ",
+              "prompt": "Tìm từ loại bỏ: Trong cặp từ \"mượn - mượng\", từ nào KHÔNG có trong vốn từ Tiếng Việt (chắc chắn viết sai chính tả)?",
+              "illustration": "❌ ✍️ 🔍",
+              "correct": "mượng",
+              "hint": "\"mượn\" là tiếng có nghĩa (vay mượn, mượn sách), còn \"mượng\" là tiếng viết sai, không có trong từ điển tiếng Việt!",
+              "skillTag": "tv-g4-chinh-ta-am-van"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 4 • Ghép nối",
+              "prompt": "Phân loại từ ngữ theo cấu tạo (Từ đơn, Từ ghép, Từ láy):",
+              "illustration": "🧩 📚 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "long lanh",
+                  "right": "Từ láy âm"
+                },
+                {
+                  "id": "p2",
+                  "left": "nhà cửa",
+                  "right": "Từ ghép đẳng lập"
+                },
+                {
+                  "id": "p3",
+                  "left": "xe đạp",
+                  "right": "Từ ghép chính phụ"
+                },
+                {
+                  "id": "p4",
+                  "left": "sách",
+                  "right": "Từ đơn"
+                }
+              ],
+              "hint": "long lanh: láy âm đầu \"l\"; nhà cửa: ghép đẳng lập; xe đạp: \"đạp\" định nghĩa cho \"xe\" (ghép chính phụ); sách: từ đơn 1 tiếng.",
+              "skillTag": "tv-g4-chinh-ta-am-van"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 4 • Đúng / Sai",
+              "prompt": "Từ \"mặt mũi\" là từ láy vì có phụ âm đầu \"m\" lặp lại giống nhau.",
+              "illustration": "👦 👃 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "F",
+              "hint": "Cả \"mặt\" và \"mũi\" đều là các danh từ độc lập có nghĩa rõ ràng, kết hợp tạo thành từ ghép đẳng lập, không phải từ láy!",
+              "skillTag": "tv-g4-chinh-ta-am-van"
+            }
+          ]
+        },
+        {
+          "id": "tv-g4-b2",
+          "code": "Chuyên đề 02",
+          "title": "Cấu tạo từ: Từ đơn, Từ ghép (đẳng lập, chính phụ) & Từ láy",
+          "status": "ready",
+          "lessonTitle": "Cấu tạo từ: Từ đơn, Từ ghép (đẳng lập, chính phụ) & Từ láy",
+          "skillTag": "tv-g4-tu-ghep-tu-lay",
+          "summaryCard": {
+            "title": "Cấu tạo từ: Từ đơn, Từ ghép & Từ láy",
+            "keyPoints": [
+              "Từ ghép: Tạo bởi 2 hay nhiều tiếng có quan hệ về nghĩa (bàn ghế, học tập, xe đạp).",
+              "Từ láy: Tạo bởi các tiếng có quan hệ điệp âm hoặc vần (lung linh, róc rách, dịu dàng).",
+              "Phân biệt từ ghép đẳng lập (bình đẳng về nghĩa) và từ ghép chính phụ (có tiếng chính, tiếng phụ bổ nghĩa)."
+            ],
+            "example": "Ví dụ: 'núi non' (từ ghép đẳng lập); 'xanh lè' (ghép chính phụ); 'lao xao' (từ láy)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 4 • Cấu tạo từ ghép",
+              "prompt": "Trong các từ sau, từ nào là từ ghép đẳng lập (tổng hợp)?",
+              "illustration": "🏠 🚪 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "nhà cửa"
+                },
+                {
+                  "id": "B",
+                  "text": "xe đạp"
+                },
+                {
+                  "id": "C",
+                  "text": "hoa hồng"
+                },
+                {
+                  "id": "D",
+                  "text": "bánh mì"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"nhà\" và \"cửa\" đều là tiếng độc lập, kết hợp bình đẳng tạo nghĩa tổng quát chỉ nơi ở.",
+              "skillTag": "tv-g4-tu-ghep-tu-lay"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 4 • Nhận diện từ láy",
+              "prompt": "Từ \"long lanh\" thuộc loại cấu tạo từ nào: từ đơn, từ ghép hay từ láy?",
+              "illustration": "✨ 💎 ✍️",
+              "correct": "từ láy",
+              "hint": "Có sự điệp phụ âm đầu \"l - l\" và mô phỏng ánh sáng phản chiếu lấp lánh.",
+              "skillTag": "tv-g4-tu-ghep-tu-lay"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 4 • Phân loại cấu tạo từ",
+              "prompt": "Nối từ với kiểu cấu tạo từ tương ứng:",
+              "illustration": "🧩 📚 🏷️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "học tập",
+                  "right": "Từ ghép đẳng lập"
+                },
+                {
+                  "id": "p2",
+                  "left": "xe máy",
+                  "right": "Từ ghép chính phụ"
+                },
+                {
+                  "id": "p3",
+                  "left": "róc rách",
+                  "right": "Từ láy tượng thanh"
+                },
+                {
+                  "id": "p4",
+                  "left": "xanh xao",
+                  "right": "Từ láy tượng hình"
+                }
+              ],
+              "hint": "Ghép chính phụ có tiếng chính định hình và tiếng phụ phân loại.",
+              "skillTag": "tv-g4-tu-ghep-tu-lay"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 4 • Đúng / Sai",
+              "prompt": "Từ ghép phân loại (chính phụ) có trật tự tiếng chính đứng trước, tiếng phụ bổ nghĩa đứng sau.",
+              "illustration": "🚗 🚲 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Ví dụ: xe đạp, bút bi, hoa cúc (tiếng đứng trước là tiếng chính).",
+              "skillTag": "tv-g4-tu-ghep-tu-lay"
+            }
+          ]
+        },
+        {
+          "id": "tv-g4-b3",
+          "code": "Chuyên đề 03",
+          "title": "Từ loại: Danh từ chung, Danh từ riêng & Quy tắc viết hoa",
+          "status": "ready",
+          "lessonTitle": "Từ loại: Danh từ chung, Danh từ riêng & Quy tắc viết hoa",
+          "skillTag": "tv-g4-danh-tu-viet-hoa",
+          "summaryCard": {
+            "title": "Từ loại: Danh từ chung, Danh từ riêng & Viết hoa",
+            "keyPoints": [
+              "Danh từ chung: Tên của một loại sự vật (sông, núi, học sinh, trường học).",
+              "Danh từ riêng: Tên riêng của người, địa danh cụ thể (Việt Nam, Hà Nội, Lê Lợi).",
+              "Quy tắc viết hoa: Luôn viết hoa chữ cái đầu của mỗi tiếng tạo thành danh từ riêng."
+            ],
+            "example": "Ví dụ: 'dòng sông' (danh từ chung) vs 'Sông Hồng' (danh từ riêng)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 4 • Danh từ riêng",
+              "prompt": "Từ nào dưới đây là danh từ riêng chỉ tên người Việt Nam?",
+              "illustration": "👤 📜 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nguyễn Du"
+                },
+                {
+                  "id": "B",
+                  "text": "học sinh giỏi"
+                },
+                {
+                  "id": "C",
+                  "text": "nhà thơ"
+                },
+                {
+                  "id": "D",
+                  "text": "đại thi hào"
+                }
+              ],
+              "correct": "A",
+              "hint": "Nguyễn Du là tên riêng của đại thi hào dân tộc, phải viết hoa chữ cái đầu mỗi tiếng.",
+              "skillTag": "tv-g4-danh-tu-viet-hoa"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 4 • Tìm danh từ riêng",
+              "prompt": "Trong câu: \"Hà Nội là thủ đô ngàn năm văn hiến\", từ nào là danh từ riêng chỉ địa danh?",
+              "illustration": "🏛️ 🗺️ ✍️",
+              "correct": "Hà Nội",
+              "hint": "Tên thủ đô của nước ta, viết hoa chữ cái đầu của cả hai tiếng.",
+              "skillTag": "tv-g4-danh-tu-viet-hoa"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 4 • Phân loại danh từ",
+              "prompt": "Nối từ ngữ với loại danh từ thích hợp:",
+              "illustration": "🧩 🏷️ 📚",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "bàn ghế",
+                  "right": "Danh từ chỉ đồ vật"
+                },
+                {
+                  "id": "p2",
+                  "left": "bác sĩ",
+                  "right": "Danh từ chỉ người"
+                },
+                {
+                  "id": "p3",
+                  "left": "sông Cửu Long",
+                  "right": "Danh từ riêng địa lí"
+                },
+                {
+                  "id": "p4",
+                  "left": "lòng dũng cảm",
+                  "right": "Danh từ chỉ khái niệm"
+                }
+              ],
+              "hint": "Danh từ chỉ người, vật, hiện tượng, khái niệm trừu tượng.",
+              "skillTag": "tv-g4-danh-tu-viet-hoa"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 4 • Đúng / Sai",
+              "prompt": "Khi viết tên địa lí Việt Nam, ta viết hoa chữ cái đầu của tất cả các tiếng tạo thành tên đó.",
+              "illustration": "🇻🇳 🗺️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Ví dụ: Hà Nội, Đà Nẵng, Cửu Long, Hoàng Liên Sơn.",
+              "skillTag": "tv-g4-danh-tu-viet-hoa"
+            }
+          ]
+        },
+        {
+          "id": "tv-g4-b4",
+          "code": "Chuyên đề 04",
+          "title": "Câu kể & Các loại Trạng ngữ chỉ nơi chốn, thời gian, nguyên nhân",
+          "status": "locked",
+          "lessonTitle": "Câu kể & Các loại Trạng ngữ chỉ nơi chốn, thời gian, nguyên nhân",
+          "skillTag": "tv-g4-trang-ngu",
+          "summaryCard": {
+            "title": "Các loại Trạng ngữ trong câu",
+            "keyPoints": [
+              "Trạng ngữ chỉ nơi chốn: Trả lời câu hỏi Ở đâu? (Ngoài vườn, trên cành cây...).",
+              "Trạng ngữ chỉ thời gian: Trả lời câu hỏi Khi nào? (Buổi sáng, vào mùa xuân...).",
+              "Trạng ngữ chỉ nguyên nhân: Trả lời câu hỏi Vì sao? Nhờ đâu? (Vì chăm chỉ, nhờ học tập...)."
+            ],
+            "example": "Ví dụ: 'Sáng nay (TN thời gian), trên cành cây (TN nơi chốn), chim hót líu lo.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 4 • Ý nghĩa trạng ngữ",
+              "prompt": "Trạng ngữ trong câu: \"Sáng sớm mai, chúng em sẽ đi cắm trại ở Ba Vì.\" bổ sung ý nghĩa gì cho câu?",
+              "illustration": "🏕️ 🌅 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Chỉ thời gian"
+                },
+                {
+                  "id": "B",
+                  "text": "Chỉ nơi chốn"
+                },
+                {
+                  "id": "C",
+                  "text": "Chỉ nguyên nhân"
+                },
+                {
+                  "id": "D",
+                  "text": "Chỉ mục đích"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Sáng sớm mai\" trả lời cho câu hỏi: Khi nào? Bao giờ? -> Trạng ngữ chỉ thời gian.",
+              "skillTag": "tv-g4-trang-ngu"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 4 • Xác định trạng ngữ",
+              "prompt": "Tìm trạng ngữ trong câu sau: \"Vì trời mưa to, đường phố bị ngập úng nhiều nơi.\"",
+              "illustration": "🌧️ 🌊 ✍️",
+              "correct": "Vì trời mưa to",
+              "hint": "Bộ phận đứng đầu câu nêu lí do dẫn đến việc đường phố bị ngập úng.",
+              "skillTag": "tv-g4-trang-ngu"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 4 • Phân loại trạng ngữ",
+              "prompt": "Nối trạng ngữ với loại ý nghĩa tương ứng:",
+              "illustration": "🧩 🕒 📍",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Trên cành cây cao",
+                  "right": "Chỉ nơi chốn"
+                },
+                {
+                  "id": "p2",
+                  "left": "Mùa xuân về",
+                  "right": "Chỉ thời gian"
+                },
+                {
+                  "id": "p3",
+                  "left": "Nhờ chăm chỉ học tập",
+                  "right": "Chỉ nguyên nhân"
+                },
+                {
+                  "id": "p4",
+                  "left": "Để đạt học sinh giỏi",
+                  "right": "Chỉ mục đích"
+                }
+              ],
+              "hint": "Dựa vào câu hỏi tương ứng: Ở đâu? Khi nào? Vì sao? Để làm gì?",
+              "skillTag": "tv-g4-trang-ngu"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 4 • Đúng / Sai",
+              "prompt": "Trạng ngữ ngăn cách với chủ ngữ và vị ngữ trong câu bằng dấu phẩy.",
+              "illustration": "✍️ , 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Khi đứng ở đầu câu, trạng ngữ thường được phân tách với nòng cốt câu bằng dấu phẩy.",
+              "skillTag": "tv-g4-trang-ngu"
+            }
+          ]
+        },
+        {
+          "id": "tv-g4-b5",
+          "code": "Chuyên đề 05",
+          "title": "Mở rộng vốn từ Nhân hậu - Đoàn kết, Ý chí - Nghị lực",
+          "status": "locked",
+          "lessonTitle": "Mở rộng vốn từ Nhân hậu - Đoàn kết, Ý chí - Nghị lực",
+          "skillTag": "tv-g4-von-tu-chu-diem",
+          "summaryCard": {
+            "title": "Mở rộng vốn từ Nhân hậu - Ý chí",
+            "keyPoints": [
+              "Từ ngữ chỉ lòng nhân hậu: Thương người, nhân ái, độ lượng, bao dung, vị tha.",
+              "Từ ngữ chỉ ý chí, nghị lực: Bền lòng, kiên trì, quyết tâm, vững chí, vượt khó.",
+              "Thành ngữ, tục ngữ: 'Lá lành đùm lá rách', 'Có chí thì nên'."
+            ],
+            "example": "Ví dụ: 'Anh ấy luôn kiên trì vượt qua khó khăn để thành công.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 4 • Thành ngữ tục ngữ",
+              "prompt": "Thành ngữ nào dưới đây thể hiện tinh thần tương thân tương ái, cưu mang giúp đỡ lẫn nhau?",
+              "illustration": "🤝 💖 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Lá lành đùm lá rách"
+                },
+                {
+                  "id": "B",
+                  "text": "Có công mài sắt có ngày nên kim"
+                },
+                {
+                  "id": "C",
+                  "text": "Đứng núi này trông núi nọ"
+                },
+                {
+                  "id": "D",
+                  "text": "Ăn quả nhớ kẻ trồng cây"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Lá lành đùm lá rách\" là bài học đạo lí ngàn đời của dân tộc ta về lòng nhân hậu, đùm bọc.",
+              "skillTag": "tv-g4-von-tu-chu-diem"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 4 • Điền tục ngữ",
+              "prompt": "Điền từ còn thiếu vào câu tục ngữ nói về ý chí kiên trì: \"Có công mài sắt, có ngày nên ......\"",
+              "illustration": "🪨 🪡 ✍️",
+              "correct": "kim",
+              "hint": "Mài một thanh sắt lớn kiên trì sẽ thành cây kim may vá sắc bén.",
+              "skillTag": "tv-g4-von-tu-chu-diem"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 4 • Mở rộng vốn từ",
+              "prompt": "Nối từ ngữ với chủ điểm phù hợp:",
+              "illustration": "🧩 📚 💖",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "nhân ái",
+                  "right": "Lòng nhân hậu"
+                },
+                {
+                  "id": "p2",
+                  "left": "đồng tâm hiệp lực",
+                  "right": "Tinh thần đoàn kết"
+                },
+                {
+                  "id": "p3",
+                  "left": "kiên trì bền bỉ",
+                  "right": "Ý chí - Nghị lực"
+                },
+                {
+                  "id": "p4",
+                  "left": "uống nước nhớ nguồn",
+                  "right": "Biết ơn"
+                }
+              ],
+              "hint": "Các chủ điểm cốt lõi trong phân môn Luyện từ và câu lớp 4.",
+              "skillTag": "tv-g4-von-tu-chu-diem"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 4 • Đúng / Sai",
+              "prompt": "Thành ngữ \"Vạn sự khởi đầu nan\" khuyên chúng ta không nên nản lòng khi gặp khó khăn lúc ban đầu.",
+              "illustration": "🧗 ⛰️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Mọi việc bắt đầu thường khó khăn (nan), cần có ý chí vững vàng để vượt qua.",
+              "skillTag": "tv-g4-von-tu-chu-diem"
+            }
+          ]
+        }
+      ]
+    },
+    "tieng-anh": {
+      "key": "tieng-anh",
+      "title": "Tiếng Anh Lớp 4",
+      "themeColor": "#78D9AE",
+      "icon": "🌍",
+      "bookRef": {
+        "name": "Bồi dưỡng Học sinh giỏi Tiếng Anh 4 (Global Success)",
+        "author": "Bộ GD&ĐT – Bồi dưỡng HSG Tiểu học"
+      },
+      "lessons": [
+        {
+          "id": "eng-g4-u1",
+          "code": "Chuyên đề 01",
+          "title": "Articles \"a / an\" - Quy tắc phát âm nguyên âm & Ngoại lệ",
+          "status": "ready",
+          "lessonTitle": "Articles \"a / an\" - Quy tắc phát âm nguyên âm & Ngoại lệ",
+          "skillTag": "eng-g4-articles-rules",
+          "summaryCard": {
+            "title": "Articles 'a / an': Quy tắc phát âm và ngoại lệ",
+            "keyPoints": [
+              "Dùng 'an' khi danh từ bắt đầu bằng âm nguyên âm /e/, /æ/, /aɪ/, /ɒ/... (an apple, an umbrella).",
+              "Ngoại lệ chữ 'u': Phát âm là /ju:/ dùng 'a' (a university, a uniform); phát âm là /ʌ/ dùng 'an' (an umbrella).",
+              "Ngoại lệ chữ 'h': Âm câm dùng 'an' (an hour, an honest man); âm bật dùng 'a' (a horse, a house)."
+            ],
+            "example": "Example: 'an hour' (h câm), but 'a house'; 'a university', but 'an umbrella'."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+              "type": "choice",
+              "tag": "Tiếng Anh 4 • Trắc nghiệm",
+              "prompt": "Choose the correct answer: \"Do you live in [.....]?\"",
+              "illustration": "🏡 🏢 🇬🇧",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "a house"
+                },
+                {
+                  "id": "B",
+                  "text": "a apartment"
+                },
+                {
+                  "id": "C",
+                  "text": "an house"
+                },
+                {
+                  "id": "D",
+                  "text": "an big house"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"house\" bắt đầu bằng phụ âm /h/ nên dùng \"a house\". \"apartment\" bắt đầu bằng nguyên âm /ə/ nên phải dùng \"an apartment\".",
+              "skillTag": "eng-g4-articles-rules"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+              "type": "input",
+              "tag": "Tiếng Anh 4 • Điền từ",
+              "prompt": "Fill in the blank with \"a\" or \"an\": \"I waited for [.....] hour at the bus stop.\"",
+              "illustration": "⏱️ 🚌 ✏️",
+              "correct": "an",
+              "hint": "Chữ cái \"h\" trong từ \"hour\" là âm câm (phát âm là /aʊər/), bắt đầu bằng nguyên âm nên ta dùng \"an hour\"!",
+              "skillTag": "eng-g4-articles-rules"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+              "type": "match",
+              "tag": "Tiếng Anh 4 • Ghép nối",
+              "prompt": "Match noun with correct article usage:",
+              "illustration": "🧩 🔗 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "university",
+                  "right": "a university (âm đầu /ju:/)"
+                },
+                {
+                  "id": "p2",
+                  "left": "umbrella",
+                  "right": "an umbrella (âm đầu /ʌ/)"
+                },
+                {
+                  "id": "p3",
+                  "left": "hour",
+                  "right": "an hour (âm h câm, bắt đầu bằng /aʊ/)"
+                },
+                {
+                  "id": "p4",
+                  "left": "uniform",
+                  "right": "a uniform (âm đầu /ju:/)"
+                }
+              ],
+              "hint": "Ngoại lệ quan trọng: a university, a uniform (âm /juː/), nhưng an umbrella (âm /ʌ/); an astronaut (âm /æ/).",
+              "skillTag": "eng-g4-articles-rules"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+              "type": "true_false",
+              "tag": "Tiếng Anh 4 • Đúng / Sai",
+              "prompt": "The plural form of \"child\" is \"children\" and the plural form of \"knife\" is \"knives\". True or False?",
+              "illustration": "🧒 🔪 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Đây là các danh từ số nhiều bất quy tắc: child -> children; danh từ đuôi -fe đổi thành -ves: knife -> knives. Hoàn toàn ĐÚNG (TRUE).",
+              "skillTag": "eng-g4-articles-rules"
+            }
+          ]
+        },
+        {
+          "id": "eng-g4-u2",
+          "code": "Chuyên đề 02",
+          "title": "Regular & Irregular Plural Nouns (Danh từ số nhiều bất quy tắc)",
+          "status": "ready",
+          "lessonTitle": "Regular & Irregular Plural Nouns (Danh từ số nhiều bất quy tắc)",
+          "skillTag": "eng-g4-irregular-plurals",
+          "summaryCard": {
+            "title": "Irregular Plural Nouns (Danh từ số nhiều bất quy tắc)",
+            "keyPoints": [
+              "Các danh từ đổi chữ cái khi sang số nhiều: man -> men, woman -> women, tooth -> teeth, foot -> feet.",
+              "Các danh từ biến đổi hoàn toàn: child -> children, mouse -> mice, person -> people.",
+              "Các danh từ giữ nguyên hình thức: sheep -> sheep, fish -> fish, deer -> deer."
+            ],
+            "example": "Example: one child -> two children; one mouse -> three mice."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 4 • Irregular Plural Nouns",
+              "prompt": "What is the irregular plural form of the noun \"mouse\"?",
+              "illustration": "🐭 🧀 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "mice"
+                },
+                {
+                  "id": "B",
+                  "text": "mouses"
+                },
+                {
+                  "id": "C",
+                  "text": "mices"
+                },
+                {
+                  "id": "D",
+                  "text": "mouse"
+                }
+              ],
+              "correct": "A",
+              "hint": "Irregular plural: 1 mouse -> 2 mice.",
+              "skillTag": "eng-g4-irregular-plurals"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 4 • Số nhiều bất quy tắc",
+              "prompt": "Write the plural form of \"man\":",
+              "illustration": "👨 👨‍🦱 ✍️",
+              "correct": "men",
+              "hint": "Vowel change: man -> men (similar to woman -> women).",
+              "skillTag": "eng-g4-irregular-plurals"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 4 • Ghép danh từ số nhiều",
+              "prompt": "Match singular nouns with their irregular plural forms:",
+              "illustration": "🧩 👥 🦆",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "person",
+                  "right": "people"
+                },
+                {
+                  "id": "p2",
+                  "left": "goose",
+                  "right": "geese"
+                },
+                {
+                  "id": "p3",
+                  "left": "sheep",
+                  "right": "sheep"
+                },
+                {
+                  "id": "p4",
+                  "left": "knife",
+                  "right": "knives"
+                }
+              ],
+              "hint": "person -> people; goose -> geese; sheep remains sheep; knife -> knives.",
+              "skillTag": "eng-g4-irregular-plurals"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 4 • True / False",
+              "prompt": "For nouns ending in -ch, -sh, -s, -x, -z, we add \"-es\" to make them plural.",
+              "illustration": "📦 🚌 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Watch -> watches; brush -> brushes; bus -> buses; box -> boxes.",
+              "skillTag": "eng-g4-irregular-plurals"
+            }
+          ]
+        },
+        {
+          "id": "eng-g4-u3",
+          "code": "Chuyên đề 03",
+          "title": "Present Simple vs Present Continuous (Hiện tại đơn & Tiếp diễn)",
+          "status": "ready",
+          "lessonTitle": "Present Simple vs Present Continuous (Hiện tại đơn & Tiếp diễn)",
+          "skillTag": "eng-g4-present-continuous",
+          "summaryCard": {
+            "title": "Present Simple vs Present Continuous",
+            "keyPoints": [
+              "Present Simple: Thói quen, sự thật hiển nhiên (always, usually, every day). V/V-s/es.",
+              "Present Continuous: Hành động đang xảy ra tại thời điểm nói (now, at the moment, look!). S + am/is/are + V-ing.",
+              "Quy tắc thêm -ing: bỏ 'e' (make -> making), gấp đôi phụ âm (run -> running)."
+            ],
+            "example": "Example: 'I walk to school every day, but now I am riding a bike.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 4 • Present Continuous",
+              "prompt": "Look! The little baby ______ peacefully in the crib.",
+              "illustration": "👶 🛏️ 🤫",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "is sleeping"
+                },
+                {
+                  "id": "B",
+                  "text": "sleeps"
+                },
+                {
+                  "id": "C",
+                  "text": "slept"
+                },
+                {
+                  "id": "D",
+                  "text": "are sleeping"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Look!\" indicates an action happening right now -> Present Continuous: is + sleeping.",
+              "skillTag": "eng-g4-present-continuous"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 4 • Hiện tại đơn",
+              "prompt": "Fill in the verb in brackets: \"My brother usually ______ (ride) his bicycle to school.\"",
+              "illustration": "🚴 🎒 ✍️",
+              "correct": "rides",
+              "hint": "Third-person singular (My brother) with habitual adverb \"usually\" adds -s: rides.",
+              "skillTag": "eng-g4-present-continuous"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 4 • Dấu hiệu thì",
+              "prompt": "Match tense with its typical signal words:",
+              "illustration": "🧩 ⏰ 📅",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Present Simple",
+                  "right": "always, usually, every day"
+                },
+                {
+                  "id": "p2",
+                  "left": "Present Continuous",
+                  "right": "now, at the moment, Listen!"
+                },
+                {
+                  "id": "p3",
+                  "left": "Habitual actions",
+                  "right": "Present Simple"
+                },
+                {
+                  "id": "p4",
+                  "left": "Actions happening right now",
+                  "right": "Present Continuous"
+                }
+              ],
+              "hint": "Dấu hiệu nhận biết thì Hiện tại đơn và Hiện tại tiếp diễn.",
+              "skillTag": "eng-g4-present-continuous"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 4 • True / False",
+              "prompt": "We use the Present Simple tense to express universal truths and facts.",
+              "illustration": "☀️ 🌍 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "True! E.g., \"The sun rises in the east\" uses Present Simple.",
+              "skillTag": "eng-g4-present-continuous"
+            }
+          ]
+        },
+        {
+          "id": "eng-g4-u4",
+          "code": "Chuyên đề 04",
+          "title": "Past Simple Tense with \"was / were\" and regular verbs",
+          "status": "locked",
+          "lessonTitle": "Past Simple Tense with \"was / were\" and regular verbs",
+          "skillTag": "eng-g4-past-simple",
+          "summaryCard": {
+            "title": "Past Simple with 'was/were' and Regular Verbs",
+            "keyPoints": [
+              "Động từ to be ở quá khứ: I, he, she, it + was | You, we, they + were.",
+              "Động từ có quy tắc: Thêm '-ed' (play -> played, watch -> watched).",
+              "Dấu hiệu nhận biết: yesterday, last night, last week, ago, in 2020."
+            ],
+            "example": "Example: 'She was at home yesterday.' | 'They visited their grandparents last week.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 4 • Past Simple with was/were",
+              "prompt": "Yesterday, they ______ at the National History Museum with their history teacher.",
+              "illustration": "🏛️ 📜 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "were"
+                },
+                {
+                  "id": "B",
+                  "text": "was"
+                },
+                {
+                  "id": "C",
+                  "text": "are"
+                },
+                {
+                  "id": "D",
+                  "text": "is"
+                }
+              ],
+              "correct": "A",
+              "hint": "Subject \"They\" in the past tense (Yesterday) uses \"were\".",
+              "skillTag": "eng-g4-past-simple"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 4 • Quá khứ đơn",
+              "prompt": "Put the verb in the past: \"Last Sunday, Lan ______ (visit) her grandparents.\"",
+              "illustration": "👵 🏡 ✍️",
+              "correct": "visited",
+              "hint": "Regular verb \"visit\" + \"-ed\" = visited.",
+              "skillTag": "eng-g4-past-simple"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 4 • Ghép chủ ngữ & was/were",
+              "prompt": "Match subject with the appropriate past sentence:",
+              "illustration": "🧩 🕰️ 💡",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "I",
+                  "right": "was at home yesterday"
+                },
+                {
+                  "id": "p2",
+                  "left": "They",
+                  "right": "were at the zoo last Sunday"
+                },
+                {
+                  "id": "p3",
+                  "left": "The students",
+                  "right": "were very active in class"
+                },
+                {
+                  "id": "p4",
+                  "left": "My little sister",
+                  "right": "was born in 2018"
+                }
+              ],
+              "hint": "Singular subjects take was; plural subjects take were.",
+              "skillTag": "eng-g4-past-simple"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 4 • True / False",
+              "prompt": "In negative sentences in Past Simple with regular verbs, we use \"didn't + verb bare\".",
+              "illustration": "🛑 ✍️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "E.g., \"She didn't go to school yesterday\" (verb returns to bare form).",
+              "skillTag": "eng-g4-past-simple"
+            }
+          ]
+        },
+        {
+          "id": "eng-g4-u5",
+          "code": "Chuyên đề 05",
+          "title": "Comparative Adjectives & Wh-Questions (So sánh hơn & Câu hỏi Wh-)",
+          "status": "locked",
+          "lessonTitle": "Comparative Adjectives & Wh-Questions (So sánh hơn & Câu hỏi Wh-)",
+          "skillTag": "eng-g4-comparatives",
+          "summaryCard": {
+            "title": "Comparative Adjectives & Wh-Questions",
+            "keyPoints": [
+              "Tính từ ngắn: adj + '-er' + than (taller than, faster than, bigger than).",
+              "Gấp đôi phụ âm khi tính từ kết thúc bằng 1 nguyên âm + 1 phụ âm: big -> bigger, hot -> hotter.",
+              "Tính từ tận cùng 'y': đổi thành '-ier' (happy -> happier, heavy -> heavier)."
+            ],
+            "example": "Example: 'A giraffe is taller than an elephant.' | 'Today is hotter than yesterday.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 4 • Comparative Adjectives",
+              "prompt": "An elephant is ______ than a zebra.",
+              "illustration": "🐘 🦓 ⚖️",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "bigger"
+                },
+                {
+                  "id": "B",
+                  "text": "more big"
+                },
+                {
+                  "id": "C",
+                  "text": "biger"
+                },
+                {
+                  "id": "D",
+                  "text": "biggest"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Big\" has one vowel + one consonant -> double the consonant + -er: bigger.",
+              "skillTag": "eng-g4-comparatives"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 4 • So sánh hơn",
+              "prompt": "Complete with the comparative form: \"English is ______ (easy) than Russian.\"",
+              "illustration": "📖 🔤 ✍️",
+              "correct": "easier",
+              "hint": "Adjectives ending in consonant + y change y to i + -er: easy -> easier.",
+              "skillTag": "eng-g4-comparatives"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 4 • Ghép tính từ so sánh",
+              "prompt": "Match adjective with its comparative form:",
+              "illustration": "🧩 📈 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "tall",
+                  "right": "taller"
+                },
+                {
+                  "id": "p2",
+                  "left": "happy",
+                  "right": "happier"
+                },
+                {
+                  "id": "p3",
+                  "left": "good",
+                  "right": "better"
+                },
+                {
+                  "id": "p4",
+                  "left": "bad",
+                  "right": "worse"
+                }
+              ],
+              "hint": "good -> better; bad -> worse are irregular comparatives.",
+              "skillTag": "eng-g4-comparatives"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 4 • True / False",
+              "prompt": "We use \"than\" after comparative adjectives when comparing two things.",
+              "illustration": "📏 ⚖️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Structure: S1 + is/are + comparative adj + than + S2.",
+              "skillTag": "eng-g4-comparatives"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "questionBank": {
+    "toan-g4-w1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Bồi dưỡng Toán 4 • Trắc nghiệm",
+        "prompt": "So sánh giá trị hai biểu thức: (70 549 - 12 425) × 3 và 70 549 - 12 425 × 3. Điền dấu thích hợp:",
+        "illustration": "⚖️ 🧮 🔍",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dấu >"
+          },
+          {
+            "id": "B",
+            "text": "Dấu <"
+          },
+          {
+            "id": "C",
+            "text": "Dấu ="
+          }
+        ],
+        "correct": "A",
+        "hint": "Vế trái: (70 549 - 12 425) × 3 = 58 124 × 3 = 174 372. Vế phải tính nhân trước: 70 549 - (12 425 × 3) = 70 549 - 37 275 = 33 274. Vì 174 372 > 33 274 nên ta điền dấu >!",
+        "skillTag": "toan-g4-bieu-thuc-chua-chu"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "input",
+        "tag": "Bồi dưỡng Toán 4 • Điền số",
+        "prompt": "Tìm giá trị thích hợp của x biết: x + 21 609 : 3 = 17 068. Giá trị của x là:",
+        "illustration": "🔢 ❓ 💡",
+        "correct": "9865",
+        "hint": "Trước hết tính phép chia: 21 609 : 3 = 7 203. Biểu thức trở thành: x + 7 203 = 17 068. Muốn tìm số hạng x chưa biết: x = 17 068 - 7 203 = 9 865!",
+        "skillTag": "toan-g4-bieu-thuc-chua-chu"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "match",
+        "tag": "Bồi dưỡng Toán 4 • Ghép nối",
+        "prompt": "Nối biểu thức có chứa chữ với giá trị chính xác:",
+        "illustration": "🧩 🔗 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "12 816 - 6 546 : a (với a = 6)",
+            "right": "11 725"
+          },
+          {
+            "id": "p2",
+            "left": "40 215 + 10 078 × b (với b = 5)",
+            "right": "90 605"
+          },
+          {
+            "id": "p3",
+            "left": "523 × (36 : c) (với c = 9)",
+            "right": "2 092"
+          }
+        ],
+        "hint": "Với a=6: 12816 - 1091 = 11725; Với b=5: 40215 + 50390 = 90605; Với c=9: 523 × 4 = 2092.",
+        "skillTag": "toan-g4-bieu-thuc-chua-chu"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Bồi dưỡng Toán 4 • Đúng / Sai",
+        "prompt": "Với mọi số tự nhiên a khác 0, biểu thức a × 1 luôn luôn có giá trị bằng a : 1.",
+        "illustration": "✨ 🔢 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Bất kỳ số tự nhiên nào nhân với 1 cũng bằng chính nó (a × 1 = a), và chia cho 1 cũng bằng chính nó (a : 1 = a). Do đó nhận định này hoàn toàn ĐÚNG.",
+        "skillTag": "toan-g4-bieu-thuc-chua-chu"
+      }
+    ],
+    "toan-g4-w2": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Bồi dưỡng Toán 4 • Trắc nghiệm",
+        "prompt": "Trong số 85 342 719, chữ số 5 thuộc hàng nào, lớp nào?",
+        "illustration": "🏷️ 🔢 🏛️",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hàng triệu, thuộc lớp triệu"
+          },
+          {
+            "id": "B",
+            "text": "Hàng trăm nghìn, thuộc lớp nghìn"
+          },
+          {
+            "id": "C",
+            "text": "Hàng chục triệu, thuộc lớp triệu"
+          },
+          {
+            "id": "D",
+            "text": "Hàng triệu, thuộc lớp nghìn"
+          }
+        ],
+        "correct": "A",
+        "hint": "Phân tích lớp số: Lớp đơn vị gồm 719; Lớp nghìn gồm 342; Lớp triệu gồm 85 (chữ số 8 hàng chục triệu, chữ số 5 hàng triệu). Vậy chữ số 5 thuộc hàng triệu, lớp triệu!",
+        "skillTag": "toan-g4-hang-va-lop"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "input",
+        "tag": "Bồi dưỡng Toán 4 • Điền số",
+        "prompt": "Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít dầu. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?",
+        "illustration": "🛢️ ⚖️ 🛢️",
+        "correct": "72",
+        "hint": "Đây là dạng toán Tìm hai số khi biết Tổng và Hiệu. Thùng thứ nhất là số lớn: Số lớn = (Tổng + Hiệu) : 2 = (120 + 24) : 2 = 144 : 2 = 72 lít dầu!",
+        "skillTag": "toan-g4-hang-va-lop"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "match",
+        "tag": "Bồi dưỡng Toán 4 • Ghép nối",
+        "prompt": "Nối các số đo khối lượng và thời gian tương ứng:",
+        "illustration": "⚖️ ⏱️ 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "3 tạ 50 kg",
+            "right": "350 kg"
+          },
+          {
+            "id": "p2",
+            "left": "2 tấn 5 yến",
+            "right": "2 050 kg"
+          },
+          {
+            "id": "p3",
+            "left": "1 thế kỷ rưỡi",
+            "right": "150 năm"
+          },
+          {
+            "id": "p4",
+            "left": "4 phút 15 giây",
+            "right": "255 giây"
+          }
+        ],
+        "hint": "1 tạ = 100kg -> 3 tạ 50kg = 350kg; 1 tấn = 1000kg, 1 yến = 10kg -> 2050kg; 1 thế kỷ = 100 năm -> 150 năm; 4 phút = 240 giây -> 255 giây.",
+        "skillTag": "toan-g4-hang-va-lop"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 4 – Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Bồi dưỡng Toán 4 • Đúng / Sai",
+        "prompt": "Số chẵn nhỏ nhất có 6 chữ số khác nhau là 102 346.",
+        "illustration": "🔢 ⭐ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Để được số nhỏ nhất, chữ số đầu tiên phải nhỏ nhất khác 0 (là 1), các chữ số tiếp theo tăng dần 0, 2, 3, 4, và chữ số tận cùng phải là chữ số chẵn nhỏ nhất chưa dùng (là 6). Số 102 346 là chính xác!",
+        "skillTag": "toan-g4-hang-va-lop"
+      }
+    ],
+    "toan-g4-w3": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 4 • Thời gian thế kỉ",
+        "prompt": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long. Năm đó thuộc thế kỉ nào?",
+        "illustration": "🏯 📜 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thế kỉ XI"
+          },
+          {
+            "id": "B",
+            "text": "Thế kỉ X"
+          },
+          {
+            "id": "C",
+            "text": "Thế kỉ XII"
+          },
+          {
+            "id": "D",
+            "text": "Thế kỉ IX"
+          }
+        ],
+        "correct": "A",
+        "hint": "Thế kỉ XI bắt đầu từ năm 1001 đến năm 1100. Do đó năm 1010 thuộc thế kỉ XI.",
+        "skillTag": "toan-g4-don-vi-do"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 4 • Đổi đơn vị khối lượng",
+        "prompt": "Điền số thích hợp vào chỗ chấm: 4 tấn 25 kg = ...... kg.",
+        "illustration": "⚖️ 🚛 ✍️",
+        "correct": "4025",
+        "hint": "1 tấn = 1000 kg. Vậy 4 tấn 25 kg = 4000 kg + 25 kg = 4025 kg.",
+        "skillTag": "toan-g4-don-vi-do"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 4 • Ghép số đo tương đương",
+        "prompt": "Nối các số đo có giá trị bằng nhau:",
+        "illustration": "🧩 ⚖️ ⏱️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "2 tấn 5 tạ",
+            "right": "2500 kg"
+          },
+          {
+            "id": "p2",
+            "left": "3 tạ 8 yến",
+            "right": "380 kg"
+          },
+          {
+            "id": "p3",
+            "left": "5 thế kỉ",
+            "right": "500 năm"
+          },
+          {
+            "id": "p4",
+            "left": "1/4 thế kỉ",
+            "right": "25 năm"
+          }
+        ],
+        "hint": "1 tấn = 10 tạ = 1000 kg; 1 tạ = 10 yến = 100 kg; 1 thế kỉ = 100 năm.",
+        "skillTag": "toan-g4-don-vi-do"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 4 • Đúng / Sai",
+        "prompt": "1 tạ bằng 10 yến và bằng 100 kg.",
+        "illustration": "⚖️ 🌾 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Đúng theo bảng đơn vị đo khối lượng: Tấn - Tạ - Yến - Kilôgam.",
+        "skillTag": "toan-g4-don-vi-do"
+      }
+    ],
+    "toan-g4-w4": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 4 • Tìm hai số khi biết Tổng và Hiệu",
+        "prompt": "Hai thùng chứa tất cả 120 lít dầu. Thùng thứ nhất nhiều hơn thùng thứ hai 24 lít. Hỏi thùng thứ nhất chứa bao nhiêu lít dầu?",
+        "illustration": "🛢️ 🛢️ 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "72 lít"
+          },
+          {
+            "id": "B",
+            "text": "48 lít"
+          },
+          {
+            "id": "C",
+            "text": "96 lít"
+          },
+          {
+            "id": "D",
+            "text": "68 lít"
+          }
+        ],
+        "correct": "A",
+        "hint": "Thùng thứ nhất là số lớn = (Tổng + Hiệu) : 2 = (120 + 24) : 2 = 144 : 2 = 72 lít.",
+        "skillTag": "toan-g4-tong-va-hieu"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 4 • Tính số bé",
+        "prompt": "Hai số có tổng bằng 90 và hiệu bằng 16. Tìm số bé.",
+        "illustration": "🔢 ➖ ✍️",
+        "correct": "37",
+        "hint": "Số bé = (Tổng - Hiệu) : 2 = (90 - 16) : 2 = 74 : 2 = 37.",
+        "skillTag": "toan-g4-tong-va-hieu"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 4 • Công thức Tổng - Hiệu",
+        "prompt": "Nối công thức và bài toán tính nhanh:",
+        "illustration": "🧩 ➕ ➖",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Công thức Số lớn",
+            "right": "(Tổng + Hiệu) : 2"
+          },
+          {
+            "id": "p2",
+            "left": "Công thức Số bé",
+            "right": "(Tổng - Hiệu) : 2"
+          },
+          {
+            "id": "p3",
+            "left": "Tổng 80, Hiệu 20 -> Số lớn",
+            "right": "50"
+          },
+          {
+            "id": "p4",
+            "left": "Tổng 80, Hiệu 20 -> Số bé",
+            "right": "30"
+          }
+        ],
+        "hint": "Áp dụng công thức tìm hai số khi biết tổng và hiệu.",
+        "skillTag": "toan-g4-tong-va-hieu"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 4 • Đúng / Sai",
+        "prompt": "Tổng của hai số chẵn liên tiếp luôn là một số chẵn và hiệu của chúng bằng 2.",
+        "illustration": "2️⃣ 4️⃣ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Hai số chẵn liên tiếp hơn kém nhau 2 đơn vị (Hiệu = 2), chẵn + chẵn = chẵn.",
+        "skillTag": "toan-g4-tong-va-hieu"
+      }
+    ],
+    "toan-g4-w5": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 4 • Rút gọn phân số",
+        "prompt": "Rút gọn phân số 36/48 về dạng phân số tối giản ta được:",
+        "illustration": "🍰 🍕 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "3/4"
+          },
+          {
+            "id": "B",
+            "text": "6/8"
+          },
+          {
+            "id": "C",
+            "text": "9/12"
+          },
+          {
+            "id": "D",
+            "text": "2/3"
+          }
+        ],
+        "correct": "A",
+        "hint": "Chia cả tử số và mẫu số cho ước chung lớn nhất là 12: 36:12 = 3; 48:12 = 4 -> 3/4.",
+        "skillTag": "toan-g4-rut-gon-phan-so"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 4 • Phân số bằng nhau",
+        "prompt": "Tìm số tự nhiên x biết: 5/7 = x/35.",
+        "illustration": "5️⃣ 7️⃣ ✍️",
+        "correct": "25",
+        "hint": "Mẫu số nhân 5 (7 × 5 = 35) nên tử số cũng nhân 5 (5 × 5 = 25).",
+        "skillTag": "toan-g4-rut-gon-phan-so"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 4 • Ghép phân số bằng nhau",
+        "prompt": "Nối các phân số có giá trị bằng nhau:",
+        "illustration": "🧩 ⚖️ 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "2/3",
+            "right": "8/12"
+          },
+          {
+            "id": "p2",
+            "left": "3/5",
+            "right": "15/25"
+          },
+          {
+            "id": "p3",
+            "left": "4/7",
+            "right": "16/28"
+          },
+          {
+            "id": "p4",
+            "left": "5/6",
+            "right": "25/30"
+          }
+        ],
+        "hint": "Nhân cả tử và mẫu với cùng một số tự nhiên khác 0.",
+        "skillTag": "toan-g4-rut-gon-phan-so"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 4 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 4 • Đúng / Sai",
+        "prompt": "Một phân số có tử số lớn hơn mẫu số thì phân số đó lớn hơn 1.",
+        "illustration": "📈 🍰 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Ví dụ 5/4 > 1, 7/3 > 1. Tử số lớn hơn mẫu số thì phân số luôn lớn hơn 1.",
+        "skillTag": "toan-g4-rut-gon-phan-so"
+      }
+    ],
+    "tv-g4-b1": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 4 • Trắc nghiệm",
+        "prompt": "Dòng nào dưới đây chứa các từ viết ĐÚNG chính tả về âm đầu l / n?",
+        "illustration": "🌾 📝 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "lúa nếp, lợn nái, lời nói, lưng núi"
+          },
+          {
+            "id": "B",
+            "text": "núa nếp, nợn nái, nời nói, nưng núi"
+          },
+          {
+            "id": "C",
+            "text": "lúa lếp, lợn lái, lời lói, lưng lúi"
+          },
+          {
+            "id": "D",
+            "text": "lúa nếp, nợn lái, nời lói, lưng núi"
+          }
+        ],
+        "correct": "A",
+        "hint": "các kết hợp từ chuẩn xác là: lúa nếp, lợn nái, lọ nước, lời nói, lúc nãy, lưng núi, nối liền!",
+        "skillTag": "tv-g4-chinh-ta-am-van"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 4 • Điền từ",
+        "prompt": "Tìm từ loại bỏ: Trong cặp từ \"mượn - mượng\", từ nào KHÔNG có trong vốn từ Tiếng Việt (chắc chắn viết sai chính tả)?",
+        "illustration": "❌ ✍️ 🔍",
+        "correct": "mượng",
+        "hint": "\"mượn\" là tiếng có nghĩa (vay mượn, mượn sách), còn \"mượng\" là tiếng viết sai, không có trong từ điển tiếng Việt!",
+        "skillTag": "tv-g4-chinh-ta-am-van"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 4 • Ghép nối",
+        "prompt": "Phân loại từ ngữ theo cấu tạo (Từ đơn, Từ ghép, Từ láy):",
+        "illustration": "🧩 📚 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "long lanh",
+            "right": "Từ láy âm"
+          },
+          {
+            "id": "p2",
+            "left": "nhà cửa",
+            "right": "Từ ghép đẳng lập"
+          },
+          {
+            "id": "p3",
+            "left": "xe đạp",
+            "right": "Từ ghép chính phụ"
+          },
+          {
+            "id": "p4",
+            "left": "sách",
+            "right": "Từ đơn"
+          }
+        ],
+        "hint": "long lanh: láy âm đầu \"l\"; nhà cửa: ghép đẳng lập; xe đạp: \"đạp\" định nghĩa cho \"xe\" (ghép chính phụ); sách: từ đơn 1 tiếng.",
+        "skillTag": "tv-g4-chinh-ta-am-van"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 4 • Đúng / Sai",
+        "prompt": "Từ \"mặt mũi\" là từ láy vì có phụ âm đầu \"m\" lặp lại giống nhau.",
+        "illustration": "👦 👃 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "F",
+        "hint": "Cả \"mặt\" và \"mũi\" đều là các danh từ độc lập có nghĩa rõ ràng, kết hợp tạo thành từ ghép đẳng lập, không phải từ láy!",
+        "skillTag": "tv-g4-chinh-ta-am-van"
+      }
+    ],
+    "tv-g4-b2": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 4 • Cấu tạo từ ghép",
+        "prompt": "Trong các từ sau, từ nào là từ ghép đẳng lập (tổng hợp)?",
+        "illustration": "🏠 🚪 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "nhà cửa"
+          },
+          {
+            "id": "B",
+            "text": "xe đạp"
+          },
+          {
+            "id": "C",
+            "text": "hoa hồng"
+          },
+          {
+            "id": "D",
+            "text": "bánh mì"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"nhà\" và \"cửa\" đều là tiếng độc lập, kết hợp bình đẳng tạo nghĩa tổng quát chỉ nơi ở.",
+        "skillTag": "tv-g4-tu-ghep-tu-lay"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 4 • Nhận diện từ láy",
+        "prompt": "Từ \"long lanh\" thuộc loại cấu tạo từ nào: từ đơn, từ ghép hay từ láy?",
+        "illustration": "✨ 💎 ✍️",
+        "correct": "từ láy",
+        "hint": "Có sự điệp phụ âm đầu \"l - l\" và mô phỏng ánh sáng phản chiếu lấp lánh.",
+        "skillTag": "tv-g4-tu-ghep-tu-lay"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 4 • Phân loại cấu tạo từ",
+        "prompt": "Nối từ với kiểu cấu tạo từ tương ứng:",
+        "illustration": "🧩 📚 🏷️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "học tập",
+            "right": "Từ ghép đẳng lập"
+          },
+          {
+            "id": "p2",
+            "left": "xe máy",
+            "right": "Từ ghép chính phụ"
+          },
+          {
+            "id": "p3",
+            "left": "róc rách",
+            "right": "Từ láy tượng thanh"
+          },
+          {
+            "id": "p4",
+            "left": "xanh xao",
+            "right": "Từ láy tượng hình"
+          }
+        ],
+        "hint": "Ghép chính phụ có tiếng chính định hình và tiếng phụ phân loại.",
+        "skillTag": "tv-g4-tu-ghep-tu-lay"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 4 • Đúng / Sai",
+        "prompt": "Từ ghép phân loại (chính phụ) có trật tự tiếng chính đứng trước, tiếng phụ bổ nghĩa đứng sau.",
+        "illustration": "🚗 🚲 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Ví dụ: xe đạp, bút bi, hoa cúc (tiếng đứng trước là tiếng chính).",
+        "skillTag": "tv-g4-tu-ghep-tu-lay"
+      }
+    ],
+    "tv-g4-b3": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 4 • Danh từ riêng",
+        "prompt": "Từ nào dưới đây là danh từ riêng chỉ tên người Việt Nam?",
+        "illustration": "👤 📜 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Nguyễn Du"
+          },
+          {
+            "id": "B",
+            "text": "học sinh giỏi"
+          },
+          {
+            "id": "C",
+            "text": "nhà thơ"
+          },
+          {
+            "id": "D",
+            "text": "đại thi hào"
+          }
+        ],
+        "correct": "A",
+        "hint": "Nguyễn Du là tên riêng của đại thi hào dân tộc, phải viết hoa chữ cái đầu mỗi tiếng.",
+        "skillTag": "tv-g4-danh-tu-viet-hoa"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 4 • Tìm danh từ riêng",
+        "prompt": "Trong câu: \"Hà Nội là thủ đô ngàn năm văn hiến\", từ nào là danh từ riêng chỉ địa danh?",
+        "illustration": "🏛️ 🗺️ ✍️",
+        "correct": "Hà Nội",
+        "hint": "Tên thủ đô của nước ta, viết hoa chữ cái đầu của cả hai tiếng.",
+        "skillTag": "tv-g4-danh-tu-viet-hoa"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 4 • Phân loại danh từ",
+        "prompt": "Nối từ ngữ với loại danh từ thích hợp:",
+        "illustration": "🧩 🏷️ 📚",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "bàn ghế",
+            "right": "Danh từ chỉ đồ vật"
+          },
+          {
+            "id": "p2",
+            "left": "bác sĩ",
+            "right": "Danh từ chỉ người"
+          },
+          {
+            "id": "p3",
+            "left": "sông Cửu Long",
+            "right": "Danh từ riêng địa lí"
+          },
+          {
+            "id": "p4",
+            "left": "lòng dũng cảm",
+            "right": "Danh từ chỉ khái niệm"
+          }
+        ],
+        "hint": "Danh từ chỉ người, vật, hiện tượng, khái niệm trừu tượng.",
+        "skillTag": "tv-g4-danh-tu-viet-hoa"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 4 • Đúng / Sai",
+        "prompt": "Khi viết tên địa lí Việt Nam, ta viết hoa chữ cái đầu của tất cả các tiếng tạo thành tên đó.",
+        "illustration": "🇻🇳 🗺️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Ví dụ: Hà Nội, Đà Nẵng, Cửu Long, Hoàng Liên Sơn.",
+        "skillTag": "tv-g4-danh-tu-viet-hoa"
+      }
+    ],
+    "tv-g4-b4": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 4 • Ý nghĩa trạng ngữ",
+        "prompt": "Trạng ngữ trong câu: \"Sáng sớm mai, chúng em sẽ đi cắm trại ở Ba Vì.\" bổ sung ý nghĩa gì cho câu?",
+        "illustration": "🏕️ 🌅 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chỉ thời gian"
+          },
+          {
+            "id": "B",
+            "text": "Chỉ nơi chốn"
+          },
+          {
+            "id": "C",
+            "text": "Chỉ nguyên nhân"
+          },
+          {
+            "id": "D",
+            "text": "Chỉ mục đích"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Sáng sớm mai\" trả lời cho câu hỏi: Khi nào? Bao giờ? -> Trạng ngữ chỉ thời gian.",
+        "skillTag": "tv-g4-trang-ngu"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 4 • Xác định trạng ngữ",
+        "prompt": "Tìm trạng ngữ trong câu sau: \"Vì trời mưa to, đường phố bị ngập úng nhiều nơi.\"",
+        "illustration": "🌧️ 🌊 ✍️",
+        "correct": "Vì trời mưa to",
+        "hint": "Bộ phận đứng đầu câu nêu lí do dẫn đến việc đường phố bị ngập úng.",
+        "skillTag": "tv-g4-trang-ngu"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 4 • Phân loại trạng ngữ",
+        "prompt": "Nối trạng ngữ với loại ý nghĩa tương ứng:",
+        "illustration": "🧩 🕒 📍",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Trên cành cây cao",
+            "right": "Chỉ nơi chốn"
+          },
+          {
+            "id": "p2",
+            "left": "Mùa xuân về",
+            "right": "Chỉ thời gian"
+          },
+          {
+            "id": "p3",
+            "left": "Nhờ chăm chỉ học tập",
+            "right": "Chỉ nguyên nhân"
+          },
+          {
+            "id": "p4",
+            "left": "Để đạt học sinh giỏi",
+            "right": "Chỉ mục đích"
+          }
+        ],
+        "hint": "Dựa vào câu hỏi tương ứng: Ở đâu? Khi nào? Vì sao? Để làm gì?",
+        "skillTag": "tv-g4-trang-ngu"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 4 • Đúng / Sai",
+        "prompt": "Trạng ngữ ngăn cách với chủ ngữ và vị ngữ trong câu bằng dấu phẩy.",
+        "illustration": "✍️ , 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Khi đứng ở đầu câu, trạng ngữ thường được phân tách với nòng cốt câu bằng dấu phẩy.",
+        "skillTag": "tv-g4-trang-ngu"
+      }
+    ],
+    "tv-g4-b5": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 4 • Thành ngữ tục ngữ",
+        "prompt": "Thành ngữ nào dưới đây thể hiện tinh thần tương thân tương ái, cưu mang giúp đỡ lẫn nhau?",
+        "illustration": "🤝 💖 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lá lành đùm lá rách"
+          },
+          {
+            "id": "B",
+            "text": "Có công mài sắt có ngày nên kim"
+          },
+          {
+            "id": "C",
+            "text": "Đứng núi này trông núi nọ"
+          },
+          {
+            "id": "D",
+            "text": "Ăn quả nhớ kẻ trồng cây"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Lá lành đùm lá rách\" là bài học đạo lí ngàn đời của dân tộc ta về lòng nhân hậu, đùm bọc.",
+        "skillTag": "tv-g4-von-tu-chu-diem"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 4 • Điền tục ngữ",
+        "prompt": "Điền từ còn thiếu vào câu tục ngữ nói về ý chí kiên trì: \"Có công mài sắt, có ngày nên ......\"",
+        "illustration": "🪨 🪡 ✍️",
+        "correct": "kim",
+        "hint": "Mài một thanh sắt lớn kiên trì sẽ thành cây kim may vá sắc bén.",
+        "skillTag": "tv-g4-von-tu-chu-diem"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 4 • Mở rộng vốn từ",
+        "prompt": "Nối từ ngữ với chủ điểm phù hợp:",
+        "illustration": "🧩 📚 💖",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "nhân ái",
+            "right": "Lòng nhân hậu"
+          },
+          {
+            "id": "p2",
+            "left": "đồng tâm hiệp lực",
+            "right": "Tinh thần đoàn kết"
+          },
+          {
+            "id": "p3",
+            "left": "kiên trì bền bỉ",
+            "right": "Ý chí - Nghị lực"
+          },
+          {
+            "id": "p4",
+            "left": "uống nước nhớ nguồn",
+            "right": "Biết ơn"
+          }
+        ],
+        "hint": "Các chủ điểm cốt lõi trong phân môn Luyện từ và câu lớp 4.",
+        "skillTag": "tv-g4-von-tu-chu-diem"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 4 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 4 • Đúng / Sai",
+        "prompt": "Thành ngữ \"Vạn sự khởi đầu nan\" khuyên chúng ta không nên nản lòng khi gặp khó khăn lúc ban đầu.",
+        "illustration": "🧗 ⛰️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Mọi việc bắt đầu thường khó khăn (nan), cần có ý chí vững vàng để vượt qua.",
+        "skillTag": "tv-g4-von-tu-chu-diem"
+      }
+    ],
+    "eng-g4-u1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+        "type": "choice",
+        "tag": "Tiếng Anh 4 • Trắc nghiệm",
+        "prompt": "Choose the correct answer: \"Do you live in [.....]?\"",
+        "illustration": "🏡 🏢 🇬🇧",
+        "options": [
+          {
+            "id": "A",
+            "text": "a house"
+          },
+          {
+            "id": "B",
+            "text": "a apartment"
+          },
+          {
+            "id": "C",
+            "text": "an house"
+          },
+          {
+            "id": "D",
+            "text": "an big house"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"house\" bắt đầu bằng phụ âm /h/ nên dùng \"a house\". \"apartment\" bắt đầu bằng nguyên âm /ə/ nên phải dùng \"an apartment\".",
+        "skillTag": "eng-g4-articles-rules"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+        "type": "input",
+        "tag": "Tiếng Anh 4 • Điền từ",
+        "prompt": "Fill in the blank with \"a\" or \"an\": \"I waited for [.....] hour at the bus stop.\"",
+        "illustration": "⏱️ 🚌 ✏️",
+        "correct": "an",
+        "hint": "Chữ cái \"h\" trong từ \"hour\" là âm câm (phát âm là /aʊər/), bắt đầu bằng nguyên âm nên ta dùng \"an hour\"!",
+        "skillTag": "eng-g4-articles-rules"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+        "type": "match",
+        "tag": "Tiếng Anh 4 • Ghép nối",
+        "prompt": "Match noun with correct article usage:",
+        "illustration": "🧩 🔗 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "university",
+            "right": "a university (âm đầu /ju:/)"
+          },
+          {
+            "id": "p2",
+            "left": "umbrella",
+            "right": "an umbrella (âm đầu /ʌ/)"
+          },
+          {
+            "id": "p3",
+            "left": "hour",
+            "right": "an hour (âm h câm, bắt đầu bằng /aʊ/)"
+          },
+          {
+            "id": "p4",
+            "left": "uniform",
+            "right": "a uniform (âm đầu /ju:/)"
+          }
+        ],
+        "hint": "Ngoại lệ quan trọng: a university, a uniform (âm /juː/), nhưng an umbrella (âm /ʌ/); an astronaut (âm /æ/).",
+        "skillTag": "eng-g4-articles-rules"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 (Global Success)",
+        "type": "true_false",
+        "tag": "Tiếng Anh 4 • Đúng / Sai",
+        "prompt": "The plural form of \"child\" is \"children\" and the plural form of \"knife\" is \"knives\". True or False?",
+        "illustration": "🧒 🔪 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Đây là các danh từ số nhiều bất quy tắc: child -> children; danh từ đuôi -fe đổi thành -ves: knife -> knives. Hoàn toàn ĐÚNG (TRUE).",
+        "skillTag": "eng-g4-articles-rules"
+      }
+    ],
+    "eng-g4-u2": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 4 • Irregular Plural Nouns",
+        "prompt": "What is the irregular plural form of the noun \"mouse\"?",
+        "illustration": "🐭 🧀 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "mice"
+          },
+          {
+            "id": "B",
+            "text": "mouses"
+          },
+          {
+            "id": "C",
+            "text": "mices"
+          },
+          {
+            "id": "D",
+            "text": "mouse"
+          }
+        ],
+        "correct": "A",
+        "hint": "Irregular plural: 1 mouse -> 2 mice.",
+        "skillTag": "eng-g4-irregular-plurals"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 4 • Số nhiều bất quy tắc",
+        "prompt": "Write the plural form of \"man\":",
+        "illustration": "👨 👨‍🦱 ✍️",
+        "correct": "men",
+        "hint": "Vowel change: man -> men (similar to woman -> women).",
+        "skillTag": "eng-g4-irregular-plurals"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 4 • Ghép danh từ số nhiều",
+        "prompt": "Match singular nouns with their irregular plural forms:",
+        "illustration": "🧩 👥 🦆",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "person",
+            "right": "people"
+          },
+          {
+            "id": "p2",
+            "left": "goose",
+            "right": "geese"
+          },
+          {
+            "id": "p3",
+            "left": "sheep",
+            "right": "sheep"
+          },
+          {
+            "id": "p4",
+            "left": "knife",
+            "right": "knives"
+          }
+        ],
+        "hint": "person -> people; goose -> geese; sheep remains sheep; knife -> knives.",
+        "skillTag": "eng-g4-irregular-plurals"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 4 • True / False",
+        "prompt": "For nouns ending in -ch, -sh, -s, -x, -z, we add \"-es\" to make them plural.",
+        "illustration": "📦 🚌 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Watch -> watches; brush -> brushes; bus -> buses; box -> boxes.",
+        "skillTag": "eng-g4-irregular-plurals"
+      }
+    ],
+    "eng-g4-u3": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 4 • Present Continuous",
+        "prompt": "Look! The little baby ______ peacefully in the crib.",
+        "illustration": "👶 🛏️ 🤫",
+        "options": [
+          {
+            "id": "A",
+            "text": "is sleeping"
+          },
+          {
+            "id": "B",
+            "text": "sleeps"
+          },
+          {
+            "id": "C",
+            "text": "slept"
+          },
+          {
+            "id": "D",
+            "text": "are sleeping"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Look!\" indicates an action happening right now -> Present Continuous: is + sleeping.",
+        "skillTag": "eng-g4-present-continuous"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 4 • Hiện tại đơn",
+        "prompt": "Fill in the verb in brackets: \"My brother usually ______ (ride) his bicycle to school.\"",
+        "illustration": "🚴 🎒 ✍️",
+        "correct": "rides",
+        "hint": "Third-person singular (My brother) with habitual adverb \"usually\" adds -s: rides.",
+        "skillTag": "eng-g4-present-continuous"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 4 • Dấu hiệu thì",
+        "prompt": "Match tense with its typical signal words:",
+        "illustration": "🧩 ⏰ 📅",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Present Simple",
+            "right": "always, usually, every day"
+          },
+          {
+            "id": "p2",
+            "left": "Present Continuous",
+            "right": "now, at the moment, Listen!"
+          },
+          {
+            "id": "p3",
+            "left": "Habitual actions",
+            "right": "Present Simple"
+          },
+          {
+            "id": "p4",
+            "left": "Actions happening right now",
+            "right": "Present Continuous"
+          }
+        ],
+        "hint": "Dấu hiệu nhận biết thì Hiện tại đơn và Hiện tại tiếp diễn.",
+        "skillTag": "eng-g4-present-continuous"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 4 • True / False",
+        "prompt": "We use the Present Simple tense to express universal truths and facts.",
+        "illustration": "☀️ 🌍 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "True! E.g., \"The sun rises in the east\" uses Present Simple.",
+        "skillTag": "eng-g4-present-continuous"
+      }
+    ],
+    "eng-g4-u4": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 4 • Past Simple with was/were",
+        "prompt": "Yesterday, they ______ at the National History Museum with their history teacher.",
+        "illustration": "🏛️ 📜 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "were"
+          },
+          {
+            "id": "B",
+            "text": "was"
+          },
+          {
+            "id": "C",
+            "text": "are"
+          },
+          {
+            "id": "D",
+            "text": "is"
+          }
+        ],
+        "correct": "A",
+        "hint": "Subject \"They\" in the past tense (Yesterday) uses \"were\".",
+        "skillTag": "eng-g4-past-simple"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 4 • Quá khứ đơn",
+        "prompt": "Put the verb in the past: \"Last Sunday, Lan ______ (visit) her grandparents.\"",
+        "illustration": "👵 🏡 ✍️",
+        "correct": "visited",
+        "hint": "Regular verb \"visit\" + \"-ed\" = visited.",
+        "skillTag": "eng-g4-past-simple"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 4 • Ghép chủ ngữ & was/were",
+        "prompt": "Match subject with the appropriate past sentence:",
+        "illustration": "🧩 🕰️ 💡",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "I",
+            "right": "was at home yesterday"
+          },
+          {
+            "id": "p2",
+            "left": "They",
+            "right": "were at the zoo last Sunday"
+          },
+          {
+            "id": "p3",
+            "left": "The students",
+            "right": "were very active in class"
+          },
+          {
+            "id": "p4",
+            "left": "My little sister",
+            "right": "was born in 2018"
+          }
+        ],
+        "hint": "Singular subjects take was; plural subjects take were.",
+        "skillTag": "eng-g4-past-simple"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 4 • True / False",
+        "prompt": "In negative sentences in Past Simple with regular verbs, we use \"didn't + verb bare\".",
+        "illustration": "🛑 ✍️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "E.g., \"She didn't go to school yesterday\" (verb returns to bare form).",
+        "skillTag": "eng-g4-past-simple"
+      }
+    ],
+    "eng-g4-u5": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 4 • Comparative Adjectives",
+        "prompt": "An elephant is ______ than a zebra.",
+        "illustration": "🐘 🦓 ⚖️",
+        "options": [
+          {
+            "id": "A",
+            "text": "bigger"
+          },
+          {
+            "id": "B",
+            "text": "more big"
+          },
+          {
+            "id": "C",
+            "text": "biger"
+          },
+          {
+            "id": "D",
+            "text": "biggest"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Big\" has one vowel + one consonant -> double the consonant + -er: bigger.",
+        "skillTag": "eng-g4-comparatives"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 4 • So sánh hơn",
+        "prompt": "Complete with the comparative form: \"English is ______ (easy) than Russian.\"",
+        "illustration": "📖 🔤 ✍️",
+        "correct": "easier",
+        "hint": "Adjectives ending in consonant + y change y to i + -er: easy -> easier.",
+        "skillTag": "eng-g4-comparatives"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 4 • Ghép tính từ so sánh",
+        "prompt": "Match adjective with its comparative form:",
+        "illustration": "🧩 📈 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "tall",
+            "right": "taller"
+          },
+          {
+            "id": "p2",
+            "left": "happy",
+            "right": "happier"
+          },
+          {
+            "id": "p3",
+            "left": "good",
+            "right": "better"
+          },
+          {
+            "id": "p4",
+            "left": "bad",
+            "right": "worse"
+          }
+        ],
+        "hint": "good -> better; bad -> worse are irregular comparatives.",
+        "skillTag": "eng-g4-comparatives"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 4 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 4 • True / False",
+        "prompt": "We use \"than\" after comparative adjectives when comparing two things.",
+        "illustration": "📏 ⚖️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Structure: S1 + is/are + comparative adj + than + S2.",
+        "skillTag": "eng-g4-comparatives"
+      }
+    ]
+  },
+  "skills": {
+    "mastered": [
+      {
+        "subject": "Toán",
+        "title": "Biểu thức có chứa chữ & Số có nhiều chữ số"
+      },
+      {
+        "subject": "Tiếng Việt",
+        "title": "Chính tả phân biệt âm vần khó (l/n, ch/tr, s/x)"
+      },
+      {
+        "subject": "Tiếng Anh",
+        "title": "Articles (a/an) & Danh từ số nhiều có quy tắc"
+      }
+    ],
+    "needsReview": [
+      {
+        "subject": "Toán",
+        "title": "Bài toán Tìm hai số khi biết Tổng và Hiệu & Rút gọn phân số",
+        "lessonId": "toan-g4-w4",
+        "skillTag": "toan-g4-tong-va-hieu"
+      },
+      {
+        "subject": "Tiếng Việt",
+        "title": "Phân biệt Từ ghép chính phụ & Từ láy",
+        "lessonId": "tv-g4-b2",
+        "skillTag": "tv-g4-tu-ghep-tu-lay"
+      },
+      {
+        "subject": "Tiếng Anh",
+        "title": "Danh từ số nhiều bất quy tắc (people, mice)",
+        "lessonId": "eng-g4-u2",
+        "skillTag": "eng-g4-irregular-plurals"
+      }
+    ]
+  }
+}

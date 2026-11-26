@@ -1,0 +1,547 @@
+/* ========================================================
+   FUNLEARN - HỌC VUI MỖI NGÀY
+   Claymorphism 3D & 60fps GPU Sensory Motion (clay-motion.css)
+   Tuân thủ:
+   - WCAG 2.2 AAA Touch Targets (min 48px)
+   - Mayer & Fiorella: Giảm tải nhận thức ngoại lai (dừng lặp khi đọc đề)
+   - CAST UDL 3.0: prefers-reduced-motion, TTS & Large Font
+   - 60fps GPU animations (transform, opacity, stroke-dashoffset)
+   ======================================================== */
+
+:root {
+  --primary-blue: #62C9F3;
+  --sunny-yellow: #FFC85A;
+  --peach-pink: #FF91A8;
+  --mint-green: #78D9AE;
+  --lavender: #A99AF5;
+  --milk-cream: #FFF7E8;
+  --navy-text: #1E293B;
+  --slate-sub: #64748B;
+  --bg-page: #FFF9EE;
+  --border-radius-card: 28px;
+  --border-radius-btn: 20px;
+}
+
+/* Chuẩn hóa thuộc tính hidden theo W3C */
+[hidden] {
+  display: none !important;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--navy-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* ========================================================
+   1. CLAYMORPHISM 3D TACTILE BUTTONS & CARDS
+   ======================================================== */
+
+.clay-card {
+  background: #FFFFFF;
+  border-radius: var(--border-radius-card);
+  box-shadow: 0 12px 28px -6px rgba(100, 116, 139, 0.08), 
+              0 8px 16px -8px rgba(100, 116, 139, 0.04), 
+              inset 0 -4px 0 rgba(0, 0, 0, 0.04);
+  border: 3px solid #FFFFFF;
+}
+
+.clay-card-nested {
+  background: #FAFCFE;
+  border-radius: 22px;
+  border: 2px solid #F1F5F9;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.9);
+}
+
+.clay-card-interactive {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.clay-card-interactive:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(100, 116, 139, 0.12), 
+              0 10px 20px -6px rgba(100, 116, 139, 0.06), 
+              inset 0 -4px 0 rgba(0, 0, 0, 0.04);
+}
+
+/* Nút bấm Claymorphism: Hover nâng nhẹ, Active/Touch lún xuống scale(0.98) */
+.clay-btn {
+  min-height: 48px;
+  border-radius: var(--border-radius-btn);
+  transition: transform 0.14s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.14s ease, filter 0.14s ease;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.14), 0 10px 20px -3px rgba(0, 0, 0, 0.08);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.clay-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14), 0 14px 22px -3px rgba(0, 0, 0, 0.1);
+  filter: brightness(1.03);
+}
+
+.clay-btn:active:not(:disabled) {
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.14), 0 4px 8px -2px rgba(0, 0, 0, 0.08);
+}
+
+.clay-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.clay-option {
+  min-height: 52px;
+  transition: transform 0.14s ease-out, box-shadow 0.14s ease-out, border-color 0.14s ease-out, background-color 0.14s ease-out;
+  box-shadow: 0 4px 0 #E2E8F0, 0 6px 12px rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+  will-change: transform;
+}
+
+.clay-option:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #CBD5E1, 0 10px 18px rgba(0, 0, 0, 0.06);
+}
+
+.clay-option:active:not(:disabled) {
+  transform: translateY(2px) scale(0.99);
+  box-shadow: 0 2px 0 #CBD5E1;
+}
+
+/* ========================================================
+   2. 60FPS GPU ANIMATIONS (TRANSFORM & OPACITY ONLY)
+   ======================================================== */
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-slide-in {
+  animation: fadeSlideIn 0.22s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes popSuccess {
+  0% { transform: scale(0.94); opacity: 0; }
+  70% { transform: scale(1.03); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.pop-anim {
+  animation: popSuccess 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes shakeWrong {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  15%, 45%, 75% { transform: translate3d(-6px, 0, 0); }
+  30%, 60%, 90% { transform: translate3d(6px, 0, 0); }
+}
+
+.shake-effect {
+  animation: shakeWrong 0.4s ease-in-out;
+  will-change: transform;
+}
+
+@keyframes softShake {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  25% { transform: translate3d(-5px, 0, 0); }
+  75% { transform: translate3d(5px, 0, 0); }
+}
+
+.soft-shake {
+  animation: softShake 0.3s ease-in-out;
+  will-change: transform;
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  50% { transform: translate3d(0, -10px, 0) rotate(2deg); }
+}
+
+.animate-float {
+  animation: floatSlow 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes floatDelay {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  50% { transform: translate3d(0, -14px, 0) rotate(-3deg); }
+}
+
+.animate-float-delay {
+  animation: floatDelay 5s ease-in-out infinite 1.5s;
+  will-change: transform;
+}
+
+/* ========================================================
+   3. MASCOT CHÚ CÚ SVG TÙY BIẾN (3 TRẠNG THÁI data-mood)
+   Mayer & Fiorella: TỰ ĐỘNG DỪNG KHI VÀO PHÒNG LUYỆN TẬP
+   ======================================================== */
+
+.mascot-owl-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mascot-owl {
+  display: inline-block;
+  transition: transform 0.25s ease;
+  will-change: transform;
+}
+
+/* Trạng thái 1: idle - nhấp nhô nhẹ 4px ở màn hình ngoài */
+.mascot-owl[data-mood="idle"] {
+  animation: owlIdleBob 3s ease-in-out infinite;
+}
+
+@keyframes owlIdleBob {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -4px, 0); }
+}
+
+/* QUY TẮC SƯ PHẠM CỐT LÕI: Dừng hoàn toàn chuyển động lặp khi ở Phòng Luyện Tập! */
+#screen-exercise-room .mascot-owl[data-mood="idle"],
+#screen-exercise-room .mascot-owl:not([data-mood="happy"]):not([data-mood="hint"]) {
+  animation: none !important;
+  transform: none !important;
+}
+
+/* Trạng thái 2: happy - nhún nhảy vui vẻ khi trả lời đúng */
+.mascot-owl[data-mood="happy"] {
+  animation: owlHappyBounce 0.65s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes owlHappyBounce {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  25% { transform: translate3d(0, -12px, 0) scale(1.12) rotate(-6deg); }
+  50% { transform: translate3d(0, -4px, 0) scale(1.08) rotate(6deg); }
+  75% { transform: translate3d(0, -8px, 0) scale(1.04) rotate(-2deg); }
+}
+
+/* Trạng thái 3: hint - nghiêng đầu kèm biểu tượng bóng đèn sáng nhẹ */
+.mascot-owl[data-mood="hint"] {
+  animation: owlHintTilt 0.8s ease-in-out;
+  transform: rotate(10deg);
+}
+
+.mascot-owl[data-mood="hint"] .owl-lightbulb {
+  opacity: 1 !important;
+  transform: translateY(-4px) scale(1.1) !important;
+}
+
+@keyframes owlHintTilt {
+  0% { transform: rotate(0deg); }
+  40% { transform: rotate(14deg) scale(1.06); }
+  100% { transform: rotate(10deg); }
+}
+
+/* ========================================================
+   4. DÂY NỐI SVG BEZIER CURVE CHO BÀI TẬP GHÉP NỐI (TAP-TO-MATCH)
+   ======================================================== */
+
+.match-canvas-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.match-curve-line {
+  fill: none;
+  stroke: #10B981;
+  stroke-width: 3.5px;
+  stroke-linecap: round;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: drawBezier 0.35s ease-out forwards;
+  filter: drop-shadow(0 2px 4px rgba(16, 185, 129, 0.3));
+}
+
+@keyframes drawBezier {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ========================================================
+   5. HUY HIỆU & TIẾN TRÌNH
+   ======================================================== */
+
+.badge-card {
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.badge-card.unlocked {
+  background: #FFFFFF;
+  border: 3px solid #FFC85A;
+  box-shadow: 0 10px 25px -5px rgba(255, 200, 90, 0.35), inset 0 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.badge-card.unlocked:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.badge-card.locked {
+  background: #F8FAFC;
+  border: 2px dashed #CBD5E1;
+  opacity: 0.72;
+}
+
+/* ========================================================
+   6. THANH CÔNG CỤ TRỢ NĂNG (CAST UDL 3.0 TOOLBAR)
+   ======================================================== */
+
+/* Cỡ chữ lớn (+15%) */
+body.text-large {
+  font-size: 115%;
+}
+
+body.text-large #ex-prompt {
+  font-size: 1.75rem !important;
+  line-height: 1.4 !important;
+}
+
+body.text-large .clay-option,
+body.text-large .option-item {
+  font-size: 1.15rem !important;
+  min-height: 66px !important;
+}
+
+body.text-large #ex-hint-text,
+body.text-large #ex-solution-text {
+  font-size: 1.05rem !important;
+}
+
+/* Chế độ Giảm chuyển động (Reduce Motion) */
+body.reduce-motion *,
+body.reduce-motion *::before,
+body.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+body.reduce-motion .animate-float,
+body.reduce-motion .animate-float-delay,
+body.reduce-motion .shake-effect,
+body.reduce-motion .soft-shake,
+body.reduce-motion .pop-anim,
+body.reduce-motion .mascot-owl {
+  animation: none !important;
+  transform: none !important;
+}
+
+/* Chuẩn media query mặc định hệ điều hành */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-float,
+  .animate-float-delay,
+  .shake-effect,
+  .soft-shake,
+  .pop-anim,
+  .mascot-owl {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Focus styles for keyboard accessibility */
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Canvas Confetti */
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.6);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* ========================================================
+   7. RESPONSIVE DESIGN (375px MOBILE TO 1280px+ DESKTOP)
+   ======================================================== */
+
+@media (max-width: 640px) {
+  .clay-card {
+    border-radius: 20px;
+    padding: 1.25rem !important;
+  }
+
+  .clay-btn {
+    min-height: 48px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Tap-to-Match: Compact layout with high readability on 375px screens */
+  #match-grid-container {
+    gap: 1.25rem !important;
+    padding: 0.85rem !important;
+  }
+
+  .match-left-item,
+  .match-right-item {
+    min-height: 50px;
+    height: auto;
+    padding: 0.65rem 0.85rem;
+    font-size: 0.82rem;
+  }
+
+  .match-curve-line {
+    stroke-width: 2.5px;
+  }
+
+  /* Header adjustments */
+  #global-app-header {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .brand-name {
+    font-size: 1.1rem;
+  }
+}
+
+/* ========================================================
+   8. @MEDIA PRINT: IN / XUẤT BÁO CÁO PDF SẠCH TRÊN KHỔ A4
+   ======================================================== */
+
+@media print {
+  /* Hide non-printable elements */
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  /* Only display the printable parent report container */
+  #parent-report-printable,
+  #parent-report-printable * {
+    visibility: visible !important;
+  }
+
+  #parent-report-printable {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #FFFFFF !important;
+    color: #0F172A !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Hide print buttons and backdrops */
+  .no-print,
+  #confetti-canvas,
+  #global-app-header,
+  #screen-start,
+  #screen-home,
+  #screen-subject-detail,
+  #screen-practice-hub,
+  #screen-exercise-room,
+  #screen-analytics,
+  #screen-badges,
+  #modal-parental-gate,
+  #modal-summary,
+  #modal-completion,
+  .modal-backdrop,
+  button,
+  .clay-btn {
+    display: none !important;
+  }
+
+  /* Reset shadows and cards for crisp black/white or minimal-color A4 printing */
+  .clay-card,
+  .clay-card-nested {
+    box-shadow: none !important;
+    border: 1px solid #CBD5E1 !important;
+    background: #FFFFFF !important;
+    break-inside: avoid;
+  }
+
+  /* Clean table borders */
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  th, td {
+    border: 1px solid #E2E8F0 !important;
+    padding: 6pt 8pt !important;
+  }
+
+  th {
+    background-color: #F8FAFC !important;
+    font-weight: bold !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm 15mm;
+  }
+}

@@ -1,69 +1,155 @@
 # 🚀 FUNLEARN - Học vui mỗi ngày
 
-> **Nền tảng học tập tương tác liên môn tích hợp Toán – Tiếng Việt – Tiếng Anh dành cho học sinh Tiểu học (Khối 3, 4, 5)**
+> **Nền tảng học liệu tương tác liên môn Toán – Tiếng Việt – Tiếng Anh dành cho học sinh Tiểu học Lớp 3, 4, 5 (Bám sát Chương trình GDPT 2018 - Bộ SGK Kết nối tri thức với cuộc sống).**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Grade](https://img.shields.io/badge/Ti%E1%BB%83u%20H%E1%BB%8Dc-L%E1%BB%9Bp%203%20%7C%204%20%7C%205-blue)](#)
 [![Subjects](https://img.shields.io/badge/M%C3%B4n%20H%E1%BB%8Dc-To%C3%A1n%20%E2%80%A2%20Ti%E1%BA%BFng%20Vi%E1%BB%87t%20%E2%80%A2%20Ti%E1%BA%BFng%20Anh-emerald)](#)
+[![Architecture](https://img.shields.io/badge/Ki%E1%BA%BFn%20Tr%C3%BAc-Pure%20ES6%20Modules%20%2B%20Static%20JSON-orange)](#)
+[![Accessibility](https://img.shields.io/badge/Tr%E1%BB%A3%20N%C4%83ng-CAST%20UDL%203.0%20%26%20WCAG%202.2%20AAA-purple)](#)
 
 ---
 
-## 🌟 Giới thiệu tổng quan
+## 🌟 1. Giới thiệu tổng quan & Chuẩn Sư Phạm
 
-**Funlearn** là dự án nghiên cứu khoa học và phát triển phần mềm giáo dục (EdTech), ứng dụng phương pháp **Học tập xoắn ốc (Spiral Learning)** kết hợp mô hình tương tác phản hồi tức thì để giúp học sinh tiểu học tiếp thu kiến thức một cách nhẹ nhàng, thư thái và tự nhiên nhất.
+**FUNLEARN** là nền tảng học liệu số tương tác cao, được thiết kế tối ưu cho tâm lý học tập và nhận thức trực quan của học sinh Tiểu học Việt Nam. Nền tảng tuân thủ nghiêm ngặt các nguyên lý EdTech hiện đại:
 
-Hệ thống được thiết kế theo phong cách giao diện **Claymorphism** thân thiện với trẻ em, tích hợp đầy đủ 44 chuyên đề bồi dưỡng và hơn 200 câu hỏi tương tác thuộc 3 môn học trụ cột:
-1. **Toán Học**: Số học nâng cao, toán tư duy logic, phân số, hình học & chuyển động đều (Chuẩn sách *PGS.TS Trần Diên Hiển*).
-2. **Tiếng Việt**: Chính tả phân biệt âm vần khó, cấu tạo từ (từ ghép, từ láy), từ loại, câu kể, câu ghép & cảm thụ văn học (Chuẩn sách *GS.TS Lê Phương Nga*).
-3. **Tiếng Anh**: Ngữ pháp trọng tâm, mạo từ (*a/an/the*), danh từ số nhiều bất quy tắc, thì hiện tại/quá khứ/tương lai (Chuẩn sách *Global Success - Bộ GD&ĐT*).
-4. **Toán Tiếng Anh Quốc Tế**: Tích hợp 10 bộ sách quốc tế danh tiếng (180 Days of Math, Common Core, In Step Maths, Singapore Math Challenge, Math Minutes, Oxford Mathematics PYP, Toán Sing Olympic).
+1. **Nguyên lý Mayer & Fiorella (Giảm tải nhận thức ngoại lai):**
+   - Không chứa bất kỳ hiệu ứng chuyển động lặp vô hạn hay nhấp nháy nào xung quanh vùng đề bài trong lúc học sinh đang đọc.
+   - Nhân vật đại diện Chú cú SVG (`mascot-owl`) tự động dừng mọi chuyển động (`animation: none !important`) khi học sinh bước vào **Phòng Luyện Tập**.
+2. **Nguyên lý Nielsen Heuristics (Phản hồi & Không Soft-lock):**
+   - Trạng thái hệ thống luôn hiển thị rõ ràng (khối lớp đang chọn, thanh tiến độ `Câu X / Y`, số sao tích lũy và chuỗi ngày chuyên cần).
+   - Cơ chế thoát an toàn về trang chủ ở mọi màn hình.
+   - **Quy trình phản hồi 3 tầng chống kẹt bài:**
+     - *Sai lần 1:* Làm mờ đáp án sai, động viên nhẹ nhàng để học sinh tự chọn lại.
+     - *Sai lần 2:* Mở khung **💡 Gợi ý & Định hướng phương pháp**, mascot nghiêng đầu bật đèn.
+     - *Sai từ lần 3:* Mở hướng dẫn giải từng bước và tự động mở khóa nút **CÂU TIẾP THEO** để học sinh không bao giờ bị kẹt vĩnh viễn ở câu khó.
+3. **Chuẩn Trợ năng CAST UDL 3.0 & WCAG 2.2 AAA:**
+   - Touch Target tối thiểu **48px × 48px** với phản hồi xúc giác 3D Claymorphism.
+   - Thanh công cụ trợ năng:
+     - 🔊 **Text-to-Speech (TTS):** Đọc to đề bài với giọng đọc tự nhiên (tự chuyển `vi-VN` cho Toán/Tiếng Việt và `en-US` cho Tiếng Anh).
+     - 🔍 **Cỡ chữ lớn (+15%):** Hỗ trợ học sinh khiếm thị nhẹ hoặc học trên màn hình nhỏ.
+     - ⚡ **Giảm chuyển động (Reduced Motion):** Vô hiệu hóa hiệu ứng chuyển động cho học sinh nhạy cảm với tiền đình hoặc tôn trọng thiết lập của hệ điều hành.
 
 ---
 
-## 💻 Cấu trúc thư mục dự án
+## 💻 2. Cấu trúc thư mục mã nguồn
+
+Dự án được tái cấu trúc sạch sẽ theo mô hình **Pure Static Web** (ES6 Modules, không cần cài đặt React, Vue, Next.js hay Webpack; chạy ngay lập tức trên GitHub Pages hoặc bất kỳ máy chủ tĩnh nào):
 
 ```text
 Learnchill/
-├── index.html                 # Giao diện chính của ứng dụng Funlearn (Single-Page App)
-├── style.css                  # Tùy biến Claymorphism UI & chuyển động mềm mại
-├── app.js                     # Toàn bộ logic ứng dụng, ngân hàng câu hỏi 3 môn & engine tương tác
-├── build_word_doc.js          # Công cụ tự động tạo báo cáo nghiên cứu khoa học chuẩn DOCX
-├── check_lessons.js           # Kiểm thử tự động độ phủ bài học (100% 44 chuyên đề)
-├── verify_subjects.js         # Kiểm thử tự động cách ly môn học (Không lẫn môn)
-├── BAO_CAO_GIAI_TRINH...docx  # Báo cáo giải trình 15 câu hỏi nghiên cứu khoa học
-├── KE_HOACH_THUC_THI...md     # Tài liệu kiến trúc hệ thống và lộ trình kỹ thuật
-└── .gitignore                 # Cấu hình loại trừ file lớn & thư viện phụ thuộc
+├── index.html                     # Khung ứng dụng SPA chuẩn ngữ nghĩa HTML5
+├── assets/
+│   └── css/
+│       └── clay-motion.css        # Hệ thống nút 3D Claymorphism, 60fps GPU animation, dây nối Bezier & @media print
+├── data/
+│   ├── grade3.json                # Dữ liệu 16 bài học chuẩn Lớp 3 (Toán, Tiếng Việt, Tiếng Anh)
+│   ├── grade4.json                # Dữ liệu 14 bài học chuẩn Lớp 4
+│   └── grade5.json                # Dữ liệu 14 bài học chuẩn Lớp 5
+├── js/
+│   ├── store.js                   # Quản lý trạng thái tập trung (Single Source of Truth), localStorage & cache JSON
+│   ├── quizEngine.js              # Chấm điểm 4 dạng bài, chuẩn hóa input & cơ chế phản hồi sư phạm 3 tầng
+│   ├── renderer.js                # Render DOM an toàn (không innerHTML thô), Mascot SVG 3 mood, Canvas Confetti & Báo cáo
+│   └── main.js                    # Khởi tạo ứng dụng, Event Delegation, Adult Gate & Parent Portal
+└── README.md                      # Hướng dẫn kỹ thuật và hướng dẫn biên dịch Tailwind tĩnh
 ```
 
 ---
 
-## 🚀 Hướng dẫn khởi chạy
+## 👨‍👩‍👧 3. Góc Phụ Huynh & Thầy Cô (Parent & Teacher Corner)
 
-Dự án được xây dựng dưới dạng **Pure Client-Side Web Application** (không phụ thuộc máy chủ phức tạp):
+Được bố trí ở thanh điều hướng và chân trang, được bảo vệ bởi **Hộp thoại kiểm tra người lớn (Parental Gate)** bằng một phép toán ngẫu nhiên (ví dụ `7 × 8 = ?`) để tránh việc học sinh ấn nhầm.
 
-1. **Chạy trực tiếp**: Mở trực tiếp tệp `index.html` bằng bất kỳ trình duyệt web hiện đại nào (Google Chrome, Microsoft Edge, Safari, Firefox).
-2. **Chạy qua Live Server**: Sử dụng tiện ích Live Server trong VS Code để trải nghiệm tải trang mượt mà nhất.
-3. **Chạy kiểm thử tự động**:
-   ```bash
-   # Kiểm tra độ phủ câu hỏi của 44 bài học:
-   node check_lessons.js
+### Các tính năng cốt lõi:
+1. **Bảng tổng hợp tiến độ cá nhân hóa:**
+   - Theo dõi từng khối lớp (Khối 3, Khối 4, Khối 5).
+   - Thống kê tổng số câu đã làm, tỷ lệ trả lời đúng ngay lần đầu, số sao và chuỗi ngày học.
+   - Bảng phân tích chi tiết từng môn: Toán Học, Tiếng Việt, Tiếng Anh.
+   - Chẩn đoán năng lực: Danh sách các kỹ năng đã nắm vững và các kỹ năng cần ôn luyện thêm.
+2. **In / Xuất Báo Cáo PDF Khổ A4:**
+   - Bấm nút **In / Xuất PDF** để mở hộp thoại in của trình duyệt (`window.print()`).
+   - Tích hợp sẵn CSS `@media print` giúp ẩn toàn bộ nút bấm, canvas, header và background đậm, trình bày phiếu đánh giá trang nhã, sắc nét trên khổ A4.
+3. **Nhập Bộ Câu Hỏi JSON Tùy Chỉnh (Dành cho Giáo viên):**
+   - Giáo viên có thể tải lên tệp `.json` hoặc dán mã JSON câu hỏi tự biên soạn.
+   - Hệ thống tự động phân tích và lưu vào `localStorage`, ngay lập tức hiển thị bài tập vào danh mục luyện tập của khối lớp tương ứng.
+4. **Đặt Lại Dữ Liệu:**
+   - Nút đặt lại kèm hộp thoại xác nhận giúp học sinh làm lại từ đầu khi chuyển năm học hoặc ôn thi.
 
-   # Kiểm tra cách ly môn học và logic an toàn:
-   node verify_subjects.js
-   ```
+### Chuẩn Schema JSON để Giáo viên nhập câu hỏi:
+```json
+{
+  "title": "Bài tập ôn tập cuối tuần môn Toán",
+  "questions": [
+    {
+      "id": "q-custom-1",
+      "type": "choice",
+      "prompt": "Tính giá trị của biểu thức: 125 × 4 = ?",
+      "options": [
+        { "id": "A", "text": "480" },
+        { "id": "B", "text": "500" },
+        { "id": "C", "text": "520" },
+        { "id": "D", "text": "600" }
+      ],
+      "answer": "B",
+      "hint": "Em có thể tách: 100 × 4 = 400 và 25 × 4 = 100, sau đó lấy 400 + 100."
+    },
+    {
+      "id": "q-custom-2",
+      "type": "input",
+      "prompt": "Điền số thích hợp vào chỗ chấm: Một hình vuông có cạnh 8 cm thì chu vi là ... cm.",
+      "answer": "32",
+      "hint": "Chu vi hình vuông bằng độ dài một cạnh nhân với 4: 8 × 4 = ?"
+    }
+  ]
+}
+```
 
 ---
 
-## 📚 Nguồn tài liệu chính thức tích hợp
+## 🛠️ 4. Hướng dẫn Biên dịch Tailwind CSS tĩnh (Bỏ phụ thuộc CDN)
 
-- 🇻🇳 **Toán Học 3, 4, 5**: Bộ sách *Bồi dưỡng học sinh giỏi Toán* – PGS.TS Trần Diên Hiển (CLB EMATH / NXB Giáo Dục Việt Nam).
-- 🇻🇳 **Tiếng Việt 4, 5**: Bộ sách *Tiếng Việt Nâng Cao* – GS.TS Lê Phương Nga (NXB Giáo Dục Việt Nam).
-- 🇬🇧 **Tiếng Anh 3, 4, 5**: Chương trình *Global Success* – Bộ Giáo dục & Đào tạo.
+Hiện tại, trang web sử dụng link Tailwind CDN cho mục đích phát triển nhanh. Khi triển khai trong môi trường mạng nội bộ trường học (Intranet / Offline) hoặc tối ưu tốc độ tối đa cho môi trường sản xuất, bạn có thể biên dịch Tailwind CSS tĩnh theo các bước đơn giản sau:
+
+### Cách 1: Sử dụng Tailwind CSS v4 Standalone CLI (Khuyên dùng)
+```bash
+# 1. Quét toàn bộ class trong HTML và JS rồi biên dịch ra file tĩnh tối ưu:
+npx @tailwindcss/cli -i assets/css/clay-motion.css -o assets/css/tailwind.min.css --minify
+```
+
+### Cách 2: Sử dụng Tailwind CSS v3 CLI
+```bash
+# Cài đặt tailwindcss cục bộ (nếu cần):
+npm install -D tailwindcss
+
+# Tạo file cấu hình và quét:
+npx tailwindcss -i assets/css/clay-motion.css -o assets/css/tailwind.min.css --minify
+```
+
+### Cách 3: Chuyển đổi mã nguồn `index.html` sang dùng CSS tĩnh
+Mở `index.html`, thay thế dòng thẻ script:
+```html
+<!-- CŨ (CDN): -->
+<script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+
+<!-- MỚI (Tĩnh, siêu nhẹ, chạy hoàn toàn offline): -->
+<link rel="stylesheet" href="assets/css/tailwind.min.css">
+```
 
 ---
 
-## 📄 Bản quyền & Tác giả
+## 🚀 5. Triển khai lên GitHub Pages
 
-- **Dự án**: Funlearn (Học Vui Mỗi Ngày)
-- **Tác giả**: Nhóm Nghiên cứu & Phát triển Funlearn
-- **Năm phát triển**: 2026
+1. Đưa toàn bộ thư mục `Learnchill` lên kho lưu trữ GitHub của bạn.
+2. Vào **Settings** > **Pages** > Chọn Branch `main` (hoặc `master`), thư mục `/(root)`.
+3. Bấm **Save**. Website sẽ hoạt động ngay lập tức tại địa chỉ:
+   `https://<ten-tai-khoan>.github.io/<ten-repo>/`
+*(Mọi đường dẫn gọi API tải JSON đều sử dụng đường dẫn tương đối `./data/grade*.json` nên website chạy hoàn hảo cả ở domain gốc lẫn subfolder).*
+
+---
+
+## 📄 Bản quyền & Đóng góp
+
+- **Dự án:** FUNLEARN - Học vui mỗi ngày
+- **Chương trình giáo dục:** Bám sát SGK Kết nối tri thức với cuộc sống (Bộ Giáo Dục & Đào Tạo Việt Nam)
+- **Bản quyền:** Mã nguồn mở theo giấy phép MIT.

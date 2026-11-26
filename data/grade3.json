@@ -1,0 +1,2970 @@
+{
+  "grade": 3,
+  "title": "Khối Lớp 3",
+  "avatar": "🌱",
+  "description": "Toán • Tiếng Việt • Tiếng Anh 3",
+  "subjects": {
+    "toan": {
+      "key": "toan",
+      "title": "Toán Học Lớp 3",
+      "themeColor": "#62C9F3",
+      "icon": "📐",
+      "bookRef": {
+        "name": "Bồi dưỡng Toán cho học sinh lớp 3",
+        "author": "PGS.TS Trần Diên Hiển – CLB EMATH (NXB Giáo Dục Việt Nam)"
+      },
+      "lessons": [
+        {
+          "id": "toan-g3-w1",
+          "code": "Tuần 01",
+          "title": "Ôn tập các số đến 1 000 & Phép cộng trừ",
+          "status": "ready",
+          "lessonTitle": "Ôn tập các số đến 1 000 & Phép cộng trừ",
+          "skillTag": "toan-g3-cong-tru-1000",
+          "summaryCard": {
+            "title": "Phép cộng, phép trừ trong phạm vi 1 000",
+            "keyPoints": [
+              "Đặt tính thẳng cột: hàng đơn vị thẳng đơn vị, chục thẳng chục, trăm thẳng trăm.",
+              "Cộng/trừ từ phải sang trái (bắt đầu từ hàng đơn vị).",
+              "Phép cộng có nhớ: thêm số nhớ vào hàng liền trước; Phép trừ có nhớ: nhớ 1 vào số trừ ở hàng liền trước."
+            ],
+            "example": "Ví dụ: 345 + 428 = 773 (5 + 8 = 13 viết 3 nhớ 1; 4 + 2 + 1 = 7; 3 + 4 = 7)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Bồi dưỡng Toán 3 • Trắc nghiệm",
+              "prompt": "Một trang trại có 345 con gà trống và 428 con gà mái. Hỏi trang trại đó có tất cả bao nhiêu con gà?",
+              "illustration": "🐓 🌾 🐔",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "763 con gà"
+                },
+                {
+                  "id": "B",
+                  "text": "773 con gà"
+                },
+                {
+                  "id": "C",
+                  "text": "783 con gà"
+                },
+                {
+                  "id": "D",
+                  "text": "873 con gà"
+                }
+              ],
+              "correct": "B",
+              "hint": "Từ khóa \"tất cả\" cho ta biết cần làm phép cộng: 345 + 428. Hàng đơn vị: 5 + 8 = 13 (viết 3 nhớ 1). Hàng chục: 4 + 2 + 1 = 7. Hàng trăm: 3 + 4 = 7. Kết quả đúng là 773 con gà!",
+              "skillTag": "toan-g3-cong-tru-1000"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "input",
+              "tag": "Bồi dưỡng Toán 3 • Điền số",
+              "prompt": "Cho 4 số: 235; 358; 253; 349. Hiệu của số lớn nhất và số bé nhất trong 4 số trên là bao nhiêu?",
+              "illustration": "🔢 ❓ ✏️",
+              "correct": "123",
+              "hint": "Trong 4 số trên: Số lớn nhất là 358, số bé nhất là 235. Ta thực hiện phép trừ tìm hiệu: 358 - 235 = 123!",
+              "skillTag": "toan-g3-cong-tru-1000"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "match",
+              "tag": "Bồi dưỡng Toán 3 • Ghép nối",
+              "prompt": "Nối phép tính với kết quả chính xác:",
+              "illustration": "🧩 🔗 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "5 × 7 + 228",
+                  "right": "263"
+                },
+                {
+                  "id": "p2",
+                  "left": "36 : 4 + 395",
+                  "right": "404"
+                },
+                {
+                  "id": "p3",
+                  "left": "20 × 4 + 320",
+                  "right": "400"
+                },
+                {
+                  "id": "p4",
+                  "left": "752 + 245 - 356",
+                  "right": "641"
+                }
+              ],
+              "hint": "Tính giá trị biểu thức: 5×7+228 = 35+228 = 263; 36:4+395 = 9+395 = 404; 20×4+320 = 80+320 = 400; 752+245-356 = 997-356 = 641.",
+              "skillTag": "toan-g3-cong-tru-1000"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Bồi dưỡng Toán 3 • Đúng / Sai",
+              "prompt": "Đoạn dây thứ nhất dài 1 mét, đoạn dây thứ hai dài 95 xăng-ti-mét. Vậy đoạn dây thứ nhất dài hơn đoạn dây thứ hai.",
+              "illustration": "📏 🧵 ✂️",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "1 mét bằng 100 xăng-ti-mét (cm). Vì 100 cm > 95 cm nên nhận định này hoàn toàn ĐÚNG.",
+              "skillTag": "toan-g3-cong-tru-1000"
+            }
+          ]
+        },
+        {
+          "id": "toan-g3-w2",
+          "code": "Tuần 02",
+          "title": "Bảng nhân chia 2, 3, 4, 5 & Tìm thành phần phép tính",
+          "status": "ready",
+          "lessonTitle": "Bảng nhân chia 2, 3, 4, 5 & Tìm thành phần phép tính",
+          "skillTag": "toan-g3-nhan-chia-co-ban",
+          "summaryCard": {
+            "title": "Bảng nhân chia 2, 3, 4, 5 & Tìm thành phần phép tính",
+            "keyPoints": [
+              "Tìm số bị trừ: lấy Hiệu + Số trừ. Tìm số trừ: lấy Số bị trừ - Hiệu.",
+              "Tìm thừa số chưa biết: lấy Tích chia cho thừa số đã biết.",
+              "Tìm số bị chia: lấy Thương nhân với Số chia."
+            ],
+            "example": "Ví dụ: x × 4 = 36 => x = 36 : 4 = 9."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Bồi dưỡng Toán 3 • Trắc nghiệm",
+              "prompt": "Tìm số thích hợp để điền vào ô trống: 450 - [.....] = 130",
+              "illustration": "📐 🔢 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "310"
+                },
+                {
+                  "id": "B",
+                  "text": "320"
+                },
+                {
+                  "id": "C",
+                  "text": "330"
+                },
+                {
+                  "id": "D",
+                  "text": "580"
+                }
+              ],
+              "correct": "B",
+              "hint": "Muốn tìm số trừ chưa biết, em lấy số bị trừ trừ đi hiệu: 450 - 130 = 320!",
+              "skillTag": "toan-g3-nhan-chia-co-ban"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "input",
+              "tag": "Bồi dưỡng Toán 3 • Điền số",
+              "prompt": "Có 5 rổ cam, mỗi rổ đựng 8 quả cam. Hỏi có tất cả bao nhiêu quả cam?",
+              "illustration": "🍊 🧺 🧮",
+              "correct": "40",
+              "hint": "Để tìm tổng số quả cam, ta thực hiện phép nhân theo bảng nhân 5: 5 rổ × 8 quả = 40 quả cam.",
+              "skillTag": "toan-g3-nhan-chia-co-ban"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "match",
+              "tag": "Bồi dưỡng Toán 3 • Ghép nối",
+              "prompt": "Nối phép tính nhân chia với kết quả đúng:",
+              "illustration": "✖️ ➗ 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "4 × 9",
+                  "right": "36"
+                },
+                {
+                  "id": "p2",
+                  "left": "5 × 8",
+                  "right": "40"
+                },
+                {
+                  "id": "p3",
+                  "left": "3 × 7",
+                  "right": "21"
+                },
+                {
+                  "id": "p4",
+                  "left": "32 : 4",
+                  "right": "8"
+                }
+              ],
+              "hint": "Bảng cửu chương nhân chia: 4×9 = 36; 5×8 = 40; 3×7 = 21; 32:4 = 8.",
+              "skillTag": "toan-g3-nhan-chia-co-ban"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Bồi dưỡng Toán 3 • Đúng / Sai",
+              "prompt": "Trong một phép chia có dư với số chia bằng 5, số dư lớn nhất có thể có là 5.",
+              "illustration": "⚠️ ❓ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "F",
+              "hint": "Trong phép chia có dư, số dư luôn luôn bé hơn số chia. Với số chia bằng 5, số dư lớn nhất chỉ có thể là 4!",
+              "skillTag": "toan-g3-nhan-chia-co-ban"
+            }
+          ]
+        },
+        {
+          "id": "toan-g3-w3",
+          "code": "Tuần 03",
+          "title": "Bảng nhân 6, 7 & Gấp/giảm một số lần",
+          "status": "ready",
+          "lessonTitle": "Bảng nhân 6, 7 & Gấp/giảm một số lần",
+          "skillTag": "toan-g3-nhan-6-7-gap-giam",
+          "summaryCard": {
+            "title": "Bảng nhân 6, 7 & Gấp, giảm một số lần",
+            "keyPoints": [
+              "Gấp một số lên nhiều lần: ta lấy số đó nhân với số lần.",
+              "Giảm một số đi nhiều lần: ta lấy số đó chia cho số lần.",
+              "Phân biệt 'gấp lên nhiều lần' (phép nhân) với 'nhiều hơn' (phép cộng)."
+            ],
+            "example": "Ví dụ: Gấp 6 lên 5 lần: 6 × 5 = 30; Giảm 28 đi 4 lần: 28 : 4 = 7."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 3 • Tìm x",
+              "prompt": "Tìm số tự nhiên x biết: x × 7 = 42 + 21",
+              "illustration": "🔢 ✖️ 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "x = 9"
+                },
+                {
+                  "id": "B",
+                  "text": "x = 8"
+                },
+                {
+                  "id": "C",
+                  "text": "x = 7"
+                },
+                {
+                  "id": "D",
+                  "text": "x = 6"
+                }
+              ],
+              "correct": "A",
+              "hint": "Ta tính vế phải trước: 42 + 21 = 63. Ta có x × 7 = 63 => x = 63 : 7 = 9.",
+              "skillTag": "toan-g3-nhan-6-7-gap-giam"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 3 • Toán đố",
+              "prompt": "Một cuộn dây dài 48m. Bác thợ cắt đi 1/6 chiều dài cuộn dây. Hỏi cuộn dây còn lại bao nhiêu mét?",
+              "illustration": "📏 ✂️ 🧵",
+              "correct": "40",
+              "hint": "Đoạn dây đã cắt là: 48 : 6 = 8 (m). Cuộn dây còn lại: 48 - 8 = 40 (m).",
+              "skillTag": "toan-g3-nhan-6-7-gap-giam"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 3 • Ghép nối",
+              "prompt": "Nối phép tính với kết quả chính xác:",
+              "illustration": "🧩 ✖️ ➗",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "7 × 8",
+                  "right": "56"
+                },
+                {
+                  "id": "p2",
+                  "left": "6 × 9",
+                  "right": "54"
+                },
+                {
+                  "id": "p3",
+                  "left": "42 : 6",
+                  "right": "7"
+                },
+                {
+                  "id": "p4",
+                  "left": "63 : 7",
+                  "right": "9"
+                }
+              ],
+              "hint": "Em nhớ lại bảng nhân 6, 7 và bảng chia tương ứng nhé.",
+              "skillTag": "toan-g3-nhan-6-7-gap-giam"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 3 • Đúng / Sai",
+              "prompt": "Gấp số 7 lên 6 lần ta được kết quả là 42.",
+              "illustration": "📈 7️⃣ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Muốn gấp một số lên nhiều lần, ta lấy số đó nhân với số lần: 7 × 6 = 42.",
+              "skillTag": "toan-g3-nhan-6-7-gap-giam"
+            }
+          ]
+        },
+        {
+          "id": "toan-g3-w4",
+          "code": "Tuần 04",
+          "title": "Bảng nhân 8, 9 & Góc vuông, góc không vuông",
+          "status": "locked",
+          "lessonTitle": "Bảng nhân 8, 9 & Góc vuông, góc không vuông",
+          "skillTag": "toan-g3-nhan-8-9-hinh-hoc",
+          "summaryCard": {
+            "title": "Bảng nhân 8, 9 & Nhận biết Góc vuông",
+            "keyPoints": [
+              "Bảng nhân 8, 9: Tích tăng đều 8 hoặc 9 đơn vị mỗi bước.",
+              "Dùng ê-ke để kiểm tra góc vuông và góc không vuông.",
+              "Một góc vuông gồm đỉnh và 2 cạnh tạo thành góc 90 độ."
+            ],
+            "example": "Ví dụ: 8 × 7 = 56, 9 × 6 = 54. Góc của quyển sách là góc vuông."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 3 • Phép chia có dư",
+              "prompt": "Tìm một số biết rằng lấy số đó chia cho 8 thì được thương là 9 và số dư lớn nhất có thể.",
+              "illustration": "➗ 8️⃣ 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "79"
+                },
+                {
+                  "id": "B",
+                  "text": "77"
+                },
+                {
+                  "id": "C",
+                  "text": "72"
+                },
+                {
+                  "id": "D",
+                  "text": "80"
+                }
+              ],
+              "correct": "A",
+              "hint": "Số chia là 8 nên số dư lớn nhất có thể là 7. Số cần tìm là: 9 × 8 + 7 = 79.",
+              "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 3 • Hình học",
+              "prompt": "Một hình tam giác vuông có 1 góc vuông. Hỏi hình đó có bao nhiêu góc không vuông?",
+              "illustration": "📐 🔺 🔍",
+              "correct": "2",
+              "hint": "Hình tam giác có tất cả 3 góc. Đã có 1 góc vuông thì còn lại 2 góc không vuông (góc nhọn).",
+              "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 3 • Ghép nối",
+              "prompt": "Nối biểu thức với giá trị tương ứng:",
+              "illustration": "🧩 9️⃣ 8️⃣",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "8 × 7 - 16",
+                  "right": "40"
+                },
+                {
+                  "id": "p2",
+                  "left": "9 × 6 + 18",
+                  "right": "72"
+                },
+                {
+                  "id": "p3",
+                  "left": "72 : 8 + 15",
+                  "right": "24"
+                },
+                {
+                  "id": "p4",
+                  "left": "81 : 9 × 4",
+                  "right": "36"
+                }
+              ],
+              "hint": "Thực hiện nhân chia trước, cộng trừ sau nhé!",
+              "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 3 • Đúng / Sai",
+              "prompt": "Thước ê-ke là dụng cụ dùng để nhận biết và vẽ góc vuông.",
+              "illustration": "📐 📐 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Thước ê-ke có một góc vuông chuẩn, giúp học sinh kiểm tra góc vuông hay không vuông.",
+              "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+            }
+          ]
+        },
+        {
+          "id": "toan-g3-w5",
+          "code": "Tuần 05",
+          "title": "Số có bốn chữ số, năm chữ số & Cấu tạo số",
+          "status": "locked",
+          "lessonTitle": "Số có bốn chữ số, năm chữ số & Cấu tạo số",
+          "skillTag": "toan-g3-cau-tao-so",
+          "summaryCard": {
+            "title": "Số có bốn, năm chữ số & Cấu tạo thập phân",
+            "keyPoints": [
+              "Các hàng theo thứ tự từ phải sang trái: Đơn vị, Chục, Trăm, Nghìn, Chục nghìn.",
+              "Giá trị của mỗi chữ số phụ thuộc vào vị trí (hàng) của nó trong số đó.",
+              "Viết số thành tổng: abcd = a × 1000 + b × 100 + c × 10 + d."
+            ],
+            "example": "Ví dụ: 5 432 = 5 000 + 400 + 30 + 2 (chữ số 5 có giá trị là 5 000)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 3 • Cấu tạo số",
+              "prompt": "Số gồm 5 nghìn, 4 trăm và 3 đơn vị được viết là:",
+              "illustration": "5️⃣ 0️⃣ 4️⃣",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "5403"
+                },
+                {
+                  "id": "B",
+                  "text": "5043"
+                },
+                {
+                  "id": "C",
+                  "text": "5430"
+                },
+                {
+                  "id": "D",
+                  "text": "543"
+                }
+              ],
+              "correct": "B",
+              "hint": "Hàng nghìn là 5, hàng trăm là 0, hàng chục là 4 (chú ý: 4 trăm = 4 ở hàng trăm, 0 chục, 3 đơn vị => 5403, nhưng ở đây đề: 5 nghìn, 4 chục và 3 đơn vị là 5043).",
+              "skillTag": "toan-g3-cau-tao-so"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 3 • Số học nâng cao",
+              "prompt": "Tìm hiệu giữa số lớn nhất có 4 chữ số khác nhau và số bé nhất có 4 chữ số khác nhau.",
+              "illustration": "9️⃣ 8️⃣ 7️⃣",
+              "correct": "8853",
+              "hint": "Số lớn nhất có 4 chữ số khác nhau là 9876. Số bé nhất có 4 chữ số khác nhau là 1023. Hiệu: 9876 - 1023 = 8853.",
+              "skillTag": "toan-g3-cau-tao-so"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 3 • Đọc viết số",
+              "prompt": "Nối số với cách đọc tương ứng:",
+              "illustration": "🔢 📖 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "3045",
+                  "right": "Ba nghìn không trăm bốn mươi lăm"
+                },
+                {
+                  "id": "p2",
+                  "left": "7802",
+                  "right": "Bảy nghìn tám trăm linh hai"
+                },
+                {
+                  "id": "p3",
+                  "left": "12500",
+                  "right": "Mười hai nghìn năm trăm"
+                },
+                {
+                  "id": "p4",
+                  "left": "40009",
+                  "right": "Bốn mươi nghìn không trăm linh chín"
+                }
+              ],
+              "hint": "Chú ý chữ số 0 ở hàng chục đọc là \"linh\" hoặc \"lẻ\", ở hàng trăm đọc là \"không trăm\".",
+              "skillTag": "toan-g3-cau-tao-so"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 3 • Đúng / Sai",
+              "prompt": "Trong số 8562, chữ số 5 thuộc hàng trăm và có giá trị là 500.",
+              "illustration": "8️⃣ 5️⃣ 6️⃣",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Từ phải sang trái: 2 là hàng đơn vị, 6 là hàng chục, 5 là hàng trăm (500), 8 là hàng nghìn (8000).",
+              "skillTag": "toan-g3-cau-tao-so"
+            }
+          ]
+        }
+      ]
+    },
+    "tieng-viet": {
+      "key": "tieng-viet",
+      "title": "Tiếng Việt Lớp 3",
+      "themeColor": "#FF91A8",
+      "icon": "📖",
+      "bookRef": {
+        "name": "Bồi dưỡng Tiếng Việt lớp 3",
+        "author": "GS.TS Lê Phương Nga (NXB Giáo Dục Việt Nam)"
+      },
+      "lessons": [
+        {
+          "id": "tv-g3-b1",
+          "code": "Chuyên đề 01",
+          "title": "Cấu tạo từ & Mở rộng vốn từ chủ điểm Măng non, Trường học",
+          "status": "ready",
+          "lessonTitle": "Cấu tạo từ & Mở rộng vốn từ chủ điểm Măng non, Trường học",
+          "skillTag": "tv-g3-von-tu-mang-non",
+          "summaryCard": {
+            "title": "Mở rộng vốn từ Măng non & Cấu tạo từ",
+            "keyPoints": [
+              "Từ chỉ sự vật: Người, đồ vật, con vật, cây cối (học sinh, bút chì, cây phượng).",
+              "Từ chỉ hoạt động, trạng thái: Chạy, nhảy, học bài, yêu thương.",
+              "Chủ điểm Măng non: Những từ ngữ nói về thiếu nhi, tính nết và sinh hoạt của trẻ."
+            ],
+            "example": "Ví dụ: 'Ngoan ngoãn', 'chăm chỉ', 'thơ ngây' là từ chỉ phẩm chất của măng non."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 3 • Trắc nghiệm",
+              "prompt": "Trong câu thơ: \"Trẻ em như búp trên cành / Biết ăn ngủ, biết học hành là ngoan\", sự vật nào được so sánh với nhau?",
+              "illustration": "🌱 👶 📖",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Trẻ em và búp trên cành"
+                },
+                {
+                  "id": "B",
+                  "text": "Ăn ngủ và học hành"
+                },
+                {
+                  "id": "C",
+                  "text": "Búp trên cành và lá cây"
+                },
+                {
+                  "id": "D",
+                  "text": "Trẻ em và người lớn"
+                }
+              ],
+              "correct": "A",
+              "hint": "Từ so sánh là từ \"như\". Sự vật A là \"Trẻ em\", sự vật B là \"búp trên cành\" (đều ngây thơ, non nớt, cần được nâng niu bảo bọc).",
+              "skillTag": "tv-g3-von-tu-mang-non"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 3 • Điền từ",
+              "prompt": "Điền từ còn thiếu vào câu thành ngữ sau: \"Học thầy không tày học [.....]\"",
+              "illustration": "👨‍🏫 👦 ✏️",
+              "correct": "bạn",
+              "hint": "Câu tục ngữ quen thuộc của nhân dân ta ca ngợi việc học hỏi từ bạn bè cùng trang lứa: \"Học thầy không tày học bạn\".",
+              "skillTag": "tv-g3-von-tu-mang-non"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 3 • Ghép nối",
+              "prompt": "Ghép câu với kiểu câu kể tương ứng:",
+              "illustration": "🧩 📜 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Bảo Nam là học sinh chăm chỉ.",
+                  "right": "Ai là gì?"
+                },
+                {
+                  "id": "p2",
+                  "left": "Các bạn đang đá bóng trên sân.",
+                  "right": "Ai làm gì?"
+                },
+                {
+                  "id": "p3",
+                  "left": "Bầu trời mùa thu trong xanh, cao vời vợi.",
+                  "right": "Ai thế nào?"
+                }
+              ],
+              "hint": "\"Là học sinh\" -> giới thiệu/nhận định (Ai là gì?); \"đang đá bóng\" -> hoạt động (Ai làm gì?); \"trong xanh\" -> đặc điểm (Ai thế nào?).",
+              "skillTag": "tv-g3-von-tu-mang-non"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 3 • Đúng / Sai",
+              "prompt": "Trong câu: \"Bác kim giờ nhích từng bước chậm chạp.\", đồ vật (kim giờ) đã được nhân hóa bằng cách gọi bằng từ ngữ dùng cho người (\"Bác\").",
+              "illustration": "⏰ 👴 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Tác giả dùng từ \"Bác\" vốn xưng hô với người để gọi kim giờ, đây là một trong 3 cách nhân hóa quen thuộc trong Tiếng Việt!",
+              "skillTag": "tv-g3-von-tu-mang-non"
+            }
+          ]
+        },
+        {
+          "id": "tv-g3-b2",
+          "code": "Chuyên đề 02",
+          "title": "Biện pháp tu từ So sánh trong văn thơ thiếu nhi",
+          "status": "ready",
+          "lessonTitle": "Biện pháp tu từ So sánh trong văn thơ thiếu nhi",
+          "skillTag": "tv-g3-bien-phap-so-sanh",
+          "summaryCard": {
+            "title": "Biện pháp tu từ So sánh trong câu",
+            "keyPoints": [
+              "Cấu trúc so sánh: Sự vật 1 (được so sánh) + Từ so sánh + Sự vật 2 (dùng để so sánh).",
+              "Các từ so sánh phổ biến: là, như, tựa như, giống như, chẳng bằng.",
+              "Tác dụng: Làm cho câu văn gợi hình, sinh động và giàu cảm xúc."
+            ],
+            "example": "Ví dụ: 'Mặt biển phẳng lặng như tấm gương khổng lồ'."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+              "type": "choice",
+              "tag": "Tiếng Việt 3 • Biện pháp so sánh",
+              "prompt": "Trong câu: \"Mặt biển sáng trong như tấm gương khổng lồ\", sự vật nào được so sánh với nhau?",
+              "illustration": "🌊 🪞 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mặt biển và tấm gương khổng lồ"
+                },
+                {
+                  "id": "B",
+                  "text": "Mặt biển và bầu trời trong xanh"
+                },
+                {
+                  "id": "C",
+                  "text": "Tấm gương và dòng sông"
+                },
+                {
+                  "id": "D",
+                  "text": "Mặt biển và mặt trời"
+                }
+              ],
+              "correct": "A",
+              "hint": "Sự vật 1 là \"Mặt biển\", từ so sánh là \"như\", sự vật 2 là \"tấm gương khổng lồ\".",
+              "skillTag": "tv-g3-bien-phap-so-sanh"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+              "type": "input",
+              "tag": "Tiếng Việt 3 • Điền từ",
+              "prompt": "Điền từ so sánh thích hợp vào chỗ trống trong câu ca dao: \"Công cha ...... núi Thái Sơn / Nghĩa mẹ ...... nước trong nguồn chảy ra.\"",
+              "illustration": "⛰️ 💧 📜",
+              "correct": "như",
+              "hint": "Từ so sánh quen thuộc chỉ sự ngang bằng trong văn học dân gian Việt Nam.",
+              "skillTag": "tv-g3-bien-phap-so-sanh"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+              "type": "match",
+              "tag": "Tiếng Việt 3 • Ghép nối hình ảnh so sánh",
+              "prompt": "Nối hình ảnh so sánh với vế tương ứng trong thơ ca thiếu nhi:",
+              "illustration": "🌕 🎈 🌿",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Trăng tròn như",
+                  "right": "quả bóng bay"
+                },
+                {
+                  "id": "p2",
+                  "left": "Mắt bé tròn xoe như",
+                  "right": "hai hòn bi ve"
+                },
+                {
+                  "id": "p3",
+                  "left": "Tiếng suối trong như",
+                  "right": "tiếng hát xa"
+                },
+                {
+                  "id": "p4",
+                  "left": "Lá cọ xòe ra như",
+                  "right": "chiếc ô xanh"
+                }
+              ],
+              "hint": "Dựa vào các bài thơ quen thuộc: Quả bóng tròn, Tiếng suối Côn Sơn, Cây cọ quê em.",
+              "skillTag": "tv-g3-bien-phap-so-sanh"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+              "type": "true_false",
+              "tag": "Tiếng Việt 3 • Đúng / Sai",
+              "prompt": "Câu thơ: \"Quả dừa - đàn lợn con nằm trên cao\" sử dụng dấu gạch ngang (-) để thay thế cho từ so sánh.",
+              "illustration": "🥥 🐖 🌴",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Đúng! Đây là kiểu so sánh không dùng từ \"như/là\" mà dùng dấu gạch ngang nối sự vật 1 và sự vật 2 (Trần Đăng Khoa).",
+              "skillTag": "tv-g3-bien-phap-so-sanh"
+            }
+          ]
+        },
+        {
+          "id": "tv-g3-b3",
+          "code": "Chuyên đề 03",
+          "title": "Mẫu câu kể: Ai là gì? Ai làm gì? Ai thế nào?",
+          "status": "ready",
+          "lessonTitle": "Mẫu câu kể: Ai là gì? Ai làm gì? Ai thế nào?",
+          "skillTag": "tv-g3-mau-cau-ke",
+          "summaryCard": {
+            "title": "Ba mẫu câu kể: Ai là gì? Ai làm gì? Ai thế nào?",
+            "keyPoints": [
+              "Câu 'Ai là gì?': Dùng để giới thiệu, nhận định (Bộ phận sau trả lời cho 'là gì?').",
+              "Câu 'Ai làm gì?': Kể về hoạt động của người hoặc vật (Bộ phận sau có động từ).",
+              "Câu 'Ai thế nào?': Miêu tả đặc điểm, tính chất, trạng thái (Bộ phận sau có tính từ)."
+            ],
+            "example": "Ví dụ: 'Mẹ em là cô giáo' (Ai là gì?); 'Bé đang đọc sách' (Ai làm gì?)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+              "type": "choice",
+              "tag": "Tiếng Việt 3 • Kiểu câu kể",
+              "prompt": "Câu: \"Bác nông dân đang cày ruộng trên cánh đồng vàng rực.\" thuộc mẫu câu nào?",
+              "illustration": "🌾 👨‍🌾 🐂",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ai làm gì?"
+                },
+                {
+                  "id": "B",
+                  "text": "Ai là gì?"
+                },
+                {
+                  "id": "C",
+                  "text": "Ai thế nào?"
+                },
+                {
+                  "id": "D",
+                  "text": "Câu cảm thán"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Đang cày ruộng\" là hoạt động của bác nông dân, nên câu này trả lời cho câu hỏi: Ai làm gì?",
+              "skillTag": "tv-g3-mau-cau-ke"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+              "type": "input",
+              "tag": "Tiếng Việt 3 • Xác định thành phần",
+              "prompt": "Tìm bộ phận trả lời cho câu hỏi \"Thế nào?\" trong câu: \"Bầu trời mùa thu trong xanh và cao vời vợi.\"",
+              "illustration": "🌤️ 🍁 🔍",
+              "correct": "trong xanh và cao vời vợi",
+              "hint": "Vị ngữ của câu \"Ai thế nào?\" chỉ đặc điểm, tính chất của sự vật.",
+              "skillTag": "tv-g3-mau-cau-ke"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+              "type": "match",
+              "tag": "Tiếng Việt 3 • Phân loại mẫu câu",
+              "prompt": "Nối câu văn với mẫu câu kể tương ứng:",
+              "illustration": "🧩 📖 ✏️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Mẹ em",
+                  "right": "Chủ ngữ (trả lời câu hỏi: Ai?)"
+                },
+                {
+                  "id": "p2",
+                  "left": "là cô giáo vùng cao",
+                  "right": "Vị ngữ (trả lời câu hỏi: Là gì?)"
+                },
+                {
+                  "id": "p3",
+                  "left": "chăm chỉ cày cấy",
+                  "right": "Vị ngữ (trả lời câu hỏi: Làm gì?)"
+                },
+                {
+                  "id": "p4",
+                  "left": "rất đỗi hiền hòa",
+                  "right": "Vị ngữ (trả lời câu hỏi: Thế nào?)"
+                }
+              ],
+              "hint": "Ghép nối thành phần câu với câu hỏi tương ứng (Ai? Là gì? Làm gì? Thế nào?).",
+              "skillTag": "tv-g3-mau-cau-ke"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+              "type": "true_false",
+              "tag": "Tiếng Việt 3 • Đúng / Sai",
+              "prompt": "Câu \"Hoa phượng nở đỏ rực cả một góc sân trường.\" thuộc mẫu câu kể \"Ai thế nào?\".",
+              "illustration": "🌺 🏫 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Vị ngữ \"nở đỏ rực cả một góc sân trường\" nêu lên trạng thái và đặc điểm màu sắc rực rỡ của hoa phượng.",
+              "skillTag": "tv-g3-mau-cau-ke"
+            }
+          ]
+        },
+        {
+          "id": "tv-g3-b4",
+          "code": "Chuyên đề 04",
+          "title": "Biện pháp nghệ thuật Nhân hóa & Cách dùng dấu câu",
+          "status": "locked",
+          "lessonTitle": "Biện pháp nghệ thuật Nhân hóa & Cách dùng dấu câu",
+          "skillTag": "tv-g3-nhan-hoa-dau-cau",
+          "summaryCard": {
+            "title": "Biện pháp Nhân hóa & Dấu câu cơ bản",
+            "keyPoints": [
+              "Nhân hóa là gán cho đồ vật, cây cối, con vật những từ ngữ chỉ hành động, tình cảm của con người.",
+              "Ba cách nhân hóa: Gọi vật bằng từ gọi người; Tả vật bằng từ tả người; Trò chuyện với vật như với người.",
+              "Dấu chấm: Kết thúc câu kể; Dấu phẩy: Ngăn cách các bộ phận cùng chức vụ trong câu."
+            ],
+            "example": "Ví dụ: 'Bác đồng hồ chăm chỉ gõ nhịp tích tắc' (Gọi bằng bác, chăm chỉ)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
+              "type": "choice",
+              "tag": "Tiếng Việt 3 • Biện pháp nhân hóa",
+              "prompt": "Câu nào dưới đây sử dụng biện pháp nghệ thuật nhân hóa?",
+              "illustration": "⏰ 🚶 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Bác kim giờ thận trọng nhích từng li, từng li."
+                },
+                {
+                  "id": "B",
+                  "text": "Mặt hồ phẳng lặng như một tấm gương soi."
+                },
+                {
+                  "id": "C",
+                  "text": "Đồng hồ báo thức chạy bằng hai viên pin tiểu."
+                },
+                {
+                  "id": "D",
+                  "text": "Cây thông cao vút đứng bên đường làng."
+                }
+              ],
+              "correct": "A",
+              "hint": "Kim giờ được gọi là \"Bác\" và có hành động \"thận trọng nhích từng li\" như con người.",
+              "skillTag": "tv-g3-nhan-hoa-dau-cau"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
+              "type": "input",
+              "tag": "Tiếng Việt 3 • Tìm từ xưng hô",
+              "prompt": "Trong câu: \"Chị mây mặc áo xanh thướt tha dạo chơi trên bầu trời\", mây được gọi bằng từ xưng hô nào?",
+              "illustration": "☁️ 👗 🔍",
+              "correct": "chị",
+              "hint": "Từ dùng để xưng hô thân mật với đám mây như một người phụ nữ dịu dàng.",
+              "skillTag": "tv-g3-nhan-hoa-dau-cau"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
+              "type": "match",
+              "tag": "Tiếng Việt 3 • Các cách nhân hóa",
+              "prompt": "Nối cách nhân hóa với câu ví dụ phù hợp:",
+              "illustration": "🧩 🐓 🌶️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Gọi vật bằng từ gọi người",
+                  "right": "Bác gà trống cất tiếng gáy vang"
+                },
+                {
+                  "id": "p2",
+                  "left": "Tả hoạt động như con người",
+                  "right": "Giọt sương sớm thức giấc đón ánh mai"
+                },
+                {
+                  "id": "p3",
+                  "left": "Trò chuyện tâm sự với vật",
+                  "right": "Khế ơi mau chín cho chim ăn nhé"
+                },
+                {
+                  "id": "p4",
+                  "left": "Tả tính cách như con người",
+                  "right": "Anh ớt hiểm cay nồng bướng bỉnh"
+                }
+              ],
+              "hint": "Có 3 cách nhân hóa chính: gọi vật bằng từ gọi người, tả vật bằng từ ngữ tả người, nói chuyện với vật như với người.",
+              "skillTag": "tv-g3-nhan-hoa-dau-cau"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 3 Nâng Cao – Dấu câu",
+              "type": "true_false",
+              "tag": "Tiếng Việt 3 • Dấu câu",
+              "prompt": "Dấu hai chấm (:) thường được dùng để báo hiệu phần giải thích hoặc dẫn lời nói trực tiếp của nhân vật.",
+              "illustration": "💬 ✍️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Dấu hai chấm báo hiệu lời thoại (kết hợp gạch đầu dòng/ngoặc kép) hoặc phần thuyết minh, giải thích.",
+              "skillTag": "tv-g3-nhan-hoa-dau-cau"
+            }
+          ]
+        }
+      ]
+    },
+    "tieng-anh": {
+      "key": "tieng-anh",
+      "title": "Tiếng Anh Lớp 3",
+      "themeColor": "#78D9AE",
+      "icon": "🌍",
+      "bookRef": {
+        "name": "Bồi dưỡng Học sinh giỏi Tiếng Anh 3 (Global Success)",
+        "author": "Bộ GD&ĐT – Bồi dưỡng HSG Tiểu học"
+      },
+      "lessons": [
+        {
+          "id": "eng-g3-u1",
+          "code": "Chuyên đề 01",
+          "title": "Countable & Uncountable Nouns (Danh từ đếm được/không đếm được)",
+          "status": "ready",
+          "lessonTitle": "Countable & Uncountable Nouns (Danh từ đếm được/không đếm được)",
+          "skillTag": "eng-g3-countable-uncountable",
+          "summaryCard": {
+            "title": "Countable & Uncountable Nouns",
+            "keyPoints": [
+              "Countable Nouns (Đếm được): Danh từ có thể đếm bằng số (1, 2, 3...) như apple, book, pen.",
+              "Uncountable Nouns (Không đếm được): Không đếm trực tiếp bằng số (water, milk, rice, money).",
+              "Không dùng a/an trực tiếp trước danh từ không đếm được."
+            ],
+            "example": "Example: 'two books' (countable), but 'some water' (uncountable)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+              "type": "choice",
+              "tag": "Tiếng Anh 3 • Trắc nghiệm",
+              "prompt": "Which of the following words is an UNCOUNTABLE noun (Danh từ không đếm được)?",
+              "illustration": "🥛 🍎 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Cup (Cái tách)"
+                },
+                {
+                  "id": "B",
+                  "text": "Car (Chiếc ô tô)"
+                },
+                {
+                  "id": "C",
+                  "text": "Advice (Lời khuyên)"
+                },
+                {
+                  "id": "D",
+                  "text": "City (Thành phố)"
+                }
+              ],
+              "correct": "C",
+              "hint": "Trong Tiếng Anh, \"Advice\" (lời khuyên) là danh từ không đếm được (Uncountable noun), không thêm -s và không dùng \"an advice\"!",
+              "skillTag": "eng-g3-countable-uncountable"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+              "type": "input",
+              "tag": "Tiếng Anh 3 • Điền từ",
+              "prompt": "Complete the question with \"How much\" or \"How many\": \"[.....] milk does she want?\"",
+              "illustration": "🥛 ❓ ✏️",
+              "correct": "How much",
+              "hint": "Vì \"milk\" (sữa) là danh từ không đếm được (uncountable noun), nên ta dùng cụm từ \"How much milk\".",
+              "skillTag": "eng-g3-countable-uncountable"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+              "type": "match",
+              "tag": "Tiếng Anh 3 • Ghép nối",
+              "prompt": "Match nouns in Column A with category in Column B:",
+              "illustration": "🧩 🇬🇧 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Equipment",
+                  "right": "Thiết bị (Danh từ không đếm được)"
+                },
+                {
+                  "id": "p2",
+                  "left": "University",
+                  "right": "Trường đại học (Danh từ đếm được)"
+                },
+                {
+                  "id": "p3",
+                  "left": "Peace",
+                  "right": "Hòa bình (Danh từ trừu tượng không đếm được)"
+                },
+                {
+                  "id": "p4",
+                  "left": "City",
+                  "right": "Thành phố (Danh từ đếm được số ít)"
+                }
+              ],
+              "hint": "Countable: University, City, Cup, Car. Uncountable: Advice, Equipment, Peace, Research, Progress, Help.",
+              "skillTag": "eng-g3-countable-uncountable"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+              "type": "true_false",
+              "tag": "Tiếng Anh 3 • Đúng / Sai",
+              "prompt": "We use \"How many\" with countable plural nouns (e.g. How many books do you have?). True or False?",
+              "illustration": "📚 ❓ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Quy tắc: How much + Uncountable noun; How many + Countable plural noun. Câu trên hoàn toàn ĐÚNG (TRUE).",
+              "skillTag": "eng-g3-countable-uncountable"
+            }
+          ]
+        },
+        {
+          "id": "eng-g3-u2",
+          "code": "Chuyên đề 02",
+          "title": "How Much & How Many with Quantifiers",
+          "status": "ready",
+          "lessonTitle": "How Much & How Many with Quantifiers",
+          "skillTag": "eng-g3-how-much-how-many",
+          "summaryCard": {
+            "title": "How Many vs How Much with Quantifiers",
+            "keyPoints": [
+              "'How many' dùng với danh từ đếm được số nhiều: How many + plural noun + are there?",
+              "'How much' dùng với danh từ không đếm được: How much + uncountable noun + is there?",
+              "Hỏi giá tiền: How much is / are...?"
+            ],
+            "example": "Example: 'How many pens do you have?' vs 'How much milk is in the fridge?'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 3 • How Much / How Many",
+              "prompt": "Choose the correct question word: \"______ pens do you have in your pencil case?\"",
+              "illustration": "🖊️ 🎒 ❓",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "How many"
+                },
+                {
+                  "id": "B",
+                  "text": "How much"
+                },
+                {
+                  "id": "C",
+                  "text": "How often"
+                },
+                {
+                  "id": "D",
+                  "text": "How old"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Pens\" is a plural countable noun (danh từ đếm được số nhiều), so we use \"How many\".",
+              "skillTag": "eng-g3-how-much-how-many"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 3 • Điền từ",
+              "prompt": "Complete the question: \"How ______ water do you drink every day?\"",
+              "illustration": "💧 🥛 ✍️",
+              "correct": "much",
+              "hint": "\"Water\" is an uncountable noun (danh từ không đếm được), so we ask: How much water...?",
+              "skillTag": "eng-g3-how-much-how-many"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 3 • Ghép câu hỏi & trả lời",
+              "prompt": "Match questions with their appropriate answers:",
+              "illustration": "🧩 ❓ 💬",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "How many apples are there?",
+                  "right": "There are six red apples."
+                },
+                {
+                  "id": "p2",
+                  "left": "How much milk is in the glass?",
+                  "right": "There is a little milk."
+                },
+                {
+                  "id": "p3",
+                  "left": "How many students in your class?",
+                  "right": "There are thirty-two students."
+                },
+                {
+                  "id": "p4",
+                  "left": "How much rice would you like?",
+                  "right": "A bowl of rice, please."
+                }
+              ],
+              "hint": "How many asks about quantity of countable things; How much asks about uncountable amounts.",
+              "skillTag": "eng-g3-how-much-how-many"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 3 • True / False",
+              "prompt": "We use \"How much\" to ask about the price of an item in a store.",
+              "illustration": "🏷️ 💵 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "\"How much is this book?\" is the standard question to ask about cost/price!",
+              "skillTag": "eng-g3-how-much-how-many"
+            }
+          ]
+        },
+        {
+          "id": "eng-g3-u3",
+          "code": "Chuyên đề 03",
+          "title": "Singular & Plural Nouns (Danh từ số ít & số nhiều)",
+          "status": "ready",
+          "lessonTitle": "Singular & Plural Nouns (Danh từ số ít & số nhiều)",
+          "skillTag": "eng-g3-singular-plural",
+          "summaryCard": {
+            "title": "Singular and Plural Nouns",
+            "keyPoints": [
+              "Thông thường thêm '-s' vào sau danh từ số ít để thành số nhiều (book -> books).",
+              "Từ tận cùng bằng s, ss, sh, ch, x, o: thêm '-es' (bus -> buses, box -> boxes).",
+              "Từ tận cùng phụ âm + y: đổi y thành '-ies' (baby -> babies)."
+            ],
+            "example": "Example: one cat -> three cats; one watch -> two watches."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 3 • Singular & Plural",
+              "prompt": "What is the correct plural form of the noun \"child\"?",
+              "illustration": "👶 🧒 🧑",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "children"
+                },
+                {
+                  "id": "B",
+                  "text": "childs"
+                },
+                {
+                  "id": "C",
+                  "text": "childrens"
+                },
+                {
+                  "id": "D",
+                  "text": "childes"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Child\" is an irregular noun: 1 child -> 2 children.",
+              "skillTag": "eng-g3-singular-plural"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 3 • Viết dạng số nhiều",
+              "prompt": "Write the plural form of \"box\":",
+              "illustration": "📦 📦 ✍️",
+              "correct": "boxes",
+              "hint": "Nouns ending in -x add \"-es\" in plural: box -> boxes.",
+              "skillTag": "eng-g3-singular-plural"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 3 • Ghép số ít & số nhiều",
+              "prompt": "Match singular nouns with their irregular plural forms:",
+              "illustration": "🧩 🦶 🦷",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "leaf",
+                  "right": "leaves"
+                },
+                {
+                  "id": "p2",
+                  "left": "foot",
+                  "right": "feet"
+                },
+                {
+                  "id": "p3",
+                  "left": "tooth",
+                  "right": "teeth"
+                },
+                {
+                  "id": "p4",
+                  "left": "bus",
+                  "right": "buses"
+                }
+              ],
+              "hint": "f -> ves (leaf -> leaves); oo -> ee (foot -> feet, tooth -> teeth).",
+              "skillTag": "eng-g3-singular-plural"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 3 • True / False",
+              "prompt": "The plural form of \"fish\" can remain \"fish\" when referring to the same kind.",
+              "illustration": "🐟 🐠 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "True! \"One fish, two fish\" is very common in English.",
+              "skillTag": "eng-g3-singular-plural"
+            }
+          ]
+        },
+        {
+          "id": "eng-g3-u4",
+          "code": "Chuyên đề 04",
+          "title": "Articles \"a / an\" & Demonstratives (This/That/These/Those)",
+          "status": "locked",
+          "lessonTitle": "Articles \"a / an\" & Demonstratives (This/That/These/Those)",
+          "skillTag": "eng-g3-articles-a-an",
+          "summaryCard": {
+            "title": "Articles 'a / an' & Demonstratives",
+            "keyPoints": [
+              "Dùng 'an' trước danh từ bắt đầu bằng nguyên âm phát âm (u, e, o, a, i: an apple, an elephant).",
+              "Dùng 'a' trước danh từ bắt đầu bằng phụ âm (a book, a ruler).",
+              "This/That (số ít) - These/Those (số nhiều); This/These (ở gần) - That/Those (ở xa)."
+            ],
+            "example": "Example: 'an orange', 'a pencil', 'This is my bag', 'Those are apples'."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 3 • Demonstratives",
+              "prompt": "Fill in the blank: \"Look at ______ colorful birds high up in the sky over there!\"",
+              "illustration": "🕊️ 🌤️ 👉",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "those"
+                },
+                {
+                  "id": "B",
+                  "text": "these"
+                },
+                {
+                  "id": "C",
+                  "text": "this"
+                },
+                {
+                  "id": "D",
+                  "text": "that"
+                }
+              ],
+              "correct": "A",
+              "hint": "Birds is plural and they are far away (\"over there\", \"in the sky\") -> use \"those\".",
+              "skillTag": "eng-g3-articles-a-an"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 3 • Mạo từ a/an",
+              "prompt": "Fill in \"a\" or \"an\": \"My father bought ...... umbrella for me yesterday.\"",
+              "illustration": "☂️ 🌧️ ✍️",
+              "correct": "an",
+              "hint": "\"Umbrella\" begins with a vowel sound /ʌ/, so we use \"an\".",
+              "skillTag": "eng-g3-articles-a-an"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 3 • Phân loại đại từ chỉ định",
+              "prompt": "Match demonstrative pronouns with their correct meaning:",
+              "illustration": "🧩 👈 👉",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "This",
+                  "right": "Một vật ở gần người nói"
+                },
+                {
+                  "id": "p2",
+                  "left": "That",
+                  "right": "Một vật ở xa người nói"
+                },
+                {
+                  "id": "p3",
+                  "left": "These",
+                  "right": "Nhiều vật ở gần người nói"
+                },
+                {
+                  "id": "p4",
+                  "left": "Those",
+                  "right": "Nhiều vật ở xa người nói"
+                }
+              ],
+              "hint": "Near: this / these; Far: that / those.",
+              "skillTag": "eng-g3-articles-a-an"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 3 • True / False",
+              "prompt": "We use \"an\" before words starting with vowel sounds (a, e, i, o, u).",
+              "illustration": "🍎 🐘 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Rule: \"an apple\", \"an elephant\", \"an island\", \"an orange\", \"an umbrella\".",
+              "skillTag": "eng-g3-articles-a-an"
+            }
+          ]
+        },
+        {
+          "id": "eng-g3-u5",
+          "code": "Chuyên đề 05",
+          "title": "Present Simple with \"to be\" (am/is/are) & Personal Pronouns",
+          "status": "locked",
+          "lessonTitle": "Present Simple with \"to be\" (am/is/are) & Personal Pronouns",
+          "skillTag": "eng-g3-present-simple-to-be",
+          "summaryCard": {
+            "title": "Present Simple with 'to be' (am/is/are)",
+            "keyPoints": [
+              "I + am ('m) | He, She, It, Danh từ số ít + is ('s) | You, We, They, Danh từ số nhiều + are ('re).",
+              "Dạng phủ định: Thêm 'not' sau to be (am not, is not = isn't, are not = aren't).",
+              "Câu hỏi: Đảo to be lên trước chủ ngữ: Are you...? / Is he...?"
+            ],
+            "example": "Example: 'She is a student.' | 'They are my friends.' | 'Are you ready?'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 3 • To be (am/is/are)",
+              "prompt": "Choose the correct verb form: \"Nam and Linh ______ excited about their new school year.\"",
+              "illustration": "👫 🏫 ✨",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "are"
+                },
+                {
+                  "id": "B",
+                  "text": "is"
+                },
+                {
+                  "id": "C",
+                  "text": "am"
+                },
+                {
+                  "id": "D",
+                  "text": "be"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Nam and Linh\" is a plural subject (They) -> verb \"are\".",
+              "skillTag": "eng-g3-present-simple-to-be"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 3 • Điền động từ",
+              "prompt": "Complete with am, is or are: \"She ______ my favorite primary school teacher.\"",
+              "illustration": "👩‍🏫 📚 ✍️",
+              "correct": "is",
+              "hint": "Third-person singular pronoun \"She\" goes with \"is\".",
+              "skillTag": "eng-g3-present-simple-to-be"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 3 • Ghép đại từ & To be",
+              "prompt": "Match subject with the correct verb-phrase predicate:",
+              "illustration": "🧩 👤 💡",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "I",
+                  "right": "am a good student"
+                },
+                {
+                  "id": "p2",
+                  "left": "She",
+                  "right": "is my English teacher"
+                },
+                {
+                  "id": "p3",
+                  "left": "They",
+                  "right": "are playing football"
+                },
+                {
+                  "id": "p4",
+                  "left": "You",
+                  "right": "are very kind"
+                }
+              ],
+              "hint": "I am, He/She/It is, We/You/They are.",
+              "skillTag": "eng-g3-present-simple-to-be"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 3 • True / False",
+              "prompt": "In negative sentences with \"to be\", we add \"not\" right after the verb (is not / are not).",
+              "illustration": "❌ 🛑 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Example: \"He is not late\" or \"They are not at home\".",
+              "skillTag": "eng-g3-present-simple-to-be"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "questionBank": {
+    "toan-g3-w1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Bồi dưỡng Toán 3 • Trắc nghiệm",
+        "prompt": "Một trang trại có 345 con gà trống và 428 con gà mái. Hỏi trang trại đó có tất cả bao nhiêu con gà?",
+        "illustration": "🐓 🌾 🐔",
+        "options": [
+          {
+            "id": "A",
+            "text": "763 con gà"
+          },
+          {
+            "id": "B",
+            "text": "773 con gà"
+          },
+          {
+            "id": "C",
+            "text": "783 con gà"
+          },
+          {
+            "id": "D",
+            "text": "873 con gà"
+          }
+        ],
+        "correct": "B",
+        "hint": "Từ khóa \"tất cả\" cho ta biết cần làm phép cộng: 345 + 428. Hàng đơn vị: 5 + 8 = 13 (viết 3 nhớ 1). Hàng chục: 4 + 2 + 1 = 7. Hàng trăm: 3 + 4 = 7. Kết quả đúng là 773 con gà!",
+        "skillTag": "toan-g3-cong-tru-1000"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "input",
+        "tag": "Bồi dưỡng Toán 3 • Điền số",
+        "prompt": "Cho 4 số: 235; 358; 253; 349. Hiệu của số lớn nhất và số bé nhất trong 4 số trên là bao nhiêu?",
+        "illustration": "🔢 ❓ ✏️",
+        "correct": "123",
+        "hint": "Trong 4 số trên: Số lớn nhất là 358, số bé nhất là 235. Ta thực hiện phép trừ tìm hiệu: 358 - 235 = 123!",
+        "skillTag": "toan-g3-cong-tru-1000"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "match",
+        "tag": "Bồi dưỡng Toán 3 • Ghép nối",
+        "prompt": "Nối phép tính với kết quả chính xác:",
+        "illustration": "🧩 🔗 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "5 × 7 + 228",
+            "right": "263"
+          },
+          {
+            "id": "p2",
+            "left": "36 : 4 + 395",
+            "right": "404"
+          },
+          {
+            "id": "p3",
+            "left": "20 × 4 + 320",
+            "right": "400"
+          },
+          {
+            "id": "p4",
+            "left": "752 + 245 - 356",
+            "right": "641"
+          }
+        ],
+        "hint": "Tính giá trị biểu thức: 5×7+228 = 35+228 = 263; 36:4+395 = 9+395 = 404; 20×4+320 = 80+320 = 400; 752+245-356 = 997-356 = 641.",
+        "skillTag": "toan-g3-cong-tru-1000"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Bồi dưỡng Toán 3 • Đúng / Sai",
+        "prompt": "Đoạn dây thứ nhất dài 1 mét, đoạn dây thứ hai dài 95 xăng-ti-mét. Vậy đoạn dây thứ nhất dài hơn đoạn dây thứ hai.",
+        "illustration": "📏 🧵 ✂️",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "1 mét bằng 100 xăng-ti-mét (cm). Vì 100 cm > 95 cm nên nhận định này hoàn toàn ĐÚNG.",
+        "skillTag": "toan-g3-cong-tru-1000"
+      }
+    ],
+    "toan-g3-w2": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Bồi dưỡng Toán 3 • Trắc nghiệm",
+        "prompt": "Tìm số thích hợp để điền vào ô trống: 450 - [.....] = 130",
+        "illustration": "📐 🔢 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "310"
+          },
+          {
+            "id": "B",
+            "text": "320"
+          },
+          {
+            "id": "C",
+            "text": "330"
+          },
+          {
+            "id": "D",
+            "text": "580"
+          }
+        ],
+        "correct": "B",
+        "hint": "Muốn tìm số trừ chưa biết, em lấy số bị trừ trừ đi hiệu: 450 - 130 = 320!",
+        "skillTag": "toan-g3-nhan-chia-co-ban"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "input",
+        "tag": "Bồi dưỡng Toán 3 • Điền số",
+        "prompt": "Có 5 rổ cam, mỗi rổ đựng 8 quả cam. Hỏi có tất cả bao nhiêu quả cam?",
+        "illustration": "🍊 🧺 🧮",
+        "correct": "40",
+        "hint": "Để tìm tổng số quả cam, ta thực hiện phép nhân theo bảng nhân 5: 5 rổ × 8 quả = 40 quả cam.",
+        "skillTag": "toan-g3-nhan-chia-co-ban"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "match",
+        "tag": "Bồi dưỡng Toán 3 • Ghép nối",
+        "prompt": "Nối phép tính nhân chia với kết quả đúng:",
+        "illustration": "✖️ ➗ 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "4 × 9",
+            "right": "36"
+          },
+          {
+            "id": "p2",
+            "left": "5 × 8",
+            "right": "40"
+          },
+          {
+            "id": "p3",
+            "left": "3 × 7",
+            "right": "21"
+          },
+          {
+            "id": "p4",
+            "left": "32 : 4",
+            "right": "8"
+          }
+        ],
+        "hint": "Bảng cửu chương nhân chia: 4×9 = 36; 5×8 = 40; 3×7 = 21; 32:4 = 8.",
+        "skillTag": "toan-g3-nhan-chia-co-ban"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 3 – Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Bồi dưỡng Toán 3 • Đúng / Sai",
+        "prompt": "Trong một phép chia có dư với số chia bằng 5, số dư lớn nhất có thể có là 5.",
+        "illustration": "⚠️ ❓ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "F",
+        "hint": "Trong phép chia có dư, số dư luôn luôn bé hơn số chia. Với số chia bằng 5, số dư lớn nhất chỉ có thể là 4!",
+        "skillTag": "toan-g3-nhan-chia-co-ban"
+      }
+    ],
+    "toan-g3-w3": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 3 • Tìm x",
+        "prompt": "Tìm số tự nhiên x biết: x × 7 = 42 + 21",
+        "illustration": "🔢 ✖️ 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "x = 9"
+          },
+          {
+            "id": "B",
+            "text": "x = 8"
+          },
+          {
+            "id": "C",
+            "text": "x = 7"
+          },
+          {
+            "id": "D",
+            "text": "x = 6"
+          }
+        ],
+        "correct": "A",
+        "hint": "Ta tính vế phải trước: 42 + 21 = 63. Ta có x × 7 = 63 => x = 63 : 7 = 9.",
+        "skillTag": "toan-g3-nhan-6-7-gap-giam"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 3 • Toán đố",
+        "prompt": "Một cuộn dây dài 48m. Bác thợ cắt đi 1/6 chiều dài cuộn dây. Hỏi cuộn dây còn lại bao nhiêu mét?",
+        "illustration": "📏 ✂️ 🧵",
+        "correct": "40",
+        "hint": "Đoạn dây đã cắt là: 48 : 6 = 8 (m). Cuộn dây còn lại: 48 - 8 = 40 (m).",
+        "skillTag": "toan-g3-nhan-6-7-gap-giam"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 3 • Ghép nối",
+        "prompt": "Nối phép tính với kết quả chính xác:",
+        "illustration": "🧩 ✖️ ➗",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "7 × 8",
+            "right": "56"
+          },
+          {
+            "id": "p2",
+            "left": "6 × 9",
+            "right": "54"
+          },
+          {
+            "id": "p3",
+            "left": "42 : 6",
+            "right": "7"
+          },
+          {
+            "id": "p4",
+            "left": "63 : 7",
+            "right": "9"
+          }
+        ],
+        "hint": "Em nhớ lại bảng nhân 6, 7 và bảng chia tương ứng nhé.",
+        "skillTag": "toan-g3-nhan-6-7-gap-giam"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 3 • Đúng / Sai",
+        "prompt": "Gấp số 7 lên 6 lần ta được kết quả là 42.",
+        "illustration": "📈 7️⃣ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Muốn gấp một số lên nhiều lần, ta lấy số đó nhân với số lần: 7 × 6 = 42.",
+        "skillTag": "toan-g3-nhan-6-7-gap-giam"
+      }
+    ],
+    "toan-g3-w4": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 3 • Phép chia có dư",
+        "prompt": "Tìm một số biết rằng lấy số đó chia cho 8 thì được thương là 9 và số dư lớn nhất có thể.",
+        "illustration": "➗ 8️⃣ 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "79"
+          },
+          {
+            "id": "B",
+            "text": "77"
+          },
+          {
+            "id": "C",
+            "text": "72"
+          },
+          {
+            "id": "D",
+            "text": "80"
+          }
+        ],
+        "correct": "A",
+        "hint": "Số chia là 8 nên số dư lớn nhất có thể là 7. Số cần tìm là: 9 × 8 + 7 = 79.",
+        "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 3 • Hình học",
+        "prompt": "Một hình tam giác vuông có 1 góc vuông. Hỏi hình đó có bao nhiêu góc không vuông?",
+        "illustration": "📐 🔺 🔍",
+        "correct": "2",
+        "hint": "Hình tam giác có tất cả 3 góc. Đã có 1 góc vuông thì còn lại 2 góc không vuông (góc nhọn).",
+        "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 3 • Ghép nối",
+        "prompt": "Nối biểu thức với giá trị tương ứng:",
+        "illustration": "🧩 9️⃣ 8️⃣",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "8 × 7 - 16",
+            "right": "40"
+          },
+          {
+            "id": "p2",
+            "left": "9 × 6 + 18",
+            "right": "72"
+          },
+          {
+            "id": "p3",
+            "left": "72 : 8 + 15",
+            "right": "24"
+          },
+          {
+            "id": "p4",
+            "left": "81 : 9 × 4",
+            "right": "36"
+          }
+        ],
+        "hint": "Thực hiện nhân chia trước, cộng trừ sau nhé!",
+        "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 3 • Đúng / Sai",
+        "prompt": "Thước ê-ke là dụng cụ dùng để nhận biết và vẽ góc vuông.",
+        "illustration": "📐 📐 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Thước ê-ke có một góc vuông chuẩn, giúp học sinh kiểm tra góc vuông hay không vuông.",
+        "skillTag": "toan-g3-nhan-8-9-hinh-hoc"
+      }
+    ],
+    "toan-g3-w5": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 3 • Cấu tạo số",
+        "prompt": "Số gồm 5 nghìn, 4 trăm và 3 đơn vị được viết là:",
+        "illustration": "5️⃣ 0️⃣ 4️⃣",
+        "options": [
+          {
+            "id": "A",
+            "text": "5403"
+          },
+          {
+            "id": "B",
+            "text": "5043"
+          },
+          {
+            "id": "C",
+            "text": "5430"
+          },
+          {
+            "id": "D",
+            "text": "543"
+          }
+        ],
+        "correct": "B",
+        "hint": "Hàng nghìn là 5, hàng trăm là 0, hàng chục là 4 (chú ý: 4 trăm = 4 ở hàng trăm, 0 chục, 3 đơn vị => 5403, nhưng ở đây đề: 5 nghìn, 4 chục và 3 đơn vị là 5043).",
+        "skillTag": "toan-g3-cau-tao-so"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 3 • Số học nâng cao",
+        "prompt": "Tìm hiệu giữa số lớn nhất có 4 chữ số khác nhau và số bé nhất có 4 chữ số khác nhau.",
+        "illustration": "9️⃣ 8️⃣ 7️⃣",
+        "correct": "8853",
+        "hint": "Số lớn nhất có 4 chữ số khác nhau là 9876. Số bé nhất có 4 chữ số khác nhau là 1023. Hiệu: 9876 - 1023 = 8853.",
+        "skillTag": "toan-g3-cau-tao-so"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 3 • Đọc viết số",
+        "prompt": "Nối số với cách đọc tương ứng:",
+        "illustration": "🔢 📖 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "3045",
+            "right": "Ba nghìn không trăm bốn mươi lăm"
+          },
+          {
+            "id": "p2",
+            "left": "7802",
+            "right": "Bảy nghìn tám trăm linh hai"
+          },
+          {
+            "id": "p3",
+            "left": "12500",
+            "right": "Mười hai nghìn năm trăm"
+          },
+          {
+            "id": "p4",
+            "left": "40009",
+            "right": "Bốn mươi nghìn không trăm linh chín"
+          }
+        ],
+        "hint": "Chú ý chữ số 0 ở hàng chục đọc là \"linh\" hoặc \"lẻ\", ở hàng trăm đọc là \"không trăm\".",
+        "skillTag": "toan-g3-cau-tao-so"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 3 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 3 • Đúng / Sai",
+        "prompt": "Trong số 8562, chữ số 5 thuộc hàng trăm và có giá trị là 500.",
+        "illustration": "8️⃣ 5️⃣ 6️⃣",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Từ phải sang trái: 2 là hàng đơn vị, 6 là hàng chục, 5 là hàng trăm (500), 8 là hàng nghìn (8000).",
+        "skillTag": "toan-g3-cau-tao-so"
+      }
+    ],
+    "tv-g3-b1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 3 • Trắc nghiệm",
+        "prompt": "Trong câu thơ: \"Trẻ em như búp trên cành / Biết ăn ngủ, biết học hành là ngoan\", sự vật nào được so sánh với nhau?",
+        "illustration": "🌱 👶 📖",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trẻ em và búp trên cành"
+          },
+          {
+            "id": "B",
+            "text": "Ăn ngủ và học hành"
+          },
+          {
+            "id": "C",
+            "text": "Búp trên cành và lá cây"
+          },
+          {
+            "id": "D",
+            "text": "Trẻ em và người lớn"
+          }
+        ],
+        "correct": "A",
+        "hint": "Từ so sánh là từ \"như\". Sự vật A là \"Trẻ em\", sự vật B là \"búp trên cành\" (đều ngây thơ, non nớt, cần được nâng niu bảo bọc).",
+        "skillTag": "tv-g3-von-tu-mang-non"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 3 • Điền từ",
+        "prompt": "Điền từ còn thiếu vào câu thành ngữ sau: \"Học thầy không tày học [.....]\"",
+        "illustration": "👨‍🏫 👦 ✏️",
+        "correct": "bạn",
+        "hint": "Câu tục ngữ quen thuộc của nhân dân ta ca ngợi việc học hỏi từ bạn bè cùng trang lứa: \"Học thầy không tày học bạn\".",
+        "skillTag": "tv-g3-von-tu-mang-non"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 3 • Ghép nối",
+        "prompt": "Ghép câu với kiểu câu kể tương ứng:",
+        "illustration": "🧩 📜 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Bảo Nam là học sinh chăm chỉ.",
+            "right": "Ai là gì?"
+          },
+          {
+            "id": "p2",
+            "left": "Các bạn đang đá bóng trên sân.",
+            "right": "Ai làm gì?"
+          },
+          {
+            "id": "p3",
+            "left": "Bầu trời mùa thu trong xanh, cao vời vợi.",
+            "right": "Ai thế nào?"
+          }
+        ],
+        "hint": "\"Là học sinh\" -> giới thiệu/nhận định (Ai là gì?); \"đang đá bóng\" -> hoạt động (Ai làm gì?); \"trong xanh\" -> đặc điểm (Ai thế nào?).",
+        "skillTag": "tv-g3-von-tu-mang-non"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Tiếng Việt 3 – Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 3 • Đúng / Sai",
+        "prompt": "Trong câu: \"Bác kim giờ nhích từng bước chậm chạp.\", đồ vật (kim giờ) đã được nhân hóa bằng cách gọi bằng từ ngữ dùng cho người (\"Bác\").",
+        "illustration": "⏰ 👴 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Tác giả dùng từ \"Bác\" vốn xưng hô với người để gọi kim giờ, đây là một trong 3 cách nhân hóa quen thuộc trong Tiếng Việt!",
+        "skillTag": "tv-g3-von-tu-mang-non"
+      }
+    ],
+    "tv-g3-b2": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+        "type": "choice",
+        "tag": "Tiếng Việt 3 • Biện pháp so sánh",
+        "prompt": "Trong câu: \"Mặt biển sáng trong như tấm gương khổng lồ\", sự vật nào được so sánh với nhau?",
+        "illustration": "🌊 🪞 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mặt biển và tấm gương khổng lồ"
+          },
+          {
+            "id": "B",
+            "text": "Mặt biển và bầu trời trong xanh"
+          },
+          {
+            "id": "C",
+            "text": "Tấm gương và dòng sông"
+          },
+          {
+            "id": "D",
+            "text": "Mặt biển và mặt trời"
+          }
+        ],
+        "correct": "A",
+        "hint": "Sự vật 1 là \"Mặt biển\", từ so sánh là \"như\", sự vật 2 là \"tấm gương khổng lồ\".",
+        "skillTag": "tv-g3-bien-phap-so-sanh"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+        "type": "input",
+        "tag": "Tiếng Việt 3 • Điền từ",
+        "prompt": "Điền từ so sánh thích hợp vào chỗ trống trong câu ca dao: \"Công cha ...... núi Thái Sơn / Nghĩa mẹ ...... nước trong nguồn chảy ra.\"",
+        "illustration": "⛰️ 💧 📜",
+        "correct": "như",
+        "hint": "Từ so sánh quen thuộc chỉ sự ngang bằng trong văn học dân gian Việt Nam.",
+        "skillTag": "tv-g3-bien-phap-so-sanh"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+        "type": "match",
+        "tag": "Tiếng Việt 3 • Ghép nối hình ảnh so sánh",
+        "prompt": "Nối hình ảnh so sánh với vế tương ứng trong thơ ca thiếu nhi:",
+        "illustration": "🌕 🎈 🌿",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Trăng tròn như",
+            "right": "quả bóng bay"
+          },
+          {
+            "id": "p2",
+            "left": "Mắt bé tròn xoe như",
+            "right": "hai hòn bi ve"
+          },
+          {
+            "id": "p3",
+            "left": "Tiếng suối trong như",
+            "right": "tiếng hát xa"
+          },
+          {
+            "id": "p4",
+            "left": "Lá cọ xòe ra như",
+            "right": "chiếc ô xanh"
+          }
+        ],
+        "hint": "Dựa vào các bài thơ quen thuộc: Quả bóng tròn, Tiếng suối Côn Sơn, Cây cọ quê em.",
+        "skillTag": "tv-g3-bien-phap-so-sanh"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Luyện từ và câu",
+        "type": "true_false",
+        "tag": "Tiếng Việt 3 • Đúng / Sai",
+        "prompt": "Câu thơ: \"Quả dừa - đàn lợn con nằm trên cao\" sử dụng dấu gạch ngang (-) để thay thế cho từ so sánh.",
+        "illustration": "🥥 🐖 🌴",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Đúng! Đây là kiểu so sánh không dùng từ \"như/là\" mà dùng dấu gạch ngang nối sự vật 1 và sự vật 2 (Trần Đăng Khoa).",
+        "skillTag": "tv-g3-bien-phap-so-sanh"
+      }
+    ],
+    "tv-g3-b3": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+        "type": "choice",
+        "tag": "Tiếng Việt 3 • Kiểu câu kể",
+        "prompt": "Câu: \"Bác nông dân đang cày ruộng trên cánh đồng vàng rực.\" thuộc mẫu câu nào?",
+        "illustration": "🌾 👨‍🌾 🐂",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ai làm gì?"
+          },
+          {
+            "id": "B",
+            "text": "Ai là gì?"
+          },
+          {
+            "id": "C",
+            "text": "Ai thế nào?"
+          },
+          {
+            "id": "D",
+            "text": "Câu cảm thán"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Đang cày ruộng\" là hoạt động của bác nông dân, nên câu này trả lời cho câu hỏi: Ai làm gì?",
+        "skillTag": "tv-g3-mau-cau-ke"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+        "type": "input",
+        "tag": "Tiếng Việt 3 • Xác định thành phần",
+        "prompt": "Tìm bộ phận trả lời cho câu hỏi \"Thế nào?\" trong câu: \"Bầu trời mùa thu trong xanh và cao vời vợi.\"",
+        "illustration": "🌤️ 🍁 🔍",
+        "correct": "trong xanh và cao vời vợi",
+        "hint": "Vị ngữ của câu \"Ai thế nào?\" chỉ đặc điểm, tính chất của sự vật.",
+        "skillTag": "tv-g3-mau-cau-ke"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+        "type": "match",
+        "tag": "Tiếng Việt 3 • Phân loại mẫu câu",
+        "prompt": "Nối câu văn với mẫu câu kể tương ứng:",
+        "illustration": "🧩 📖 ✏️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Mẹ em",
+            "right": "Chủ ngữ (trả lời câu hỏi: Ai?)"
+          },
+          {
+            "id": "p2",
+            "left": "là cô giáo vùng cao",
+            "right": "Vị ngữ (trả lời câu hỏi: Là gì?)"
+          },
+          {
+            "id": "p3",
+            "left": "chăm chỉ cày cấy",
+            "right": "Vị ngữ (trả lời câu hỏi: Làm gì?)"
+          },
+          {
+            "id": "p4",
+            "left": "rất đỗi hiền hòa",
+            "right": "Vị ngữ (trả lời câu hỏi: Thế nào?)"
+          }
+        ],
+        "hint": "Ghép nối thành phần câu với câu hỏi tương ứng (Ai? Là gì? Làm gì? Thế nào?).",
+        "skillTag": "tv-g3-mau-cau-ke"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Các kiểu câu kể",
+        "type": "true_false",
+        "tag": "Tiếng Việt 3 • Đúng / Sai",
+        "prompt": "Câu \"Hoa phượng nở đỏ rực cả một góc sân trường.\" thuộc mẫu câu kể \"Ai thế nào?\".",
+        "illustration": "🌺 🏫 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Vị ngữ \"nở đỏ rực cả một góc sân trường\" nêu lên trạng thái và đặc điểm màu sắc rực rỡ của hoa phượng.",
+        "skillTag": "tv-g3-mau-cau-ke"
+      }
+    ],
+    "tv-g3-b4": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
+        "type": "choice",
+        "tag": "Tiếng Việt 3 • Biện pháp nhân hóa",
+        "prompt": "Câu nào dưới đây sử dụng biện pháp nghệ thuật nhân hóa?",
+        "illustration": "⏰ 🚶 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bác kim giờ thận trọng nhích từng li, từng li."
+          },
+          {
+            "id": "B",
+            "text": "Mặt hồ phẳng lặng như một tấm gương soi."
+          },
+          {
+            "id": "C",
+            "text": "Đồng hồ báo thức chạy bằng hai viên pin tiểu."
+          },
+          {
+            "id": "D",
+            "text": "Cây thông cao vút đứng bên đường làng."
+          }
+        ],
+        "correct": "A",
+        "hint": "Kim giờ được gọi là \"Bác\" và có hành động \"thận trọng nhích từng li\" như con người.",
+        "skillTag": "tv-g3-nhan-hoa-dau-cau"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
+        "type": "input",
+        "tag": "Tiếng Việt 3 • Tìm từ xưng hô",
+        "prompt": "Trong câu: \"Chị mây mặc áo xanh thướt tha dạo chơi trên bầu trời\", mây được gọi bằng từ xưng hô nào?",
+        "illustration": "☁️ 👗 🔍",
+        "correct": "chị",
+        "hint": "Từ dùng để xưng hô thân mật với đám mây như một người phụ nữ dịu dàng.",
+        "skillTag": "tv-g3-nhan-hoa-dau-cau"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Nghệ thuật nhân hóa",
+        "type": "match",
+        "tag": "Tiếng Việt 3 • Các cách nhân hóa",
+        "prompt": "Nối cách nhân hóa với câu ví dụ phù hợp:",
+        "illustration": "🧩 🐓 🌶️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Gọi vật bằng từ gọi người",
+            "right": "Bác gà trống cất tiếng gáy vang"
+          },
+          {
+            "id": "p2",
+            "left": "Tả hoạt động như con người",
+            "right": "Giọt sương sớm thức giấc đón ánh mai"
+          },
+          {
+            "id": "p3",
+            "left": "Trò chuyện tâm sự với vật",
+            "right": "Khế ơi mau chín cho chim ăn nhé"
+          },
+          {
+            "id": "p4",
+            "left": "Tả tính cách như con người",
+            "right": "Anh ớt hiểm cay nồng bướng bỉnh"
+          }
+        ],
+        "hint": "Có 3 cách nhân hóa chính: gọi vật bằng từ gọi người, tả vật bằng từ ngữ tả người, nói chuyện với vật như với người.",
+        "skillTag": "tv-g3-nhan-hoa-dau-cau"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 3 Nâng Cao – Dấu câu",
+        "type": "true_false",
+        "tag": "Tiếng Việt 3 • Dấu câu",
+        "prompt": "Dấu hai chấm (:) thường được dùng để báo hiệu phần giải thích hoặc dẫn lời nói trực tiếp của nhân vật.",
+        "illustration": "💬 ✍️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Dấu hai chấm báo hiệu lời thoại (kết hợp gạch đầu dòng/ngoặc kép) hoặc phần thuyết minh, giải thích.",
+        "skillTag": "tv-g3-nhan-hoa-dau-cau"
+      }
+    ],
+    "eng-g3-u1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+        "type": "choice",
+        "tag": "Tiếng Anh 3 • Trắc nghiệm",
+        "prompt": "Which of the following words is an UNCOUNTABLE noun (Danh từ không đếm được)?",
+        "illustration": "🥛 🍎 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cup (Cái tách)"
+          },
+          {
+            "id": "B",
+            "text": "Car (Chiếc ô tô)"
+          },
+          {
+            "id": "C",
+            "text": "Advice (Lời khuyên)"
+          },
+          {
+            "id": "D",
+            "text": "City (Thành phố)"
+          }
+        ],
+        "correct": "C",
+        "hint": "Trong Tiếng Anh, \"Advice\" (lời khuyên) là danh từ không đếm được (Uncountable noun), không thêm -s và không dùng \"an advice\"!",
+        "skillTag": "eng-g3-countable-uncountable"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+        "type": "input",
+        "tag": "Tiếng Anh 3 • Điền từ",
+        "prompt": "Complete the question with \"How much\" or \"How many\": \"[.....] milk does she want?\"",
+        "illustration": "🥛 ❓ ✏️",
+        "correct": "How much",
+        "hint": "Vì \"milk\" (sữa) là danh từ không đếm được (uncountable noun), nên ta dùng cụm từ \"How much milk\".",
+        "skillTag": "eng-g3-countable-uncountable"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+        "type": "match",
+        "tag": "Tiếng Anh 3 • Ghép nối",
+        "prompt": "Match nouns in Column A with category in Column B:",
+        "illustration": "🧩 🇬🇧 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Equipment",
+            "right": "Thiết bị (Danh từ không đếm được)"
+          },
+          {
+            "id": "p2",
+            "left": "University",
+            "right": "Trường đại học (Danh từ đếm được)"
+          },
+          {
+            "id": "p3",
+            "left": "Peace",
+            "right": "Hòa bình (Danh từ trừu tượng không đếm được)"
+          },
+          {
+            "id": "p4",
+            "left": "City",
+            "right": "Thành phố (Danh từ đếm được số ít)"
+          }
+        ],
+        "hint": "Countable: University, City, Cup, Car. Uncountable: Advice, Equipment, Peace, Research, Progress, Help.",
+        "skillTag": "eng-g3-countable-uncountable"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 (Global Success)",
+        "type": "true_false",
+        "tag": "Tiếng Anh 3 • Đúng / Sai",
+        "prompt": "We use \"How many\" with countable plural nouns (e.g. How many books do you have?). True or False?",
+        "illustration": "📚 ❓ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Quy tắc: How much + Uncountable noun; How many + Countable plural noun. Câu trên hoàn toàn ĐÚNG (TRUE).",
+        "skillTag": "eng-g3-countable-uncountable"
+      }
+    ],
+    "eng-g3-u2": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 3 • How Much / How Many",
+        "prompt": "Choose the correct question word: \"______ pens do you have in your pencil case?\"",
+        "illustration": "🖊️ 🎒 ❓",
+        "options": [
+          {
+            "id": "A",
+            "text": "How many"
+          },
+          {
+            "id": "B",
+            "text": "How much"
+          },
+          {
+            "id": "C",
+            "text": "How often"
+          },
+          {
+            "id": "D",
+            "text": "How old"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Pens\" is a plural countable noun (danh từ đếm được số nhiều), so we use \"How many\".",
+        "skillTag": "eng-g3-how-much-how-many"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 3 • Điền từ",
+        "prompt": "Complete the question: \"How ______ water do you drink every day?\"",
+        "illustration": "💧 🥛 ✍️",
+        "correct": "much",
+        "hint": "\"Water\" is an uncountable noun (danh từ không đếm được), so we ask: How much water...?",
+        "skillTag": "eng-g3-how-much-how-many"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 3 • Ghép câu hỏi & trả lời",
+        "prompt": "Match questions with their appropriate answers:",
+        "illustration": "🧩 ❓ 💬",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "How many apples are there?",
+            "right": "There are six red apples."
+          },
+          {
+            "id": "p2",
+            "left": "How much milk is in the glass?",
+            "right": "There is a little milk."
+          },
+          {
+            "id": "p3",
+            "left": "How many students in your class?",
+            "right": "There are thirty-two students."
+          },
+          {
+            "id": "p4",
+            "left": "How much rice would you like?",
+            "right": "A bowl of rice, please."
+          }
+        ],
+        "hint": "How many asks about quantity of countable things; How much asks about uncountable amounts.",
+        "skillTag": "eng-g3-how-much-how-many"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 3 • True / False",
+        "prompt": "We use \"How much\" to ask about the price of an item in a store.",
+        "illustration": "🏷️ 💵 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "\"How much is this book?\" is the standard question to ask about cost/price!",
+        "skillTag": "eng-g3-how-much-how-many"
+      }
+    ],
+    "eng-g3-u3": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 3 • Singular & Plural",
+        "prompt": "What is the correct plural form of the noun \"child\"?",
+        "illustration": "👶 🧒 🧑",
+        "options": [
+          {
+            "id": "A",
+            "text": "children"
+          },
+          {
+            "id": "B",
+            "text": "childs"
+          },
+          {
+            "id": "C",
+            "text": "childrens"
+          },
+          {
+            "id": "D",
+            "text": "childes"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Child\" is an irregular noun: 1 child -> 2 children.",
+        "skillTag": "eng-g3-singular-plural"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 3 • Viết dạng số nhiều",
+        "prompt": "Write the plural form of \"box\":",
+        "illustration": "📦 📦 ✍️",
+        "correct": "boxes",
+        "hint": "Nouns ending in -x add \"-es\" in plural: box -> boxes.",
+        "skillTag": "eng-g3-singular-plural"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 3 • Ghép số ít & số nhiều",
+        "prompt": "Match singular nouns with their irregular plural forms:",
+        "illustration": "🧩 🦶 🦷",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "leaf",
+            "right": "leaves"
+          },
+          {
+            "id": "p2",
+            "left": "foot",
+            "right": "feet"
+          },
+          {
+            "id": "p3",
+            "left": "tooth",
+            "right": "teeth"
+          },
+          {
+            "id": "p4",
+            "left": "bus",
+            "right": "buses"
+          }
+        ],
+        "hint": "f -> ves (leaf -> leaves); oo -> ee (foot -> feet, tooth -> teeth).",
+        "skillTag": "eng-g3-singular-plural"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 3 • True / False",
+        "prompt": "The plural form of \"fish\" can remain \"fish\" when referring to the same kind.",
+        "illustration": "🐟 🐠 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "True! \"One fish, two fish\" is very common in English.",
+        "skillTag": "eng-g3-singular-plural"
+      }
+    ],
+    "eng-g3-u4": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 3 • Demonstratives",
+        "prompt": "Fill in the blank: \"Look at ______ colorful birds high up in the sky over there!\"",
+        "illustration": "🕊️ 🌤️ 👉",
+        "options": [
+          {
+            "id": "A",
+            "text": "those"
+          },
+          {
+            "id": "B",
+            "text": "these"
+          },
+          {
+            "id": "C",
+            "text": "this"
+          },
+          {
+            "id": "D",
+            "text": "that"
+          }
+        ],
+        "correct": "A",
+        "hint": "Birds is plural and they are far away (\"over there\", \"in the sky\") -> use \"those\".",
+        "skillTag": "eng-g3-articles-a-an"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 3 • Mạo từ a/an",
+        "prompt": "Fill in \"a\" or \"an\": \"My father bought ...... umbrella for me yesterday.\"",
+        "illustration": "☂️ 🌧️ ✍️",
+        "correct": "an",
+        "hint": "\"Umbrella\" begins with a vowel sound /ʌ/, so we use \"an\".",
+        "skillTag": "eng-g3-articles-a-an"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 3 • Phân loại đại từ chỉ định",
+        "prompt": "Match demonstrative pronouns with their correct meaning:",
+        "illustration": "🧩 👈 👉",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "This",
+            "right": "Một vật ở gần người nói"
+          },
+          {
+            "id": "p2",
+            "left": "That",
+            "right": "Một vật ở xa người nói"
+          },
+          {
+            "id": "p3",
+            "left": "These",
+            "right": "Nhiều vật ở gần người nói"
+          },
+          {
+            "id": "p4",
+            "left": "Those",
+            "right": "Nhiều vật ở xa người nói"
+          }
+        ],
+        "hint": "Near: this / these; Far: that / those.",
+        "skillTag": "eng-g3-articles-a-an"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 3 • True / False",
+        "prompt": "We use \"an\" before words starting with vowel sounds (a, e, i, o, u).",
+        "illustration": "🍎 🐘 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Rule: \"an apple\", \"an elephant\", \"an island\", \"an orange\", \"an umbrella\".",
+        "skillTag": "eng-g3-articles-a-an"
+      }
+    ],
+    "eng-g3-u5": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 3 • To be (am/is/are)",
+        "prompt": "Choose the correct verb form: \"Nam and Linh ______ excited about their new school year.\"",
+        "illustration": "👫 🏫 ✨",
+        "options": [
+          {
+            "id": "A",
+            "text": "are"
+          },
+          {
+            "id": "B",
+            "text": "is"
+          },
+          {
+            "id": "C",
+            "text": "am"
+          },
+          {
+            "id": "D",
+            "text": "be"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Nam and Linh\" is a plural subject (They) -> verb \"are\".",
+        "skillTag": "eng-g3-present-simple-to-be"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 3 • Điền động từ",
+        "prompt": "Complete with am, is or are: \"She ______ my favorite primary school teacher.\"",
+        "illustration": "👩‍🏫 📚 ✍️",
+        "correct": "is",
+        "hint": "Third-person singular pronoun \"She\" goes with \"is\".",
+        "skillTag": "eng-g3-present-simple-to-be"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 3 • Ghép đại từ & To be",
+        "prompt": "Match subject with the correct verb-phrase predicate:",
+        "illustration": "🧩 👤 💡",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "I",
+            "right": "am a good student"
+          },
+          {
+            "id": "p2",
+            "left": "She",
+            "right": "is my English teacher"
+          },
+          {
+            "id": "p3",
+            "left": "They",
+            "right": "are playing football"
+          },
+          {
+            "id": "p4",
+            "left": "You",
+            "right": "are very kind"
+          }
+        ],
+        "hint": "I am, He/She/It is, We/You/They are.",
+        "skillTag": "eng-g3-present-simple-to-be"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 3 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 3 • True / False",
+        "prompt": "In negative sentences with \"to be\", we add \"not\" right after the verb (is not / are not).",
+        "illustration": "❌ 🛑 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Example: \"He is not late\" or \"They are not at home\".",
+        "skillTag": "eng-g3-present-simple-to-be"
+      }
+    ]
+  },
+  "skills": {
+    "mastered": [
+      {
+        "subject": "Toán",
+        "title": "Bảng nhân chia 2, 3, 4, 5 & Tìm thành phần chưa biết"
+      },
+      {
+        "subject": "Tiếng Việt",
+        "title": "Biện pháp tu từ So sánh & Nhân hóa trong văn thơ"
+      },
+      {
+        "subject": "Tiếng Anh",
+        "title": "Articles cơ bản (a/an) & Countable / Uncountable"
+      }
+    ],
+    "needsReview": [
+      {
+        "subject": "Toán",
+        "title": "Bảng nhân 8, 9 & Gấp/giảm một số lần",
+        "lessonId": "toan-g3-w3",
+        "skillTag": "toan-g3-nhan-6-7-gap-giam"
+      },
+      {
+        "subject": "Tiếng Việt",
+        "title": "Mẫu câu kể: Ai là gì? Ai làm gì? Ai thế nào?",
+        "lessonId": "tv-g3-b3",
+        "skillTag": "tv-g3-mau-cau-ke"
+      },
+      {
+        "subject": "Tiếng Anh",
+        "title": "Present Simple with \"to be\" & Demonstratives",
+        "lessonId": "eng-g3-u5",
+        "skillTag": "eng-g3-present-simple-to-be"
+      }
+    ]
+  }
+}

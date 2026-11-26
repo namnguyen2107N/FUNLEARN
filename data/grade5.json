@@ -1,0 +1,3189 @@
+{
+  "grade": 5,
+  "title": "Khối Lớp 5",
+  "avatar": "🌟",
+  "description": "Toán • Tiếng Việt • Tiếng Anh 5",
+  "subjects": {
+    "toan": {
+      "key": "toan",
+      "title": "Toán Học Lớp 5",
+      "themeColor": "#62C9F3",
+      "icon": "📐",
+      "bookRef": {
+        "name": "Bồi dưỡng Toán cho học sinh lớp 5",
+        "author": "PGS.TS Trần Diên Hiển – CLB EMATH (NXB Giáo Dục Việt Nam)"
+      },
+      "lessons": [
+        {
+          "id": "toan-g5-w1",
+          "code": "Tuần 01",
+          "title": "Ôn tập khái niệm Phân số, phân số bằng nhau & So sánh với 1",
+          "status": "ready",
+          "lessonTitle": "Ôn tập khái niệm Phân số, phân số bằng nhau & So sánh với 1",
+          "skillTag": "toan-g5-so-sanh-phan-so",
+          "summaryCard": {
+            "title": "Khái niệm Phân số & So sánh phân số với 1",
+            "keyPoints": [
+              "Tử số < Mẫu số: Phân số bé hơn 1 (ví dụ: 3/5 < 1).",
+              "Tử số = Mẫu số: Phân số bằng 1 (ví dụ: 5/5 = 1).",
+              "Tử số > Mẫu số: Phân số lớn hơn 1 (ví dụ: 7/4 > 1).",
+              "So sánh 2 phân số cùng mẫu: Tử số nào lớn hơn thì phân số đó lớn hơn."
+            ],
+            "example": "Ví dụ: 3/4 < 1 và 5/4 > 1 nên 3/4 < 5/4."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Bồi dưỡng Toán 5 • Trắc nghiệm",
+              "prompt": "Trong các phân số sau: 13/14, 29/27, 34/34, 3/7, phân số nào LỚN HƠN 1?",
+              "illustration": "🍰 ⚖️ 🍕",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "13 / 14"
+                },
+                {
+                  "id": "B",
+                  "text": "29 / 27"
+                },
+                {
+                  "id": "C",
+                  "text": "34 / 34"
+                },
+                {
+                  "id": "D",
+                  "text": "3 / 7"
+                }
+              ],
+              "correct": "B",
+              "hint": "Quy tắc so sánh phân số với 1: Phân số có tử số lớn hơn mẫu số thì phân số đó lớn hơn 1. Ở đây 29 > 27 nên 29/27 > 1. (34/34 = 1; 13/14 và 3/7 đều bé hơn 1).",
+              "skillTag": "toan-g5-so-sanh-phan-so"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "input",
+              "tag": "Bồi dưỡng Toán 5 • Điền số",
+              "prompt": "Một ô tô đi quãng đường 150 km hết 3 giờ. Hỏi vận tốc của ô tô là bao nhiêu km/h?",
+              "illustration": "🚗 🛣️ ⏱️",
+              "correct": "50",
+              "hint": "Công thức tính vận tốc trong chuyển động đều: v = s : t. Ta lấy quãng đường chia cho thời gian: 150 : 3 = 50 km/h!",
+              "skillTag": "toan-g5-so-sanh-phan-so"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "match",
+              "tag": "Bồi dưỡng Toán 5 • Ghép nối",
+              "prompt": "Nối các phân số bằng nhau sau khi rút gọn hoặc quy đồng:",
+              "illustration": "🧩 🔗 ⚖️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "3 / 5",
+                  "right": "9 / 15"
+                },
+                {
+                  "id": "p2",
+                  "left": "2 / 7",
+                  "right": "6 / 21"
+                },
+                {
+                  "id": "p3",
+                  "left": "4 / 9",
+                  "right": "16 / 36"
+                },
+                {
+                  "id": "p4",
+                  "left": "5 / 8",
+                  "right": "25 / 40"
+                }
+              ],
+              "hint": "Nhân cả tử số và mẫu số với cùng một số tự nhiên lớn hơn 1 ta được phân số bằng phân số đã cho.",
+              "skillTag": "toan-g5-so-sanh-phan-so"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Bồi dưỡng Toán 5 • Đúng / Sai",
+              "prompt": "Mọi số tự nhiên đều có thể viết dưới dạng phân số có mẫu số bằng 1 (Ví dụ: 14 = 14/1; 9 = 9/1).",
+              "illustration": "✨ 🔢 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Mọi số tự nhiên n đều có thể viết dưới dạng phân số n/1 vì n : 1 = n. Nhận định này hoàn toàn ĐÚNG .",
+              "skillTag": "toan-g5-so-sanh-phan-so"
+            }
+          ]
+        },
+        {
+          "id": "toan-g5-w2",
+          "code": "Tuần 02",
+          "title": "Bốn phép tính phân số, phân số thập phân & Hỗn số",
+          "status": "ready",
+          "lessonTitle": "Bốn phép tính phân số, phân số thập phân & Hỗn số",
+          "skillTag": "toan-g5-bon-phep-tinh-phan-so",
+          "summaryCard": {
+            "title": "Bốn phép tính phân số & Hỗn số",
+            "keyPoints": [
+              "Cộng/trừ khác mẫu: Quy đồng mẫu số rồi cộng/trừ các tử số.",
+              "Nhân phân số: Lấy tử số nhân tử số, mẫu số nhân mẫu số.",
+              "Chia phân số: Lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.",
+              "Hỗn số gồm phần nguyên và phần phân số: a b/c = (a × c + b) / c."
+            ],
+            "example": "Ví dụ: 2/3 × 5/7 = 10/21; 3/4 : 2/5 = 3/4 × 5/2 = 15/8."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 5 • Phép tính phân số",
+              "prompt": "Tính giá trị biểu thức: 3/4 + 2/5 × 5/8 = ?",
+              "illustration": "🍰 🍕 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1"
+                },
+                {
+                  "id": "B",
+                  "text": "7/8"
+                },
+                {
+                  "id": "C",
+                  "text": "5/4"
+                },
+                {
+                  "id": "D",
+                  "text": "3/8"
+                }
+              ],
+              "correct": "A",
+              "hint": "Thực hiện phép nhân trước: 2/5 × 5/8 = 2/8 = 1/4. Sau đó cộng: 3/4 + 1/4 = 4/4 = 1.",
+              "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 5 • Chuyển hỗn số",
+              "prompt": "Chuyển hỗn số 3 và 2/5 thành phân số có mẫu số là 5:",
+              "illustration": "🔢 🍰 ✍️",
+              "correct": "17/5",
+              "hint": "Tử số = phần nguyên × mẫu số + tử số = 3 × 5 + 2 = 17. Mẫu số giữ nguyên là 5 -> 17/5.",
+              "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 5 • Ghép phép tính phân số",
+              "prompt": "Nối phép tính với kết quả thu gọn:",
+              "illustration": "🧩 ✖️ ➗",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "2/3 × 9/4",
+                  "right": "3/2"
+                },
+                {
+                  "id": "p2",
+                  "left": "5/6 : 5/12",
+                  "right": "2"
+                },
+                {
+                  "id": "p3",
+                  "left": "7/8 - 3/8",
+                  "right": "1/2"
+                },
+                {
+                  "id": "p4",
+                  "left": "1 + 1/3",
+                  "right": "4/3"
+                }
+              ],
+              "hint": "Rút gọn chéo khi nhân chia phân số để tính nhanh.",
+              "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 5 • Đúng / Sai",
+              "prompt": "Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.",
+              "illustration": "🔄 ➗ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Quy tắc: a/b : c/d = a/b × d/c (với c, d khác 0).",
+              "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+            }
+          ]
+        },
+        {
+          "id": "toan-g5-w3",
+          "code": "Tuần 03",
+          "title": "Số thập phân, hàng của số thập phân & Viết số đo dạng số thập phân",
+          "status": "ready",
+          "lessonTitle": "Số thập phân, hàng của số thập phân & Viết số đo dạng số thập phân",
+          "skillTag": "toan-g5-so-thap-phan",
+          "summaryCard": {
+            "title": "Số thập phân & Đổi số đo đại lượng",
+            "keyPoints": [
+              "Số thập phân gồm 2 phần: Phần nguyên (trước dấu phẩy) và phần thập phân (sau dấu phẩy).",
+              "Các hàng phần thập phân: Phần mười, phần trăm, phần nghìn...",
+              "Viết số đo: 3m 5dm = 3,5m; 4kg 25g = 4,025kg."
+            ],
+            "example": "Ví dụ: Trong số 12,345 thì chữ số 3 là hàng phần mười, chữ số 4 là hàng phần trăm."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Bồi dưỡng Toán 5 • Trắc nghiệm",
+              "prompt": "Trong số thập phân 185,472, chữ số 7 có giá trị bằng bao nhiêu?",
+              "illustration": "🏷️ 🔢 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "7 đơn vị"
+                },
+                {
+                  "id": "B",
+                  "text": "7 phần mười (7/10)"
+                },
+                {
+                  "id": "C",
+                  "text": "7 phần trăm (7/100)"
+                },
+                {
+                  "id": "D",
+                  "text": "7 phần nghìn (7/1000)"
+                }
+              ],
+              "correct": "C",
+              "hint": "Hàng phần mười là chữ số 4; hàng phần trăm là chữ số 7 (giá trị 7/100 hay 0,07); hàng phần nghìn là chữ số 2.",
+              "skillTag": "toan-g5-so-thap-phan"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "input",
+              "tag": "Bồi dưỡng Toán 5 • Điền số",
+              "prompt": "Lớp 5A có 40 học sinh, trong đó có 24 bạn nữ. Tỉ số phần trăm của học sinh nữ so với cả lớp là bao nhiêu %? (Chỉ điền số)",
+              "illustration": "👧 👦 📊",
+              "correct": "60",
+              "hint": "Muốn tìm tỉ số phần trăm, ta lấy số học sinh nữ chia cho tổng số học sinh rồi nhân với 100%: 24 : 40 = 0,6 = 60%!",
+              "skillTag": "toan-g5-so-thap-phan"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "match",
+              "tag": "Bồi dưỡng Toán 5 • Ghép nối",
+              "prompt": "Nối phép tính số thập phân với kết quả tương ứng:",
+              "illustration": "➕ ✖️ 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "12.5 × 4",
+                  "right": "50"
+                },
+                {
+                  "id": "p2",
+                  "left": "45.6 + 14.4",
+                  "right": "60"
+                },
+                {
+                  "id": "p3",
+                  "left": "100 - 37.5",
+                  "right": "62.5"
+                },
+                {
+                  "id": "p4",
+                  "left": "7.2 : 0.8",
+                  "right": "9"
+                }
+              ],
+              "hint": "12.5×4 = 50; 45.6+14.4 = 60; 100-37.5 = 62.5; 7.2 : 0.8 = 72 : 8 = 9.",
+              "skillTag": "toan-g5-so-thap-phan"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Bồi dưỡng Toán 5 • Đúng / Sai",
+              "prompt": "Hai chuyển động cùng lúc và ngược chiều trên cùng một quãng đường, thời gian để gặp nhau bằng quãng đường chia cho HIỆU hai vận tốc.",
+              "illustration": "🚗 💥 🚙",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "F",
+              "hint": "Chuyển động ngược chiều nhau thì hai xe đang tiến lại gần nhau, thời gian gặp nhau phải bằng quãng đường chia cho TỔNG hai vận tốc: t = s : (v1 + v2)!",
+              "skillTag": "toan-g5-so-thap-phan"
+            }
+          ]
+        },
+        {
+          "id": "toan-g5-w4",
+          "code": "Tuần 04",
+          "title": "Tỉ số phần trăm & 3 dạng toán về tỉ số phần trăm",
+          "status": "locked",
+          "lessonTitle": "Tỉ số phần trăm & 3 dạng toán về tỉ số phần trăm",
+          "skillTag": "toan-g5-ti-so-phan-tram",
+          "summaryCard": {
+            "title": "Tỉ số phần trăm & 3 bài toán cơ bản",
+            "keyPoints": [
+              "Dạng 1 (Tìm tỉ số % của A và B): Lấy A : B rồi nhân 100, viết thêm ký hiệu %.",
+              "Dạng 2 (Tìm m% của B): Lấy B : 100 × m (hoặc B × m : 100).",
+              "Dạng 3 (Tìm số khi biết m% của nó là A): Lấy A : m × 100."
+            ],
+            "example": "Ví dụ: Tìm 20% của 80kg = 80 × 20 : 100 = 16kg."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 5 • Tỉ số phần trăm",
+              "prompt": "Một lớp học có 40 học sinh, trong đó có 24 bạn nữ. Hỏi số học sinh nữ chiếm bao nhiêu phần trăm số học sinh cả lớp?",
+              "illustration": "👧 👦 📊",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "60%"
+                },
+                {
+                  "id": "B",
+                  "text": "55%"
+                },
+                {
+                  "id": "C",
+                  "text": "40%"
+                },
+                {
+                  "id": "D",
+                  "text": "65%"
+                }
+              ],
+              "correct": "A",
+              "hint": "Tỉ số phần trăm: 24 : 40 = 0,6 = 60%.",
+              "skillTag": "toan-g5-ti-so-phan-tram"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 5 • Tính giá trị phần trăm",
+              "prompt": "Tìm 15% của 240 kg gạo. (chỉ điền số)",
+              "illustration": "🌾 ⚖️ ✍️",
+              "correct": "36",
+              "hint": "Lấy 240 × 15 : 100 = 36 (kg).",
+              "skillTag": "toan-g5-ti-so-phan-tram"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 5 • Ba dạng toán tỉ số %",
+              "prompt": "Nối dạng toán với bài toán ví dụ tiêu biểu:",
+              "illustration": "🧩 📈 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Tìm tỉ số % của hai số",
+                  "right": "24 nữ trong 40 học sinh"
+                },
+                {
+                  "id": "p2",
+                  "left": "Tìm giá trị % của một số",
+                  "right": "Tìm 20% của 500 nghìn đồng"
+                },
+                {
+                  "id": "p3",
+                  "left": "Tìm một số biết giá trị %",
+                  "right": "Tìm số biết 30% của nó là 90"
+                },
+                {
+                  "id": "p4",
+                  "left": "Tăng 10% rồi giảm 10%",
+                  "right": "Giá mới bằng 99% giá ban đầu"
+                }
+              ],
+              "hint": "3 dạng bài cơ bản của tỉ số phần trăm lớp 5.",
+              "skillTag": "toan-g5-ti-so-phan-tram"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 5 • Đúng / Sai",
+              "prompt": "Muốn tìm một số biết 25% của nó là 50, ta lấy: 50 : 25 × 100 = 200.",
+              "illustration": "💯 🔢 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Dạng toán 3: Muốn tìm số đó ta lấy giá trị chia cho số phần trăm rồi nhân 100.",
+              "skillTag": "toan-g5-ti-so-phan-tram"
+            }
+          ]
+        },
+        {
+          "id": "toan-g5-w5",
+          "code": "Tuần 05",
+          "title": "Hình học (Tam giác, hình thang, hình tròn) & Chuyển động đều",
+          "status": "locked",
+          "lessonTitle": "Hình học (Tam giác, hình thang, hình tròn) & Chuyển động đều",
+          "skillTag": "toan-g5-chuyen-dong-deu",
+          "summaryCard": {
+            "title": "Toán Chuyển động đều (Vận tốc, Quãng đường, Thời gian)",
+            "keyPoints": [
+              "Công thức tính Vận tốc: v = s : t (Quãng đường chia thời gian).",
+              "Công thức tính Quãng đường: s = v × t (Vận tốc nhân thời gian).",
+              "Công thức tính Thời gian: t = s : v (Quãng đường chia vận tốc).",
+              "Chú ý đồng nhất đơn vị đo (km/h đi với km và giờ; m/s đi với m và giây)."
+            ],
+            "example": "Ví dụ: Ô tô đi 120km trong 2 giờ => Vận tốc là 120 : 2 = 60 km/h."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "choice",
+              "tag": "Toán 5 • Diện tích hình tam giác",
+              "prompt": "Một hình tam giác có độ dài đáy là 12cm và chiều cao tương ứng là 8cm. Diện tích hình tam giác đó là:",
+              "illustration": "🔺 📐 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "48 cm²"
+                },
+                {
+                  "id": "B",
+                  "text": "96 cm²"
+                },
+                {
+                  "id": "C",
+                  "text": "24 cm²"
+                },
+                {
+                  "id": "D",
+                  "text": "40 cm²"
+                }
+              ],
+              "correct": "A",
+              "hint": "Diện tích tam giác = (đáy × chiều cao) : 2 = (12 × 8) : 2 = 96 : 2 = 48 cm².",
+              "skillTag": "toan-g5-chuyen-dong-deu"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "input",
+              "tag": "Toán 5 • Chuyển động đều",
+              "prompt": "Một ô tô đi với vận tốc 60 km/giờ trong thời gian 1,5 giờ. Hỏi ô tô đã đi được quãng đường bao nhiêu ki-lô-mét?",
+              "illustration": "🚗 🛣️ ✍️",
+              "correct": "90",
+              "hint": "Quãng đường s = v × t = 60 × 1,5 = 90 (km).",
+              "skillTag": "toan-g5-chuyen-dong-deu"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "match",
+              "tag": "Toán 5 • Công thức hình học",
+              "prompt": "Nối công thức với hình hình học tương ứng:",
+              "illustration": "🧩 📐 ⭕",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "(a × h) : 2",
+                  "right": "Diện tích hình tam giác"
+                },
+                {
+                  "id": "p2",
+                  "left": "(a + b) × h : 2",
+                  "right": "Diện tích hình thang"
+                },
+                {
+                  "id": "p3",
+                  "left": "r × 2 × 3,14",
+                  "right": "Chu vi hình tròn"
+                },
+                {
+                  "id": "p4",
+                  "left": "r × r × 3,14",
+                  "right": "Diện tích hình tròn"
+                }
+              ],
+              "hint": "Các công thức tính chu vi và diện tích hình học lớp 5.",
+              "skillTag": "toan-g5-chuyen-dong-deu"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+              "type": "true_false",
+              "tag": "Toán 5 • Đúng / Sai",
+              "prompt": "Muốn tính vận tốc của một chuyển động đều, ta lấy quãng đường chia cho thời gian (v = s : t).",
+              "illustration": "⏱️ 🏎️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Công thức cốt lõi của toán chuyển động đều: v = s : t; s = v × t; t = s : v.",
+              "skillTag": "toan-g5-chuyen-dong-deu"
+            }
+          ]
+        }
+      ]
+    },
+    "tieng-viet": {
+      "key": "tieng-viet",
+      "title": "Tiếng Việt Lớp 5",
+      "themeColor": "#FF91A8",
+      "icon": "📖",
+      "bookRef": {
+        "name": "Tiếng Việt 5 Nâng Cao",
+        "author": "GS.TS Lê Phương Nga (Chủ biên) – NXB Giáo Dục Việt Nam"
+      },
+      "lessons": [
+        {
+          "id": "tv-g5-b1",
+          "code": "Chuyên đề 01",
+          "title": "Quy tắc viết hoa tên riêng, tên địa lí Việt Nam & Quốc tế",
+          "status": "ready",
+          "lessonTitle": "Quy tắc viết hoa tên riêng, tên địa lí Việt Nam & Quốc tế",
+          "skillTag": "tv-g5-quy-tac-viet-hoa",
+          "summaryCard": {
+            "title": "Quy tắc viết hoa tên riêng Việt Nam và Quốc tế",
+            "keyPoints": [
+              "Tên người, tên địa lí Việt Nam: Viết hoa chữ cái đầu của tất cả các tiếng (Nguyễn Trãi, Thăng Long).",
+              "Tên phiên âm Hán Việt: Viết hoa như tên Việt Nam (Bắc Kinh, Thái Bình Dương).",
+              "Tên phiên âm trực tiếp: Viết hoa chữ cái đầu của mỗi bộ phận, giữa các tiếng có dấu gạch nối (Mát-xcơ-va, Luân Đôn)."
+            ],
+            "example": "Ví dụ: 'Võ Thị Sáu', 'Hồ Chí Minh', 'Lép Tôn-xtôi'."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 5 • Trắc nghiệm",
+              "prompt": "Theo quy tắc viết hoa tên riêng tiếng nước ngoài, tên loài ngựa nhỏ nhất thế giới được viết đúng là:",
+              "illustration": "🐴 🌍 📝",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "mơt chơ ho sơ"
+                },
+                {
+                  "id": "B",
+                  "text": "Mơt-chơ Hơ-sơ"
+                },
+                {
+                  "id": "C",
+                  "text": "Mơt Chơ Hơ Sơ"
+                },
+                {
+                  "id": "D",
+                  "text": "Mơtchơ Hơsơ"
+                }
+              ],
+              "correct": "B",
+              "hint": "Quy tắc: Viết hoa chữ cái đầu mỗi bộ phận tạo thành tên riêng đó, và giữa các tiếng trong cùng một bộ phận có dấu gạch nối: \"Mơt-chơ Hơ-sơ\".",
+              "skillTag": "tv-g5-quy-tac-viet-hoa"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 5 • Điền từ",
+              "prompt": "Sắp xếp cụm từ để hoàn chỉnh câu tục ngữ dự báo thời tiết: \"sao mau thì mưa, sao [.....] thì nắng\":",
+              "illustration": "⭐ 🌧️ ☀️",
+              "correct": "thưa",
+              "hint": "Tục ngữ: \"sao mau thì mưa, sao thưa thì nắng\" (mau nghĩa là dày đặc, thưa nghĩa là ít sao).",
+              "skillTag": "tv-g5-quy-tac-viet-hoa"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 5 • Ghép nối",
+              "prompt": "Nối các cặp quan hệ từ trong câu ghép với ý nghĩa biểu thị:",
+              "illustration": "🔗 📜 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Vì ... nên ...",
+                  "right": "Nguyên nhân - Kết quả"
+                },
+                {
+                  "id": "p2",
+                  "left": "Nếu ... thì ...",
+                  "right": "Điều kiện / Giả thiết"
+                },
+                {
+                  "id": "p3",
+                  "left": "Tuy ... nhưng ...",
+                  "right": "Tương phản"
+                },
+                {
+                  "id": "p4",
+                  "left": "Không những ... mà còn ...",
+                  "right": "Tăng tiến"
+                }
+              ],
+              "hint": "Hệ thống cặp quan hệ từ trọng tâm lớp 5 biểu thị các mối quan hệ logic giữa các vế câu ghép.",
+              "skillTag": "tv-g5-quy-tac-viet-hoa"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 5 • Đúng / Sai",
+              "prompt": "Từ đồng âm là những từ có cách phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau, không liên quan gì đến nhau.",
+              "illustration": "💡 🗣️ 📖",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Ví dụ: \"con ruồi đậu\" (động từ) và \"hạt đậu phộng\" (danh từ) là từ đồng âm vì cùng phát âm \"đậu\" nhưng nghĩa hoàn toàn khác nhau!",
+              "skillTag": "tv-g5-quy-tac-viet-hoa"
+            }
+          ]
+        },
+        {
+          "id": "tv-g5-b2",
+          "code": "Chuyên đề 02",
+          "title": "Từ đồng nghĩa, Từ trái nghĩa, Từ đồng âm & Từ nhiều nghĩa",
+          "status": "ready",
+          "lessonTitle": "Từ đồng nghĩa, Từ trái nghĩa, Từ đồng âm & Từ nhiều nghĩa",
+          "skillTag": "tv-g5-dong-nghia-trai-nghia",
+          "summaryCard": {
+            "title": "Từ đồng nghĩa, Từ trái nghĩa & Từ nhiều nghĩa",
+            "keyPoints": [
+              "Từ đồng nghĩa: Có nghĩa giống hoặc gần giống nhau (chăm chỉ - cần cù; chết - hi sinh - mất).",
+              "Từ trái nghĩa: Có nghĩa trái ngược nhau hoàn toàn (cao - thấp; sáng - tối; đoàn kết - chia rẽ).",
+              "Từ nhiều nghĩa: Có một nghĩa gốc và các nghĩa chuyển có liên hệ với nhau (chân người, chân núi, chân bàn)."
+            ],
+            "example": "Ví dụ: 'chân' trong 'chân núi' là nghĩa chuyển của 'chân người' (chỉ bộ phận tiếp giáp mặt đất)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 5 • Từ đồng âm",
+              "prompt": "Trong các cặp từ dưới đây, cặp từ nào là hiện tượng từ đồng âm?",
+              "illustration": "🐎 ⚽ 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "con ngựa đá - hòn đá ven đường"
+                },
+                {
+                  "id": "B",
+                  "text": "bàn chân - chân núi"
+                },
+                {
+                  "id": "C",
+                  "text": "to lớn - khổng lồ"
+                },
+                {
+                  "id": "D",
+                  "text": "thông minh - ngốc nghếch"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"đá\" (động từ vung chân đá) và \"đá\" (danh từ chất rắn tự nhiên) là từ đồng âm: phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau.",
+              "skillTag": "tv-g5-dong-nghia-trai-nghia"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 5 • Nghĩa gốc và nghĩa chuyển",
+              "prompt": "Từ \"chân\" trong câu: \"Dưới chân núi, hoa đào đang nở rộ\" được dùng theo nghĩa gốc hay nghĩa chuyển?",
+              "illustration": "⛰️ 🌸 ✍️",
+              "correct": "nghĩa chuyển",
+              "hint": "\"Chân núi\" là phần đáy tiếp giáp mặt đất của núi, chuyển nghĩa dựa trên nét tương đồng với chân người.",
+              "skillTag": "tv-g5-dong-nghia-trai-nghia"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 5 • Phân loại hiện tượng từ",
+              "prompt": "Nối hiện tượng từ vựng với ví dụ tương ứng:",
+              "illustration": "🧩 📚 🏷️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Từ đồng nghĩa hoàn toàn",
+                  "right": "xe lửa - tàu hỏa"
+                },
+                {
+                  "id": "p2",
+                  "left": "Từ trái nghĩa",
+                  "right": "trắng tinh - đen nhánh"
+                },
+                {
+                  "id": "p3",
+                  "left": "Từ đồng âm",
+                  "right": "kho cá - nhà kho"
+                },
+                {
+                  "id": "p4",
+                  "left": "Từ nhiều nghĩa",
+                  "right": "ăn cơm - da ăn nắng"
+                }
+              ],
+              "hint": "Nắm chắc 4 khái niệm: đồng nghĩa, trái nghĩa, đồng âm, nhiều nghĩa.",
+              "skillTag": "tv-g5-dong-nghia-trai-nghia"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 5 • Đúng / Sai",
+              "prompt": "Từ đồng âm là những từ phát âm giống nhau nhưng khác hẳn nhau về nghĩa, không có mối liên hệ nào giữa các nghĩa.",
+              "illustration": "🗣️ 👂 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Khác với từ nhiều nghĩa (có nét nghĩa chung), các từ đồng âm không có liên hệ ngữ nghĩa.",
+              "skillTag": "tv-g5-dong-nghia-trai-nghia"
+            }
+          ]
+        },
+        {
+          "id": "tv-g5-b3",
+          "code": "Chuyên đề 03",
+          "title": "Đại từ xưng hô, Quan hệ từ & Các cặp quan hệ từ hô ứng",
+          "status": "ready",
+          "lessonTitle": "Đại từ xưng hô, Quan hệ từ & Các cặp quan hệ từ hô ứng",
+          "skillTag": "tv-g5-dai-tu-quan-he-tu",
+          "summaryCard": {
+            "title": "Đại từ & Các cặp Quan hệ từ",
+            "keyPoints": [
+              "Đại từ dùng để xưng hô hoặc thay thế cho danh từ, động từ để tránh lặp (tôi, chúng em, nó, vậy, thế).",
+              "Quan hệ từ nối các từ ngữ hoặc vế câu (và, nhưng, vì, nếu, của, tại).",
+              "Cặp quan hệ từ: 'Vì... nên...' (nguyên nhân - kết quả); 'Nếu... thì...' (giả thiết - kết quả); 'Tuy... nhưng...' (tương phản); 'Không những... mà còn...' (tăng tiến)."
+            ],
+            "example": "Ví dụ: 'Tuy nhà xa nhưng bạn Nam luôn đi học đúng giờ.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 5 • Quan hệ từ",
+              "prompt": "Điền cặp quan hệ từ biểu thị mối quan hệ nguyên nhân - kết quả thích hợp: \"...... trời mưa to bão lớn ...... chuyến bay phải tạm hoãn.\"",
+              "illustration": "⛈️ ✈️ 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Vì ... nên ..."
+                },
+                {
+                  "id": "B",
+                  "text": "Nếu ... thì ..."
+                },
+                {
+                  "id": "C",
+                  "text": "Tuy ... nhưng ..."
+                },
+                {
+                  "id": "D",
+                  "text": "Không những ... mà còn ..."
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Vì ... nên ...\" biểu thị nguyên nhân (mưa to) và kết quả (chuyến bay hoãn).",
+              "skillTag": "tv-g5-dai-tu-quan-he-tu"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 5 • Cặp quan hệ từ",
+              "prompt": "Trong câu: \"Nếu bạn chăm chỉ ôn tập thì kết quả thi sẽ rất cao\", cặp quan hệ từ biểu thị mối quan hệ gì: điều kiện - kết quả hay tương phản?",
+              "illustration": "📖 🎯 ✍️",
+              "correct": "điều kiện - kết quả",
+              "hint": "\"Nếu ... thì ...\" chỉ mối quan hệ điều kiện (giả thiết) - kết quả.",
+              "skillTag": "tv-g5-dai-tu-quan-he-tu"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 5 • Ý nghĩa các cặp quan hệ từ",
+              "prompt": "Nối cặp quan hệ từ với ý nghĩa tương ứng:",
+              "illustration": "🧩 🔗 💡",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Vì ... nên ...",
+                  "right": "Nguyên nhân - Kết quả"
+                },
+                {
+                  "id": "p2",
+                  "left": "Nếu ... thì ...",
+                  "right": "Điều kiện - Kết quả"
+                },
+                {
+                  "id": "p3",
+                  "left": "Tuy ... nhưng ...",
+                  "right": "Tương phản"
+                },
+                {
+                  "id": "p4",
+                  "left": "Càng ... càng ...",
+                  "right": "Tăng tiến tương ứng"
+                }
+              ],
+              "hint": "Các cặp quan hệ từ phổ biến dùng nối các vế câu ghép.",
+              "skillTag": "tv-g5-dai-tu-quan-he-tu"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 5 • Đúng / Sai",
+              "prompt": "Đại từ xưng hô trong tiếng Việt rất phong phú và thể hiện thứ bậc, tình cảm thân mật của người nói.",
+              "illustration": "🤝 👨‍👩‍👧‍👦 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Ví dụ: ông, bà, cha, mẹ, chú, bác, anh, chị, em, cháu...",
+              "skillTag": "tv-g5-dai-tu-quan-he-tu"
+            }
+          ]
+        },
+        {
+          "id": "tv-g5-b4",
+          "code": "Chuyên đề 04",
+          "title": "Câu ghép & Các cách nối các vế câu ghép",
+          "status": "locked",
+          "lessonTitle": "Câu ghép & Các cách nối các vế câu ghép",
+          "skillTag": "tv-g5-cau-ghep",
+          "summaryCard": {
+            "title": "Câu ghép và Các cách nối các vế câu ghép",
+            "keyPoints": [
+              "Câu ghép là câu do nhiều cụm Chủ - Vị (vế câu) ghép lại, mỗi vế có cấu tạo như một câu đơn.",
+              "Nối trực tiếp: Dùng dấu phẩy (,), dấu chấm phẩy (;) hoặc dấu hai chấm (:).",
+              "Nối bằng từ nối: Dùng quan hệ từ hoặc cặp quan hệ từ hô ứng (vừa... đã..., càng... càng...)."
+            ],
+            "example": "Ví dụ: 'Mặt trời mọc, sương mù tan dần.' (2 vế nối trực tiếp bằng dấu phẩy)."
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 5 • Cách nối câu ghép",
+              "prompt": "Câu nào dưới đây là câu ghép có các vế được nối trực tiếp bằng dấu phẩy (không dùng từ nối)?",
+              "illustration": "☀️ 🌿 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mặt trời lên, sương tan dần trên kẽ lá."
+                },
+                {
+                  "id": "B",
+                  "text": "Vì trời mưa to nên đường bị ngập úng."
+                },
+                {
+                  "id": "C",
+                  "text": "Mặc dù đêm đã khuya nhưng mẹ vẫn cặm cụi may áo."
+                },
+                {
+                  "id": "D",
+                  "text": "Nếu gió mùa về thì trời sẽ chuyển rét."
+                }
+              ],
+              "correct": "A",
+              "hint": "Vế 1: \"Mặt trời lên\", Vế 2: \"sương tan dần trên kẽ lá\", nối trực tiếp bằng dấu phẩy.",
+              "skillTag": "tv-g5-cau-ghep"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 5 • Đếm số vế câu ghép",
+              "prompt": "Xác định số vế câu trong câu ghép sau: \"Gió thổi mạnh, mây đen kéo đến kín trời và sấm sét bắt đầu nổi lên.\"",
+              "illustration": "🌪️ ⛈️ ✍️",
+              "correct": "3",
+              "hint": "Có 3 cụm C-V: (1) Gió // thổi mạnh, (2) mây đen // kéo đến kín trời, (3) sấm sét // bắt đầu nổi lên.",
+              "skillTag": "tv-g5-cau-ghep"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 5 • Cách nối câu ghép",
+              "prompt": "Nối câu ghép với cách nối tương ứng:",
+              "illustration": "🧩 🔗 📜",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Mặt trời lên, chim hót líu lo.",
+                  "right": "Nối trực tiếp bằng dấu phẩy"
+                },
+                {
+                  "id": "p2",
+                  "left": "Tuy rét đậm nhưng hoa đào vẫn nở.",
+                  "right": "Nối bằng cặp quan hệ từ"
+                },
+                {
+                  "id": "p3",
+                  "left": "Nước dâng lên bao nhiêu, đồi cao bấy nhiêu.",
+                  "right": "Nối bằng cặp từ hô ứng"
+                },
+                {
+                  "id": "p4",
+                  "left": "Trời vừa rạng sáng, bà con đã ra đồng.",
+                  "right": "Nối bằng cặp từ vừa ... đã ..."
+                }
+              ],
+              "hint": "Các cách nối câu ghép: nối trực tiếp (dấu phẩy, chấm phẩy, hai chấm), nối bằng quan hệ từ, nối bằng cặp từ hô ứng.",
+              "skillTag": "tv-g5-cau-ghep"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 5 • Đúng / Sai",
+              "prompt": "Trong câu ghép, mỗi vế câu thường có cấu tạo như một câu đơn (đầy đủ Chủ ngữ và Vị ngữ) và diễn đạt một ý trọn vẹn.",
+              "illustration": "📝 📚 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Đúng theo định nghĩa câu ghép trong chương trình Tiếng Việt 5.",
+              "skillTag": "tv-g5-cau-ghep"
+            }
+          ]
+        },
+        {
+          "id": "tv-g5-b5",
+          "code": "Chuyên đề 05",
+          "title": "Liên kết câu trong đoạn văn & Cảm thụ văn học miêu tả",
+          "status": "locked",
+          "lessonTitle": "Liên kết câu trong đoạn văn & Cảm thụ văn học miêu tả",
+          "skillTag": "tv-g5-lien-ket-cau",
+          "summaryCard": {
+            "title": "Liên kết câu trong đoạn văn",
+            "keyPoints": [
+              "Phép lặp từ ngữ: Lặp lại trong câu sau từ ngữ đã xuất hiện ở câu trước.",
+              "Phép thay thế từ ngữ: Dùng đại từ hoặc từ đồng nghĩa thay cho từ đã dùng ở câu trước.",
+              "Phép nối: Dùng các từ nối (đồng thời, hơn nữa, tuy nhiên, nhưng, vì thế) để liên kết."
+            ],
+            "example": "Ví dụ: 'Bác Hồ rất yêu thương thiếu nhi. Người luôn dành cho các em tình cảm ấm áp nhất.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "choice",
+              "tag": "Tiếng Việt 5 • Phép liên kết câu",
+              "prompt": "Hai câu sau liên kết với nhau bằng cách nào: \"Hà Nội là thủ đô ngàn năm văn hiến. Nơi đây lưu giữ biết bao di tích lịch sử thiêng liêng.\"",
+              "illustration": "🏛️ 📜 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Dùng từ ngữ thay thế (\"Nơi đây\" thay cho \"Hà Nội\")"
+                },
+                {
+                  "id": "B",
+                  "text": "Phép lặp từ ngữ"
+                },
+                {
+                  "id": "C",
+                  "text": "Phép nối bằng quan hệ từ"
+                },
+                {
+                  "id": "D",
+                  "text": "Phép tương phản"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Nơi đây\" là đại từ thay thế cho danh từ riêng \"Hà Nội\" ở câu trước để tránh lặp từ.",
+              "skillTag": "tv-g5-lien-ket-cau"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "input",
+              "tag": "Tiếng Việt 5 • Phép nối liên kết",
+              "prompt": "Tìm từ ngữ liên kết trong câu thứ hai: \"Trời rét đậm. Tuy nhiên, các em học sinh vùng cao vẫn chăm chỉ đến trường.\"",
+              "illustration": "❄️ 🎒 ✍️",
+              "correct": "Tuy nhiên",
+              "hint": "Từ liên kết biểu thị quan hệ tương phản đặt ở đầu câu thứ hai.",
+              "skillTag": "tv-g5-lien-ket-cau"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "match",
+              "tag": "Tiếng Việt 5 • Các phép liên kết câu",
+              "prompt": "Nối phép liên kết với câu văn minh họa:",
+              "illustration": "🧩 🔗 📖",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Phép lặp từ ngữ",
+                  "right": "Tre giữ làng, giữ nước. Tre hy sinh bảo vệ con người."
+                },
+                {
+                  "id": "p2",
+                  "left": "Phép thay thế từ ngữ",
+                  "right": "Bác Hồ kính yêu. Người là tấm gương đạo đức sáng ngời."
+                },
+                {
+                  "id": "p3",
+                  "left": "Phép nối",
+                  "right": "Mưa rả rích suốt đêm. Vì vậy, sáng nay đường trơn trượt."
+                },
+                {
+                  "id": "p4",
+                  "left": "Phép liên tưởng",
+                  "right": "Mùa xuân về. Hoa mai, hoa đào đua nhau khoe sắc."
+                }
+              ],
+              "hint": "Các biện pháp liên kết câu trong đoạn văn giúp bài viết mạch lạc.",
+              "skillTag": "tv-g5-lien-ket-cau"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+              "type": "true_false",
+              "tag": "Tiếng Việt 5 • Đúng / Sai",
+              "prompt": "Phép thay thế từ ngữ giúp đoạn văn liên kết chặt chẽ mà không bị lỗi lặp từ đơn điệu.",
+              "illustration": "✍️ ✨ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "ĐÚNG (Đ)"
+                },
+                {
+                  "id": "F",
+                  "text": "SAI (S)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Sử dụng đại từ hoặc từ đồng nghĩa thay thế giúp diễn đạt uyển chuyển, giàu tính nghệ thuật.",
+              "skillTag": "tv-g5-lien-ket-cau"
+            }
+          ]
+        }
+      ]
+    },
+    "tieng-anh": {
+      "key": "tieng-anh",
+      "title": "Tiếng Anh Lớp 5",
+      "themeColor": "#78D9AE",
+      "icon": "🌍",
+      "bookRef": {
+        "name": "Bồi dưỡng Học sinh giỏi Tiếng Anh 5 (Global Success)",
+        "author": "Bộ GD&ĐT – Bồi dưỡng HSG Tiểu học"
+      },
+      "lessons": [
+        {
+          "id": "eng-g5-u1",
+          "code": "Chuyên đề 01",
+          "title": "Articles \"A, An, The\" & Zero Article (Mạo từ xác định/không xác định)",
+          "status": "ready",
+          "lessonTitle": "Articles \"A, An, The\" & Zero Article (Mạo từ xác định/không xác định)",
+          "skillTag": "eng-g5-articles-advanced",
+          "summaryCard": {
+            "title": "Articles 'A, An, The' and Zero Article",
+            "keyPoints": [
+              "'A / An': Dùng cho danh từ số ít, đếm được, nhắc đến lần đầu tiên (I saw a cat).",
+              "'The': Dùng cho sự vật đã xác định, duy nhất (the sun, the moon), hoặc đã được nhắc đến trước đó.",
+              "Zero article (Không mạo từ): Trước bữa ăn (breakfast), môn thể thao (football), tên môn học (math)."
+            ],
+            "example": "Example: 'I play football after school.' | 'The Sun rises in the East.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+              "type": "choice",
+              "tag": "Tiếng Anh 5 • Trắc nghiệm",
+              "prompt": "Which sentence correctly uses ZERO ARTICLE (không dùng mạo từ)?",
+              "illustration": "🇻🇳 🗣️ 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "I can speak the English very well."
+                },
+                {
+                  "id": "B",
+                  "text": "I can speak English very well."
+                },
+                {
+                  "id": "C",
+                  "text": "She was born in the 2005."
+                },
+                {
+                  "id": "D",
+                  "text": "I have the milk and bread for breakfast."
+                }
+              ],
+              "correct": "B",
+              "hint": "Quy tắc Zero Article: Không dùng mạo từ trước tên ngôn ngữ (English, Vietnamese), năm/tháng, và bữa ăn (breakfast)!",
+              "skillTag": "eng-g5-articles-advanced"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+              "type": "input",
+              "tag": "Tiếng Anh 5 • Điền từ",
+              "prompt": "Fill in the blank with \"a\", \"an\", or \"the\": \"Look up at the sky! [.....] Sun is shining brightly.\"",
+              "illustration": "☀️ 🌤️ ✏️",
+              "correct": "The",
+              "hint": "Dùng mạo từ xác định \"The\" trước các vật thể duy nhất trong tự nhiên: The Sun (Mặt trời), The Moon (Mặt trăng), The Earth (Trái đất).",
+              "skillTag": "eng-g5-articles-advanced"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+              "type": "match",
+              "tag": "Tiếng Anh 5 • Ghép nối",
+              "prompt": "Match article usage with corresponding example:",
+              "illustration": "🎹 🏆 🎯",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Nhạc cụ (Musical instruments)",
+                  "right": "She is playing the piano."
+                },
+                {
+                  "id": "p2",
+                  "left": "So sánh nhất (Superlative)",
+                  "right": "She is the best student."
+                },
+                {
+                  "id": "p3",
+                  "left": "Vật thể duy nhất",
+                  "right": "The Sun is shining."
+                },
+                {
+                  "id": "p4",
+                  "left": "Tên quốc gia thông thường",
+                  "right": "I am from Vietnam."
+                }
+              ],
+              "hint": "Nhạc cụ: the piano; so sánh nhất: the best; vật duy nhất: the Sun; quốc gia thông thường không dùng mạo từ: Vietnam.",
+              "skillTag": "eng-g5-articles-advanced"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+              "type": "true_false",
+              "tag": "Tiếng Anh 5 • Đúng / Sai",
+              "prompt": "We use \"any\" in positive sentences and \"some\" in negative sentences and questions.",
+              "illustration": "❓ ❌ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "F",
+              "hint": "Quy tắc ngược lại: Ta dùng \"some\" trong câu khẳng định, và \"any\" trong câu phủ định và câu hỏi!",
+              "skillTag": "eng-g5-articles-advanced"
+            }
+          ]
+        },
+        {
+          "id": "eng-g5-u2",
+          "code": "Chuyên đề 02",
+          "title": "Quantifiers: Some, Any, Much, Many, A lot of, A few, A little",
+          "status": "ready",
+          "lessonTitle": "Quantifiers: Some, Any, Much, Many, A lot of, A few, A little",
+          "skillTag": "eng-g5-quantifiers",
+          "summaryCard": {
+            "title": "Quantifiers: Some, Any, Much, Many, A lot of",
+            "keyPoints": [
+              "'Some': Dùng trong câu khẳng định và lời mời lịch sự (Would you like some tea?).",
+              "'Any': Dùng trong câu phủ định và câu hỏi (Do you have any apples? / I don't have any money).",
+              "'Much' (không đếm được) vs 'Many' (đếm được số nhiều); 'A few' (một vài, đếm được) vs 'A little' (một chút, không đếm được)."
+            ],
+            "example": "Example: 'There is a little milk left.' | 'I have a few friends here.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 5 • Quantifiers",
+              "prompt": "Fill in the blank: \"Is there ______ orange juice left in the pitcher?\"",
+              "illustration": "🍊 🍹 ❓",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "any"
+                },
+                {
+                  "id": "B",
+                  "text": "some"
+                },
+                {
+                  "id": "C",
+                  "text": "many"
+                },
+                {
+                  "id": "D",
+                  "text": "a few"
+                }
+              ],
+              "correct": "A",
+              "hint": "In questions and negative sentences, we use \"any\" with uncountable nouns.",
+              "skillTag": "eng-g5-quantifiers"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 5 • A few / A little",
+              "prompt": "Fill in \"a few\" or \"a little\": \"We only have ______ time left before the contest starts.\"",
+              "illustration": "⏳ ⏱️ ✍️",
+              "correct": "a little",
+              "hint": "\"Time\" is an uncountable noun -> use \"a little time\".",
+              "skillTag": "eng-g5-quantifiers"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 5 • Cách dùng lượng từ",
+              "prompt": "Match quantifier with its appropriate usage:",
+              "illustration": "🧩 🍎 🥛",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Some",
+                  "right": "Câu khẳng định & lời mời lịch sự"
+                },
+                {
+                  "id": "p2",
+                  "left": "Any",
+                  "right": "Câu phủ định và câu hỏi nghi vấn"
+                },
+                {
+                  "id": "p3",
+                  "left": "A few",
+                  "right": "Số lượng nhỏ danh từ đếm được"
+                },
+                {
+                  "id": "p4",
+                  "left": "A little",
+                  "right": "Lượng nhỏ danh từ không đếm được"
+                }
+              ],
+              "hint": "Phân biệt danh từ đếm được và không đếm được khi dùng lượng từ.",
+              "skillTag": "eng-g5-quantifiers"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 5 • True / False",
+              "prompt": "We can use \"a lot of\" with both countable and uncountable nouns in English.",
+              "illustration": "📚 💧 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "E.g., \"a lot of books\" (countable) and \"a lot of water\" (uncountable).",
+              "skillTag": "eng-g5-quantifiers"
+            }
+          ]
+        },
+        {
+          "id": "eng-g5-u3",
+          "code": "Chuyên đề 03",
+          "title": "Tenses: Present Simple, Past Simple & Future Simple",
+          "status": "ready",
+          "lessonTitle": "Tenses: Present Simple, Past Simple & Future Simple",
+          "skillTag": "eng-g5-three-tenses",
+          "summaryCard": {
+            "title": "Tenses: Present Simple, Past Simple & Future Simple",
+            "keyPoints": [
+              "Present Simple: Thói quen, sự thật (S + V/Vs/Ves). Dấu hiệu: always, every day.",
+              "Past Simple: Hành động đã kết thúc trong quá khứ (S + V2/Ved). Dấu hiệu: yesterday, ago, last...",
+              "Future Simple: Hành động sẽ xảy ra trong tương lai (S + will + V-inf). Dấu hiệu: tomorrow, next week."
+            ],
+            "example": "Example: 'She plays piano every day. Yesterday she played well. Tomorrow she will play again.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 5 • Future Simple",
+              "prompt": "Next summer holiday, our family ______ Da Nang beach for a vacation.",
+              "illustration": "🏖️ ✈️ ☀️",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "will visit"
+                },
+                {
+                  "id": "B",
+                  "text": "visited"
+                },
+                {
+                  "id": "C",
+                  "text": "visit"
+                },
+                {
+                  "id": "D",
+                  "text": "visits"
+                }
+              ],
+              "correct": "A",
+              "hint": "\"Next summer holiday\" indicates a future plan/prediction -> Future Simple: will + verb.",
+              "skillTag": "eng-g5-three-tenses"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 5 • Past Simple irregular",
+              "prompt": "Complete with the past form: \"Two days ago, Minh ______ (buy) a wonderful science book.\"",
+              "illustration": "📚 💵 ✍️",
+              "correct": "bought",
+              "hint": "Irregular verb: buy -> bought -> bought.",
+              "skillTag": "eng-g5-three-tenses"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 5 • Cấu trúc các thì",
+              "prompt": "Match tense with its basic structure:",
+              "illustration": "🧩 ⏳ 📅",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Present Simple",
+                  "right": "S + V(s/es)"
+                },
+                {
+                  "id": "p2",
+                  "left": "Past Simple",
+                  "right": "S + V-ed / V2"
+                },
+                {
+                  "id": "p3",
+                  "left": "Future Simple",
+                  "right": "S + will + V(bare)"
+                },
+                {
+                  "id": "p4",
+                  "left": "Present Continuous",
+                  "right": "S + am/is/are + V-ing"
+                }
+              ],
+              "hint": "Cấu trúc 4 thì cơ bản trong chương trình Tiếng Anh tiểu học.",
+              "skillTag": "eng-g5-three-tenses"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 5 • True / False",
+              "prompt": "\"Yesterday\", \"last weekend\", and \"in 2022\" are typical time adverbs for the Past Simple tense.",
+              "illustration": "📅 🕰️ 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "They all describe specific points of completed time in the past.",
+              "skillTag": "eng-g5-three-tenses"
+            }
+          ]
+        },
+        {
+          "id": "eng-g5-u4",
+          "code": "Chuyên đề 04",
+          "title": "Superlative Adjectives & Comparison structures",
+          "status": "locked",
+          "lessonTitle": "Superlative Adjectives & Comparison structures",
+          "skillTag": "eng-g5-superlatives",
+          "summaryCard": {
+            "title": "Superlative Adjectives (So sánh nhất)",
+            "keyPoints": [
+              "Tính từ ngắn: the + adj + '-est' (the tallest, the fastest, the biggest).",
+              "Tính từ dài: the most + adj (the most beautiful, the most expensive).",
+              "Bất quy tắc: good -> the best; bad -> the worst; far -> the farthest."
+            ],
+            "example": "Example: 'Mount Everest is the highest mountain in the world.' | 'He is the best student.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 5 • Superlative Adjectives",
+              "prompt": "Mount Everest is the ______ mountain peak on Earth.",
+              "illustration": "🏔️ 🧗 💡",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "highest"
+                },
+                {
+                  "id": "B",
+                  "text": "higher"
+                },
+                {
+                  "id": "C",
+                  "text": "most high"
+                },
+                {
+                  "id": "D",
+                  "text": "high"
+                }
+              ],
+              "correct": "A",
+              "hint": "Short adjective \"high\" takes \"-est\" with \"the\": the highest.",
+              "skillTag": "eng-g5-superlatives"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 5 • So sánh nhất",
+              "prompt": "Fill in the superlative: \"Russia is the ______ (large) country in the world by total land area.\"",
+              "illustration": "🗺️ 🇷🇺 ✍️",
+              "correct": "largest",
+              "hint": "Large ends in -e, so we add -st: largest.",
+              "skillTag": "eng-g5-superlatives"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 5 • Ghép so sánh nhất bất quy tắc",
+              "prompt": "Match adjective with its superlative form:",
+              "illustration": "🧩 🥇 🏆",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "good",
+                  "right": "the best"
+                },
+                {
+                  "id": "p2",
+                  "left": "bad",
+                  "right": "the worst"
+                },
+                {
+                  "id": "p3",
+                  "left": "happy",
+                  "right": "the happiest"
+                },
+                {
+                  "id": "p4",
+                  "left": "expensive",
+                  "right": "the most expensive"
+                }
+              ],
+              "hint": "Irregular superlatives: good -> the best; bad -> the worst.",
+              "skillTag": "eng-g5-superlatives"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 5 • True / False",
+              "prompt": "We always use the definite article \"the\" before superlative adjectives in sentences.",
+              "illustration": "👑 🌟 💡",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "E.g., the tallest boy, the most interesting story.",
+              "skillTag": "eng-g5-superlatives"
+            }
+          ]
+        },
+        {
+          "id": "eng-g5-u5",
+          "code": "Chuyên đề 05",
+          "title": "Prepositions of Place and Time & Conditionals Type 1",
+          "status": "locked",
+          "lessonTitle": "Prepositions of Place and Time & Conditionals Type 1",
+          "skillTag": "eng-g5-conditionals-prepositions",
+          "summaryCard": {
+            "title": "Conditionals Type 1 & Prepositions of Time",
+            "keyPoints": [
+              "Câu điều kiện loại 1 (Có thể xảy ra ở hiện tại/tương lai): If + S + V(hiện tại đơn), S + will + V-inf.",
+              "Giới từ chỉ thời gian: 'At' (giờ: at 7 o'clock), 'On' (ngày, thứ: on Monday, on May 5th), 'In' (tháng, năm, mùa: in 2026, in July, in summer)."
+            ],
+            "example": "Example: 'If it rains, we will stay at home.' | 'The party is on Sunday at 8 PM.'"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "choice",
+              "tag": "Tiếng Anh 5 • Prepositions of Time",
+              "prompt": "The new school year in Vietnam always starts ______ September.",
+              "illustration": "🎒 📅 🏫",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "in"
+                },
+                {
+                  "id": "B",
+                  "text": "on"
+                },
+                {
+                  "id": "C",
+                  "text": "at"
+                },
+                {
+                  "id": "D",
+                  "text": "to"
+                }
+              ],
+              "correct": "A",
+              "hint": "We use preposition \"in\" with months: in September, in October.",
+              "skillTag": "eng-g5-conditionals-prepositions"
+            },
+            {
+              "id": 2,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "input",
+              "tag": "Tiếng Anh 5 • Conditional Type 1",
+              "prompt": "Complete the First Conditional: \"If it rains heavily tomorrow, we ______ (stay) at home.\"",
+              "illustration": "🌧️ 🏠 ✍️",
+              "correct": "will stay",
+              "hint": "First Conditional: If + Present Simple (it rains), S + will + V (will stay).",
+              "skillTag": "eng-g5-conditionals-prepositions"
+            },
+            {
+              "id": 3,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "match",
+              "tag": "Tiếng Anh 5 • Giới từ chỉ thời gian",
+              "prompt": "Match preposition with appropriate time expressions:",
+              "illustration": "🧩 ⏰ 🗓️",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "at",
+                  "right": "7 o'clock, night, noon"
+                },
+                {
+                  "id": "p2",
+                  "left": "on",
+                  "right": "Monday, 20th November"
+                },
+                {
+                  "id": "p3",
+                  "left": "in",
+                  "right": "summer, September, 2026"
+                },
+                {
+                  "id": "p4",
+                  "left": "from ... to",
+                  "right": "8:00 AM to 11:30 AM"
+                }
+              ],
+              "hint": "at: giờ/thời điểm; on: thứ/ngày cụ thể; in: tháng/mùa/năm.",
+              "skillTag": "eng-g5-conditionals-prepositions"
+            },
+            {
+              "id": 4,
+              "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+              "type": "true_false",
+              "tag": "Tiếng Anh 5 • True / False",
+              "prompt": "In First Conditional sentences, we describe real and possible future situations.",
+              "illustration": "🔮 💡 ✨",
+              "options": [
+                {
+                  "id": "T",
+                  "text": "TRUE (Đúng)"
+                },
+                {
+                  "id": "F",
+                  "text": "FALSE (Sai)"
+                }
+              ],
+              "correct": "T",
+              "hint": "Type 1 conditionals talk about realistic possibilities: If it rains, I will take an umbrella.",
+              "skillTag": "eng-g5-conditionals-prepositions"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "questionBank": {
+    "toan-g5-w1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Bồi dưỡng Toán 5 • Trắc nghiệm",
+        "prompt": "Trong các phân số sau: 13/14, 29/27, 34/34, 3/7, phân số nào LỚN HƠN 1?",
+        "illustration": "🍰 ⚖️ 🍕",
+        "options": [
+          {
+            "id": "A",
+            "text": "13 / 14"
+          },
+          {
+            "id": "B",
+            "text": "29 / 27"
+          },
+          {
+            "id": "C",
+            "text": "34 / 34"
+          },
+          {
+            "id": "D",
+            "text": "3 / 7"
+          }
+        ],
+        "correct": "B",
+        "hint": "Quy tắc so sánh phân số với 1: Phân số có tử số lớn hơn mẫu số thì phân số đó lớn hơn 1. Ở đây 29 > 27 nên 29/27 > 1. (34/34 = 1; 13/14 và 3/7 đều bé hơn 1).",
+        "skillTag": "toan-g5-so-sanh-phan-so"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "input",
+        "tag": "Bồi dưỡng Toán 5 • Điền số",
+        "prompt": "Một ô tô đi quãng đường 150 km hết 3 giờ. Hỏi vận tốc của ô tô là bao nhiêu km/h?",
+        "illustration": "🚗 🛣️ ⏱️",
+        "correct": "50",
+        "hint": "Công thức tính vận tốc trong chuyển động đều: v = s : t. Ta lấy quãng đường chia cho thời gian: 150 : 3 = 50 km/h!",
+        "skillTag": "toan-g5-so-sanh-phan-so"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "match",
+        "tag": "Bồi dưỡng Toán 5 • Ghép nối",
+        "prompt": "Nối các phân số bằng nhau sau khi rút gọn hoặc quy đồng:",
+        "illustration": "🧩 🔗 ⚖️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "3 / 5",
+            "right": "9 / 15"
+          },
+          {
+            "id": "p2",
+            "left": "2 / 7",
+            "right": "6 / 21"
+          },
+          {
+            "id": "p3",
+            "left": "4 / 9",
+            "right": "16 / 36"
+          },
+          {
+            "id": "p4",
+            "left": "5 / 8",
+            "right": "25 / 40"
+          }
+        ],
+        "hint": "Nhân cả tử số và mẫu số với cùng một số tự nhiên lớn hơn 1 ta được phân số bằng phân số đã cho.",
+        "skillTag": "toan-g5-so-sanh-phan-so"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Bồi dưỡng Toán 5 • Đúng / Sai",
+        "prompt": "Mọi số tự nhiên đều có thể viết dưới dạng phân số có mẫu số bằng 1 (Ví dụ: 14 = 14/1; 9 = 9/1).",
+        "illustration": "✨ 🔢 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Mọi số tự nhiên n đều có thể viết dưới dạng phân số n/1 vì n : 1 = n. Nhận định này hoàn toàn ĐÚNG .",
+        "skillTag": "toan-g5-so-sanh-phan-so"
+      }
+    ],
+    "toan-g5-w2": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 5 • Phép tính phân số",
+        "prompt": "Tính giá trị biểu thức: 3/4 + 2/5 × 5/8 = ?",
+        "illustration": "🍰 🍕 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "7/8"
+          },
+          {
+            "id": "C",
+            "text": "5/4"
+          },
+          {
+            "id": "D",
+            "text": "3/8"
+          }
+        ],
+        "correct": "A",
+        "hint": "Thực hiện phép nhân trước: 2/5 × 5/8 = 2/8 = 1/4. Sau đó cộng: 3/4 + 1/4 = 4/4 = 1.",
+        "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 5 • Chuyển hỗn số",
+        "prompt": "Chuyển hỗn số 3 và 2/5 thành phân số có mẫu số là 5:",
+        "illustration": "🔢 🍰 ✍️",
+        "correct": "17/5",
+        "hint": "Tử số = phần nguyên × mẫu số + tử số = 3 × 5 + 2 = 17. Mẫu số giữ nguyên là 5 -> 17/5.",
+        "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 5 • Ghép phép tính phân số",
+        "prompt": "Nối phép tính với kết quả thu gọn:",
+        "illustration": "🧩 ✖️ ➗",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "2/3 × 9/4",
+            "right": "3/2"
+          },
+          {
+            "id": "p2",
+            "left": "5/6 : 5/12",
+            "right": "2"
+          },
+          {
+            "id": "p3",
+            "left": "7/8 - 3/8",
+            "right": "1/2"
+          },
+          {
+            "id": "p4",
+            "left": "1 + 1/3",
+            "right": "4/3"
+          }
+        ],
+        "hint": "Rút gọn chéo khi nhân chia phân số để tính nhanh.",
+        "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 5 • Đúng / Sai",
+        "prompt": "Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.",
+        "illustration": "🔄 ➗ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Quy tắc: a/b : c/d = a/b × d/c (với c, d khác 0).",
+        "skillTag": "toan-g5-bon-phep-tinh-phan-so"
+      }
+    ],
+    "toan-g5-w3": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Bồi dưỡng Toán 5 • Trắc nghiệm",
+        "prompt": "Trong số thập phân 185,472, chữ số 7 có giá trị bằng bao nhiêu?",
+        "illustration": "🏷️ 🔢 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "7 đơn vị"
+          },
+          {
+            "id": "B",
+            "text": "7 phần mười (7/10)"
+          },
+          {
+            "id": "C",
+            "text": "7 phần trăm (7/100)"
+          },
+          {
+            "id": "D",
+            "text": "7 phần nghìn (7/1000)"
+          }
+        ],
+        "correct": "C",
+        "hint": "Hàng phần mười là chữ số 4; hàng phần trăm là chữ số 7 (giá trị 7/100 hay 0,07); hàng phần nghìn là chữ số 2.",
+        "skillTag": "toan-g5-so-thap-phan"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "input",
+        "tag": "Bồi dưỡng Toán 5 • Điền số",
+        "prompt": "Lớp 5A có 40 học sinh, trong đó có 24 bạn nữ. Tỉ số phần trăm của học sinh nữ so với cả lớp là bao nhiêu %? (Chỉ điền số)",
+        "illustration": "👧 👦 📊",
+        "correct": "60",
+        "hint": "Muốn tìm tỉ số phần trăm, ta lấy số học sinh nữ chia cho tổng số học sinh rồi nhân với 100%: 24 : 40 = 0,6 = 60%!",
+        "skillTag": "toan-g5-so-thap-phan"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "match",
+        "tag": "Bồi dưỡng Toán 5 • Ghép nối",
+        "prompt": "Nối phép tính số thập phân với kết quả tương ứng:",
+        "illustration": "➕ ✖️ 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "12.5 × 4",
+            "right": "50"
+          },
+          {
+            "id": "p2",
+            "left": "45.6 + 14.4",
+            "right": "60"
+          },
+          {
+            "id": "p3",
+            "left": "100 - 37.5",
+            "right": "62.5"
+          },
+          {
+            "id": "p4",
+            "left": "7.2 : 0.8",
+            "right": "9"
+          }
+        ],
+        "hint": "12.5×4 = 50; 45.6+14.4 = 60; 100-37.5 = 62.5; 7.2 : 0.8 = 72 : 8 = 9.",
+        "skillTag": "toan-g5-so-thap-phan"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 5 – Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Bồi dưỡng Toán 5 • Đúng / Sai",
+        "prompt": "Hai chuyển động cùng lúc và ngược chiều trên cùng một quãng đường, thời gian để gặp nhau bằng quãng đường chia cho HIỆU hai vận tốc.",
+        "illustration": "🚗 💥 🚙",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "F",
+        "hint": "Chuyển động ngược chiều nhau thì hai xe đang tiến lại gần nhau, thời gian gặp nhau phải bằng quãng đường chia cho TỔNG hai vận tốc: t = s : (v1 + v2)!",
+        "skillTag": "toan-g5-so-thap-phan"
+      }
+    ],
+    "toan-g5-w4": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 5 • Tỉ số phần trăm",
+        "prompt": "Một lớp học có 40 học sinh, trong đó có 24 bạn nữ. Hỏi số học sinh nữ chiếm bao nhiêu phần trăm số học sinh cả lớp?",
+        "illustration": "👧 👦 📊",
+        "options": [
+          {
+            "id": "A",
+            "text": "60%"
+          },
+          {
+            "id": "B",
+            "text": "55%"
+          },
+          {
+            "id": "C",
+            "text": "40%"
+          },
+          {
+            "id": "D",
+            "text": "65%"
+          }
+        ],
+        "correct": "A",
+        "hint": "Tỉ số phần trăm: 24 : 40 = 0,6 = 60%.",
+        "skillTag": "toan-g5-ti-so-phan-tram"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 5 • Tính giá trị phần trăm",
+        "prompt": "Tìm 15% của 240 kg gạo. (chỉ điền số)",
+        "illustration": "🌾 ⚖️ ✍️",
+        "correct": "36",
+        "hint": "Lấy 240 × 15 : 100 = 36 (kg).",
+        "skillTag": "toan-g5-ti-so-phan-tram"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 5 • Ba dạng toán tỉ số %",
+        "prompt": "Nối dạng toán với bài toán ví dụ tiêu biểu:",
+        "illustration": "🧩 📈 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Tìm tỉ số % của hai số",
+            "right": "24 nữ trong 40 học sinh"
+          },
+          {
+            "id": "p2",
+            "left": "Tìm giá trị % của một số",
+            "right": "Tìm 20% của 500 nghìn đồng"
+          },
+          {
+            "id": "p3",
+            "left": "Tìm một số biết giá trị %",
+            "right": "Tìm số biết 30% của nó là 90"
+          },
+          {
+            "id": "p4",
+            "left": "Tăng 10% rồi giảm 10%",
+            "right": "Giá mới bằng 99% giá ban đầu"
+          }
+        ],
+        "hint": "3 dạng bài cơ bản của tỉ số phần trăm lớp 5.",
+        "skillTag": "toan-g5-ti-so-phan-tram"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 5 • Đúng / Sai",
+        "prompt": "Muốn tìm một số biết 25% của nó là 50, ta lấy: 50 : 25 × 100 = 200.",
+        "illustration": "💯 🔢 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Dạng toán 3: Muốn tìm số đó ta lấy giá trị chia cho số phần trăm rồi nhân 100.",
+        "skillTag": "toan-g5-ti-so-phan-tram"
+      }
+    ],
+    "toan-g5-w5": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "choice",
+        "tag": "Toán 5 • Diện tích hình tam giác",
+        "prompt": "Một hình tam giác có độ dài đáy là 12cm và chiều cao tương ứng là 8cm. Diện tích hình tam giác đó là:",
+        "illustration": "🔺 📐 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "48 cm²"
+          },
+          {
+            "id": "B",
+            "text": "96 cm²"
+          },
+          {
+            "id": "C",
+            "text": "24 cm²"
+          },
+          {
+            "id": "D",
+            "text": "40 cm²"
+          }
+        ],
+        "correct": "A",
+        "hint": "Diện tích tam giác = (đáy × chiều cao) : 2 = (12 × 8) : 2 = 96 : 2 = 48 cm².",
+        "skillTag": "toan-g5-chuyen-dong-deu"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "input",
+        "tag": "Toán 5 • Chuyển động đều",
+        "prompt": "Một ô tô đi với vận tốc 60 km/giờ trong thời gian 1,5 giờ. Hỏi ô tô đã đi được quãng đường bao nhiêu ki-lô-mét?",
+        "illustration": "🚗 🛣️ ✍️",
+        "correct": "90",
+        "hint": "Quãng đường s = v × t = 60 × 1,5 = 90 (km).",
+        "skillTag": "toan-g5-chuyen-dong-deu"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "match",
+        "tag": "Toán 5 • Công thức hình học",
+        "prompt": "Nối công thức với hình hình học tương ứng:",
+        "illustration": "🧩 📐 ⭕",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "(a × h) : 2",
+            "right": "Diện tích hình tam giác"
+          },
+          {
+            "id": "p2",
+            "left": "(a + b) × h : 2",
+            "right": "Diện tích hình thang"
+          },
+          {
+            "id": "p3",
+            "left": "r × 2 × 3,14",
+            "right": "Chu vi hình tròn"
+          },
+          {
+            "id": "p4",
+            "left": "r × r × 3,14",
+            "right": "Diện tích hình tròn"
+          }
+        ],
+        "hint": "Các công thức tính chu vi và diện tích hình học lớp 5.",
+        "skillTag": "toan-g5-chuyen-dong-deu"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng Toán 5 – PGS.TS Trần Diên Hiển",
+        "type": "true_false",
+        "tag": "Toán 5 • Đúng / Sai",
+        "prompt": "Muốn tính vận tốc của một chuyển động đều, ta lấy quãng đường chia cho thời gian (v = s : t).",
+        "illustration": "⏱️ 🏎️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Công thức cốt lõi của toán chuyển động đều: v = s : t; s = v × t; t = s : v.",
+        "skillTag": "toan-g5-chuyen-dong-deu"
+      }
+    ],
+    "tv-g5-b1": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 5 • Trắc nghiệm",
+        "prompt": "Theo quy tắc viết hoa tên riêng tiếng nước ngoài, tên loài ngựa nhỏ nhất thế giới được viết đúng là:",
+        "illustration": "🐴 🌍 📝",
+        "options": [
+          {
+            "id": "A",
+            "text": "mơt chơ ho sơ"
+          },
+          {
+            "id": "B",
+            "text": "Mơt-chơ Hơ-sơ"
+          },
+          {
+            "id": "C",
+            "text": "Mơt Chơ Hơ Sơ"
+          },
+          {
+            "id": "D",
+            "text": "Mơtchơ Hơsơ"
+          }
+        ],
+        "correct": "B",
+        "hint": "Quy tắc: Viết hoa chữ cái đầu mỗi bộ phận tạo thành tên riêng đó, và giữa các tiếng trong cùng một bộ phận có dấu gạch nối: \"Mơt-chơ Hơ-sơ\".",
+        "skillTag": "tv-g5-quy-tac-viet-hoa"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 5 • Điền từ",
+        "prompt": "Sắp xếp cụm từ để hoàn chỉnh câu tục ngữ dự báo thời tiết: \"sao mau thì mưa, sao [.....] thì nắng\":",
+        "illustration": "⭐ 🌧️ ☀️",
+        "correct": "thưa",
+        "hint": "Tục ngữ: \"sao mau thì mưa, sao thưa thì nắng\" (mau nghĩa là dày đặc, thưa nghĩa là ít sao).",
+        "skillTag": "tv-g5-quy-tac-viet-hoa"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 5 • Ghép nối",
+        "prompt": "Nối các cặp quan hệ từ trong câu ghép với ý nghĩa biểu thị:",
+        "illustration": "🔗 📜 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Vì ... nên ...",
+            "right": "Nguyên nhân - Kết quả"
+          },
+          {
+            "id": "p2",
+            "left": "Nếu ... thì ...",
+            "right": "Điều kiện / Giả thiết"
+          },
+          {
+            "id": "p3",
+            "left": "Tuy ... nhưng ...",
+            "right": "Tương phản"
+          },
+          {
+            "id": "p4",
+            "left": "Không những ... mà còn ...",
+            "right": "Tăng tiến"
+          }
+        ],
+        "hint": "Hệ thống cặp quan hệ từ trọng tâm lớp 5 biểu thị các mối quan hệ logic giữa các vế câu ghép.",
+        "skillTag": "tv-g5-quy-tac-viet-hoa"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 5 • Đúng / Sai",
+        "prompt": "Từ đồng âm là những từ có cách phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau, không liên quan gì đến nhau.",
+        "illustration": "💡 🗣️ 📖",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Ví dụ: \"con ruồi đậu\" (động từ) và \"hạt đậu phộng\" (danh từ) là từ đồng âm vì cùng phát âm \"đậu\" nhưng nghĩa hoàn toàn khác nhau!",
+        "skillTag": "tv-g5-quy-tac-viet-hoa"
+      }
+    ],
+    "tv-g5-b2": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 5 • Từ đồng âm",
+        "prompt": "Trong các cặp từ dưới đây, cặp từ nào là hiện tượng từ đồng âm?",
+        "illustration": "🐎 ⚽ 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "con ngựa đá - hòn đá ven đường"
+          },
+          {
+            "id": "B",
+            "text": "bàn chân - chân núi"
+          },
+          {
+            "id": "C",
+            "text": "to lớn - khổng lồ"
+          },
+          {
+            "id": "D",
+            "text": "thông minh - ngốc nghếch"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"đá\" (động từ vung chân đá) và \"đá\" (danh từ chất rắn tự nhiên) là từ đồng âm: phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau.",
+        "skillTag": "tv-g5-dong-nghia-trai-nghia"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 5 • Nghĩa gốc và nghĩa chuyển",
+        "prompt": "Từ \"chân\" trong câu: \"Dưới chân núi, hoa đào đang nở rộ\" được dùng theo nghĩa gốc hay nghĩa chuyển?",
+        "illustration": "⛰️ 🌸 ✍️",
+        "correct": "nghĩa chuyển",
+        "hint": "\"Chân núi\" là phần đáy tiếp giáp mặt đất của núi, chuyển nghĩa dựa trên nét tương đồng với chân người.",
+        "skillTag": "tv-g5-dong-nghia-trai-nghia"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 5 • Phân loại hiện tượng từ",
+        "prompt": "Nối hiện tượng từ vựng với ví dụ tương ứng:",
+        "illustration": "🧩 📚 🏷️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Từ đồng nghĩa hoàn toàn",
+            "right": "xe lửa - tàu hỏa"
+          },
+          {
+            "id": "p2",
+            "left": "Từ trái nghĩa",
+            "right": "trắng tinh - đen nhánh"
+          },
+          {
+            "id": "p3",
+            "left": "Từ đồng âm",
+            "right": "kho cá - nhà kho"
+          },
+          {
+            "id": "p4",
+            "left": "Từ nhiều nghĩa",
+            "right": "ăn cơm - da ăn nắng"
+          }
+        ],
+        "hint": "Nắm chắc 4 khái niệm: đồng nghĩa, trái nghĩa, đồng âm, nhiều nghĩa.",
+        "skillTag": "tv-g5-dong-nghia-trai-nghia"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 5 • Đúng / Sai",
+        "prompt": "Từ đồng âm là những từ phát âm giống nhau nhưng khác hẳn nhau về nghĩa, không có mối liên hệ nào giữa các nghĩa.",
+        "illustration": "🗣️ 👂 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Khác với từ nhiều nghĩa (có nét nghĩa chung), các từ đồng âm không có liên hệ ngữ nghĩa.",
+        "skillTag": "tv-g5-dong-nghia-trai-nghia"
+      }
+    ],
+    "tv-g5-b3": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 5 • Quan hệ từ",
+        "prompt": "Điền cặp quan hệ từ biểu thị mối quan hệ nguyên nhân - kết quả thích hợp: \"...... trời mưa to bão lớn ...... chuyến bay phải tạm hoãn.\"",
+        "illustration": "⛈️ ✈️ 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vì ... nên ..."
+          },
+          {
+            "id": "B",
+            "text": "Nếu ... thì ..."
+          },
+          {
+            "id": "C",
+            "text": "Tuy ... nhưng ..."
+          },
+          {
+            "id": "D",
+            "text": "Không những ... mà còn ..."
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Vì ... nên ...\" biểu thị nguyên nhân (mưa to) và kết quả (chuyến bay hoãn).",
+        "skillTag": "tv-g5-dai-tu-quan-he-tu"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 5 • Cặp quan hệ từ",
+        "prompt": "Trong câu: \"Nếu bạn chăm chỉ ôn tập thì kết quả thi sẽ rất cao\", cặp quan hệ từ biểu thị mối quan hệ gì: điều kiện - kết quả hay tương phản?",
+        "illustration": "📖 🎯 ✍️",
+        "correct": "điều kiện - kết quả",
+        "hint": "\"Nếu ... thì ...\" chỉ mối quan hệ điều kiện (giả thiết) - kết quả.",
+        "skillTag": "tv-g5-dai-tu-quan-he-tu"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 5 • Ý nghĩa các cặp quan hệ từ",
+        "prompt": "Nối cặp quan hệ từ với ý nghĩa tương ứng:",
+        "illustration": "🧩 🔗 💡",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Vì ... nên ...",
+            "right": "Nguyên nhân - Kết quả"
+          },
+          {
+            "id": "p2",
+            "left": "Nếu ... thì ...",
+            "right": "Điều kiện - Kết quả"
+          },
+          {
+            "id": "p3",
+            "left": "Tuy ... nhưng ...",
+            "right": "Tương phản"
+          },
+          {
+            "id": "p4",
+            "left": "Càng ... càng ...",
+            "right": "Tăng tiến tương ứng"
+          }
+        ],
+        "hint": "Các cặp quan hệ từ phổ biến dùng nối các vế câu ghép.",
+        "skillTag": "tv-g5-dai-tu-quan-he-tu"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 5 • Đúng / Sai",
+        "prompt": "Đại từ xưng hô trong tiếng Việt rất phong phú và thể hiện thứ bậc, tình cảm thân mật của người nói.",
+        "illustration": "🤝 👨‍👩‍👧‍👦 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Ví dụ: ông, bà, cha, mẹ, chú, bác, anh, chị, em, cháu...",
+        "skillTag": "tv-g5-dai-tu-quan-he-tu"
+      }
+    ],
+    "tv-g5-b4": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 5 • Cách nối câu ghép",
+        "prompt": "Câu nào dưới đây là câu ghép có các vế được nối trực tiếp bằng dấu phẩy (không dùng từ nối)?",
+        "illustration": "☀️ 🌿 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mặt trời lên, sương tan dần trên kẽ lá."
+          },
+          {
+            "id": "B",
+            "text": "Vì trời mưa to nên đường bị ngập úng."
+          },
+          {
+            "id": "C",
+            "text": "Mặc dù đêm đã khuya nhưng mẹ vẫn cặm cụi may áo."
+          },
+          {
+            "id": "D",
+            "text": "Nếu gió mùa về thì trời sẽ chuyển rét."
+          }
+        ],
+        "correct": "A",
+        "hint": "Vế 1: \"Mặt trời lên\", Vế 2: \"sương tan dần trên kẽ lá\", nối trực tiếp bằng dấu phẩy.",
+        "skillTag": "tv-g5-cau-ghep"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 5 • Đếm số vế câu ghép",
+        "prompt": "Xác định số vế câu trong câu ghép sau: \"Gió thổi mạnh, mây đen kéo đến kín trời và sấm sét bắt đầu nổi lên.\"",
+        "illustration": "🌪️ ⛈️ ✍️",
+        "correct": "3",
+        "hint": "Có 3 cụm C-V: (1) Gió // thổi mạnh, (2) mây đen // kéo đến kín trời, (3) sấm sét // bắt đầu nổi lên.",
+        "skillTag": "tv-g5-cau-ghep"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 5 • Cách nối câu ghép",
+        "prompt": "Nối câu ghép với cách nối tương ứng:",
+        "illustration": "🧩 🔗 📜",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Mặt trời lên, chim hót líu lo.",
+            "right": "Nối trực tiếp bằng dấu phẩy"
+          },
+          {
+            "id": "p2",
+            "left": "Tuy rét đậm nhưng hoa đào vẫn nở.",
+            "right": "Nối bằng cặp quan hệ từ"
+          },
+          {
+            "id": "p3",
+            "left": "Nước dâng lên bao nhiêu, đồi cao bấy nhiêu.",
+            "right": "Nối bằng cặp từ hô ứng"
+          },
+          {
+            "id": "p4",
+            "left": "Trời vừa rạng sáng, bà con đã ra đồng.",
+            "right": "Nối bằng cặp từ vừa ... đã ..."
+          }
+        ],
+        "hint": "Các cách nối câu ghép: nối trực tiếp (dấu phẩy, chấm phẩy, hai chấm), nối bằng quan hệ từ, nối bằng cặp từ hô ứng.",
+        "skillTag": "tv-g5-cau-ghep"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 5 • Đúng / Sai",
+        "prompt": "Trong câu ghép, mỗi vế câu thường có cấu tạo như một câu đơn (đầy đủ Chủ ngữ và Vị ngữ) và diễn đạt một ý trọn vẹn.",
+        "illustration": "📝 📚 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Đúng theo định nghĩa câu ghép trong chương trình Tiếng Việt 5.",
+        "skillTag": "tv-g5-cau-ghep"
+      }
+    ],
+    "tv-g5-b5": [
+      {
+        "id": 1,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "choice",
+        "tag": "Tiếng Việt 5 • Phép liên kết câu",
+        "prompt": "Hai câu sau liên kết với nhau bằng cách nào: \"Hà Nội là thủ đô ngàn năm văn hiến. Nơi đây lưu giữ biết bao di tích lịch sử thiêng liêng.\"",
+        "illustration": "🏛️ 📜 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dùng từ ngữ thay thế (\"Nơi đây\" thay cho \"Hà Nội\")"
+          },
+          {
+            "id": "B",
+            "text": "Phép lặp từ ngữ"
+          },
+          {
+            "id": "C",
+            "text": "Phép nối bằng quan hệ từ"
+          },
+          {
+            "id": "D",
+            "text": "Phép tương phản"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Nơi đây\" là đại từ thay thế cho danh từ riêng \"Hà Nội\" ở câu trước để tránh lặp từ.",
+        "skillTag": "tv-g5-lien-ket-cau"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "input",
+        "tag": "Tiếng Việt 5 • Phép nối liên kết",
+        "prompt": "Tìm từ ngữ liên kết trong câu thứ hai: \"Trời rét đậm. Tuy nhiên, các em học sinh vùng cao vẫn chăm chỉ đến trường.\"",
+        "illustration": "❄️ 🎒 ✍️",
+        "correct": "Tuy nhiên",
+        "hint": "Từ liên kết biểu thị quan hệ tương phản đặt ở đầu câu thứ hai.",
+        "skillTag": "tv-g5-lien-ket-cau"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "match",
+        "tag": "Tiếng Việt 5 • Các phép liên kết câu",
+        "prompt": "Nối phép liên kết với câu văn minh họa:",
+        "illustration": "🧩 🔗 📖",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Phép lặp từ ngữ",
+            "right": "Tre giữ làng, giữ nước. Tre hy sinh bảo vệ con người."
+          },
+          {
+            "id": "p2",
+            "left": "Phép thay thế từ ngữ",
+            "right": "Bác Hồ kính yêu. Người là tấm gương đạo đức sáng ngời."
+          },
+          {
+            "id": "p3",
+            "left": "Phép nối",
+            "right": "Mưa rả rích suốt đêm. Vì vậy, sáng nay đường trơn trượt."
+          },
+          {
+            "id": "p4",
+            "left": "Phép liên tưởng",
+            "right": "Mùa xuân về. Hoa mai, hoa đào đua nhau khoe sắc."
+          }
+        ],
+        "hint": "Các biện pháp liên kết câu trong đoạn văn giúp bài viết mạch lạc.",
+        "skillTag": "tv-g5-lien-ket-cau"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Tiếng Việt 5 Nâng Cao – GS.TS Lê Phương Nga",
+        "type": "true_false",
+        "tag": "Tiếng Việt 5 • Đúng / Sai",
+        "prompt": "Phép thay thế từ ngữ giúp đoạn văn liên kết chặt chẽ mà không bị lỗi lặp từ đơn điệu.",
+        "illustration": "✍️ ✨ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "ĐÚNG (Đ)"
+          },
+          {
+            "id": "F",
+            "text": "SAI (S)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Sử dụng đại từ hoặc từ đồng nghĩa thay thế giúp diễn đạt uyển chuyển, giàu tính nghệ thuật.",
+        "skillTag": "tv-g5-lien-ket-cau"
+      }
+    ],
+    "eng-g5-u1": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+        "type": "choice",
+        "tag": "Tiếng Anh 5 • Trắc nghiệm",
+        "prompt": "Which sentence correctly uses ZERO ARTICLE (không dùng mạo từ)?",
+        "illustration": "🇻🇳 🗣️ 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "I can speak the English very well."
+          },
+          {
+            "id": "B",
+            "text": "I can speak English very well."
+          },
+          {
+            "id": "C",
+            "text": "She was born in the 2005."
+          },
+          {
+            "id": "D",
+            "text": "I have the milk and bread for breakfast."
+          }
+        ],
+        "correct": "B",
+        "hint": "Quy tắc Zero Article: Không dùng mạo từ trước tên ngôn ngữ (English, Vietnamese), năm/tháng, và bữa ăn (breakfast)!",
+        "skillTag": "eng-g5-articles-advanced"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+        "type": "input",
+        "tag": "Tiếng Anh 5 • Điền từ",
+        "prompt": "Fill in the blank with \"a\", \"an\", or \"the\": \"Look up at the sky! [.....] Sun is shining brightly.\"",
+        "illustration": "☀️ 🌤️ ✏️",
+        "correct": "The",
+        "hint": "Dùng mạo từ xác định \"The\" trước các vật thể duy nhất trong tự nhiên: The Sun (Mặt trời), The Moon (Mặt trăng), The Earth (Trái đất).",
+        "skillTag": "eng-g5-articles-advanced"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+        "type": "match",
+        "tag": "Tiếng Anh 5 • Ghép nối",
+        "prompt": "Match article usage with corresponding example:",
+        "illustration": "🎹 🏆 🎯",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Nhạc cụ (Musical instruments)",
+            "right": "She is playing the piano."
+          },
+          {
+            "id": "p2",
+            "left": "So sánh nhất (Superlative)",
+            "right": "She is the best student."
+          },
+          {
+            "id": "p3",
+            "left": "Vật thể duy nhất",
+            "right": "The Sun is shining."
+          },
+          {
+            "id": "p4",
+            "left": "Tên quốc gia thông thường",
+            "right": "I am from Vietnam."
+          }
+        ],
+        "hint": "Nhạc cụ: the piano; so sánh nhất: the best; vật duy nhất: the Sun; quốc gia thông thường không dùng mạo từ: Vietnam.",
+        "skillTag": "eng-g5-articles-advanced"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 (Global Success)",
+        "type": "true_false",
+        "tag": "Tiếng Anh 5 • Đúng / Sai",
+        "prompt": "We use \"any\" in positive sentences and \"some\" in negative sentences and questions.",
+        "illustration": "❓ ❌ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "F",
+        "hint": "Quy tắc ngược lại: Ta dùng \"some\" trong câu khẳng định, và \"any\" trong câu phủ định và câu hỏi!",
+        "skillTag": "eng-g5-articles-advanced"
+      }
+    ],
+    "eng-g5-u2": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 5 • Quantifiers",
+        "prompt": "Fill in the blank: \"Is there ______ orange juice left in the pitcher?\"",
+        "illustration": "🍊 🍹 ❓",
+        "options": [
+          {
+            "id": "A",
+            "text": "any"
+          },
+          {
+            "id": "B",
+            "text": "some"
+          },
+          {
+            "id": "C",
+            "text": "many"
+          },
+          {
+            "id": "D",
+            "text": "a few"
+          }
+        ],
+        "correct": "A",
+        "hint": "In questions and negative sentences, we use \"any\" with uncountable nouns.",
+        "skillTag": "eng-g5-quantifiers"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 5 • A few / A little",
+        "prompt": "Fill in \"a few\" or \"a little\": \"We only have ______ time left before the contest starts.\"",
+        "illustration": "⏳ ⏱️ ✍️",
+        "correct": "a little",
+        "hint": "\"Time\" is an uncountable noun -> use \"a little time\".",
+        "skillTag": "eng-g5-quantifiers"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 5 • Cách dùng lượng từ",
+        "prompt": "Match quantifier with its appropriate usage:",
+        "illustration": "🧩 🍎 🥛",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Some",
+            "right": "Câu khẳng định & lời mời lịch sự"
+          },
+          {
+            "id": "p2",
+            "left": "Any",
+            "right": "Câu phủ định và câu hỏi nghi vấn"
+          },
+          {
+            "id": "p3",
+            "left": "A few",
+            "right": "Số lượng nhỏ danh từ đếm được"
+          },
+          {
+            "id": "p4",
+            "left": "A little",
+            "right": "Lượng nhỏ danh từ không đếm được"
+          }
+        ],
+        "hint": "Phân biệt danh từ đếm được và không đếm được khi dùng lượng từ.",
+        "skillTag": "eng-g5-quantifiers"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 5 • True / False",
+        "prompt": "We can use \"a lot of\" with both countable and uncountable nouns in English.",
+        "illustration": "📚 💧 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "E.g., \"a lot of books\" (countable) and \"a lot of water\" (uncountable).",
+        "skillTag": "eng-g5-quantifiers"
+      }
+    ],
+    "eng-g5-u3": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 5 • Future Simple",
+        "prompt": "Next summer holiday, our family ______ Da Nang beach for a vacation.",
+        "illustration": "🏖️ ✈️ ☀️",
+        "options": [
+          {
+            "id": "A",
+            "text": "will visit"
+          },
+          {
+            "id": "B",
+            "text": "visited"
+          },
+          {
+            "id": "C",
+            "text": "visit"
+          },
+          {
+            "id": "D",
+            "text": "visits"
+          }
+        ],
+        "correct": "A",
+        "hint": "\"Next summer holiday\" indicates a future plan/prediction -> Future Simple: will + verb.",
+        "skillTag": "eng-g5-three-tenses"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 5 • Past Simple irregular",
+        "prompt": "Complete with the past form: \"Two days ago, Minh ______ (buy) a wonderful science book.\"",
+        "illustration": "📚 💵 ✍️",
+        "correct": "bought",
+        "hint": "Irregular verb: buy -> bought -> bought.",
+        "skillTag": "eng-g5-three-tenses"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 5 • Cấu trúc các thì",
+        "prompt": "Match tense with its basic structure:",
+        "illustration": "🧩 ⏳ 📅",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "Present Simple",
+            "right": "S + V(s/es)"
+          },
+          {
+            "id": "p2",
+            "left": "Past Simple",
+            "right": "S + V-ed / V2"
+          },
+          {
+            "id": "p3",
+            "left": "Future Simple",
+            "right": "S + will + V(bare)"
+          },
+          {
+            "id": "p4",
+            "left": "Present Continuous",
+            "right": "S + am/is/are + V-ing"
+          }
+        ],
+        "hint": "Cấu trúc 4 thì cơ bản trong chương trình Tiếng Anh tiểu học.",
+        "skillTag": "eng-g5-three-tenses"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 5 • True / False",
+        "prompt": "\"Yesterday\", \"last weekend\", and \"in 2022\" are typical time adverbs for the Past Simple tense.",
+        "illustration": "📅 🕰️ 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "They all describe specific points of completed time in the past.",
+        "skillTag": "eng-g5-three-tenses"
+      }
+    ],
+    "eng-g5-u4": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 5 • Superlative Adjectives",
+        "prompt": "Mount Everest is the ______ mountain peak on Earth.",
+        "illustration": "🏔️ 🧗 💡",
+        "options": [
+          {
+            "id": "A",
+            "text": "highest"
+          },
+          {
+            "id": "B",
+            "text": "higher"
+          },
+          {
+            "id": "C",
+            "text": "most high"
+          },
+          {
+            "id": "D",
+            "text": "high"
+          }
+        ],
+        "correct": "A",
+        "hint": "Short adjective \"high\" takes \"-est\" with \"the\": the highest.",
+        "skillTag": "eng-g5-superlatives"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 5 • So sánh nhất",
+        "prompt": "Fill in the superlative: \"Russia is the ______ (large) country in the world by total land area.\"",
+        "illustration": "🗺️ 🇷🇺 ✍️",
+        "correct": "largest",
+        "hint": "Large ends in -e, so we add -st: largest.",
+        "skillTag": "eng-g5-superlatives"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 5 • Ghép so sánh nhất bất quy tắc",
+        "prompt": "Match adjective with its superlative form:",
+        "illustration": "🧩 🥇 🏆",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "good",
+            "right": "the best"
+          },
+          {
+            "id": "p2",
+            "left": "bad",
+            "right": "the worst"
+          },
+          {
+            "id": "p3",
+            "left": "happy",
+            "right": "the happiest"
+          },
+          {
+            "id": "p4",
+            "left": "expensive",
+            "right": "the most expensive"
+          }
+        ],
+        "hint": "Irregular superlatives: good -> the best; bad -> the worst.",
+        "skillTag": "eng-g5-superlatives"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 5 • True / False",
+        "prompt": "We always use the definite article \"the\" before superlative adjectives in sentences.",
+        "illustration": "👑 🌟 💡",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "E.g., the tallest boy, the most interesting story.",
+        "skillTag": "eng-g5-superlatives"
+      }
+    ],
+    "eng-g5-u5": [
+      {
+        "id": 1,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "choice",
+        "tag": "Tiếng Anh 5 • Prepositions of Time",
+        "prompt": "The new school year in Vietnam always starts ______ September.",
+        "illustration": "🎒 📅 🏫",
+        "options": [
+          {
+            "id": "A",
+            "text": "in"
+          },
+          {
+            "id": "B",
+            "text": "on"
+          },
+          {
+            "id": "C",
+            "text": "at"
+          },
+          {
+            "id": "D",
+            "text": "to"
+          }
+        ],
+        "correct": "A",
+        "hint": "We use preposition \"in\" with months: in September, in October.",
+        "skillTag": "eng-g5-conditionals-prepositions"
+      },
+      {
+        "id": 2,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "input",
+        "tag": "Tiếng Anh 5 • Conditional Type 1",
+        "prompt": "Complete the First Conditional: \"If it rains heavily tomorrow, we ______ (stay) at home.\"",
+        "illustration": "🌧️ 🏠 ✍️",
+        "correct": "will stay",
+        "hint": "First Conditional: If + Present Simple (it rains), S + will + V (will stay).",
+        "skillTag": "eng-g5-conditionals-prepositions"
+      },
+      {
+        "id": 3,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "match",
+        "tag": "Tiếng Anh 5 • Giới từ chỉ thời gian",
+        "prompt": "Match preposition with appropriate time expressions:",
+        "illustration": "🧩 ⏰ 🗓️",
+        "pairs": [
+          {
+            "id": "p1",
+            "left": "at",
+            "right": "7 o'clock, night, noon"
+          },
+          {
+            "id": "p2",
+            "left": "on",
+            "right": "Monday, 20th November"
+          },
+          {
+            "id": "p3",
+            "left": "in",
+            "right": "summer, September, 2026"
+          },
+          {
+            "id": "p4",
+            "left": "from ... to",
+            "right": "8:00 AM to 11:30 AM"
+          }
+        ],
+        "hint": "at: giờ/thời điểm; on: thứ/ngày cụ thể; in: tháng/mùa/năm.",
+        "skillTag": "eng-g5-conditionals-prepositions"
+      },
+      {
+        "id": 4,
+        "bookTitle": "Bồi dưỡng HSG Tiếng Anh 5 – Global Success",
+        "type": "true_false",
+        "tag": "Tiếng Anh 5 • True / False",
+        "prompt": "In First Conditional sentences, we describe real and possible future situations.",
+        "illustration": "🔮 💡 ✨",
+        "options": [
+          {
+            "id": "T",
+            "text": "TRUE (Đúng)"
+          },
+          {
+            "id": "F",
+            "text": "FALSE (Sai)"
+          }
+        ],
+        "correct": "T",
+        "hint": "Type 1 conditionals talk about realistic possibilities: If it rains, I will take an umbrella.",
+        "skillTag": "eng-g5-conditionals-prepositions"
+      }
+    ]
+  },
+  "skills": {
+    "mastered": [
+      {
+        "subject": "Toán",
+        "title": "Bốn phép tính phân số & Số thập phân"
+      },
+      {
+        "subject": "Tiếng Việt",
+        "title": "Quy tắc viết hoa & Từ đồng nghĩa, trái nghĩa"
+      },
+      {
+        "subject": "Tiếng Anh",
+        "title": "Tenses (Hiện tại, Quá khứ, Tương lai) & Quantifiers"
+      }
+    ],
+    "needsReview": [
+      {
+        "subject": "Toán",
+        "title": "Tỉ số phần trăm & Chuyển động đều",
+        "lessonId": "toan-g5-w4",
+        "skillTag": "toan-g5-ti-so-phan-tram"
+      },
+      {
+        "subject": "Tiếng Việt",
+        "title": "Đại từ & Quan hệ từ, Câu ghép",
+        "lessonId": "tv-g5-b4",
+        "skillTag": "tv-g5-cau-ghep"
+      },
+      {
+        "subject": "Tiếng Anh",
+        "title": "So sánh nhất (Superlatives) & Conditionals Type 1",
+        "lessonId": "eng-g5-u4",
+        "skillTag": "eng-g5-superlatives"
+      }
+    ]
+  }
+}
