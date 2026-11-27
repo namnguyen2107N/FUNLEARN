@@ -481,8 +481,17 @@ export function renderHeader(state) {
   const streakEl = document.getElementById('global-streak');
   if (streakEl) streakEl.textContent = `${state.streakDays} ngày`;
 
-  const nameEl = document.getElementById('header-student-name');
-  if (nameEl) nameEl.textContent = state.studentName;
+  const nameInput = document.getElementById('header-student-name-input');
+  if (nameInput && document.activeElement !== nameInput) {
+    nameInput.value = state.studentName || '';
+  }
+
+  const welcomeEl = document.getElementById('home-welcome-text');
+  if (welcomeEl) {
+    welcomeEl.textContent = state.studentName
+      ? `Chào mừng ${state.studentName} đến với FUNLEARN - Học vui mỗi ngày!`
+      : 'Chào mừng em đến với FUNLEARN - Học vui mỗi ngày!';
+  }
 
   const avatarEl = document.getElementById('header-avatar');
   if (avatarEl) avatarEl.textContent = state.studentAvatar;
@@ -1412,7 +1421,10 @@ export function renderParentPortal(reportData, activeGrade = 3) {
   // 2. Report Meta Info
   const metaEl = document.getElementById('report-meta-info');
   if (metaEl) {
-    metaEl.textContent = `Học sinh: Khối Lớp ${activeGrade} • Ngày lập: ${reportData.reportDate}`;
+    const studentLabel = reportData.studentName
+      ? `${reportData.studentName} (Khối Lớp ${activeGrade})`
+      : `Khối Lớp ${activeGrade}`;
+    metaEl.textContent = `Học sinh: ${studentLabel} • Ngày lập: ${reportData.reportDate}`;
   }
 
   const statusEl = document.getElementById('report-overall-status');

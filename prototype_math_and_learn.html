@@ -27,14 +27,14 @@
       </div>
 
       <!-- Quick Grade Switcher -->
-      <div class="hidden md:flex items-center bg-amber-100/60 p-1 rounded-2xl border border-amber-200/70 ml-6">
-        <button onclick="changeGrade(3)" id="btn-grade-3" class="px-4 py-1.5 rounded-xl font-black text-xs transition-all bg-[#FFC85A] text-slate-900 shadow-sm">
+      <div class="flex items-center bg-amber-100/60 p-1 rounded-2xl border border-amber-200/70 ml-2 md:ml-6">
+        <button onclick="changeGrade(3)" id="btn-grade-3" class="px-2.5 sm:px-4 py-1.5 rounded-xl font-black text-xs transition-all bg-[#FFC85A] text-slate-900 shadow-sm">
           Khối 3
         </button>
-        <button onclick="changeGrade(4)" id="btn-grade-4" class="px-4 py-1.5 rounded-xl font-bold text-xs text-slate-600 hover:text-slate-900 transition-all">
+        <button onclick="changeGrade(4)" id="btn-grade-4" class="px-2.5 sm:px-4 py-1.5 rounded-xl font-bold text-xs text-slate-600 hover:text-slate-900 transition-all">
           Khối 4
         </button>
-        <button onclick="changeGrade(5)" id="btn-grade-5" class="px-4 py-1.5 rounded-xl font-bold text-xs text-slate-600 hover:text-slate-900 transition-all">
+        <button onclick="changeGrade(5)" id="btn-grade-5" class="px-2.5 sm:px-4 py-1.5 rounded-xl font-bold text-xs text-slate-600 hover:text-slate-900 transition-all">
           Khối 5
         </button>
       </div>
@@ -52,18 +52,21 @@
         <span class="text-sm font-black text-rose-800">5 ngày</span>
       </div>
 
-      <div class="flex items-center gap-2.5 pl-2 border-l border-slate-200">
-        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-[#62C9F3] to-[#78D9AE] p-0.5 shadow-sm">
+      <div class="flex items-center gap-2 pl-2 border-l border-slate-200">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-[#62C9F3] to-[#78D9AE] p-0.5 shadow-sm shrink-0">
           <div class="w-full h-full bg-white rounded-[14px] flex items-center justify-center text-lg" id="header-avatar">
             🌱
           </div>
         </div>
-        <p class="text-sm font-black text-slate-800 hidden xl:block" id="header-student-name">Khối Lớp 3</p>
-
-        <button onclick="logoutToStart()" title="Đổi khối lớp" class="ml-2 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-sky-50 hover:text-sky-700 text-slate-600 text-xs font-bold transition flex items-center gap-1 border border-slate-200">
-          <span>Đổi khối</span>
-          <span>🔄</span>
-        </button>
+        <input
+          type="text"
+          id="header-student-name-input"
+          maxlength="30"
+          placeholder="Nhập tên của em..."
+          aria-label="Nhập tên học sinh"
+          oninput="updateStudentName(this.value)"
+          class="w-32 sm:w-44 px-3 py-1.5 rounded-xl bg-amber-50/70 hover:bg-amber-50 focus:bg-white border border-amber-200 focus:border-[#62C9F3] focus:outline-none focus:ring-2 focus:ring-[#62C9F3]/30 text-xs sm:text-sm font-black text-slate-800 placeholder:text-slate-400 placeholder:font-bold transition"
+        />
       </div>
     </div>
   </header>
@@ -190,7 +193,7 @@
     <div class="flex items-center justify-between">
       <h2 class="text-3xl sm:text-4xl font-black text-slate-800 flex items-center gap-3">
         <span>👋</span>
-        <span>Chào mừng em đến với Funlearn!</span>
+        <span id="home-welcome-text">Chào mừng em đến với Funlearn!</span>
       </h2>
     </div>
 

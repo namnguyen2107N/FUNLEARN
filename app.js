@@ -13,7 +13,7 @@
 // Global Application State
 const appState = {
   isLoggedIn: false,
-  studentName: 'Khối Lớp 3',
+  studentName: '',
   studentGrade: 3,
   studentAvatar: '🌱',
   stars: 145,
@@ -5488,13 +5488,32 @@ function updateHeaderUI() {
   const starsEl = document.getElementById('global-stars');
   if (starsEl) starsEl.innerText = appState.stars;
 
-  const nameEl = document.getElementById('header-student-name');
-  if (nameEl) nameEl.innerText = appState.studentName;
+  const nameInput = document.getElementById('header-student-name-input');
+  if (nameInput && document.activeElement !== nameInput) {
+    nameInput.value = appState.studentName || '';
+  }
+
+  const welcomeEl = document.getElementById('home-welcome-text');
+  if (welcomeEl) {
+    welcomeEl.innerText = appState.studentName
+      ? `Chào mừng ${appState.studentName} đến với Funlearn!`
+      : 'Chào mừng em đến với Funlearn!';
+  }
 
   const avatarEl = document.getElementById('header-avatar');
   if (avatarEl) avatarEl.innerText = appState.studentAvatar;
 
   updateGradeButtons(appState.studentGrade);
+}
+
+function updateStudentName(name) {
+  appState.studentName = String(name || '').trim().slice(0, 30);
+  const welcomeEl = document.getElementById('home-welcome-text');
+  if (welcomeEl) {
+    welcomeEl.innerText = appState.studentName
+      ? `Chào mừng ${appState.studentName} đến với Funlearn!`
+      : 'Chào mừng em đến với Funlearn!';
+  }
 }
 
 /* ========================================================
@@ -5503,7 +5522,6 @@ function updateHeaderUI() {
 
 function selectGrade(grade) {
   appState.studentGrade = grade;
-  appState.studentName = `Khối Lớp ${grade}`;
   appState.studentAvatar = grade === 3 ? '🌱' : (grade === 4 ? '🌿' : '🌟');
 
   document.querySelectorAll('.profile-card').forEach(card => {

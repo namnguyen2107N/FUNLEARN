@@ -85,7 +85,7 @@ function createInitialState() {
   return {
     isLoggedIn: false,
     studentGrade: 3,
-    studentName: 'Khối Lớp 3',
+    studentName: '',
     studentAvatar: '🌱',
     stars: 0,
     streakDays: 1,
@@ -114,9 +114,11 @@ function loadPersistedState() {
     if (!saved) return createInitialState();
     const parsed = JSON.parse(saved);
     const initial = createInitialState();
+    const cleanedName = /^Khối Lớp [345]$/.test(parsed.studentName || '') ? '' : (parsed.studentName || '');
     return {
       ...initial,
       ...parsed,
+      studentName: cleanedName,
       skillsStats: {
         ...(initial.skillsStats || {}),
         ...(parsed.skillsStats || {})
@@ -222,13 +224,23 @@ export async function setGrade(gradeNum) {
   if (![3, 4, 5].includes(g)) return;
 
   state.studentGrade = g;
-  state.studentName = `Khối Lớp ${g}`;
   state.studentAvatar = g === 3 ? '🌱' : (g === 4 ? '🌿' : '🌟');
 
   // Ensure data is cached
   await fetchGradeData(g);
 
   notify('GRADE_CHANGED', { grade: g });
+}
+
+/**
+ * Update student display name
+ * @param {string} name
+ */
+export function setStudentName(name) {
+  const normalized = String(name || '').trim().slice(0, 30);
+  if (state.studentName === normalized) return;
+  state.studentName = normalized;
+  notify('NAME_CHANGED', { studentName: normalized });
 }
 
 export function login() {

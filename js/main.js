@@ -78,8 +78,12 @@ async function openParentPortal(grade) {
  * @param {any} payload
  */
 async function handleStateChange(state, event, payload) {
-  // Always update header metrics
+  // Always update header metrics & home greeting
   renderer.renderHeader(state);
+
+  if (event === 'NAME_CHANGED') {
+    return;
+  }
 
   // If grade changed or data not loaded, fetch fresh grade data
   if (!currentGradeData || currentGradeData.grade !== state.studentGrade) {
@@ -538,15 +542,48 @@ function setupEventDelegation() {
 }
 
 /**
+ * Setup student name input listener in top header
+ */
+function setupStudentNameInput() {
+  const nameInput = document.getElementById('header-student-name-input');
+  if (!nameInput) return;
+
+  let isComposing = false;
+  nameInput.addEventListener('compositionstart', () => {
+    isComposing = true;
+  });
+  nameInput.addEventListener('compositionend', () => {
+    isComposing = false;
+    store.setStudentName(nameInput.value);
+  });
+  nameInput.addEventListener('input', () => {
+    if (!isComposing) {
+      store.setStudentName(nameInput.value);
+    }
+  });
+  nameInput.addEventListener('change', () => {
+    store.setStudentName(nameInput.value);
+  });
+  nameInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      store.setStudentName(nameInput.value);
+      nameInput.blur();
+    }
+  });
+}
+
+/**
  * Initialize application on DOM ready
  */
 async function initApp() {
   // Register state subscriber
   store.subscribe(handleStateChange);
 
-  // Setup Event Delegation & Accessibility Toolbar
+  // Setup Event Delegation, Accessibility Toolbar & Name Input
   setupEventDelegation();
   setupAccessibilityControls();
+  setupStudentNameInput();
 
   // Apply saved accessibility preferences
   renderer.applyA11ySettings();
