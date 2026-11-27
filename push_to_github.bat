@@ -5,7 +5,7 @@ echo ============================================================
 echo   FUNLEARN - ĐANG ĐỒNG BỘ MÃ NGUỒN LÊN GITHUB
 echo ============================================================
 echo.
-echo Đang đẩy nhánh main và master lên https://github.com/namnguyen2107N/Learnchill...
+echo Đang đẩy nhánh main và master lên https://github.com/namnguyen2107N/FUNLEARN...
 echo (Nếu trình duyệt bật lên cửa sổ GitHub, vui lòng nhấn "Authorize" để xác nhận)
 echo.
 

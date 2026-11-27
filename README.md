@@ -38,7 +38,7 @@
 Dự án được tái cấu trúc sạch sẽ theo mô hình **Pure Static Web** (ES6 Modules, không cần cài đặt React, Vue, Next.js hay Webpack; chạy ngay lập tức trên GitHub Pages hoặc bất kỳ máy chủ tĩnh nào):
 
 ```text
-Learnchill/
+FUNLEARN/
 ├── index.html                     # Khung ứng dụng SPA chuẩn ngữ nghĩa HTML5
 ├── assets/
 │   └── css/
@@ -140,7 +140,7 @@ Mở `index.html`, thay thế dòng thẻ script:
 
 ## 🚀 5. Triển khai lên GitHub Pages
 
-1. Đưa toàn bộ thư mục `Learnchill` lên kho lưu trữ GitHub của bạn.
+1. Đưa toàn bộ thư mục `FUNLEARN` lên kho lưu trữ GitHub của bạn.
 2. Vào **Settings** > **Pages** > Chọn Branch `main` (hoặc `master`), thư mục `/(root)`.
 3. Bấm **Save**. Website sẽ hoạt động ngay lập tức tại địa chỉ:
    `https://<ten-tai-khoan>.github.io/<ten-repo>/`
